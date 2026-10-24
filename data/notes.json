@@ -1,0 +1,53 @@
+{
+ "_note": "SYNTHETIC demo notes; clients are fictional.",
+ "projects": [
+  {
+   "id": "P1",
+   "client": "Nordtrans Oy",
+   "industry": "Logistics / freight forwarding",
+   "expert": "Aino Rautavaara",
+   "month": "2024-09",
+   "rawNotes": "kickoff ma 2.9. w/ ops mgr Pekka + 2 dispatchers (Tiina, Joonas)\n- problem: POD/CMR scans arrive by email, ppl match manually to orders in TMS -> then attach to invoice. ~ 220 docs/day\n- baseline (timed 3 days, Tiina+Joonas): avg 4.1 min/doc, total ~15 h/day?? Pekka says 'ei se niin paljon ole' -> using measured 4.1 min\n- mismatch/wrong attachment rate in sample of 300 invoices: 7.3% (22). customer complaints re late invoicing = common\n- smallest build: email inbox rule -> OCR + order# regex + fuzzy fallback on ref/plate -> auto-attach if conf > 0.9, else queue in sheet for human\n- NO TMS write-back in v1, only draft attachment list + CSV import (TMS vendor API = 6 wk wait, skip)\n- wk2: OCR on handwritten POD = rubbish for ~12% docs. added 'needs human' queue, ok\n- wk3 pilot w/ Tiina only. 5 days. auto-matched 71% of docs, of which 2 wrong out of 310 checked (0.6%)\n- avg handling time after (incl. queue): 1.4 min/doc\n- invoice lead time delivery->invoice sent: 5.2 d -> 3.1 d (measured on 140 invoices, pilot wk only so small sample)\n- Joonas skeptical at first, then asked for same on export docs. Pekka 'tää on kyllä hyvä'\n- adoption: 3/3 dispatchers using by wk4; weekly 15 min review of queue misses\n- claim from Pekka: customers 'happier' - not measured, no CSAT data\n- TODO: threshold tuning, log misses, handover doc in Finnish. Next: export docs (EUR.1) maybe"
+  },
+  {
+   "id": "P2",
+   "client": "Kallio & Lehtonen Kiinteistöt Oy",
+   "industry": "Property management",
+   "expert": "Mikko Heikkilä",
+   "month": "2024-11",
+   "rawNotes": "client: isännöinti, ~4 800 apts, 9 isännöitsijää + 3 assistants\n- pain: shared inbox isannointi@ gets ~140 mails/day, vikailmoitukset (faults), vesivahingot, saunavuorot, maksukysymykset all mixed\n- baseline: assistants triage by hand, first response time median 26 h (pulled from ticket export, 2 months)\n- urgent ones (vesivuoto!) sometimes sit >1 working day. 3 cases last quarter per Laura (not verified)\n- smallest build: classifier (6 categories + urgency flag) via LLM on incoming mails -> label + suggested reply draft in Outlook shared mailbox. NO auto-send\n- urgent = SMS to on-call + highlighted. Kept rules simple, keyword fallback if LLM down\n- wk2 test on 400 historic mails: category acc 88% vs Laura's labels, urgency recall 94% (missed 2 of 33, both vague wording)\n- drafts: assistants edit ~half, 'sävy liian jäykkä' -> prompt tuned, tone examples from their own sent mails\n- pilot wk3-4 w/ 2 assistants. median first response 26 h -> 7.5 h (measured, 2 wks, summer-ish low season? no, Nov, ok)\n- time on triage ~ 'halved' per assistants, not timed\n- GDPR: no tenant data stored outside EU tenant, logs 30 d. DPA signed\n- adoption: 2/3 assistants use daily, 3rd 'prefers own way' -> pair session next mo\n- risk: drafts copy-pasted w/o reading? spot check 20 -> 2 had wrong apt number. added 'check fields' banner"
+  },
+  {
+   "id": "P3",
+   "client": "Pohjanmaan Metalli Oy",
+   "industry": "Manufacturing (sheet metal / subcontract)",
+   "expert": "Jussi Kärkkäinen",
+   "month": "2025-01",
+   "rawNotes": "SME ~65 hlö, Seinäjoki. Owner-ish: Risto. Sales eng: Kaisa (bottleneck)\n- RFQs come as PDF + DXF/STEP via email, ~35/wk. Kaisa makes tarjous in Excel by hand\n- time per quote: avg 52 min (Kaisa self-log 2 wks, 41 quotes), simple repeat parts ~30 min, complex 90+\n- quote turnaround (RFQ->sent): median 4.5 working days. Risto: 'we lose jobs for being slow' - plausible but no win/loss data yet\n- smallest build: extract RFQ fields from email/PDF (qty, material, finish, delivery date) -> prefill existing Excel quote template + pull last similar price from history\n- NOT doing geometry/cost estimation from CAD (too big for 1 mo). Kaisa still sets price\n- wk1 mess: material names inconsistent (S355 / S355J2 / 'rakenneteräs'). built mapping table 60 rows w/ Kaisa\n- wk2: extraction correct on all key fields 78% of 50 old RFQs; 15 more had 1 field wrong; 5 total fails (scanned fax-looking PDFs lol)\n- pilot wk3-4, 29 quotes: avg 31 min (-40%). turnaround median 4.5 -> 2.5 d\n- Kaisa checks every prefilled field, found 4 wrong qty in 29 (14% quotes had >=1 error, caught before sending)\n- adoption: Kaisa yes. second estimator (Veikko) retires in Mar, wants to learn it anyway, ok\n- unmeasured: Kaisa says less 'iltatyö'. nice but anecdotal\n- next: win/loss column in Excel so we can actually measure"
+  },
+  {
+   "id": "P4",
+   "client": "Lumo Verkkokauppa Oy",
+   "industry": "E-commerce (home textiles & decor)",
+   "expert": "Sanna Virtanen-Moilanen",
+   "month": "2025-02",
+   "rawNotes": "D2C shop, FI/SE/EE, 11 ppl, support = 2 FTE (Emmi, Oskar) in Zendesk\n- tickets ~ 1 900/mo. top reasons: where's my order (WISMO) ~40%, returns 22%, size/colour qs 15%, rest misc\n- baseline from Zendesk export: first reply median 9.4 h, avg handle 6.2 min/ticket\n- Emmi: 'palautukset vie eniten aikaa' (felt) but data says WISMO has highest volume. showed data, she was surprised\n- smallest build: WISMO only. pull tracking from Posti/DHL API by order# -> draft reply in Zendesk (macro-like, FI/SV/ET) agent clicks send\n- returns + product Qs = v2, not now\n- wk2: order# missing in ~18% of WISMO mails -> lookup by email + last order. covers most\n- SV translations checked by Oskar (native-ish), 3 phrasing fixes\n- wk3 live for both agents. 612 WISMO tickets in the period, drafts used (sent w/ ≤ minor edit) in 74%\n- WISMO avg handle 4.9 min -> 1.6 min. first reply median overall 9.4 h -> 5.8 h (just 3 wks, Feb is quiet vs. Dec!)\n- shop owner Henna claims fewer 'angry' customers - no sentiment measure, ignore until measured\n- error: 9 drafts said 'delivered' when parcel was at pickup point -> status mapping fixed wk4\n- adoption high: both agents, Oskar even added own edge cases to mapping sheet\n- caveat: seasonal. need re-measure in Black Friday / joulu"
+  },
+  {
+   "id": "P5",
+   "client": "Aaltonen Tilitoimisto Oy",
+   "industry": "Accounting / bookkeeping firm",
+   "expert": "Tuomas Eklund",
+   "month": "2025-03",
+   "rawNotes": "tilitoimisto, 14 accountants, ~120 SME clients, mostly Procountor\n- pain: ostolaskut + kuitit coding (tili, ALV-kanta, kustannuspaikka) manual, esp. small clients w/ photo receipts via WhatsApp/email\n- baseline (5 accountants x 1 wk time tracking): avg 2.8 min/doc, ~ 1 600 docs/wk firm-wide -> ~75 h/wk\n- quality: month-end review found 6.1% docs w/ wrong account or VAT (sample 500, reviewed by senior Anne-Mari)\n- smallest build: suggestion only. OCR/extract (vendor, date, amount, VAT) + propose account + VAT code from client's own history (same vendor -> same coding) + LLM fallback for new vendors\n- no auto-posting. accountant accepts/edits in a simple web table, then CSV into Procountor. Procountor API integration later\n- scope = 10 clients w/ highest volume of receipts\n- wk2: vendor-history rule alone covers ~64% of docs, LLM fallback acc lower (~70% on new vendors vs 95% on known)\n- wk3-4 pilot w/ 4 accountants: time/doc 2.8 -> 1.2 min. error rate in sample 400: 6.1% -> 3.5% (some due to accepting wrong suggestion = automation bias!, 5 of 14 errors)\n- added: low-confidence rows highlighted red, forced to look\n- ALV edge cases (representation, EU purchases) -> always manual flag\n- partner Jari: 'asiakkaat tykkää nopeammasta kuukausikirjauksesta' - not measured\n- adoption: 4/4 pilot users stay on; 2 others ask when. training 45 min + cheat sheet FI\n- risk: responsibility stays with accountant, wrote that in the SOP"
+  },
+  {
+   "id": "P6",
+   "client": "Meriklinikka Oy",
+   "industry": "Private healthcare clinic (physio & occupational health)",
+   "expert": "Helena Ojala",
+   "month": "2025-04",
+   "rawNotes": "clinic, Espoo, 18 therapists/docs, 3 reception. booking system = Pro Medico-ish (vendor API limited)\n- 2 problems: no-shows + reception phone load. only touching no-shows in 1 mo. NOT clinical stuff, no diagnoses, no AI on patient records (compliance said no, fine)\n- baseline from booking export (6 mo): no-show / late cancel (<24h) rate 11.8%, ~ 300 appts/wk -> ~35 empty slots/wk\n- current: single SMS reminder 48 h before, no way to reply, ppl call reception\n- smallest build: 2-way SMS reminder (48h + 4h for 1st-time pts), reply KYLLÄ/PERU, cancel -> frees slot + notifies reception + waitlist msg to next on list (manual approve v1)\n- LLM only for parsing free-text replies ('en pääse huomenna, voinko siirtää?') -> route to reception. no medical content in prompts\n- wk2: DPA + DPIA light done w/ their tietosuojavastaava. SMS provider EU\n- wk3 go-live 1 location, 4 wks of data\n- no-show+late cancel 11.8% -> 8.1% (4 wk, ~1 150 appts; pre-period was 6 mo avg so seasonality uncertain)\n- cancelled slots refilled from waitlist: 41 of 96 cancellations (43%)\n- reception phone calls re: reminders 'clearly down' per Sari - nobody counted. ask them to tally 1 wk\n- 3 reception staff all use dashboard; therapists dont care (fine). one pt complained SMS in Finnish only -> add EN/SV next\n- next: waitlist auto-offer after 2 wks if no mishaps"
+  }
+ ]
+}

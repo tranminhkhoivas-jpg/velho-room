@@ -1,0 +1,735 @@
+{
+ "_note": "SYNTHETIC demo data. Companies are real public companies; people and conversations are fictional.",
+ "deals": [
+  {
+   "id": "D01",
+   "company": "Kesko",
+   "contact": "Heikki Nurmilaakso",
+   "role": "Head of Customer Service Development",
+   "stage": "proposal sent",
+   "valueEur": 120000,
+   "firstContact": "2025-09-16",
+   "lastContact": "2026-02-12",
+   "summary": "Discussed an AI assistant to triage K-Rauta B2B customer service emails and draft replies. Proposal covered a 12-week rollout in one chain.",
+   "objection": "Procurement requires a group-level vendor assessment, and the timeline is unclear.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-01-20",
+     "text": "Hi Heikki, attached is the proposal for the email triage assistant. It includes a 12-week plan, KPIs for response time, and a fixed-price pilot option."
+    },
+    {
+     "from": "them",
+     "date": "2026-02-03",
+     "text": "Thanks, the content looks good. Group procurement has to assess new vendors first, and I don't yet know when we'll get a slot."
+    },
+    {
+     "from": "velho",
+     "date": "2026-02-12",
+     "text": "Understood. We can send the security and GDPR materials now so the assessment can start earlier. Shall I share them with procurement directly?"
+    }
+   ]
+  },
+  {
+   "id": "D02",
+   "company": "Lassila & Tikanoja",
+   "contact": "Marjo Eskelinen",
+   "role": "Director, Operations Excellence",
+   "stage": "discovery",
+   "valueEur": 75000,
+   "firstContact": "2025-10-08",
+   "lastContact": "2025-12-04",
+   "summary": "Mapped manual steps in waste collection route planning and invoicing exceptions. Identified automation candidates in back-office work.",
+   "objection": "The team is busy with year-end and the budget for next year is not yet confirmed.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2025-11-20",
+     "text": "Thanks for the workshop, Marjo. We summarized five automation candidates in invoicing exceptions. Would a 30-minute review in December work?"
+    },
+    {
+     "from": "them",
+     "date": "2025-12-04",
+     "text": "Good summary. Let's pick this up after the budget is confirmed in Q1, since December is full of year-end work."
+    }
+   ]
+  },
+  {
+   "id": "D03",
+   "company": "Ponsse",
+   "contact": "Antti Kärkkäinen",
+   "role": "Aftersales Development Manager",
+   "stage": "pilot discussed",
+   "valueEur": 58000,
+   "firstContact": "2025-08-27",
+   "lastContact": "2026-03-05",
+   "summary": "Planned a pilot for a spare-parts search assistant that uses manuals and service history. Scope was agreed in principle.",
+   "objection": "IT wants to see where the data is processed before approving a pilot.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-02-18",
+     "text": "Here is the pilot scope: the assistant would index manuals and parts catalogs for two markets over 8 weeks. We can host the data in the EU."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-05",
+     "text": "Sounds fine to me. IT needs a detailed data-flow diagram before they'll approve the pilot, and they have a long queue."
+    }
+   ]
+  },
+  {
+   "id": "D04",
+   "company": "Posti",
+   "contact": "Johanna Rautiainen",
+   "role": "VP, Customer Experience",
+   "stage": "proposal sent",
+   "valueEur": 165000,
+   "firstContact": "2025-07-09",
+   "lastContact": "2026-01-22",
+   "summary": "Proposed automating the handling of parcel-claim inquiries with an AI agent integrated into the existing CRM.",
+   "objection": "An internal automation program is already running, so there are doubts about overlap and priority.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2025-12-15",
+     "text": "Johanna, the proposal is attached. It automates claim classification and first replies, with human handover. Expected 35% reduction in handling time."
+    },
+    {
+     "from": "them",
+     "date": "2026-01-22",
+     "text": "We have a related internal program underway. I need to check with the program lead how this fits before I can commit to anything."
+    }
+   ]
+  },
+  {
+   "id": "D05",
+   "company": "Fiskars",
+   "contact": "Elina Vuorinen",
+   "role": "Head of E-commerce Operations",
+   "stage": "intro call",
+   "valueEur": 42000,
+   "firstContact": "2026-03-10",
+   "lastContact": "2026-04-02",
+   "summary": "Introduced AI-generated product descriptions and translations for the webshops across markets.",
+   "objection": "Brand voice is sensitive, and the team is unsure whether the AI output meets quality standards.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-26",
+     "text": "Thanks for the call, Elina. We can run a free test on 20 products in your brand tone and let your team compare against the originals."
+    },
+    {
+     "from": "them",
+     "date": "2026-04-02",
+     "text": "Interesting, but our brand team is cautious about AI text. Let me discuss internally whether a test is even acceptable."
+    }
+   ]
+  },
+  {
+   "id": "D06",
+   "company": "Musti",
+   "contact": "Satu Mäkelä-Korhonen",
+   "role": "CRM & Loyalty Manager",
+   "stage": "discovery",
+   "valueEur": 54000,
+   "firstContact": "2025-11-04",
+   "lastContact": "2026-02-26",
+   "summary": "Explored personalization of loyalty campaigns using purchase history and automated segmentation.",
+   "objection": "The CRM platform migration takes priority and consumes the team's capacity.",
+   "thread": [
+    {
+     "from": "them",
+     "date": "2026-01-28",
+     "text": "We're in the middle of a CRM platform migration. Personalization is high on the wishlist but the team has no capacity until it's done."
+    },
+    {
+     "from": "velho",
+     "date": "2026-02-26",
+     "text": "Makes sense. We could prepare the segmentation logic on your current data so it plugs into the new platform. Want a short plan?"
+    }
+   ]
+  },
+  {
+   "id": "D07",
+   "company": "Puuilo",
+   "contact": "Jari Tuominen",
+   "role": "Supply Chain Manager",
+   "stage": "proposal sent",
+   "valueEur": 88000,
+   "firstContact": "2025-10-21",
+   "lastContact": "2026-03-18",
+   "summary": "Proposal for demand forecasting automation across stores and seasonal categories.",
+   "objection": "The CFO considers the price high relative to the current forecasting accuracy.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-02-24",
+     "text": "Jari, the forecasting proposal is attached. Based on your data, a 10% improvement in accuracy would pay back the investment within about 9 months."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-18",
+     "text": "Our CFO thinks the price is high compared to what we have now. Could you propose a smaller first step?"
+    }
+   ]
+  },
+  {
+   "id": "D08",
+   "company": "Caverion",
+   "contact": "Mikael Toivonen",
+   "role": "Director, Digital Services",
+   "stage": "pilot discussed",
+   "valueEur": 95000,
+   "firstContact": "2025-09-03",
+   "lastContact": "2026-04-14",
+   "summary": "Pilot for AI summarization of building service reports and automated work-order creation.",
+   "objection": "Waiting for a customer contract renewal to determine which sites to include.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-30",
+     "text": "For the pilot we suggest three sites with the highest report volume. We can start within two weeks of your go-ahead."
+    },
+    {
+     "from": "them",
+     "date": "2026-04-14",
+     "text": "We're waiting on a customer contract renewal that affects site selection. I'll come back as soon as it's decided."
+    }
+   ]
+  },
+  {
+   "id": "D09",
+   "company": "Lemonsoft",
+   "contact": "Pauliina Hämäläinen",
+   "role": "Product Director",
+   "stage": "discovery",
+   "valueEur": 70000,
+   "firstContact": "2026-01-13",
+   "lastContact": "2026-03-24",
+   "summary": "Discussed embedding an AI assistant into their ERP product for SME customers, with Velho as an implementation partner.",
+   "objection": "The product roadmap is already full, and they are unsure whether to build in-house or partner.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-10",
+     "text": "We outlined two models: co-developing the assistant or delivering it as a white-label module. Happy to walk you through the trade-offs."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-24",
+     "text": "Thanks. Our roadmap is full through autumn and we're debating build vs. partner internally. I'll get back to you."
+    }
+   ]
+  },
+  {
+   "id": "D10",
+   "company": "Terveystalo",
+   "contact": "Outi Salminen",
+   "role": "Head of Patient Operations",
+   "stage": "proposal sent",
+   "valueEur": 140000,
+   "firstContact": "2025-08-12",
+   "lastContact": "2026-05-06",
+   "summary": "Proposed automating appointment reminders, rescheduling, and referral intake using an AI agent.",
+   "objection": "Legal and data protection review of patient data handling is taking longer than expected.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-04-08",
+     "text": "Outi, we've updated the proposal so no patient data goes to the language model. Only anonymized intents are processed. Is that helpful for legal?"
+    },
+    {
+     "from": "them",
+     "date": "2026-05-06",
+     "text": "That helps, but our legal and DPO teams still need to review the architecture. Their schedule is tight, so this will take weeks."
+    }
+   ]
+  },
+  {
+   "id": "D11",
+   "company": "Mehiläinen",
+   "contact": "Kalle Heinonen",
+   "role": "Chief Digital Officer's Office, Program Manager",
+   "stage": "intro call",
+   "valueEur": 60000,
+   "firstContact": "2026-04-07",
+   "lastContact": "2026-05-19",
+   "summary": "Brief intro on AI-supported documentation for clinic back-office tasks.",
+   "objection": "They already have a large vendor partner for AI and don't see a gap.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-05-05",
+     "text": "Thanks for the intro, Kalle. Our focus is the small back-office workflows that large platforms often skip. Can we show two examples?"
+    },
+    {
+     "from": "them",
+     "date": "2026-05-19",
+     "text": "Appreciate it, but we have a strategic AI partner already. I don't currently see where you'd fit. Let's keep in touch."
+    }
+   ]
+  },
+  {
+   "id": "D12",
+   "company": "Pihlajalinna",
+   "contact": "Leena Koskinen",
+   "role": "Operations Director",
+   "stage": "discovery",
+   "valueEur": 48000,
+   "firstContact": "2025-11-11",
+   "lastContact": "2026-01-15",
+   "summary": "Reviewed phone-queue load in the contact center and options for AI call summaries and callback automation.",
+   "objection": "The decision-maker changed after an internal reorganization.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2025-12-09",
+     "text": "Leena, we've prepared a call-volume analysis and three automation options. Can we present them to your management team in January?"
+    },
+    {
+     "from": "them",
+     "date": "2026-01-15",
+     "text": "Our organization changed and responsibilities moved. I'm not sure anymore who owns this. I'll find out and let you know."
+    }
+   ]
+  },
+  {
+   "id": "D13",
+   "company": "Atria",
+   "contact": "Ville Peltonen",
+   "role": "Logistics Development Manager",
+   "stage": "pilot discussed",
+   "valueEur": 67000,
+   "firstContact": "2025-10-02",
+   "lastContact": "2026-02-09",
+   "summary": "Pilot on automating customer order intake from emails and PDFs into the ERP.",
+   "objection": "The pilot was agreed verbally, but the ERP team cannot support the integration until spring.",
+   "thread": [
+    {
+     "from": "them",
+     "date": "2026-01-27",
+     "text": "We'd like to proceed with the order-intake pilot, but the ERP team can't support the integration before spring."
+    },
+    {
+     "from": "velho",
+     "date": "2026-02-09",
+     "text": "We can start with a read-only version that outputs structured files, so no ERP work is required initially. Shall we outline it?"
+    }
+   ]
+  },
+  {
+   "id": "D14",
+   "company": "Valio",
+   "contact": "Tiina Ahonen",
+   "role": "Senior Manager, Commercial Excellence",
+   "stage": "proposal sent",
+   "valueEur": 110000,
+   "firstContact": "2025-09-24",
+   "lastContact": "2026-03-02",
+   "summary": "Proposal for AI-based analysis and automated reporting of retail sell-out data.",
+   "objection": "The business unit supports it, but central IT wants it standardized on an existing analytics platform.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-02-10",
+     "text": "Tiina, attached is the proposal for automated weekly sell-out reporting with anomaly alerts. It can run on your existing data platform."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-02",
+     "text": "We like it, but central IT wants new solutions to be built on our standard analytics platform. I need to clarify what that means."
+    }
+   ]
+  },
+  {
+   "id": "D15",
+   "company": "Paulig",
+   "contact": "Riikka Laine",
+   "role": "Marketing Operations Lead",
+   "stage": "intro call",
+   "valueEur": 36000,
+   "firstContact": "2026-05-12",
+   "lastContact": "2026-06-03",
+   "summary": "Introduced workflows for automating content localization and campaign asset production.",
+   "objection": "Summer holidays are approaching, and the topic is not a priority this year.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-05-27",
+     "text": "Riikka, as promised, here are two examples of localization automation from other consumer brands. Happy to do a short demo in June."
+    },
+    {
+     "from": "them",
+     "date": "2026-06-03",
+     "text": "Thanks, interesting. Holidays are coming and this isn't a priority for this year's plan. Perhaps check back in the autumn."
+    }
+   ]
+  },
+  {
+   "id": "D16",
+   "company": "Fazer",
+   "contact": "Mikko Rantanen",
+   "role": "Head of Finance Operations",
+   "stage": "discovery",
+   "valueEur": 52000,
+   "firstContact": "2025-12-02",
+   "lastContact": "2026-04-21",
+   "summary": "Discussed automating purchase invoice matching and month-end accruals.",
+   "objection": "The finance team is changing ERP versions and wants to wait until the upgrade is complete.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-04-02",
+     "text": "Mikko, based on the process walkthrough we estimate about 60% of invoice matching can be automated. Shall we draft a scope?"
+    },
+    {
+     "from": "them",
+     "date": "2026-04-21",
+     "text": "Good numbers. We're upgrading our ERP version this year, so I'd rather wait until that's done before changing processes."
+    }
+   ]
+  },
+  {
+   "id": "D17",
+   "company": "Onninen",
+   "contact": "Teemu Jokinen",
+   "role": "Product Data Manager",
+   "stage": "pilot discussed",
+   "valueEur": 64000,
+   "firstContact": "2025-10-15",
+   "lastContact": "2026-01-30",
+   "summary": "Pilot for AI enrichment and cleaning of product data for 50,000 SKUs.",
+   "objection": "Supplier data licensing questions are unresolved.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-01-14",
+     "text": "The pilot would enrich and normalize 5,000 SKUs in six weeks, with accuracy checks by your team. Ready to start when you are."
+    },
+    {
+     "from": "them",
+     "date": "2026-01-30",
+     "text": "We still need to check whether our supplier agreements allow data to be processed with external AI tools. Waiting for legal."
+    }
+   ]
+  },
+  {
+   "id": "D18",
+   "company": "Ahlsell",
+   "contact": "Sanna Virtanen",
+   "role": "Sales Support Manager",
+   "stage": "proposal sent",
+   "valueEur": 79000,
+   "firstContact": "2025-11-18",
+   "lastContact": "2026-02-20",
+   "summary": "Proposal for a quote-assistant tool that speeds up responses to contractor inquiries.",
+   "objection": "Sales leadership wants references from other wholesalers in the Nordics.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-02-05",
+     "text": "Sanna, the proposal for the quote assistant is attached. It reads inquiry emails and drafts quotes from your price lists for rep approval."
+    },
+    {
+     "from": "them",
+     "date": "2026-02-20",
+     "text": "Leadership wants to see references from other Nordic wholesalers before moving. Do you have any you can share?"
+    }
+   ]
+  },
+  {
+   "id": "D19",
+   "company": "YIT",
+   "contact": "Petri Lehtonen",
+   "role": "Development Manager, Project Delivery",
+   "stage": "discovery",
+   "valueEur": 130000,
+   "firstContact": "2025-12-09",
+   "lastContact": "2026-05-27",
+   "summary": "Explored AI analysis of site diaries and delay notices to predict schedule risks.",
+   "objection": "Needs an internal sponsor in a business unit before the topic can move forward.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-05-12",
+     "text": "Petri, we put together a sample risk dashboard based on anonymized diary entries. Would a business unit lead like to see it?"
+    },
+    {
+     "from": "them",
+     "date": "2026-05-27",
+     "text": "Nice sample. Right now it lacks a sponsor in the business units, and without one I can't take it further."
+    }
+   ]
+  },
+  {
+   "id": "D20",
+   "company": "Consti",
+   "contact": "Hanna Pitkänen",
+   "role": "Chief Financial Officer's Controller",
+   "stage": "intro call",
+   "valueEur": 28000,
+   "firstContact": "2026-02-03",
+   "lastContact": "2026-03-12",
+   "summary": "Quick intro on automating project cost reporting from several systems.",
+   "objection": "Considers the topic interesting but too small to justify an external vendor right now.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-02-24",
+     "text": "Hanna, here's a one-page outline for automated project cost reporting. We could deliver the first version in about four weeks."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-12",
+     "text": "Thanks. It's interesting, but the issue feels too small for an external vendor at the moment. We'll revisit if the pain increases."
+    }
+   ]
+  },
+  {
+   "id": "D21",
+   "company": "Helen",
+   "contact": "Juha-Pekka Savolainen",
+   "role": "Head of Customer Operations",
+   "stage": "proposal sent",
+   "valueEur": 150000,
+   "firstContact": "2025-08-19",
+   "lastContact": "2026-06-10",
+   "summary": "Proposed an AI chat and email assistant for customer inquiries on electricity contracts and billing.",
+   "objection": "Public-sector-style competitive tendering requirements may apply, and procurement is reviewing it.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-05-18",
+     "text": "Juha-Pekka, the updated proposal is attached with a phased scope to keep each phase below your direct-award threshold if applicable."
+    },
+    {
+     "from": "them",
+     "date": "2026-06-10",
+     "text": "Thanks. Procurement is still reviewing whether we need to run a formal competitive process. I can't commit until that's clear."
+    }
+   ]
+  },
+  {
+   "id": "D22",
+   "company": "Lahti Energia",
+   "contact": "Sirpa Kivelä",
+   "role": "Business Development Manager",
+   "stage": "discovery",
+   "valueEur": 45000,
+   "firstContact": "2026-01-27",
+   "lastContact": "2026-04-09",
+   "summary": "Discussed AI-based reporting for plant operation data and maintenance notes.",
+   "objection": "Operational data is in a segregated network, and the security team is reluctant.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-25",
+     "text": "We can work with exported data, with no connection to the operational network. Would that address the security team's concern?"
+    },
+    {
+     "from": "them",
+     "date": "2026-04-09",
+     "text": "Possibly, but security would still need to approve exports. They are hesitant about anything touching plant data. I'll raise it."
+    }
+   ]
+  },
+  {
+   "id": "D23",
+   "company": "Tokmanni",
+   "contact": "Lauri Moilanen",
+   "role": "Category Analytics Manager",
+   "stage": "pilot discussed",
+   "valueEur": 72000,
+   "firstContact": "2025-09-30",
+   "lastContact": "2025-12-18",
+   "summary": "Pilot on automating price monitoring and competitor assortment tracking.",
+   "objection": "The budget was frozen until the new year after a restructuring of the budget cycle.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2025-12-02",
+     "text": "Lauri, the pilot plan is ready: price monitoring for 10 categories over 8 weeks. We can begin in January if you confirm."
+    },
+    {
+     "from": "them",
+     "date": "2025-12-18",
+     "text": "We like the plan, but the budget is frozen until the new year. Let's talk again in January once things are clearer."
+    }
+   ]
+  },
+  {
+   "id": "D24",
+   "company": "Verkkokauppa.com",
+   "contact": "Noora Heiskanen",
+   "role": "Customer Support Lead",
+   "stage": "proposal sent",
+   "valueEur": 56000,
+   "firstContact": "2025-11-25",
+   "lastContact": "2026-03-31",
+   "summary": "Proposal for an AI assistant handling warranty and return inquiries with order-system lookups.",
+   "objection": "The team is concerned about customer experience risk and wants a smaller scope.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-16",
+     "text": "Noora, attached is the proposal. The assistant only handles returns and warranty status at first, with easy escalation to your agents."
+    },
+    {
+     "from": "them",
+     "date": "2026-03-31",
+     "text": "Thanks. The team worries about customer experience risk. Could you make a version limited to drafting replies for agents only?"
+    }
+   ]
+  },
+  {
+   "id": "D25",
+   "company": "Konecranes",
+   "contact": "Esa Partanen",
+   "role": "Director, Service Process Development",
+   "stage": "discovery",
+   "valueEur": 160000,
+   "firstContact": "2025-10-28",
+   "lastContact": "2026-06-17",
+   "summary": "Reviewed service report processing and spare-parts quoting for crane maintenance operations.",
+   "objection": "Global IT and a larger transformation program control which tools can be adopted.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-06-02",
+     "text": "Esa, thanks for the discussion. We drafted a regional pilot for service report processing that fits within local discretion. Thoughts?"
+    },
+    {
+     "from": "them",
+     "date": "2026-06-17",
+     "text": "Good idea in principle, but tool choices are decided by global IT within the transformation program. I need to see if exceptions exist."
+    }
+   ]
+  },
+  {
+   "id": "D26",
+   "company": "Valmet",
+   "contact": "Katriina Oksanen",
+   "role": "Manager, Technical Documentation",
+   "stage": "intro call",
+   "valueEur": 50000,
+   "firstContact": "2026-04-14",
+   "lastContact": "2026-05-08",
+   "summary": "Intro on automating the creation and updating of technical documentation and multilingual manuals.",
+   "objection": "Documentation quality and accuracy requirements are very strict, and they doubt AI reliability.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-04-28",
+     "text": "Katriina, we can add review steps and source citations so every generated line can be traced to the original spec. Happy to demo."
+    },
+    {
+     "from": "them",
+     "date": "2026-05-08",
+     "text": "Thanks. Our accuracy requirements are very strict and I'm not convinced AI is reliable enough yet. Perhaps later."
+    }
+   ]
+  },
+  {
+   "id": "D27",
+   "company": "Matkahuolto",
+   "contact": "Olli Kangas",
+   "role": "Head of Service Development",
+   "stage": "proposal sent",
+   "valueEur": 84000,
+   "firstContact": "2025-12-16",
+   "lastContact": "2026-04-28",
+   "summary": "Proposal for automating agent partner inquiries and parcel tracking exceptions.",
+   "objection": "The decision is waiting for the new CEO's review of ongoing investments.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-03-24",
+     "text": "Olli, the proposal for partner-inquiry automation is attached. Phase one is small: 6 weeks and a fixed price."
+    },
+    {
+     "from": "them",
+     "date": "2026-04-28",
+     "text": "Management is reviewing all ongoing investments after the leadership change. I can't get a decision until that's finished."
+    }
+   ]
+  },
+  {
+   "id": "D28",
+   "company": "Barona",
+   "contact": "Jenni Mattila",
+   "role": "Recruitment Operations Manager",
+   "stage": "pilot discussed",
+   "valueEur": 46000,
+   "firstContact": "2025-11-06",
+   "lastContact": "2026-02-17",
+   "summary": "Pilot on AI candidate matching and automated shift-filling messages.",
+   "objection": "The pilot depends on access to the recruitment system API, which the vendor has not yet provided.",
+   "thread": [
+    {
+     "from": "them",
+     "date": "2026-02-03",
+     "text": "We want to run the pilot, but our system vendor hasn't given us API access yet and keeps postponing."
+    },
+    {
+     "from": "velho",
+     "date": "2026-02-17",
+     "text": "We can begin with CSV exports to prove value while waiting for the API. Would your team be able to provide weekly exports?"
+    }
+   ]
+  },
+  {
+   "id": "D29",
+   "company": "Apetit",
+   "contact": "Sami Ylönen",
+   "role": "Production Planning Manager",
+   "stage": "discovery",
+   "valueEur": 62000,
+   "firstContact": "2026-02-10",
+   "lastContact": "2026-07-14",
+   "summary": "Discussed AI support for production planning around harvest-driven volume variability.",
+   "objection": "Harvest season takes the team's full attention until autumn.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-06-30",
+     "text": "Sami, we prepared a simple model concept for harvest-based planning using last year's volumes. Could we review it in July?"
+    },
+    {
+     "from": "them",
+     "date": "2026-07-14",
+     "text": "Looks promising, but the season takes all our attention until autumn. Let's schedule a proper session in September."
+    }
+   ]
+  },
+  {
+   "id": "D30",
+   "company": "Attendo",
+   "contact": "Marika Seppälä",
+   "role": "Quality & Development Manager",
+   "stage": "intro call",
+   "valueEur": 38000,
+   "firstContact": "2026-06-09",
+   "lastContact": "2026-07-28",
+   "summary": "Introduced automation of care documentation summaries and staff scheduling notifications.",
+   "objection": "Needs buy-in from regional directors, and sensitive-data concerns raised by the privacy team.",
+   "thread": [
+    {
+     "from": "velho",
+     "date": "2026-06-23",
+     "text": "Marika, thank you for the call. We can design the solution so that no personal health data leaves your environment. Want a one-page overview?"
+    },
+    {
+     "from": "them",
+     "date": "2026-07-07",
+     "text": "Yes please, send the overview. I'll need regional directors' support and the privacy team will have questions."
+    },
+    {
+     "from": "velho",
+     "date": "2026-07-28",
+     "text": "Overview attached, including a data-handling diagram. Happy to join a session with the regional directors and privacy team."
+    }
+   ]
+  }
+ ]
+}
