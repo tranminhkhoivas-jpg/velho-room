@@ -10,9 +10,8 @@ const start = getSpend();
 let fail = 0;
 
 // no code path may send anything: outbound is drafts only
-const src = ["lib", "app", "components"].flatMap(function walk(d: string): string[] {
-  return readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]));
-});
+const walk = (d: string): string[] => readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]));
+const src = ["lib", "app", "components"].flatMap((d) => walk(d));
 const sendy = src.filter((f) => /sendMail|nodemailer|smtp|api\.linkedin|slack\.com\/api/i.test(readFileSync(f, "utf8")));
 if (sendy.length) (fail++, console.log("FAIL send code in", sendy));
 
