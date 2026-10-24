@@ -6,6 +6,8 @@ import { post } from "./api";
 import { Blocks } from "./Blocks";
 import { Chat } from "./Chat";
 import { Quiz } from "./Quiz";
+import { Player } from "@remotion/player";
+import { CompanyVideo, durationFor, type VideoProps } from "@/video/CompanyVideo";
 
 type Opt = { id: string; label: string };
 
@@ -88,6 +90,7 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
       {busy && <p className="loading">{busy}</p>}
       {err && <p className="err">{err}</p>}
       {art?.angles && <Campaign angles={art.angles} />}
+      {art && meta.id === "media" && <Video art={art} company={company} />}
       {art && <Blocks artifact={art} />}
       {art && meta.ui === "chat-website" && <Chat mode="website" company={company} opener={`Live assistant built only from ${company}'s public website. Ask it what a customer would ask.`} />}
       {art && meta.ui === "chat-cfo" && <Chat mode="cfo" company={company} opener="AI simulation of the CFO, grounded in the annual report. Pitch Velho; it will push back. Voice works in Chrome/Edge." />}
@@ -300,6 +303,46 @@ function Campaign({ angles }: { angles: Angle[] }) {
             <p className="muted">Panel: “{a.panel.comment}”</p>
           </div>
         ))}
+    </div>
+  );
+}
+
+function Video({ art, company }: { art: Artifact; company: string }) {
+  const card = art.blocks.find((b) => b.t === "postcard");
+  const props: VideoProps = {
+    company,
+    headline: card?.t === "postcard" ? card.front : art.title,
+    points: art.blocks.flatMap((b) => (b.t === "h" ? [b.text.replace(/^\d+[.)]\s*/, "")] : [])).slice(0, 3),
+    note: card?.t === "postcard" ? card.back : "",
+  };
+  const [busy, setBusy] = useState(false);
+  const [url, setUrl] = useState("");
+  const [err, setErr] = useState("");
+  async function render() {
+    setBusy(true);
+    setErr("");
+    try {
+      setUrl((await post<{ url: string }>("/api/video", { props })).url);
+    } catch (e) {
+      setErr((e as Error).message);
+    }
+    setBusy(false);
+  }
+  return (
+    <div className="card">
+      <h2 style={{ marginTop: 0 }}>30-second video for {company}</h2>
+      <Player component={CompanyVideo} inputProps={props} durationInFrames={durationFor(props)} fps={30} compositionWidth={1920} compositionHeight={1080} initialFrame={60} style={{ width: "100%" }} controls />
+      <div className="row" style={{ marginTop: 8 }}>
+        <button disabled={busy} onClick={render}>
+          {busy ? "Rendering MP4… (about a minute)" : "Render MP4"}
+        </button>
+        {url && (
+          <a href={url} download>
+            Download MP4
+          </a>
+        )}
+      </div>
+      {err && <p className="err">{err}</p>}
     </div>
   );
 }

@@ -10,10 +10,13 @@
     "smoke": "tsx scripts/smoke.ts"
   },
   "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/player": "4.0.538",
     "next": "^16.4.3",
     "qrcode": "^1.5.4",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.538"
   },
   "devDependencies": {
     "@types/node": "^24.19.2",

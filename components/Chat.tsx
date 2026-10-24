@@ -18,7 +18,7 @@ export function Chat({ mode, company, opener }: { mode: "website" | "cfo"; compa
   const [err, setErr] = useState("");
   const rec = useRef<AnyRec>(null);
 
-  async function send(content: string) {
+  async function send(content: string, speak = voice) {
     if (!content.trim()) return;
     const next: M[] = [...msgs, { role: "user", content }];
     setMsgs(next);
@@ -28,7 +28,7 @@ export function Chat({ mode, company, opener }: { mode: "website" | "cfo"; compa
     try {
       const { reply } = await post<{ reply: string }>("/api/chat", { mode, company, messages: next });
       setMsgs([...next, { role: "assistant", content: reply }]);
-      if (voice && "speechSynthesis" in window) speechSynthesis.speak(new SpeechSynthesisUtterance(reply));
+      if (speak && "speechSynthesis" in window) speechSynthesis.speak(new SpeechSynthesisUtterance(reply));
     } catch (e) {
       setErr((e as Error).message);
     }
@@ -42,7 +42,9 @@ export function Chat({ mode, company, opener }: { mode: "website" | "cfo"; compa
     setVoice(true);
     const r = new SR();
     r.lang = "en-US";
-    r.onresult = (e: AnyRec) => send(e.results[0][0].transcript);
+    // pass speak=true: this closure still sees the old voice=false
+    r.onresult = (e: AnyRec) => send(e.results[0][0].transcript, true);
+    r.onerror = (e: AnyRec) => setErr("Voice input failed: " + e.error + (e.error === "not-allowed" ? " (allow the microphone)" : ""));
     r.start();
     rec.current = r;
   }
