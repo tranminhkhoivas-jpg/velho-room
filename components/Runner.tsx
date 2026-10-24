@@ -7,7 +7,7 @@ import { Blocks } from "./Blocks";
 import { Chat } from "./Chat";
 import { Quiz } from "./Quiz";
 import { Player } from "@remotion/player";
-import { CompanyVideo, durationFor, type VideoProps } from "@/video/CompanyVideo";
+import { CompanyVideo, DURATION, type VideoProps } from "@/video/CompanyVideo";
 
 type Opt = { id: string; label: string };
 
@@ -90,7 +90,7 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
       {busy && <p className="loading">{busy}</p>}
       {err && <p className="err">{err}</p>}
       {art?.angles && <Campaign angles={art.angles} />}
-      {art && meta.id === "media" && <Video art={art} company={company} />}
+      {art && meta.id === "media" && <Video company={company} />}
       {art && <Blocks artifact={art} />}
       {art && meta.ui === "chat-website" && <Chat mode="website" company={company} opener={`Live assistant built only from ${company}'s public website. Ask it what a customer would ask.`} />}
       {art && meta.ui === "chat-cfo" && <Chat mode="cfo" company={company} opener="AI simulation of the CFO, grounded in the annual report. Pitch Velho; it will push back. Voice works in Chrome/Edge." />}
@@ -307,17 +307,45 @@ function Campaign({ angles }: { angles: Angle[] }) {
   );
 }
 
-function Video({ art, company }: { art: Artifact; company: string }) {
-  const card = art.blocks.find((b) => b.t === "postcard");
-  const props: VideoProps = {
-    company,
-    headline: card?.t === "postcard" ? card.front : art.title,
-    points: art.blocks.flatMap((b) => (b.t === "h" ? [b.text.replace(/^\d+[.)]\s*/, "")] : [])).slice(0, 3),
-    note: card?.t === "postcard" ? card.back : "",
-  };
+// Brand colour = most common strongly saturated hue in their homepage screenshot; also shrink it to a JPEG.
+async function brandShot(src: string): Promise<{ shot: string; accent: string }> {
+  const img = new Image();
+  img.src = src;
+  await img.decode();
+  const c = Object.assign(document.createElement("canvas"), { width: 1280, height: Math.round((1280 * img.height) / img.width) });
+  const g = c.getContext("2d")!;
+  g.drawImage(img, 0, 0, c.width, c.height);
+  const px = g.getImageData(0, 0, c.width, c.height).data;
+  const bins = new Map<number, { n: number; r: number; g: number; b: number }>();
+  for (let i = 0; i < px.length; i += 4 * 7) {
+    const [r, gr, b] = [px[i], px[i + 1], px[i + 2]];
+    const max = Math.max(r, gr, b), min = Math.min(r, gr, b);
+    if (max < 90 || (max - min) / max < 0.5) continue;
+    const h = max === r ? ((gr - b) / (max - min) + 6) % 6 : max === gr ? (b - r) / (max - min) + 2 : (r - gr) / (max - min) + 4;
+    const k = Math.round(h * 4);
+    const e = bins.get(k) || { n: 0, r: 0, g: 0, b: 0 };
+    bins.set(k, { n: e.n + 1, r: e.r + r, g: e.g + gr, b: e.b + b });
+  }
+  const top = [...bins.values()].sort((a, b) => b.n - a.n)[0];
+  const hex = (v: number) => Math.round(v).toString(16).padStart(2, "0");
+  return { shot: c.toDataURL("image/jpeg", 0.85), accent: top && top.n > 200 ? `#${hex(top.r / top.n)}${hex(top.g / top.n)}${hex(top.b / top.n)}` : "#f2b544" };
+}
+
+function Video({ company }: { company: string }) {
+  const [props, setProps] = useState<VideoProps | null>(null);
   const [busy, setBusy] = useState(false);
   const [url, setUrl] = useState("");
   const [err, setErr] = useState("");
+  useEffect(() => {
+    fetch("/api/video/props?company=" + encodeURIComponent(company))
+      .then((r) => r.json())
+      .then(async (j) => {
+        if (j.error) throw new Error(j.error);
+        const p: VideoProps = j.props;
+        setProps(p.shot ? { ...p, ...(await brandShot(p.shot)) } : p);
+      })
+      .catch((e) => setErr((e as Error).message));
+  }, [company]);
   async function render() {
     setBusy(true);
     setErr("");
@@ -330,10 +358,11 @@ function Video({ art, company }: { art: Artifact; company: string }) {
   }
   return (
     <div className="card">
-      <h2 style={{ marginTop: 0 }}>30-second video for {company}</h2>
-      <Player component={CompanyVideo} inputProps={props} durationInFrames={durationFor(props)} fps={30} compositionWidth={1920} compositionHeight={1080} initialFrame={60} style={{ width: "100%" }} controls />
+      <h2 style={{ marginTop: 0 }}>30-second film for {company}</h2>
+      {!props && !err && <p className="loading">Capturing their homepage and building the film…</p>}
+      {props && <Player component={CompanyVideo} inputProps={props} durationInFrames={DURATION} fps={30} compositionWidth={1920} compositionHeight={1080} initialFrame={45} style={{ width: "100%" }} controls />}
       <div className="row" style={{ marginTop: 8 }}>
-        <button disabled={busy} onClick={render}>
+        <button disabled={busy || !props} onClick={render}>
           {busy ? "Rendering MP4… (about a minute)" : "Render MP4"}
         </button>
         {url && (

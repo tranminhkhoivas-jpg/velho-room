@@ -13,9 +13,9 @@ let queue: Promise<void> = Promise.resolve();
 // POST {props} renders the CompanyVideo composition to MP4 once per props (cached on disk).
 export async function POST(req: Request) {
   const { props } = await req.json();
-  if (!props?.company || !Array.isArray(props.points)) return Response.json({ error: "props.company and props.points required" }, { status: 400 });
-  // "v2": bump when the composition changes so old renders are not reused
-  const id = createHash("sha1").update("v2" + JSON.stringify(props)).digest("hex").slice(0, 16);
+  if (!props?.company || !Array.isArray(props.findings)) return Response.json({ error: "props.company and props.findings required" }, { status: 400 });
+  // "v4": bump when the composition changes so old renders are not reused
+  const id = createHash("sha1").update("v4" + JSON.stringify(props)).digest("hex").slice(0, 16);
   const out = join(DIR, id + ".mp4");
   // Renders run one at a time: they share port 3123, and a second click for the same company reuses the first file.
   const job = (queue = queue.catch(() => {}).then(async () => {
