@@ -199,7 +199,7 @@ function Pipeline() {
 function AiIndex() {
   const [industry, setIndustry] = useState("logistics");
   const [busy, setBusy] = useState(false);
-  const [r, setR] = useState<{ score: number; summary: string; examples: { company: string; what: string; url: string; date?: string }[]; laggingSignals: string[]; asOf: string } | null>(null);
+  const [r, setR] = useState<{ score: number; summary: string; examples: { company: string; what: string; url: string; date?: string }[]; laggingSignals: string[]; asOf: string; tol?: string; registry?: { companies: number; newLast12m: number; url: string } } | null>(null);
   const [err, setErr] = useState("");
   async function go() {
     setBusy(true);
@@ -241,6 +241,14 @@ function AiIndex() {
             ))}
           </ul>
           <p className="muted">Still manual: {r.laggingSignals.join(" · ")}</p>
+          {r.registry && (
+            <p>
+              Finnish trade register, industry code {r.tol}: <b>{r.registry.companies.toLocaleString("en")}</b> companies, <b>{r.registry.newLast12m.toLocaleString("en")}</b> registered in the last 12 months (includes inactive ones).{" "}
+              <a href={r.registry.url} target="_blank" rel="noreferrer">
+                source
+              </a>
+            </p>
+          )}
         </>
       )}
     </div>

@@ -43,9 +43,9 @@ export async function llmJson<T>(opts: Parameters<typeof llm>[0]): Promise<T> {
 }
 
 // Jina Reader turns any URL (pages and PDFs) into readable text.
-export async function readUrl(url: string, max = 12000): Promise<string> {
+export async function readUrl(url: string, max = 12000, headers: Record<string, string> = { "X-Return-Format": "text" }): Promise<string> {
   try {
-    const res = await fetch("https://r.jina.ai/" + url, { headers: { "X-Return-Format": "text" }, signal: AbortSignal.timeout(25000) });
+    const res = await fetch("https://r.jina.ai/" + url, { headers, signal: AbortSignal.timeout(25000) });
     if (!res.ok) return "";
     return (await res.text()).slice(0, max);
   } catch {

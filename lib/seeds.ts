@@ -73,15 +73,17 @@ const RUN: Record<string, Runner> = {
     ),
 
   proof: async (d) => {
-    const careers = d!.website ? await readUrl(new URL("/careers", d!.website).toString(), 4000).catch(() => "") : "";
-    return withSources(
+    const pages = await sitePages(d!.website);
+    const a = withSources(
       await gen(
         d!,
-        `Proof before pitch. Pick ONE concrete, plausible process that is visible from their public website text or job ads (e.g. product/price data, store or location lists, service requests, job-ad duties). Build a small working demo from REAL data in the text: a "table" of 5-12 real rows extracted from the website text (columns you choose, values only from the text). Then: "p" explaining what an automation on top of this would do for them, in their words; "list" of 3 numbered steps Velho would ship in month one; "note" stating which parts are demo vs what needs their internal data; "draft" label "Pre-meeting email" (max 90 words) that offers to show the demo built on their own public data. Below this artifact the page offers a live "ask our website" assistant.`,
-        { withSite: true, extra: careers ? `Careers page text (excerpt):\n${careers}` : "" },
+        `Proof before pitch. Pick ONE concrete, plausible process that is visible from their public website pages or job ads (e.g. product/price data, store or location lists, service requests, job-ad duties). Build a small working demo from REAL data in the text: a "table" of 5-12 real rows extracted from the website text (columns you choose, values only from the text). Then: "p" explaining what an automation on top of this would do for them, in their words; "list" of 3 numbered steps Velho would ship in month one; "note" stating which parts are demo vs what needs their internal data; "draft" label "Pre-meeting email" (max 90 words) that offers to show the demo built on their own public data. Below this artifact the page offers a live "ask our website" assistant.`,
+        { withSite: true, extra: pages.map((p) => `PAGE ${p.url}:\n${p.text}`).join("\n\n") },
       ),
       d!,
     );
+    if (pages.length) a.blocks.push({ t: "list", items: pages.map((p) => ({ text: "Page read for this demo", url: p.url, tag: "site" })) });
+    return a;
   },
 
   buyer: async (d) => {
@@ -217,6 +219,32 @@ export async function runSeed(id: string, input: Record<string, string>): Promis
 }
 
 // ----- seeds with their own data -----
+
+// Proof before pitch: homepage links -> the 4 most process-revealing same-site pages, read in parallel.
+// ponytail: keyword scoring, swap for an LLM pick if it chooses badly
+const PAGE_HINTS = /career|job|rekry|ura|service|palvelu|product|tuote|price|hinta|order|tilaa|store|myymä|location|toimipist|support|tuki|contact|yhtey|case|customer|asiakas/i;
+async function sitePages(website?: string): Promise<{ url: string; text: string }[]> {
+  if (!website) return [];
+  const home = await readUrl(website, 200000, { "X-With-Links-Summary": "true", "X-Retain-Images": "none" });
+  const host = new URL(website).hostname.replace(/^www\./, "");
+  const seen = new Set<string>();
+  const urls = [...home.matchAll(/\]\((https?:\/\/[^)\s#]+)\)/g)]
+    .map((m) => m[1])
+    .filter((u) => {
+      try {
+        const x = new URL(u);
+        const key = x.pathname.replace(/\/$/, "");
+        if (!x.hostname.endsWith(host) || !key || seen.has(key) || !PAGE_HINTS.test(key)) return false;
+        seen.add(key);
+        return true;
+      } catch {
+        return false;
+      }
+    })
+    .slice(0, 4);
+  const texts = await Promise.all(urls.map((u) => readUrl(u, 3000)));
+  return urls.map((url, i) => ({ url, text: texts[i] })).filter((p) => p.text);
+}
 
 export async function annualReport(d: Dossier): Promise<string> {
   if (!d.annualReportUrl) return "";
