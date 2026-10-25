@@ -50,7 +50,7 @@ function lyric(props: Record<string, unknown>) {
   const song = typeof props?.audio === "string" ? props.audio.match(/^\/api\/song\?id=([0-9a-f]{16})$/)?.[1] : undefined;
   const mp3 = song && join(SONG_DIR, song + ".mp3");
   if (!mp3 || !existsSync(mp3) || typeof props.company !== "string" || typeof props.title !== "string" || !Array.isArray(props.lines) || !(Number(props.duration) > 0) || !/^#[a-fA-F0-9]{6}$/.test(String(props.accent)) || typeof props.shot !== "string" || (props.shot && !/^data:image\/(jpeg|png|webp);base64,/.test(props.shot))) return Response.json({ error: "Make the song first, then render its video." }, { status: 400 });
-  return render("lyric-v2", "LyricVideo", props, ["--crf=26"], { ...props, audio: "data:audio/mpeg;base64," + readFileSync(mp3).toString("base64") });
+  return render("lyric-v3", "LyricVideo", props, ["--crf=26"], { ...props, audio: "data:audio/mpeg;base64," + readFileSync(mp3).toString("base64") });
 }
 
 export async function GET(req: Request) {

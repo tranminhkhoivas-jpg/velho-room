@@ -52,8 +52,10 @@ function Scene({ p, level, bars }: { p: LyricProps; level: number; bars: number[
   const cur = i >= 0 ? p.lines[i] : null;
   const chorus = cur ? isChorus(cur.section) : false;
   const outro = durationInFrames - Math.round(2.5 * fps);
-  // Chorus floods in smoothly instead of hard-cutting.
-  const flood = cur ? interpolate(t, [cur.start - 0.4, cur.start], chorus ? [0, 1] : [1, 0], clamp) * (chorus || (p.lines[i - 1] && isChorus(p.lines[i - 1].section)) ? 1 : 0) : 0;
+  // Chorus floods in smoothly instead of hard-cutting. The ramp starts when the line switches (start - 0.25) and
+  // only runs where the section changes: between two chorus lines the flood stays at 1 (it used to dip to 0 and back every line, a flash).
+  const prevChorus = i > 0 && isChorus(p.lines[i - 1].section);
+  const flood = cur ? (chorus === prevChorus ? (chorus ? 1 : 0) : interpolate(t, [cur.start - 0.25, cur.start + 0.15], chorus ? [0, 1] : [1, 0], clamp)) : 0;
   const ink = flood > 0.5 ? BG : INK;
   const sections = p.lines.filter((l, k) => k === 0 || l.section !== p.lines[k - 1].section);
   const sectionNo = sections.findLastIndex((l) => l.start - 0.25 <= t);
