@@ -31,6 +31,7 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
   const version = useRef(0);
   const [resultCompany, setResultCompany] = useState("");
   const [staffInput,setStaffInput]=useState("");
+  const [fund,setFund]=useState("1000000");
   function changeCompany(c: string) { version.current++; setCompany(c); setArt(null); setErr(""); setBusy("");setStaffInput(""); }
   const [spend, setSpend] = useState<number | null>(null);
   const [isAudit, setIsAudit] = useState(false);
@@ -46,7 +47,7 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
     setErr("");
     setArt(null);
     try {
-      const body = { company: c, dealId: meta.ui === "crm"&&!staffInput ? pick : "", noteId: meta.ui === "notes"&&!staffInput ? pick : "", staffInput, ...extra };
+      const body = { company: c, dealId: meta.ui === "crm"&&!staffInput ? pick : "", noteId: meta.ui === "notes"&&!staffInput ? pick : "", staffInput, ...(meta.ui === "fund" ? { fund } : {}), ...extra };
       const r = await post<{ artifact: Artifact & { angles?: Angle[] }; spend: number; auditSpend?:number|null }>(`/api/seed/${meta.id}`, body);
       if (request !== version.current) return;
       setResultCompany(c);
@@ -69,6 +70,7 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
       }}
     >
       <input value={company} onChange={(e) => changeCompany(e.target.value)} placeholder="Company name" aria-label="Company" />
+      {meta.ui === "fund" && <input type="number" min={1000} max={1000000000} step={1000} value={fund} onChange={(e) => { version.current++; setFund(e.target.value); setArt(null); }} aria-label="Fund size in euros" title="Fund size in euros" style={{ maxWidth: 170 }} />}
       <button disabled={!!busy || !company.trim()}>Run</button>
       <button type="button" className="ghost" disabled={!!busy || !company.trim()} onClick={async () => {
         setBusy("Refreshing company research and replacing old results…"); setErr(""); setArt(null);

@@ -22,7 +22,7 @@ export type SeedMeta = {
   title: string;
   blurb: string;
   kind: "brief" | "new";
-  ui?: "chat-website" | "chat-cfo" | "quiz" | "pipeline" | "photo" | "campaign" | "crm" | "notes";
+  ui?: "chat-website" | "chat-cfo" | "quiz" | "pipeline" | "photo" | "campaign" | "crm" | "notes" | "fund";
   needsCompany: boolean;
 };
 
@@ -42,7 +42,8 @@ export const SEEDS: SeedMeta[] = [
   { id: "campaign", n: 2, kind: "brief", needsCompany: true, ui: "campaign", title: "Viral campaign engine", blurb: "24 content angles with simulated buyer feedback, staff preferences and a separate record of observed campaign outcomes." },
   { id: "deadDeal", n: 8, kind: "brief", needsCompany: false, ui: "crm", title: "Dead deal resurrector", blurb: "Finds deals that went quiet and a real, current reason to reconnect. (Synthetic CRM.)" },
   { id: "song", n: 16, kind: "new", needsCompany: true, title: "A song for you", blurb: "A song from Velho, built from the company’s public goals, then sung by Lyria and turned into a lyric music video." },
-  { id: "offer", n: 17, kind: "new", needsCompany: true, title: "No result, no fee", blurb: "A first project proposed from public clues, with pay-only-for-the-agreed-result terms: free second try, $500 if we miss, referral rewards only after success. Proposed terms, not yet approved by Velho." },
+  { id: "offer", n: 17, kind: "new", needsCompany: true, title: "No result, no fee", blurb: "A first project proposed from public clues, with pay-only-for-the-agreed-result terms: a free second try if we miss, and referral rewards only after success. Proposed terms, not yet approved by Velho." },
+  { id: "fund", n: 18, kind: "new", needsCompany: true, ui: "fund", title: "The €1,000,000 promise", blurb: "A marketing hook: Velho puts a shared fund behind its results. If more than half of the projects miss their target, the fund is shared among those customers. Fund size is editable. Proposed, not yet approved by Velho." },
   { id: "caseStudy", n: 10, kind: "brief", needsCompany: false, ui: "notes", title: "Case-study machine", blurb: "Project notes into a before/after story, a LinkedIn post and a one-pager. (Synthetic notes.)" },
 ];
 
@@ -80,7 +81,10 @@ async function gen(d: Dossier | null, task: string, opts: { web?: number; withSi
 const withSources = (a: Artifact, d: Dossier): Artifact => ({ ...a, blocks: [...a.blocks, { t: "sources", items: dossierSources(d) }] });
 const staffBrief=(staff?:StaffInput)=>staff?`${staff.kind==="synthetic"?"SYNTHETIC SAMPLE":"STAFF-SUPPLIED CONTEXT"} (self-reported, approved for processing; preserve unknowns):\n${JSON.stringify(staff)}`:"No staff conversation or internal scope was supplied. Do not invent one.";
 
-const OFFER_LINE = "Proposed terms: you pay [success fee agreed in scoping] only if we hit the target we agree up front. If we miss, you pay nothing, we pay you $500, and you can take a free second try.";
+const OFFER_LINE = "Proposed terms: you pay [success fee agreed in scoping] only if we hit the target we agree up front. If we miss, you pay nothing and get a free second try, also at no cost.";
+
+// Fund size in euros from staff input: whole number, €1,000 to €1,000,000,000, default €1,000,000.
+const fundSize = (x?: string) => { const n = Math.round(Number(x)); return Number.isFinite(n) && n >= 1000 && n <= 1e9 ? n : 1_000_000; };
 
 type Runner = (d: Dossier | null, input: Record<string, string>) => Promise<Artifact>;
 
@@ -300,18 +304,34 @@ Do NOT state or estimate any price, fee or saving in euros. Do not add other ter
       { t: "h", text: "Proposed terms" },
       { t: "table", cols: ["What happens", "What the customer pays Velho"], rows: [
         ["First project meets the pre-agreed target", "The pre-agreed success fee"],
-        ["First project misses the target", "$0, and Velho pays the customer $500 (first ten accepted projects)"],
-        ["Customer accepts the free second try", "$0, even if it succeeds; the $500 already owed stays paid"],
+        ["First project misses the target", "$0"],
+        ["Customer accepts the free second try", "$0, even if it succeeds"],
         ["Customer later asks for more work", "A separately agreed price, no obligation to continue"],
         ["Customer introduces another business whose first project succeeds and is paid", "Nothing: both businesses get one small improvement (up to 2 h of Velho work), max 3 rewarded introductions a year"],
       ] },
       { t: "list", items: [
         { text: "No subscription, setup fee or hidden cost. Velho covers tool costs inside the agreed scope; the customer contributes time and access." },
         { text: "Target, deadline, measurement and the customer's responsibilities are written down before work starts." },
-        { text: "The $500 is paid when this customer's project is assessed as missed, not dependent on other customers." },
-        { text: "Velho reserves the full $5,000 (10 × $500) before enrolling anyone and pauses new enrolments if capacity or funds run short." },
       ] },
-      { t: "note", text: "Proposed terms for discussion inside Velho: not approved by Velho, not an offer to any company. The $500, ten-project cohort and referral limits are illustrative and need Velho's own cost check. Nothing is sent." },
+      { t: "note", text: "Proposed terms for discussion inside Velho: not approved by Velho, not an offer to any company. The referral limits are illustrative and need Velho's own cost check. Nothing is sent." },
+    );
+    return withSources(a, d!);
+  },
+
+  // Marketing trick on its own: a shared fund. The fund rule is fixed in code; the model only writes the campaign around it.
+  fund: async (d, input) => {
+    const eur = "€" + fundSize(input.fund).toLocaleString("en-US");
+    const rule = `Velho puts ${eur} in a shared fund behind its results. If more than half of the projects in the program miss their agreed target, the fund is shared among the customers whose projects missed.`;
+    const a = await gen(d!, `"The ${eur} promise" is a Velho marketing hook. The fixed rule: "${rule}" Make campaign material aimed at ${d!.name}'s CEO/CFO. Blocks, in order:
+1. "h" a headline (max 10 words) built around ${eur}.
+2. "p" (max 60 words): why a company like ${d!.name} would notice it, linked to one sourced fact about them, as a question, never a diagnosis.
+3. "list" tag "channel": 3 ways to use the hook (e.g. LinkedIn post, trade fair banner line, email subject), each one line.
+4. "draft" label "LinkedIn post" (max 90 words) and "draft" label "Note to the CEO" (max 80 words). In each, put the literal placeholder [RULE] on its own line where the rule goes (code fills it in). Do not restate or paraphrase the rule, do not mention the fund, its amount, threshold or payout anywhere outside [RULE], and never say the money already exists or has been set aside.`);
+    for (const b of a.blocks) if (b.t === "draft") b.text = b.text.includes("[RULE]") ? b.text.replace("[RULE]", rule) : ((p) => (p.splice(Math.max(1, p.length - 2), 0, rule), p.join("\n\n")))(b.text.split("\n\n")); // ponytail: placeholder missing, put rule before the sign-off
+    a.blocks.push(
+      { t: "h", text: "The rule" },
+      { t: "p", text: rule },
+      { t: "note", text: `Proposed marketing hook for discussion inside Velho: not approved by Velho, not an offer to any company. The ${eur} fund size is editable; the fund must actually exist before anyone announces it. Nothing is published or sent.` },
     );
     return withSources(a, d!);
   },
@@ -337,7 +357,7 @@ export async function runSeed(id: string, input: Record<string, string>): Promis
   if (!meta) throw new Error("Unknown seed " + id);
   const company = meta.needsCompany ? textInput(input.company, "Company") : "";
   const staff=parseStaffInput(id,input.staffInput,company);
-  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="offer"?":offer-v1":id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v1":":review-v3";
+  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="offer"?":offer-v2":id==="fund"?":fund-v2:"+fundSize(input.fund):id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v1":":review-v3";
   const staffKey=staff?":staff-"+(await import("node:crypto")).createHash("sha256").update(JSON.stringify(staff)).digest("hex").slice(0,24):"";
   const key = `seed:${id}:${company.toLowerCase()}:${input.dealId || input.noteId || ""}${version}${staffKey}`;
   if (!input.fresh) {

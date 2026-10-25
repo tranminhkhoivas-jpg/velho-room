@@ -2,7 +2,7 @@
 
 Hackathon prototype (Prompt Operations Hackathon, Oct 2026) for the Velho challenge: type any company, get live, source-backed tools that get Velho seen by — or into the room with — its leadership. Not published by Velho. Every outbound message is a draft; nothing is sent.
 
-One shared research core (`lib/dossier.ts`: web search via OpenRouter, Finnish trade register PRH/YTJ, EU tenders TED, the company's own site) feeds 17 tools:
+One shared research core (`lib/dossier.ts`: web search via OpenRouter, Finnish trade register PRH/YTJ, EU tenders TED, the company's own site) feeds 18 tools:
 
 | # | Tool | What it makes |
 |---|------|---------------|
@@ -22,7 +22,8 @@ One shared research core (`lib/dossier.ts`: web search via OpenRouter, Finnish t
 | new | Room Radar | where the execs will physically be, and how to get in that room |
 | new | Luotsi Chart | the company's growth waters as a nautical chart |
 | new | A song for you | a Lyria song about the company's public goals + lyric music video |
-| new | No result, no fee | a first project with a measurable target, on proposed pay-only-for-the-result terms (fixed in code) |
+| new | No result, no fee | a first project with a measurable target on proposed terms: pay only for the agreed result, free second try, referral rewards after success (fixed in code) |
+| new | The €1,000,000 promise | marketing hook: shared fund (size editable) paid out to customers whose projects missed if more than half miss |
 
 ## Run
 
