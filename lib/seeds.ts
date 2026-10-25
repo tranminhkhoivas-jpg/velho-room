@@ -357,7 +357,7 @@ export async function runSeed(id: string, input: Record<string, string>): Promis
   if (!meta) throw new Error("Unknown seed " + id);
   const company = meta.needsCompany ? textInput(input.company, "Company") : "";
   const staff=parseStaffInput(id,input.staffInput,company);
-  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="offer"?":offer-v2":id==="fund"?":fund-v2:"+fundSize(input.fund):id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v1":":review-v3";
+  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="luotsi"?":layout-v4":id==="offer"?":offer-v2":id==="fund"?":fund-v2:"+fundSize(input.fund):id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v2":":review-v3";
   const staffKey=staff?":staff-"+(await import("node:crypto")).createHash("sha256").update(JSON.stringify(staff)).digest("hex").slice(0,24):"";
   const key = `seed:${id}:${company.toLowerCase()}:${input.dealId || input.noteId || ""}${version}${staffKey}`;
   if (!input.fresh) {
