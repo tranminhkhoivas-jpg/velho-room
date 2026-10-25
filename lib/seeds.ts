@@ -42,6 +42,7 @@ export const SEEDS: SeedMeta[] = [
   { id: "campaign", n: 2, kind: "brief", needsCompany: true, ui: "campaign", title: "Viral campaign engine", blurb: "24 content angles with simulated buyer feedback, staff preferences and a separate record of observed campaign outcomes." },
   { id: "deadDeal", n: 8, kind: "brief", needsCompany: false, ui: "crm", title: "Dead deal resurrector", blurb: "Finds deals that went quiet and a real, current reason to reconnect. (Synthetic CRM.)" },
   { id: "song", n: 16, kind: "new", needsCompany: true, title: "A song for you", blurb: "A song from Velho, built from the company’s public goals, then sung by Lyria and turned into a lyric music video." },
+  { id: "offer", n: 17, kind: "new", needsCompany: true, title: "No result, no fee", blurb: "A first project proposed from public clues, with pay-only-for-the-agreed-result terms: free second try, $500 if we miss, referral rewards only after success. Proposed terms, not yet approved by Velho." },
   { id: "caseStudy", n: 10, kind: "brief", needsCompany: false, ui: "notes", title: "Case-study machine", blurb: "Project notes into a before/after story, a LinkedIn post and a one-pager. (Synthetic notes.)" },
 ];
 
@@ -78,6 +79,8 @@ async function gen(d: Dossier | null, task: string, opts: { web?: number; withSi
 
 const withSources = (a: Artifact, d: Dossier): Artifact => ({ ...a, blocks: [...a.blocks, { t: "sources", items: dossierSources(d) }] });
 const staffBrief=(staff?:StaffInput)=>staff?`${staff.kind==="synthetic"?"SYNTHETIC SAMPLE":"STAFF-SUPPLIED CONTEXT"} (self-reported, approved for processing; preserve unknowns):\n${JSON.stringify(staff)}`:"No staff conversation or internal scope was supplied. Do not invent one.";
+
+const OFFER_LINE = "Proposed terms: you pay [success fee agreed in scoping] only if we hit the target we agree up front. If we miss, you pay nothing, we pay you $500, and you can take a free second try.";
 
 type Runner = (d: Dossier | null, input: Record<string, string>) => Promise<Artifact>;
 
@@ -284,6 +287,35 @@ JSON shape (replace example text): {"report":{"title":"Report title","blocks":[]
     a.blocks.push({t:"note",text:`Checked ${evidence.length} research candidates; ${rows.length} passed date and original-source checks. Rejected/uncertain candidates are in the inspection log. Registration, current agenda and attendance must be rechecked before spending or contacting anyone. Nothing booked or sent.`});a.publicEvidence=evidence;return withSources(a,d!);
   },
 
+  // Risk-reversal offer. The model only proposes the first project and how to measure it; the commercial terms are fixed in code so it cannot invent prices or guarantees.
+  offer: async (d) => {
+    const a = await gen(d!, `"No result, no fee": propose ONE small first project Velho could offer ${d!.name} on pay-only-for-the-agreed-result terms. Blocks, in order:
+1. "h" project name, then "p" (max 50 words): which manual work it would remove, phrased as a possibility to confirm, never a diagnosis.
+2. "list" tag "clue": 2-4 public clues that make it worth asking about, each with its source url.
+3. "table" cols ["What to agree before starting","Proposal"] with rows: Target (one measurable result, e.g. hours per week saved or turnaround time), How it is measured, Baseline needed from the customer, Deadline (estimate), Customer's part (time, access, a named owner), Out of scope.
+4. "draft" label "Offer note to the COO" (max 110 words): invites a scoping call; put the literal placeholder [TERMS] on its own line where the terms go (code fills it in). Mention no fee, payment, refund or second try anywhere else.
+Do NOT state or estimate any price, fee or saving in euros. Do not add other terms; they are added in code.`);
+    for (const b of a.blocks) if (b.t === "draft") b.text = b.text.includes("[TERMS]") ? b.text.replace("[TERMS]", OFFER_LINE) : ((p) => (p.splice(Math.max(1, p.length - 2), 0, OFFER_LINE), p.join("\n\n")))(b.text.split("\n\n")); // ponytail: placeholder missing, put terms before the sign-off
+    a.blocks.push(
+      { t: "h", text: "Proposed terms" },
+      { t: "table", cols: ["What happens", "What the customer pays Velho"], rows: [
+        ["First project meets the pre-agreed target", "The pre-agreed success fee"],
+        ["First project misses the target", "$0, and Velho pays the customer $500 (first ten accepted projects)"],
+        ["Customer accepts the free second try", "$0, even if it succeeds; the $500 already owed stays paid"],
+        ["Customer later asks for more work", "A separately agreed price, no obligation to continue"],
+        ["Customer introduces another business whose first project succeeds and is paid", "Nothing: both businesses get one small improvement (up to 2 h of Velho work), max 3 rewarded introductions a year"],
+      ] },
+      { t: "list", items: [
+        { text: "No subscription, setup fee or hidden cost. Velho covers tool costs inside the agreed scope; the customer contributes time and access." },
+        { text: "Target, deadline, measurement and the customer's responsibilities are written down before work starts." },
+        { text: "The $500 is paid when this customer's project is assessed as missed, not dependent on other customers." },
+        { text: "Velho reserves the full $5,000 (10 × $500) before enrolling anyone and pauses new enrolments if capacity or funds run short." },
+      ] },
+      { t: "note", text: "Proposed terms for discussion inside Velho: not approved by Velho, not an offer to any company. The $500, ten-project cohort and referral limits are illustrative and need Velho's own cost check. Nothing is sent." },
+    );
+    return withSources(a, d!);
+  },
+
   hackathon: async (d,input) => {
     const staff=parseStaffInput("hackathon",input.staffInput,d!.name);
     const a=
@@ -305,7 +337,7 @@ export async function runSeed(id: string, input: Record<string, string>): Promis
   if (!meta) throw new Error("Unknown seed " + id);
   const company = meta.needsCompany ? textInput(input.company, "Company") : "";
   const staff=parseStaffInput(id,input.staffInput,company);
-  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v1":":review-v3";
+  const version = id==="proof"?":quality-v6":id==="words"?":repair-v1":id==="song"?":song-v1":id==="offer"?":offer-v1":id==="campaign"?":quality-v5":["caseStudy","radar"].includes(id)?":repair-v1":["signals","luotsi","deadDeal","hackathon"].includes(id)?":repair-v1":["media","buyer"].includes(id)?":quality-v3": ["tradefair","hackathon","deadDeal"].includes(id) ? ":quality-v2" : id==="ghost"?":quality-v1":":review-v3";
   const staffKey=staff?":staff-"+(await import("node:crypto")).createHash("sha256").update(JSON.stringify(staff)).digest("hex").slice(0,24):"";
   const key = `seed:${id}:${company.toLowerCase()}:${input.dealId || input.noteId || ""}${version}${staffKey}`;
   if (!input.fresh) {
