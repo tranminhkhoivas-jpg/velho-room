@@ -1,0 +1,92 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/hackathon?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/hackathon?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Hackathon-in-a-box, Value: 1
+			6 text Hackathon-in-a-box
+		7 text “We wrote your company a hackathon brief.” A 48-hour build sprint Velho could run for them.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko Challenge: Integration and Cost-to-Serve in a Growing Nordic Trading Group, Value: 1
+			15 text Kesko Challenge: Integration and Cost-to-Serve in a Growing Nordic Trading Group
+		16 heading Kesko Challenge: Integration and Cost-to-Serve in a Growing Nordic Trading Group, Value: 2
+			17 text Kesko Challenge: Integration and Cost-to-Serve in a Growing Nordic Trading Group
+		18 text **Build tools that let Kesko absorb the Dahl technical trade businesses and keep serving customers faster, without adding manual work to the back office.** Kesko's Q1 2026 sales rose 7.1% to €3,029.0m with margins steady at 3.4%, and the Dahl deal is expected to close by end of 2026 (source: https://www.investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746 ; https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/). We noticed the company's public focus on data and digitalisation, and that finance and AI roles are being hired now. We would like to see what a small team can ship in 48 hours on that agenda.
+		19 table
+			20 row
+				21 cell
+					22 text Direction
+				23 cell
+					24 text The goal
+				25 cell
+					26 text What success looks like
+			27 row
+				28 cell
+					29 text Integration and data consolidation
+				30 cell
+					31 text Make onboarding of acquired technical trade operations (Sweden, Norway, Denmark) faster by unifying reporting and master data
+				32 cell
+					33 text A working prototype that reconciles two sample data sets and flags mismatches for a finance user to approve
+			34 row
+				35 cell
+					36 text Finance and reporting workload
+				37 cell
+					38 text Reduce repetitive reporting and reconciliation effort in controlling and accounting teams
+				39 cell
+					40 text A demo that turns a monthly reporting task into a one-click draft with clear audit trail
+			41 row
+				42 cell
+					43 text Store and sales-admin efficiency
+				44 cell
+					45 text Cut routine sales-admin time at store level across grocery and car trade
+				46 cell
+					47 text A tool that drafts routine store or dealership admin tasks, tested with a mock workflow and measured in minutes saved (estimate)
+		48 content list
+			49 container
+				50 AXListMarker • 
+				51 text idea Give the Dahl integration team a shared view of product and customer master data, so duplicate records are caught before they reach finance.
+			52 container
+				53 AXListMarker • 
+				54 text idea Auto-draft the monthly controlling pack for a business unit from source exports, with variances highlighted for the controller to review.
+			55 container
+				56 AXListMarker • 
+				57 text idea Match intercompany and supplier invoices across the Nordic entities and surface only the exceptions that need a human decision.
+			58 container
+				59 AXListMarker • 
+				60 text idea Turn tender award notices (e.g. municipal VA-material and construction supply wins in Sweden, Latvia and Finland) into a delivery checklist and order-setup workflow for the account team.
+			61 container
+				62 AXListMarker • 
+				63 text idea Let a store manager describe a routine task in plain language and get the matching admin form or order pre-filled, with a human confirmation step.
+			64 container
+				65 AXListMarker • 
+				66 text idea Summarise weekly sales and margin signals by division so leadership can see grocery, building and technical trade side by side without a manual deck.
+		67 content list
+			68 container
+				69 AXListMarker • 
+				70 text Business impact: credible time or cost saving for a real Kesko workflow, stated as an estimate with assumptions.
+			71 container
+				72 AXListMarker • 
+				73 text Feasibility: works on realistic (anonymised or sample) data within 48 hours and can plausibly run inside Kesko's systems.
+			74 container
+				75 AXListMarker • 
+				76 text Adoption: a named process owner says they would use it next week.
+			77 container
+				78 AXListMarker • 
+				79 text Clarity: the demo shows the human decision point and what happens when the tool is wrong.
+		80 text Practicalities: 2 days on site or remote, a Velho expert, 2 builders and a Kesko process owner working together. Teams present a working demo on Monday, and the best prototype is scoped into a paid pilot.
+		81 text Cover note to the CEO
+		82 text draft — not sent
+		83 button Copy
+		84 text Jorma, we wrote you a hackathon brief. It sets out a 48-hour challenge on integrating the Dahl businesses and cutting routine finance and store admin work, built from Kesko's public results and hiring signals. Velho would run it with your process owner and two builders, then demo a working prototype on Monday. Would your team be open to a 20-minute call to pick the right challenge?
+		85 button (collapsed) Sources (19), Secondary Actions: Expand
+			86 text Sources (
+			87 text 19
+			88 text )
+		89 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/hackathon?c=Kesko

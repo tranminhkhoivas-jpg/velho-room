@@ -1,0 +1,22 @@
+import assert from "node:assert/strict";
+import {writeFileSync} from "node:fs";
+process.loadEnvFile("../../.env");
+process.env.VELHO_DB="audit/audit.db";process.env.VELHO_AUDIT_ID="velho-employee-20261024";
+const {checkedEntities,claimDecision,extractEvidence,checkClaim,checkClaims,checkConstraints}=await import("../lib/fastino");
+assert.deepEqual(checkedEntities("🚢 Aalto Oy",{entities:{organization:[{text:"Aalto Oy",start:2,end:10,confidence:0.9}]}})[0].text,"Aalto Oy");
+assert.throws(()=>checkedEntities("Original source",{entities:{person:[{text:"Invented",start:0,end:8,confidence:0.9}]}}));
+assert.equal(checkedEntities("Oy",{entities:{organization:[{text:"Oy",start:0,end:2,confidence:0.99}]}}).length,0,"A bare legal suffix is not a usable organisation identity");
+assert.equal(claimDecision(0.99).verdict,"supported");assert.equal(claimDecision(0.01).verdict,"unsupported");assert.equal(claimDecision(0.5).verdict,"review");assert.throws(()=>claimDecision(NaN));
+console.log("PASS extraction span integrity (including Unicode) and support/abstention thresholds");
+if(process.argv.includes("--live")){
+ const rows=[];
+ const sources=["Fictional test: Aino Virtanen from Example Oy reported on 24 October 2026 that staff manually copy invoice data between spreadsheets for 12 hours per week. No purchase has been approved.","Kuvitteellinen testi: Aino Virtanen kertoi 24. lokakuuta 2026, että Esimerkki Oy:n työntekijät kopioivat laskutietoja taulukoihin 12 tuntia viikossa. Hankintaa ei ole hyväksytty."];
+ for(const text of sources){const started=Date.now();const entities=await extractEvidence(text);rows.push({task:"extract",ms:Date.now()-started,text,entities});writeFileSync("audit/quality-fastino-results.json",JSON.stringify(rows,null,2));assert(entities.length>0);assert(entities.some(e=>e.label==="person"&&e.text.includes("Aino")));assert(entities.some(e=>e.label==="organization"&&e.text===(text.startsWith("Fictional")?"Example Oy":"Esimerkki Oy")));for(const label of ["date","metric","manual_task","objection"])assert(entities.some(e=>e.label===label),"Missing labelled field: "+label);console.log("PASS live GLiNER extraction",entities.length);}
+ for(const [claim,expected] of [["Staff manually copy invoice data for 12 hours per week.","supported"],["Example Oy has approved a purchase and saved 48 hours per week.","unsupported"]] as const){const started=Date.now();const decision=await checkClaim(sources[0],claim);rows.push({task:"support",claim,expected,decision,ms:Date.now()-started});writeFileSync("audit/quality-fastino-results.json",JSON.stringify(rows,null,2));assert.equal(decision.verdict,expected);console.log("PASS live GLiDE",expected);}
+ const claims=["LinkedIn draft (for staff review; not sent)","Obtain written client approval before publication.","The source does not record financial savings.","Hankinta on hyväksytty ja säästö on 48 tuntia viikossa."];
+ const batch=await checkClaims(sources[1],claims);rows.push({task:"batch-support",claims,decisions:batch});writeFileSync("audit/quality-fastino-results.json",JSON.stringify(rows,null,2));
+ assert(batch.slice(0,3).every(x=>x.verdict==="supported"),"Non-factual labels/recommendations and explicit unknowns must not be falsely withheld");assert.equal(batch[3].verdict,"unsupported");console.log("PASS live mixed batch: headings, proposed approval, missing measurement and Finnish false claim");
+ const constraintProposals=["Map the fictional CSV rows and require a person to approve every row before it is written.","Instead of reviewing every row, automatically approve normal rows and send only exceptions to a person. Keep manual approval where required.","Tuotantodataa ei käytetä. Ihminen hyväksyy jokaisen kuvitteellisen rivin."];
+ const constraintChecks=await checkConstraints("Only fictional sample records. No production access. A person must approve EVERY row.",constraintProposals);rows.push({task:"constraints",proposals:constraintProposals,decisions:constraintChecks});writeFileSync("audit/quality-fastino-results.json",JSON.stringify(rows,null,2));assert.equal(constraintChecks[0].verdict,"supported");assert.equal(constraintChecks[1].verdict,"unsupported");assert.equal(constraintChecks[2].verdict,"supported");console.log("PASS live EN/FI constraint compliance and contradictory exception-only advice");
+ writeFileSync("audit/quality-fastino-results.json",JSON.stringify(rows,null,2));
+}

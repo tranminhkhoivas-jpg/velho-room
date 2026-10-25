@@ -1,0 +1,14 @@
+{
+  "industry": "rakentaminen (construction)",
+  "score": null,
+  "summary": "Insufficient public examples to estimate AI adoption. This is unknown, not zero adoption.",
+  "examples": [],
+  "laggingSignals": [],
+  "tol": "41",
+  "asOf": "2026-10-24",
+  "registry": {
+    "companies": 68716,
+    "newLast12m": 1366,
+    "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=41"
+  }
+}

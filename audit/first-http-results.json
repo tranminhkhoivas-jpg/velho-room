@@ -1,0 +1,285 @@
+[
+  {
+    "name": "unauthenticated lead read refused",
+    "passed": true,
+    "ms": 64
+  },
+  {
+    "name": "staff login",
+    "passed": true,
+    "ms": 64
+  },
+  {
+    "name": "cached employee output: signals",
+    "passed": true,
+    "ms": 55,
+    "detail": {
+      "title": "Kesko Oyj: signals board (researched 2026-10-24)",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "cached employee output: proof",
+    "passed": true,
+    "ms": 31,
+    "detail": {
+      "title": "Kesko's open jobs, turned into a working triage table",
+      "blocks": 9
+    }
+  },
+  {
+    "name": "cached employee output: buyer",
+    "passed": true,
+    "ms": 28,
+    "detail": {
+      "title": "Buyer simulator setup: Kesko CFO",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "cached employee output: ghost",
+    "passed": true,
+    "ms": 28,
+    "detail": {
+      "title": "Meet Täydennys-Tapio Kauppinen, Kesko Oyj's invisible hire",
+      "blocks": 5
+    }
+  },
+  {
+    "name": "cached employee output: luotsi",
+    "passed": true,
+    "ms": 34,
+    "detail": {
+      "title": "Luotsi Chart: Kesko Oyj",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "cached employee output: media",
+    "passed": true,
+    "ms": 27,
+    "detail": {
+      "title": "Kesko's next 12 months: 3 things we noticed",
+      "blocks": 14
+    }
+  },
+  {
+    "name": "cached employee output: tradefair",
+    "passed": true,
+    "ms": 29,
+    "detail": {
+      "title": "Kesko: 30-second booth brief",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "cached employee output: words",
+    "passed": true,
+    "ms": 28,
+    "detail": {
+      "title": "Kesko: In Their Own Words (Rauhala and Hämäläinen)",
+      "blocks": 9
+    }
+  },
+  {
+    "name": "cached employee output: radar",
+    "passed": true,
+    "ms": 29,
+    "detail": {
+      "title": "Room Radar: Kesko, 24 Oct 2026 to Mar 2027",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "cached employee output: hackathon",
+    "passed": true,
+    "ms": 26,
+    "detail": {
+      "title": "Kesko Challenge: The First 100 Days of Dahl",
+      "blocks": 9
+    }
+  },
+  {
+    "name": "cached employee output: campaign",
+    "passed": true,
+    "ms": 28,
+    "detail": {
+      "title": "Campaign engine — 24 angles tuned for companies like Kesko Oyj",
+      "blocks": 2
+    }
+  },
+  {
+    "name": "cached employee output: deadDeal",
+    "passed": true,
+    "ms": 37,
+    "detail": {
+      "title": "Dead deal resurrector: Kesko (K-Rauta B2B email triage assistant)",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "cached employee output: caseStudy",
+    "passed": true,
+    "ms": 40,
+    "detail": {
+      "title": "Case study draft: Nordtrans Oy, POD/CMR document matching",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "invalid photo and conversation rejected",
+    "passed": true,
+    "ms": 69
+  },
+  {
+    "name": "invalid quiz choices rejected",
+    "passed": true,
+    "ms": 30
+  },
+  {
+    "name": "pipeline staff list",
+    "passed": true,
+    "ms": 23,
+    "detail": {
+      "leads": 0
+    }
+  },
+  {
+    "name": "fresh Haiku output: signals",
+    "passed": true,
+    "ms": 20809,
+    "detail": {
+      "title": "Kesko Oyj: signals board (as of 2026-10-24)",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "fresh Haiku output: proof",
+    "passed": true,
+    "ms": 32770,
+    "detail": {
+      "title": "One switchboard, eight units: how Kesko's public contact routing could work",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "fresh Haiku output: buyer",
+    "passed": true,
+    "ms": 20170,
+    "detail": {
+      "title": "Buyer simulator: Anu Hämäläinen, CFO, Kesko",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "fresh Haiku output: ghost",
+    "passed": false,
+    "ms": 12482,
+    "detail": "{\"error\":\"The AI returned invalid hour estimates. Please regenerate.\"}\n\n500 !== 200\n"
+  },
+  {
+    "name": "fresh Haiku output: luotsi",
+    "passed": true,
+    "ms": 15374,
+    "detail": {
+      "title": "Luotsi Chart: Kesko Oyj",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "fresh Haiku output: media",
+    "passed": true,
+    "ms": 18631,
+    "detail": {
+      "title": "Three things we noticed about Kesko's next 12 months",
+      "blocks": 17
+    }
+  },
+  {
+    "name": "fresh Haiku output: tradefair",
+    "passed": true,
+    "ms": 11058,
+    "detail": {
+      "title": "Kesko booth brief",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "fresh Haiku output: words",
+    "passed": true,
+    "ms": 39230,
+    "detail": {
+      "title": "Kesko: opener, LinkedIn comment and repeated priorities (for review, not sent)",
+      "blocks": 12
+    }
+  },
+  {
+    "name": "fresh Haiku output: radar",
+    "passed": true,
+    "ms": 25706,
+    "detail": {
+      "title": "Room Radar: Kesko, next 6 months (as of 24 Oct 2026)",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "fresh Haiku output: hackathon",
+    "passed": true,
+    "ms": 17063,
+    "detail": {
+      "title": "Kesko Challenge: Making the Nordic Work Run Itself",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "fresh Haiku output: campaign",
+    "passed": false,
+    "ms": 64257,
+    "detail": "{\"error\":\"The AI response was cut short. Please regenerate; the partial result was not saved.\"}\n\n500 !== 200\n"
+  },
+  {
+    "name": "fresh Haiku output: deadDeal",
+    "passed": false,
+    "ms": 18107,
+    "detail": "{\"error\":\"The AI returned an invalid score block. Please regenerate.\"}\n\n500 !== 200\n"
+  },
+  {
+    "name": "fresh Haiku output: caseStudy",
+    "passed": true,
+    "ms": 22097,
+    "detail": {
+      "title": "Nordtrans case study: document matching (synthetic P1)",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "fresh Finnish CFO exchange",
+    "passed": true,
+    "ms": 14534,
+    "detail": {
+      "reply": "Se on reilu kysymys, mutta vastaus ilman prosessitietoa ei ole minulle riittävä. Haluan ensin nähdä, mikä prosessi tarkalleen tekee nyt ja mitä ajasta mitataan. Lisäksi kysyn, mikä on takaisinmaksuaika, kuka ylläpitää järjestelmää ja miten data käsitellään. Jos pystytte esittämään tällaisen tapauksen, jossa aika on jo mitattu, voidaan jatkaa."
+    }
+  },
+  {
+    "name": "audience quiz through to staff lead, duplicate retry",
+    "passed": true,
+    "ms": 10184,
+    "detail": {
+      "score": 58,
+      "leads": 1
+    }
+  },
+  {
+    "name": "fresh Finnish industry index",
+    "passed": true,
+    "ms": 6563,
+    "detail": {
+      "examples": 0,
+      "registry": {
+        "companies": 68716,
+        "newLast12m": 1366,
+        "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=41"
+      }
+    }
+  }
+]

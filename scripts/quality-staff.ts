@@ -1,0 +1,27 @@
+import assert from "node:assert/strict";
+import {parseStaffInput,scopeGaps,type StaffInput} from "../lib/staff-input";
+process.env.VELHO_DB="audit/quality-staff.db";process.env.VELHO_AUDIT_ID="quality-staff-"+Date.now();process.env.OPENROUTER_API_KEY="offline-not-a-key";process.env.FASTINO_API_KEY="offline-not-a-key";process.env.MODEL_FAST=process.env.MODEL_WRITE="anthropic/claude-haiku-5.5";
+const {runSeed}=await import("../lib/seeds");const{cacheSet,db}=await import("../lib/db");
+const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Helsinki",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+const fixture:StaffInput={kind:"synthetic",company:"ScopeTest",notes:"Fictional test project: baseline 12 hours/week, after measured pilot 8 hours/week. Private marker "+crypto.randomUUID(),contact:"",lastContact:today,objection:"Approval not obtained",owner:"",dataAccess:"",constraints:"",success:"",approved:true};
+assert.equal(scopeGaps(fixture).length,4);
+assert.throws(()=>parseStaffInput("caseStudy",JSON.stringify({...fixture,approved:false})),/approved/);
+assert.throws(()=>parseStaffInput("signals",JSON.stringify(fixture)),/invalid/);
+assert.throws(()=>parseStaffInput("deadDeal",JSON.stringify({...fixture,lastContact:"2099-01-01"})),/future/);
+assert.throws(()=>parseStaffInput("deadDeal",JSON.stringify({...fixture,lastContact:"2026-02-30"})),/valid/);
+assert.equal(parseStaffInput("caseStudy",JSON.stringify(fixture))!.notes,fixture.notes);
+let calls=0;
+globalThis.fetch=async(input,init)=>{
+ calls++;const u=String(input),body=JSON.parse(String(init?.body));
+ if(u.includes("fastino.ai"))return Response.json({usage:{input_tokens:10},answers:Object.fromEntries(Object.entries(body.questions).map(([key,q])=>[key,{noul:String((q as {instructions:string}).instructions).includes("480")?0.01:0.99}]))});
+ return Response.json({usage:{cost:0},choices:[{message:{content:JSON.stringify({title:"ScopeTest pilot",sourceRecord:{text:"Model injected metadata must be ignored"},blocks:[{t:"p",text:"The pilot saved 480 hours/week."},{t:"table",cols:["Metric","Before","After"],rows:[["Handling hours/week","12","8"]]},{t:"draft",label:"Post",text:"Our project saved 480 hours per week."}]})}}]});
+};
+const a=await runSeed("caseStudy",{staffInput:JSON.stringify(fixture)});
+assert(a.sourceRecord!.text.includes(fixture.notes));assert(!a.sourceRecord!.text.includes("Model injected"));assert(!JSON.stringify(a.blocks).includes("480"),"Unsupported quantitative claims must be withheld from prose and drafts");assert(a.reviewNotice!.includes("2 unsupported"));
+const before=calls;await runSeed("caseStudy",{staffInput:JSON.stringify(fixture)});assert.equal(calls,before,"Same staff input should reuse only its own artifact");
+await runSeed("caseStudy",{staffInput:JSON.stringify({...fixture,notes:fixture.notes+" New measurement context."})});assert(calls>before,"Changed notes must not reuse the previous artifact");
+const keys=db.prepare("SELECT key FROM cache WHERE key LIKE 'seed:caseStudy:%'").all() as {key:string}[];assert(keys.every(k=>!k.key.includes("Private marker")),"Raw staff notes must not be exposed in cache keys");
+cacheSet("dossier:scopetest",{query:"ScopeTest",name:"ScopeTest",website:"https://example.test",oneLiner:"Fictional",leadership:[],signals:[{type:"news",text:"Old event",date:"2025-01-01",url:"https://example.test/old"}],goals:[],manualWorkClues:[],tenders:[],siteText:"",builtAt:new Date().toISOString(),tenderMatchVersion:2});
+const beforeDeal=calls;const noTrigger=await runSeed("deadDeal",{staffInput:JSON.stringify(fixture)});assert.equal(calls,beforeDeal);assert(noTrigger.blocks.some(b=>b.t==="score"&&b.value===0));assert(!noTrigger.blocks.some(b=>b.t==="draft"));
+const scope=await runSeed("hackathon",{company:"ScopeTest",staffInput:JSON.stringify(fixture)});assert(scope.blocks.some(b=>b.t==="note"&&b.text.startsWith("Not scoped yet")));
+console.log("PASS staff inputs: processing approval/date bounds, private cache isolation, source preservation, unsupported result withholding, no-new-trigger abstention and incomplete-scope handoff");

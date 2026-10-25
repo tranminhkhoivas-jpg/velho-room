@@ -1,0 +1,110 @@
+{
+  "title": "Meet Tilaus-Tapio Kinnunen, Lumon Oy's invisible hire",
+  "blocks": [
+    {
+      "t": "svg",
+      "svg": "<svg viewBox=\"0 0 480 640\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Inter, system-ui, sans-serif\" role=\"img\" aria-label=\"Ghost employee card\">\n<defs><linearGradient id=\"gb\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0b1a33\"/><stop offset=\"1\" stop-color=\"#1e3a6b\"/></linearGradient></defs>\n<rect width=\"480\" height=\"640\" rx=\"28\" fill=\"url(#gb)\"/><rect x=\"12\" y=\"12\" width=\"456\" height=\"616\" rx=\"20\" fill=\"none\" stroke=\"#9fc0ff55\" stroke-width=\"2\"/>\n<text x=\"36\" y=\"56\" font-size=\"12\" letter-spacing=\"3\" fill=\"#9fc0ff\">INVISIBLE HIRE · LUMON OY</text>\n<g transform=\"translate(240 150)\" fill=\"#e8eefc\"><path d=\"M-46 40 V-10 a46 46 0 0 1 92 0 V40 l-15 -12 -16 12 -15 -12 -15 12 -16 -12z\" fill=\"#e8eefc\" opacity=\".92\"/><circle cx=\"-16\" cy=\"-6\" r=\"7\" fill=\"#0b1a33\"/><circle cx=\"16\" cy=\"-6\" r=\"7\" fill=\"#0b1a33\"/><rect x=\"-14\" y=\"10\" width=\"28\" height=\"6\" rx=\"3\" fill=\"#0b1a33\"/></g>\n<text x=\"240\" y=\"232\" font-size=\"28\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">Tilaus-Tapio Kinnunen</text>\n<text x=\"240\" y=\"258\" font-size=\"15\" fill=\"#9fc0ff\" text-anchor=\"middle\">Hypothetical order-and-paperwork wrangl…</text>\n<text x=\"240\" y=\"286\" font-size=\"13\" fill=\"#c9d6f2\" text-anchor=\"middle\" font-style=\"italic\"><tspan x=\"240\" dy=\"0\">“Is there a ghost in the sales office, or just a ve…</tspan></text>\n<g transform=\"translate(36 318)\"><rect width=\"408\" height=\"32\" rx=\"6\" fill=\"#ffffff10\"/><text x=\"12\" y=\"21\" font-size=\"13\" fill=\"#e8eefc\">Drafting customer contract documents by ha…</text><text x=\"396\" y=\"21\" font-size=\"13\" fill=\"#9fc0ff\" text-anchor=\"end\">6 h/wk</text></g><g transform=\"translate(36 358)\"><rect width=\"408\" height=\"32\" rx=\"6\" fill=\"#ffffff10\"/><text x=\"12\" y=\"21\" font-size=\"13\" fill=\"#e8eefc\">Chasing post-sale installation status a…</text><text x=\"396\" y=\"21\" font-size=\"13\" fill=\"#9fc0ff\" text-anchor=\"end\">5 h/wk</text></g><g transform=\"translate(36 398)\"><rect width=\"408\" height=\"32\" rx=\"6\" fill=\"#ffffff10\"/><text x=\"12\" y=\"21\" font-size=\"13\" fill=\"#e8eefc\">Scheduling installers and production slo…</text><text x=\"396\" y=\"21\" font-size=\"13\" fill=\"#9fc0ff\" text-anchor=\"end\">4 h/wk</text></g><g transform=\"translate(36 438)\"><rect width=\"408\" height=\"32\" rx=\"6\" fill=\"#ffffff10\"/><text x=\"12\" y=\"21\" font-size=\"13\" fill=\"#e8eefc\">Re-keying dealer and partner order detai…</text><text x=\"396\" y=\"21\" font-size=\"13\" fill=\"#9fc0ff\" text-anchor=\"end\">3 h/wk</text></g>\n<g transform=\"translate(36 490)\"><text font-size=\"12\" fill=\"#9fc0ff\" letter-spacing=\"2\">ILLUSTRATIVE COST (ESTIMATE)</text><text y=\"34\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">≈ 0.5 FTE · €26k / yr</text></g>\n<text x=\"240\" y=\"616\" font-size=\"11\" fill=\"#9fc0ff99\" text-anchor=\"middle\">Estimated from public evidence · Velho Room prototype</text>\n</svg>"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Hypothesis: Drafting customer contract documents by hand for each new balcony or terrace order — Public clue: Sales representative job posting lists preparing customer contract drafts as part of the role (inferred from job description) (~6 h/week, estimate)",
+          "url": "https://careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a",
+          "tag": "hypothesis"
+        },
+        {
+          "text": "Hypothesis: Chasing post-sale installation status and updating records for each installation — Public clue: Same posting describes post-sale monitoring of each installation (inferred from job description) (~5 h/week, estimate)",
+          "url": "https://careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a",
+          "tag": "hypothesis"
+        },
+        {
+          "text": "Hypothesis: Scheduling installers and production slots for Kouvola and Helsinki orders — Public clue: Installer and production worker postings in Kouvola and Helsinki suggest hands-on order and installation scheduling (inferred) (~4 h/week, estimate)",
+          "url": "https://www.jobcrawls.com/en/employer/lumon",
+          "tag": "hypothesis"
+        },
+        {
+          "text": "Hypothesis: Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales — Public clue: Partnership announced to scale the Swedish business; partner-network growth can add order-handling volume (inferred) (~3 h/week, estimate)",
+          "url": "https://lumon.com/int/company/news/",
+          "tag": "hypothesis"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Estimate: Hours per week are scenario estimates built from inferred job-ad descriptions, not measurements of Lumon's internal processes; an FTE conversion of hours/37.5 and a loaded cost of EUR 55,000 per FTE per year are also estimates. Public evidence only; the real numbers come from a conversation."
+    },
+    {
+      "t": "draft",
+      "label": "Note to the COO (with the card)",
+      "text": "Hi, I came across Lumon's recent growth and the sales role asking for contract drafts and installation follow-up. We built a persona we call Tilaus-Tapio to explore whether that work is taking up real hours. It is only a guess from public job ads, so I'd genuinely like to know if it's close to what your team sees. Would you be open to a short chat about it?"
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.lumon.com"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://lumon.com/int/company/about-us/annual-reviews/"
+        },
+        {
+          "title": "Jussi Kinnunen, CEO, Lumon Group",
+          "url": "https://lumon.com/int/company/about-us/key-figures-and-leadership-team/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0859538-7"
+        },
+        {
+          "title": "Lumon Annual review 2025: stable revenue of EUR 159M, strategy 2025–2030, Lumoni",
+          "url": "https://lumon.com/int/company/news/lumon-annual-review-2025-international-growth-new-strategy-and-sustainability-milestones/"
+        },
+        {
+          "title": "Lumon enters partnership with Ryds Glas to scale its Swedish business.",
+          "url": "https://lumon.com/int/company/news/"
+        },
+        {
+          "title": "Lumon Oy revenue fell 3.5% to EUR 41.9M in 2025, operating profit EUR 3.2M.",
+          "url": "https://www.asiakastieto.fi/yritykset/fi/lumon-oy/22544498/taloustiedot"
+        },
+        {
+          "title": "Active job postings reached 43 in 2026, up 20.5% from 2025 (Revelio Labs).",
+          "url": "https://www.reveliolabs.com/companies/lumon/employees"
+        },
+        {
+          "title": "Global Lumon posted a sales representative role for B2C customer acquisition wit",
+          "url": "https://careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a"
+        },
+        {
+          "title": "Job postings for installers and production workers in Kouvola and Helsinki sugge",
+          "url": "https://www.jobcrawls.com/en/employer/lumon"
+        }
+      ]
+    }
+  ],
+  "workload": [
+    {
+      "task": "Drafting customer contract documents by hand for each new balcony or terrace order",
+      "hoursPerWeek": 6,
+      "evidence": "Sales representative job posting lists preparing customer contract drafts as part of the role (inferred from job description)"
+    },
+    {
+      "task": "Chasing post-sale installation status and updating records for each installation",
+      "hoursPerWeek": 5,
+      "evidence": "Same posting describes post-sale monitoring of each installation (inferred from job description)"
+    },
+    {
+      "task": "Scheduling installers and production slots for Kouvola and Helsinki orders",
+      "hoursPerWeek": 4,
+      "evidence": "Installer and production worker postings in Kouvola and Helsinki suggest hands-on order and installation scheduling (inferred)"
+    },
+    {
+      "task": "Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales",
+      "hoursPerWeek": 3,
+      "evidence": "Partnership announced to scale the Swedish business; partner-network growth can add order-handling volume (inferred)"
+    }
+  ]
+}

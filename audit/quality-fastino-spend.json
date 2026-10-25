@@ -1,0 +1,18 @@
+[
+  {
+    "model": "fastino/GLiDE",
+    "status": "estimated",
+    "calls": 5,
+    "reported_usd": null,
+    "published_rate_estimate_usd": 4.02e-05,
+    "input_tokens": 1005
+  },
+  {
+    "model": "fastino/gliner2.5-multi-v1",
+    "status": "estimated",
+    "calls": 5,
+    "reported_usd": null,
+    "published_rate_estimate_usd": 7.23e-06,
+    "input_tokens": 241
+  }
+]

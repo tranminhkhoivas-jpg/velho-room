@@ -1,0 +1,86 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/media?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/media?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading One-of-one media, Value: 1
+			6 text One-of-one media
+		7 text A mini-report and a printable postcard made for exactly one company.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading 30-second film for Kesko, Value: 2
+			15 text 30-second film for  Kesko
+		16 container
+			17 button
+				18 image
+			19 button
+				20 image
+			21 button
+				22 image
+		23 button Render MP4
+		24 heading 3 things we noticed about Kesko's next 12 months, Value: 1
+			25 text 3 things we noticed about Kesko's next 12 months
+		26 text Dahl closes. Where do the hours go next? Hi Anu, congratulations on the Dahl approval. Integrations like this quietly eat months of reconciliation and reporting work across three countries. We build the fixes for that, then stay on to make sure people use them. Which part of the integration is taking the most of your team's time right now? Oskar, Velho
+		27 button Print / save as PDF
+		28 text Public signals only. Everything below is a reason to ask, not a diagnosis of internal processes.
+		29 heading 1. Integrating Dahl will create a lot of back-office and data-consolidation work, Value: 2
+			30 text 1. Integrating Dahl will create a lot of back-office and data-consolidation work
+		31 content list
+			32 container
+				33 AXListMarker • 
+				34 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark; combined 2025 net sales were about €2.07bn.
+				35 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			36 container
+				37 AXListMarker • 
+				38 text tender European Commission unconditionally approved the transaction; completion is expected by end of 2026.
+				39 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+		40 text We noticed that Kesko is planning a rights issue of about €500-700 million to finance the deal. Large integrations usually mean reconciling systems, reporting and supplier data across countries. That is the kind of work we like to take off people's plates.
+		41 heading 2. Growth is strong, and cost-to-serve is the next question, Value: 2
+			42 text 2. Growth is strong, and cost-to-serve is the next question
+		43 content list
+			44 container
+				45 AXListMarker • 
+				46 text results Q1 2026 net sales rose to €3,029.0m (+7.1%); comparable operating profit was €102.0m.
+				47 link Description: source, Value: investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746
+			48 container
+				49 AXListMarker • 
+				50 text results Half-year comparable operating profit rose to €194.0m in Q2, with building and technical trade leading.
+				51 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+		52 text Estimate: a 3.4% margin means each percentage point of cost saved in routine processing is material. Treat this as a rough guide only.
+		53 heading 3. Kesko already talks about automation, so the question is where it goes next, Value: 2
+			54 text 3. Kesko already talks about automation, so the question is where it goes next
+		55 content list
+			56 container
+				57 AXListMarker • 
+				58 text stated goal Kesko's careers page describes in-house digital teams using software robotics and automated systems to automate routine and repetitive tasks.
+				59 link Description: source, Value: kesko.fi/en/Careers/diverse-career-options/technology-experts/
+			60 container
+				61 AXListMarker • 
+				62 text hiring An open K Trainee, AI role in the AI Solutions team has a deadline of 2026-10-31.
+				63 link Description: source, Value: glassdoor.com/Job/tuusula-kesko-jobs-SRCH_IL.0,7_IC2442868_KO8,13.htm
+			64 container
+				65 AXListMarker • 
+				66 text hiring Kesko-IT posted a Business Controller opening, which can point to reporting and reconciliation workload (inferred).
+				67 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+		68 text Cover email (for Velho employee to review and send manually)
+		69 text draft — not sent
+		70 button Copy
+		71 text Hi Anu,
+
+We noticed the Dahl integration is moving toward closing by year-end, and the back-office work that follows is often where the time goes. We have built fixes for exactly that kind of reconciliation and reporting load, and we work with an in-house team to make sure they get used.
+
+Would a 20-minute call be useful to see whether any of it fits your integration plan?
+
+Best,
+[Velho expert name]
+		72 button (collapsed) Sources (19), Secondary Actions: Expand
+			73 text Sources (
+			74 text 19
+			75 text )
+		76 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 17 button

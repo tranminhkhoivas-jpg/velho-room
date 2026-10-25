@@ -7,11 +7,15 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "smoke": "tsx scripts/smoke.ts"
+    "smoke": "tsx scripts/smoke.ts",
+    "audit:regression": "tsx scripts/audit-regression.ts",
+    "audit:http": "tsx scripts/audit-http.ts",
+    "audit:serve": "node scripts/audit-serve.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.538",
     "@remotion/google-fonts": "4.0.538",
+    "@remotion/media-utils": "4.0.538",
     "@remotion/player": "4.0.538",
     "next": "^16.4.3",
     "qrcode": "^1.5.4",

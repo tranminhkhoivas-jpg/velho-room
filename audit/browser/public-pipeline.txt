@@ -1,0 +1,21 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/pipeline".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/pipeline
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/
+		5 heading Talk-to-pipeline, Value: 1
+			6 text Talk-to-pipeline
+		7 text A QR code on the keynote slide; the audience gets a personal result, Velho gets warm leads with meeting drafts. Talk tag
+		8 text field (settable) Description: Talk tag, Value: employee-browser-audit
+		11 image QR code for the audience
+		12 text Put this QR on the last slide. The audience gets a personal automation result; leads appear below live.
+		13 link Description: https://dpi-left-procedures-coordination.trycloudflare.com/check?talk=employee-browser-audit, Value: dpi-left-procedures-coordination.trycloudflare.com/check?talk=employee-browser-audit
+		9 heading Leads from this talk (1), Value: 2
+			10 text Leads from this talk ( 1 )
+		14 text Test Visitor · Example Test Company  ·  COO / operations readiness  58 Copying data is your biggest drain; adoption is your real risk. Contact:  visitor@example.test Meeting request draft — not sent
+		15 button Copy
+		16 text Hi [Name], thanks for taking the automation check. Your answers point to a clear pattern: 5–10 hours per person each week lost to copying data between systems, and a previous tool that few people adopted. Could we spend 20 minutes next week looking at where that copying happens and who would use a fix? No prep needed; I'd bring a few hypotheses to test, not a finished plan. Would Tuesday or Thursday work?
+	17 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		18 image
+
+The focused UI element is 8 text field (settable) Description: Talk tag, Value: employee-browser-audit

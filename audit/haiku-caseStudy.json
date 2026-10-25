@@ -1,0 +1,106 @@
+{
+  "title": "Nordtrans Oy: Invoice document matching, pilot results (synthetic notes)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "h",
+      "text": "Pilot cut handling time per document from 4.1 to 1.4 minutes (measured, one dispatcher, 5 days)"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Handling time per document (incl. queue)",
+          "4.1 min/doc (timed, 3 days, Tiina + Joonas)",
+          "1.4 min/doc (pilot, Tiina, 5 days)"
+        ],
+        [
+          "Invoice lead time, delivery to invoice sent",
+          "5.2 days (measured, 140 invoices, pilot week; sample small)",
+          "3.1 days (measured, 140 invoices, pilot week; sample small)"
+        ],
+        [
+          "Wrong attachment / mismatch rate",
+          "7.3% (22 of 300 invoices sampled)",
+          "0.6% wrong among auto-matched docs (2 of 310 checked; sample not comparable to baseline; unverified)"
+        ],
+        [
+          "Share of documents matched automatically",
+          "not measured",
+          "71% (pilot, 5 days)"
+        ],
+        [
+          "Documents per day",
+          "~220 (estimate from ops notes; not a before/after comparison)",
+          "not measured"
+        ],
+        [
+          "Customer satisfaction",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "The problem, in the team's words: POD and CMR scans arrive by email and someone has to match each one to the right order in the TMS by hand, then attach it to the invoice. Roughly 220 documents a day. Handwritten PODs and mismatched references meant invoices waited, and wrong attachments were a regular source of customer complaints."
+    },
+    {
+      "t": "p",
+      "text": "What Velho shipped in the smallest useful version: an inbox rule that reads incoming scans with OCR, extracts the order number with a pattern match, falls back to fuzzy matching on reference or vehicle plate, and auto-attaches when confidence is above 0.9. Anything below that goes to a 'needs human' queue in a sheet. No TMS write-back in v1: the system drafts an attachment list and imports a CSV, because the TMS vendor's API had a six-week wait."
+    },
+    {
+      "t": "p",
+      "text": "Adoption: the pilot ran with one dispatcher for five days after a week of tuning. By week four all three dispatchers were using it, with a 15-minute weekly review of queue misses. The skeptic on the team asked for the same approach to be applied to export documents, which is the next step under consideration (EUR.1, not yet scoped)."
+    },
+    {
+      "t": "p",
+      "text": "Result: in the pilot, handling time per document fell from 4.1 to 1.4 minutes and invoice lead time from 5.2 to 3.1 days, on small samples. The error rate looks lower too, but the baseline and pilot samples are not directly comparable, so treat it as unverified. Customer impact has not been measured yet."
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "Three dispatchers were matching about 220 transport documents a day by hand. Not a crisis, but every mismatch became a late invoice and an annoyed customer.\n\nWe built a small inbox tool: OCR, order-number matching, a confidence threshold, and a queue for anything it's unsure about. No big system rebuild.\n\nIn a five-day pilot, handling time per document dropped from about 4.1 to 1.4 minutes, and invoices went out faster in the sample we measured. The sample is small, so we're tuning it before we claim more.\n\nThe next question from the team was the one we like most: can we do the same for export paperwork?\n\nIf you run a similar manual document flow, we're happy to look at it with you. Ask us what to measure first."
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Nordtrans Oy, freight forwarding (name to be confirmed for publication)\nProblem: 220+ POD/CMR documents a day matched to orders by hand before invoicing\nBuilt: OCR and order-number matching with confidence threshold, human queue, CSV import (no TMS write-back in v1)\nPilot: 5 days, one dispatcher; 71% auto-matched; all three dispatchers using it by week four\nMeasured: 4.1 to 1.4 min per document; invoice lead time 5.2 to 3.1 days (small sample)\nNext: export documents (EUR.1), threshold tuning, Finnish handover doc"
+    },
+    {
+      "t": "list",
+      "tag": "missing",
+      "items": [
+        {
+          "text": "Written permission from Nordtrans to name the company and quote Pekka and the team"
+        },
+        {
+          "text": "Confirm the 'needs human' queue and 71% auto-match figures on a full-length sample, not just the pilot week"
+        },
+        {
+          "text": "Re-measure the 300-invoice mismatch baseline and the post-pilot error rate on comparable samples"
+        },
+        {
+          "text": "Extend the 140-invoice lead-time sample beyond one pilot week"
+        },
+        {
+          "text": "Verify the ~220 docs/day volume (Pekka's 'not that much' comment conflicts with the 15 h/day estimate; the notes use 4.1 min measured)"
+        },
+        {
+          "text": "Decide whether any customer-satisfaction data exists; do not publish 'customers happier' without it"
+        },
+        {
+          "text": "Confirm the export-document extension is not claimed as delivered"
+        }
+      ]
+    }
+  ]
+}

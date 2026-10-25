@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-25T01:03:21.437Z",
+  "results": [
+    {
+      "id": "caseStudy",
+      "passed": true,
+      "ms": 8995,
+      "review": "Machine source review checked 25 statement groups; 0 unsupported sections withheld, 5 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission.",
+      "checks": 25
+    },
+    {
+      "id": "deadDeal",
+      "passed": true,
+      "ms": 40
+    },
+    {
+      "id": "hackathon",
+      "passed": true,
+      "ms": 12
+    },
+    {
+      "id": "luotsi",
+      "passed": true,
+      "ms": 6582,
+      "checks": 1
+    },
+    {
+      "id": "tradefair",
+      "passed": true,
+      "ms": 14
+    }
+  ]
+}

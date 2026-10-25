@@ -1,0 +1,108 @@
+{
+  "title": "Pohjanmaan Metalli: quote prep time down 40%, turnaround cut from 4.5 to 2.5 days",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "Quote prep time at Pohjanmaan Metalli fell from 52 to 31 minutes per quote, and turnaround dropped from 4.5 to 2.5 working days"
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Average time per quote (sales engineer self-log, 41 quotes over 2 weeks)",
+          "52 min",
+          "31 min (pilot, 29 quotes, weeks 3-4)"
+        ],
+        [
+          "Median turnaround, RFQ to quote sent",
+          "4.5 working days",
+          "2.5 working days (pilot)"
+        ],
+        [
+          "Quotes with at least one error caught before sending",
+          "not measured",
+          "14% (4 wrong quantities in 29 quotes, all caught by the sales engineer before sending)"
+        ],
+        [
+          "Extraction accuracy on key fields (50 past RFQs)",
+          "not measured",
+          "Unverified: conflicting sample counts; clarify before publishing"
+        ],
+        [
+          "Win rate / lost jobs due to slow quotes",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Pohjanmaan Metalli is a sheet metal and subcontract manufacturer in Seinäjoki with about 65 staff. RFQs arrive by email as PDFs and DXF/STEP files, roughly 35 a week. Kaisa, the sales engineer, rebuilt each quote by hand in Excel. Simple repeat parts took about 30 minutes, complex ones over 90. The owner's view was that they were losing jobs by being slow, which is plausible, but no win/loss data existed yet."
+    },
+    {
+      "t": "p",
+      "text": "Velho kept the scope small. We did not attempt cost estimation from CAD, and Kaisa still sets the price. The tool extracts quantity, material, finish and delivery date from the RFQ and prefills the existing Excel quote template, and it pulls the last similar price from history. The first week went to a mess of inconsistent material names (S355, S355J2, 'rakenneteräs'), which we resolved with a 60-row mapping table built together with Kaisa."
+    },
+    {
+      "t": "p",
+      "text": "Kaisa checks every prefilled field before anything is sent, and that check is what caught the four wrong quantities in the pilot. She has adopted the tool. Veikko, the second estimator, is taking over quoting when a colleague retires in March and has asked to learn the workflow. Kaisa also reports fewer evening catch-up sessions, which is encouraging but not yet measured."
+    },
+    {
+      "t": "p",
+      "text": "In the pilot's 29 quotes, average prep time fell 40% and median turnaround went from 4.5 to 2.5 working days. The next step is a win/loss column in the Excel template, so the team can measure whether speed is winning them more work."
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "Quoting took our client's best sales engineer nearly an hour a quote. Not because the maths was hard, but because the same five fields had to be copied from a PDF into Excel, over and over.\n\nWe built a small tool that reads the RFQ and prefills the quote template. The engineer still checks everything and still sets the price.\n\nIn a four-week pilot at a sheet metal firm in Seinäjoki, prep time fell from about 52 to 31 minutes per quote, and turnaround dropped from 4.5 to 2.5 working days. The checking step caught the few errors the tool made.\n\nThe next question is whether faster quotes win more work. We're adding win/loss tracking to find out.\n\nThe interesting part wasn't the AI. It was agreeing on one material name across the team.\n\n[Draft for Velho review. Confirm client permission before posting.]"
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Pohjanmaan Metalli Oy, sheet metal and subcontract manufacturer, Seinäjoki (~65 staff).\nProblem: sales engineer spent ~52 min per quote, retyping RFQ details into Excel; median turnaround 4.5 working days.\nBuilt: RFQ field extraction that prefills the existing quote template and suggests last similar price; price still set by the engineer.\nPilot result (29 quotes): prep time 52 → 31 min; turnaround 4.5 → 2.5 working days.\nAdoption: sales engineer uses daily and checks all fields; second estimator being trained before March handover.\nNext: win/loss tracking to measure effect on won work."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Client permission to name Pohjanmaan Metalli and quote its staff and figures"
+        },
+        {
+          "text": "Clarify extraction-accuracy sample: 78% of 50 vs. 15 partial and 5 failed RFQs (counts exceed 50)"
+        },
+        {
+          "text": "Verify 52-min baseline (41 quotes, 2 weeks self-logged) and whether the pilot's 29 quotes are comparable in complexity mix"
+        },
+        {
+          "text": "Confirm turnaround definition (RFQ receipt to quote sent) and how weekends/holidays were handled"
+        },
+        {
+          "text": "Confirm whether the 4 quantity errors and 14% error rate are the final pilot figures"
+        },
+        {
+          "text": "Confirm the 'lost jobs due to slowness' claim is the owner's view only, and whether it may be quoted"
+        },
+        {
+          "text": "Confirm Kaisa's and Veikko's permission to be named or quoted, and the reduced evening work claim"
+        },
+        {
+          "text": "Confirm the tool's current status and whether usage continued after the pilot"
+        }
+      ],
+      "tag": "missing"
+    },
+    {
+      "t": "note",
+      "text": "Source inconsistency: 78% of 50, plus 15 partial errors and 5 failures, exceeds the sample size. Do not publish this extraction-accuracy result until clarified."
+    }
+  ]
+}

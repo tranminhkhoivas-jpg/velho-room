@@ -1,0 +1,169 @@
+[
+  {
+    "task": "extract",
+    "ms": 556,
+    "text": "Fictional test: Aino Virtanen from Example Oy reported on 24 October 2026 that staff manually copy invoice data between spreadsheets for 12 hours per week. No purchase has been approved.",
+    "entities": [
+      {
+        "label": "person",
+        "text": "Aino Virtanen",
+        "start": 16,
+        "end": 29,
+        "confidence": 1
+      },
+      {
+        "label": "organization",
+        "text": "Example Oy",
+        "start": 35,
+        "end": 45,
+        "confidence": 0.98828125
+      },
+      {
+        "label": "date",
+        "text": "24 October 2026",
+        "start": 58,
+        "end": 73,
+        "confidence": 1
+      },
+      {
+        "label": "metric",
+        "text": "12 hours",
+        "start": 137,
+        "end": 145,
+        "confidence": 0.7109375
+      },
+      {
+        "label": "manual_task",
+        "text": "copy invoice data",
+        "start": 94,
+        "end": 111,
+        "confidence": 0.984375
+      },
+      {
+        "label": "objection",
+        "text": "No purchase has been approved",
+        "start": 156,
+        "end": 185,
+        "confidence": 0.95703125
+      }
+    ]
+  },
+  {
+    "task": "extract",
+    "ms": 328,
+    "text": "Kuvitteellinen testi: Aino Virtanen kertoi 24. lokakuuta 2026, että Esimerkki Oy:n työntekijät kopioivat laskutietoja taulukoihin 12 tuntia viikossa. Hankintaa ei ole hyväksytty.",
+    "entities": [
+      {
+        "label": "person",
+        "text": "Aino Virtanen",
+        "start": 22,
+        "end": 35,
+        "confidence": 1
+      },
+      {
+        "label": "organization",
+        "text": "Esimerkki Oy",
+        "start": 68,
+        "end": 80,
+        "confidence": 0.98828125
+      },
+      {
+        "label": "date",
+        "text": "24. lokakuuta 2026",
+        "start": 43,
+        "end": 61,
+        "confidence": 0.98828125
+      },
+      {
+        "label": "metric",
+        "text": "12 tuntia viikossa",
+        "start": 130,
+        "end": 148,
+        "confidence": 0.93359375
+      },
+      {
+        "label": "manual_task",
+        "text": "kopioivat laskutietoja",
+        "start": 95,
+        "end": 117,
+        "confidence": 0.8046875
+      },
+      {
+        "label": "objection",
+        "text": "Hankintaa ei ole hyväksytty",
+        "start": 150,
+        "end": 177,
+        "confidence": 0.98046875
+      }
+    ]
+  },
+  {
+    "task": "support",
+    "claim": "Staff manually copy invoice data for 12 hours per week.",
+    "expected": "supported",
+    "decision": {
+      "probability": 0.9922667416486672,
+      "verdict": "supported"
+    },
+    "ms": 592
+  },
+  {
+    "task": "support",
+    "claim": "Example Oy has approved a purchase and saved 48 hours per week.",
+    "expected": "unsupported",
+    "decision": {
+      "probability": 0.0012635527226604404,
+      "verdict": "unsupported"
+    },
+    "ms": 878
+  },
+  {
+    "task": "batch-support",
+    "claims": [
+      "LinkedIn draft (for staff review; not sent)",
+      "Obtain written client approval before publication.",
+      "The source does not record financial savings.",
+      "Hankinta on hyväksytty ja säästö on 48 tuntia viikossa."
+    ],
+    "decisions": [
+      {
+        "probability": 0.9335360372386914,
+        "verdict": "supported"
+      },
+      {
+        "probability": 0.9972944129071597,
+        "verdict": "supported"
+      },
+      {
+        "probability": 0.9979826139952774,
+        "verdict": "supported"
+      },
+      {
+        "probability": 0.0008929209435634389,
+        "verdict": "unsupported"
+      }
+    ]
+  },
+  {
+    "task": "constraints",
+    "proposals": [
+      "Map the fictional CSV rows and require a person to approve every row before it is written.",
+      "Instead of reviewing every row, automatically approve normal rows and send only exceptions to a person. Keep manual approval where required.",
+      "Tuotantodataa ei käytetä. Ihminen hyväksyy jokaisen kuvitteellisen rivin."
+    ],
+    "decisions": [
+      {
+        "probability": 0.9981580588095702,
+        "verdict": "supported"
+      },
+      {
+        "probability": 0.0018118928131879324,
+        "verdict": "unsupported"
+      },
+      {
+        "probability": 0.9982894110089671,
+        "verdict": "supported"
+      }
+    ]
+  }
+]

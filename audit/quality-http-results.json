@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "proof",
+    "passed": true,
+    "ms": 7045,
+    "pages": 5,
+    "records": 104,
+    "inputCharacters": 109957
+  },
+  {
+    "tool": "ghost",
+    "passed": true,
+    "ms": 5624,
+    "tasks": 5
+  }
+]

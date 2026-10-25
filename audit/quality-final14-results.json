@@ -1,0 +1,63 @@
+[
+  {
+    "id": "signals",
+    "passed": true
+  },
+  {
+    "id": "proof",
+    "passed": true
+  },
+  {
+    "id": "buyer",
+    "passed": true
+  },
+  {
+    "id": "ghost",
+    "passed": true
+  },
+  {
+    "id": "luotsi",
+    "passed": true
+  },
+  {
+    "id": "tradefair",
+    "passed": true
+  },
+  {
+    "id": "words",
+    "passed": true
+  },
+  {
+    "id": "radar",
+    "passed": true
+  },
+  {
+    "id": "hackathon",
+    "passed": true
+  },
+  {
+    "id": "campaign",
+    "passed": true
+  },
+  {
+    "id": "deadDeal",
+    "passed": true
+  },
+  {
+    "id": "caseStudy",
+    "passed": true
+  },
+  {
+    "id": "check",
+    "passed": true,
+    "coverage": {
+      "candidates": 3,
+      "readable": 2,
+      "supported": 1
+    }
+  },
+  {
+    "id": "pipeline",
+    "passed": true
+  }
+]

@@ -1,0 +1,9 @@
+import assert from "node:assert/strict";
+import {writeFileSync} from "node:fs";
+process.env.VELHO_DB=process.argv.includes("--live")?"audit/audit.db":"audit/quality-report.db";
+if(process.argv.includes("--live"))process.loadEnvFile(".env.local");
+const {reportLinks,reportData}=await import("../lib/report");
+const page="[Annual report 2025 English](https://example.test/annual_report_2025_en.pdf) [Annual report 2024](https://example.test/annual2024.pdf) [Remuneration report 2026](https://example.test/remuneration.pdf) [Annual report 2025](https://example.test/annual%ZZ.pdf)";
+assert.equal(reportLinks(page)[0],"https://example.test/annual_report_2025_en.pdf");assert(!reportLinks(page).some(u=>u.includes("remuneration")));
+if(process.argv.includes("--live")){const r=await reportData("https://www.kesko.fi/annual-reports");writeFileSync("audit/quality-report-live.json",JSON.stringify(r,null,2));assert.equal(r.status,"document","The index still yielded no actual annual-report document; inspect evidence before claiming sufficiency");assert(/\.pdf(?:[?#]|$)/i.test(r.url));assert(r.text.length>1000);console.log("PASS actual report discovered",r.url,r.text.length,"characters");}
+else{globalThis.fetch=async input=>String(input).includes("missing")?new Response("Unavailable",{status:404}):String(input).includes(".pdf")?new Response("Annual report 2025. Revenue and operating profit. "+"Public financial context. ".repeat(100)):new Response(page);const good=await reportData("https://example.test/report-index");assert.equal(good.status,"document");const missing=await reportData("https://example.test/missing");assert.equal(missing.status,"unavailable");globalThis.fetch=async()=>new Response("Annual report listing, no document links.");const index=await reportData("https://example.test/index-only");assert.equal(index.status,"index");assert.equal(index.text,"");console.log("PASS report PDF discovery/ranking and index/unavailable abstention");}

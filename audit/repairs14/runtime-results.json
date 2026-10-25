@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-25T07:30:33.852Z",
+  "mode": "built production server; authenticated page/lead reads; no live inference",
+  "results": [
+    {
+      "path": "/check",
+      "status": 200
+    },
+    {
+      "path": "/s/signals",
+      "status": 200
+    },
+    {
+      "path": "/s/proof",
+      "status": 200
+    },
+    {
+      "path": "/s/buyer",
+      "status": 200
+    },
+    {
+      "path": "/s/ghost",
+      "status": 200
+    },
+    {
+      "path": "/s/luotsi",
+      "status": 200
+    },
+    {
+      "path": "/s/tradefair",
+      "status": 200
+    },
+    {
+      "path": "/s/words",
+      "status": 200
+    },
+    {
+      "path": "/s/radar",
+      "status": 200
+    },
+    {
+      "path": "/s/hackathon",
+      "status": 200
+    },
+    {
+      "path": "/s/campaign",
+      "status": 200
+    },
+    {
+      "path": "/s/deadDeal",
+      "status": 200
+    },
+    {
+      "path": "/s/caseStudy",
+      "status": 200
+    },
+    {
+      "path": "/s/pipeline",
+      "status": 200
+    }
+  ],
+  "privateLeadsDeniedWithoutSession": true,
+  "savedLeadAndPaginationMetadata": true
+}

@@ -1,0 +1,267 @@
+{
+  "title": "Lumo Verkkokauppa: WISMO-vastaukset puoliksi nopeammin (case-luonnos, sisäiseen tarkistukseen)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTEETTINEN / ESIMERKKIDATA: Nämä muistiinpanot ovat esimerkkiaineistoa. Sisäisen tarkistuksen jälkeen tämä on vain luonnos. Mitään ei saa julkaista ilman asiakkaan hyväksyntää, eikä tuloksia saa esittää vahvistettuina ennen kuin ne on tarkistettu. Muistiinpanot eivät ole riippumattomasti todennettuja."
+    },
+    {
+      "t": "h",
+      "text": "Otsikko"
+    },
+    {
+      "t": "p",
+      "text": "Lumo Verkkokauppa: tilaus-seurantakyselyjen käsittelyaika laski mitatusti 6,2 minuutista 1,6 minuuttiin ensimmäisen kolmen viikon aikana (ks. huomautus alla)."
+    },
+    {
+      "t": "h",
+      "text": "Mitatut tulokset"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Mittari",
+        "Ennen",
+        "Jälkeen"
+      ],
+      "rows": [
+        [
+          "WISMO-tiketin keskim. käsittelyaika",
+          "4,9 min",
+          "1,6 min"
+        ],
+        [
+          "Ensivastauksen mediaani (kaikki tiketit)",
+          "9,4 h",
+          "5,8 h (3 viikkoa, helmikuu, vertailu ei kausiaineistoon sidottu)"
+        ],
+        [
+          "WISMO-ehdotusten käyttöaste (lähetetty muokattuna tai ilman muokkausta)",
+          "–",
+          "74 % (612 tikettiä)"
+        ],
+        [
+          "Tilausten ja palautusten käsittelyaika",
+          "Ei mitattu",
+          "Ei mitattu"
+        ],
+        [
+          "Asiakastyytyväisyys / sävy",
+          "Ei mitattu",
+          "Ei mitattu (kauppiaan arvio, ei mittaus)"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Tarina"
+    },
+    {
+      "t": "p",
+      "text": "Lumon tukitiimissä on kaksi työntekijää, Emmi ja Oskar, ja tiketit kasautuvat noin 1 900 kuukaudessa. Suurin osa kysymyksistä koskee tilauksen missä-kysymyksiä (noin 40 %, arvio muistiinpanojen luokittelusta). Tiimi tiesi kokemuksesta, että palautukset vievät eniten aikaa, mutta data osoitti toisin, ja se yllätti Emmin."
+    },
+    {
+      "t": "p",
+      "text": "Ratkaisuksi valittiin tietoisesti kapein versio: Posti- ja DHL-seurannan tiedot haetaan tilausnumeron perusteella ja niistä luodaan Zendesk-vastausehdotus FI-, SV- ja ET-kielellä. Agentti tarkistaa ja lähettää vastauksen itse. Palautukset ja tuotekysymykset jätettiin myöhempään vaiheeseen."
+    },
+    {
+      "t": "p",
+      "text": "Statement withheld by source review. Consult the original notes and confirm the claim before using this section."
+    },
+    {
+      "t": "p",
+      "text": "Tulokset ovat varhaisia. Mittausjakso on kolme viikkoa ja helmikuu on hiljainen kuukausi, joten vertailu joulukuuhun ei ole suora. Kauppias Henna arvioi, että vihaisia asiakkaita on vähemmän, mutta sitä ei ole mitattu, eikä sitä sisällytetä tuloksiin. Luku pitää mitata uudelleen mustan perjantain ja joulun aikaan."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn-luonnos (max. 120 sanaa)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn",
+      "text": "Lumo Verkkokaupan tukitiimissä kysyttiin paljon samaa: missä tilaus on? Lähdimme liikkeelle kapeimmasta mahdollisesta ratkaisusta. Tilaustiedot haetaan kuljetusyhtiön seurannasta ja asiakkaalle luodaan vastausehdotus FI-, SV- ja ET-kielellä. Agentti tarkistaa ja lähettää.\n\nTulokset kolmen viikon jälkeen: WISMO-tikettien käsittelyaika laski mitatusti noin 4,9 minuutista 1,6 minuuttiin, ja ehdotuksista 74 % lähetettiin muokattuina tai sellaisenaan. Kaikki tulokset eivät vielä ole varmoja, ja joulun mittaus on vielä edessä.\n\nJos tiimisi käsittelee toistuvia tukikysymyksiä, kysy meiltä, mikä niistä kannattaisi automatisoida ensin."
+    },
+    {
+      "t": "h",
+      "text": "Yhden sivun yhteenveto"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Asiakas: Lumo Verkkokauppa Oy, D2C-kauppa FI/SE/EE, 11 henkilöä."
+        },
+        {
+          "text": "Ongelma: noin 1 900 tikettiä kuukaudessa, joista noin 40 % tilauksen seurantakysymyksiä."
+        },
+        {
+          "text": "Toteutettu: Posti/DHL-seuranta tilausnumerolla, vastausehdotus Zendeskissä, agentti lähettää."
+        },
+        {
+          "text": "Mitattu: WISMO-käsittelyaika 4,9 → 1,6 min, ensivastauksen mediaani 9,4 → 5,8 h (3 viikkoa)."
+        },
+        {
+          "text": "Ei mitattu: palautukset, asiakastyytyväisyys, joulukausi."
+        },
+        {
+          "text": "Seuraava askel: mittaus uudelleen mustan perjantain ja joulun jälkeen."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Puuttuvat tiedot ja vaadittavat hyväksynnät"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Asiakkaan kirjallinen lupa julkaista tulokset ja nimi (Lumo ja Henna) sekä tarkistus, että Oskarin ja Emmin mainitseminen on sallittu."
+        },
+        {
+          "text": "Itsearvioinnit (Emmin 'palautukset vie eniten aikaa', Hennan arvio vihaisista asiakkaista) eivät ole mittauksia eikä niitä saa esittää tuloksina."
+        },
+        {
+          "text": "Tarkistus, että 18 %:n ja 74 %:n luvut ovat peräisin Zendesk-viennistä, ei muistiinpanoista pelkästään."
+        },
+        {
+          "text": "Jouluaineisto ennen mitään lopullista väitettä käsittelyajan parantumisesta."
+        },
+        {
+          "text": "Velhon sisäinen hyväksyntä ja Sanna Virtanen-Moilasen tarkistus ennen julkaisua."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 29 statement groups; 1 unsupported sections withheld, 13 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Lumo Verkkokauppa Oy\nProject owner: Sanna Virtanen-Moilanen\nD2C shop, FI/SE/EE, 11 ppl, support = 2 FTE (Emmi, Oskar) in Zendesk\n- tickets ~ 1 900/mo. top reasons: where's my order (WISMO) ~40%, returns 22%, size/colour qs 15%, rest misc\n- baseline from Zendesk export: first reply median 9.4 h, avg handle 6.2 min/ticket\n- Emmi: 'palautukset vie eniten aikaa' (felt) but data says WISMO has highest volume. showed data, she was surprised\n- smallest build: WISMO only. pull tracking from Posti/DHL API by order# -> draft reply in Zendesk (macro-like, FI/SV/ET) agent clicks send\n- returns + product Qs = v2, not now\n- wk2: order# missing in ~18% of WISMO mails -> lookup by email + last order. covers most\n- SV translations checked by Oskar (native-ish), 3 phrasing fixes\n- wk3 live for both agents. 612 WISMO tickets in the period, drafts used (sent w/ ≤ minor edit) in 74%\n- WISMO avg handle 4.9 min -> 1.6 min. first reply median overall 9.4 h -> 5.8 h (just 3 wks, Feb is quiet vs. Dec!)\n- shop owner Henna claims fewer 'angry' customers - no sentiment measure, ignore until measured\n- error: 9 drafts said 'delivered' when parcel was at pickup point -> status mapping fixed wk4\n- adoption high: both agents, Oskar even added own edge cases to mapping sheet\n- caveat: seasonal. need re-measure in Black Friday / joulu"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Lumo Verkkokauppa: WISMO-vastaukset puoliksi nopeammin (case-luonnos, sisäiseen tarkistukseen)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Otsikko",
+      "verdict": "review"
+    },
+    {
+      "claim": "Lumo Verkkokauppa: tilaus-seurantakyselyjen käsittelyaika laski mitatusti 6,2 minuutista 1,6 minuuttiin ensimmäisen kolmen viikon aikana (ks. huomautus alla).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Mitatut tulokset",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Mittari: WISMO-tiketin keskim. käsittelyaika; Ennen: 4,9 min; Jälkeen: 1,6 min",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Mittari: Ensivastauksen mediaani (kaikki tiketit); Ennen: 9,4 h; Jälkeen: 5,8 h (3 viikkoa, helmikuu, vertailu ei kausiaineistoon sidottu)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Mittari: WISMO-ehdotusten käyttöaste (lähetetty muokattuna tai ilman muokkausta); Ennen: –; Jälkeen: 74 % (612 tikettiä)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Mittari: Tilausten ja palautusten käsittelyaika; Ennen: Ei mitattu; Jälkeen: Ei mitattu",
+      "verdict": "review"
+    },
+    {
+      "claim": "Mittari: Asiakastyytyväisyys / sävy; Ennen: Ei mitattu; Jälkeen: Ei mitattu (kauppiaan arvio, ei mittaus)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Tarina",
+      "verdict": "review"
+    },
+    {
+      "claim": "Lumon tukitiimissä on kaksi työntekijää, Emmi ja Oskar, ja tiketit kasautuvat noin 1 900 kuukaudessa. Suurin osa kysymyksistä koskee tilauksen missä-kysymyksiä (noin 40 %, arvio muistiinpanojen luokittelusta). Tiimi tiesi kokemuksesta, että palautukset vievät eniten aikaa, mutta data osoitti toisin, ja se yllätti Emmin.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Ratkaisuksi valittiin tietoisesti kapein versio: Posti- ja DHL-seurannan tiedot haetaan tilausnumeron perusteella ja niistä luodaan Zendesk-vastausehdotus FI-, SV- ja ET-kielellä. Agentti tarkistaa ja lähettää vastauksen itse. Palautukset ja tuotekysymykset jätettiin myöhempään vaiheeseen.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Ensimmäisellä viikolla noin 18 % WISMO-viesteistä ei sisältänyt tilausnumeroa, joten haku täydennettiin sähköpostiosoitteella ja viimeisimmällä tilauksella. Ensimmäisellä viikolla löytyi myös virhe: yhdeksän ehdotusta kertoi paketin olevan perillä, vaikka se oli noutopisteessä. Tilakartoitus korjattiin viikolla neljä. Oskar lisäsi itse reunatapauksia kartoitustaulukkoon.",
+      "verdict": "unsupported"
+    },
+    {
+      "claim": "Tulokset ovat varhaisia. Mittausjakso on kolme viikkoa ja helmikuu on hiljainen kuukausi, joten vertailu joulukuuhun ei ole suora. Kauppias Henna arvioi, että vihaisia asiakkaita on vähemmän, mutta sitä ei ole mitattu, eikä sitä sisällytetä tuloksiin. Luku pitää mitata uudelleen mustan perjantain ja joulun aikaan.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "LinkedIn-luonnos (max. 120 sanaa)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Lumo Verkkokaupan tukitiimissä kysyttiin paljon samaa: missä tilaus on? Lähdimme liikkeelle kapeimmasta mahdollisesta ratkaisusta. Tilaustiedot haetaan kuljetusyhtiön seurannasta ja asiakkaalle luodaan vastausehdotus FI-, SV- ja ET-kielellä. Agentti tarkistaa ja lähettää.\n\nTulokset kolmen viikon jälkeen: WISMO-tikettien käsittelyaika laski mitatusti noin 4,9 minuutista 1,6 minuuttiin, ja ehdotuksista 74 % lähetettiin muokattuina tai sellaisenaan. Kaikki tulokset eivät vielä ole varmoja, ja joulun mittaus on vielä edessä.\n\nJos tiimisi käsittelee toistuvia tukikysymyksiä, kysy meiltä, mikä niistä kannattaisi automatisoida ensin.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Yhden sivun yhteenveto",
+      "verdict": "review"
+    },
+    {
+      "claim": "Asiakas: Lumo Verkkokauppa Oy, D2C-kauppa FI/SE/EE, 11 henkilöä.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Ongelma: noin 1 900 tikettiä kuukaudessa, joista noin 40 % tilauksen seurantakysymyksiä.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Toteutettu: Posti/DHL-seuranta tilausnumerolla, vastausehdotus Zendeskissä, agentti lähettää.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Mitattu: WISMO-käsittelyaika 4,9 → 1,6 min, ensivastauksen mediaani 9,4 → 5,8 h (3 viikkoa).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Ei mitattu: palautukset, asiakastyytyväisyys, joulukausi.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Seuraava askel: mittaus uudelleen mustan perjantain ja joulun jälkeen.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Puuttuvat tiedot ja vaadittavat hyväksynnät",
+      "verdict": "review"
+    },
+    {
+      "claim": "Asiakkaan kirjallinen lupa julkaista tulokset ja nimi (Lumo ja Henna) sekä tarkistus, että Oskarin ja Emmin mainitseminen on sallittu.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Itsearvioinnit (Emmin 'palautukset vie eniten aikaa', Hennan arvio vihaisista asiakkaista) eivät ole mittauksia eikä niitä saa esittää tuloksina.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Tarkistus, että 18 %:n ja 74 %:n luvut ovat peräisin Zendesk-viennistä, ei muistiinpanoista pelkästään.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Jouluaineisto ennen mitään lopullista väitettä käsittelyajan parantumisesta.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Velhon sisäinen hyväksyntä ja Sanna Virtanen-Moilasen tarkistus ennen julkaisua.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 29 statement groups; 1 unsupported sections withheld, 13 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

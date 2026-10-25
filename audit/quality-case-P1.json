@@ -1,0 +1,301 @@
+{
+  "title": "Nordtrans Oy: POD/CMR document matching pilot (case-study draft, synthetic notes)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTHETIC/SAMPLE NOTES: the source project record is synthetic. Nothing here is a verified client result. Do not publish without replacing with real, client-approved data. Client approval for any public naming is NOT on file."
+    },
+    {
+      "t": "h",
+      "text": "Headline"
+    },
+    {
+      "t": "p",
+      "text": "Pilot: automated matching of delivery documents to orders, with a 0.6% wrong-match rate on 310 checked documents (single 5-day pilot, one dispatcher)."
+    },
+    {
+      "t": "h",
+      "text": "Measured outcomes"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Handling time per document",
+          "4.1 min/doc (timed, 3 days, 2 dispatchers)",
+          "1.4 min/doc incl. human queue (pilot week, 1 dispatcher)"
+        ],
+        [
+          "Wrong/mismatched attachment rate",
+          "7.3% (22 of 300 invoices, sample)",
+          "not measured"
+        ],
+        [
+          "Auto-match rate",
+          "Not applicable",
+          "71% of docs auto-matched (pilot week)"
+        ],
+        [
+          "Wrong auto-matches",
+          "Not applicable",
+          "0.6% (2 of 310 checked, pilot week)"
+        ],
+        [
+          "Invoice lead time, delivery to invoice sent",
+          "5.2 days",
+          "3.1 days (140 invoices, pilot week only, small sample)"
+        ],
+        [
+          "Daily document volume",
+          "Approx. 220 docs/day (stated, not timed)",
+          "not measured"
+        ],
+        [
+          "Total daily handling time",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Customer satisfaction",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Story"
+    },
+    {
+      "t": "p",
+      "text": "Nordtrans receives proof-of-delivery and CMR scans by email, and dispatchers matched each one to its order in the TMS by hand before attaching it to the invoice. We timed a sample: about 4.1 minutes per document across the dispatch team. Velho built the smallest useful version first: an inbox rule, OCR, order-number matching with a fuzzy fallback on reference and vehicle plate, and auto-attachment only above a confidence threshold. Everything else goes to a human queue. There is no write-back into the TMS in this version; the output is a draft attachment list and a CSV import, because the TMS vendor's API had a long lead time."
+    },
+    {
+      "t": "p",
+      "text": "The pilot ran for five days with one dispatcher. About 71% of documents auto-matched, and on a manual check of 310 documents, 2 were wrong. Handling time, including the queue, dropped to about 1.4 minutes per document in that week. Handwritten PODs remained hard for OCR, with roughly 12% of documents routed to the human queue (estimate from the pilot notes)."
+    },
+    {
+      "t": "p",
+      "text": "Adoption went beyond the pilot: all three dispatchers were using the tool by week four, and the team reviews missed matches for 15 minutes each week. The dispatcher who first doubted the approach later asked for the same treatment on export documents, which is a possible next step, not a committed one."
+    },
+    {
+      "t": "p",
+      "text": "What is still unknown: the invoice lead-time gain comes from a single pilot week and a small sample; the baseline of 7.3% mismatches was not re-measured after launch; customer satisfaction was not tracked. Threshold tuning, miss logging and a Finnish handover document are open work items."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn draft (for Velho review; not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "We timed a logistics team matching proof-of-delivery scans to orders by hand: about 4 minutes a document. Over a five-day pilot, an OCR-based matcher auto-filed about 71% of documents, and on 310 checked documents, 2 were wrong. Handling time dropped to roughly 1.4 minutes in that week, including the human queue. It is one pilot week with one dispatcher, so we are treating it as a starting point, not a result. Still open: a full-month measurement and how handwritten documents behave. If your dispatch or invoicing team does similar matching, we would like to hear how you handle the exceptions."
+    },
+    {
+      "t": "h",
+      "text": "One-pager (six lines, for review)"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Problem: proof-of-delivery matching to orders was manual, about 4.1 min per document (timed sample)."
+        },
+        {
+          "text": "Build: inbox rule, OCR, order-number and reference matching with human queue; no TMS write-back in v1."
+        },
+        {
+          "text": "Pilot: 5 days, 1 dispatcher; 71% auto-matched; 0.6% wrong on 310 checked."
+        },
+        {
+          "text": "Time: about 1.4 min per document incl. queue (pilot week)."
+        },
+        {
+          "text": "Not yet measured: full-month outcomes, invoice lead time at scale, customer satisfaction."
+        },
+        {
+          "text": "Next steps under discussion: threshold tuning, export documents. Not committed."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Missing facts and approvals required before any publication"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "List statement withheld by source review. Confirm it with the project owner."
+        },
+        {
+          "text": "Written client approval to name Nordtrans Oy and the dispatchers, and to publish any figures."
+        },
+        {
+          "text": "Full-period baseline re-measurement of the mismatch rate and invoice lead time after launch."
+        },
+        {
+          "text": "Customer satisfaction data, or removal of the 'customers happier' claim."
+        },
+        {
+          "text": "Clarified daily volume and total daily handling time (conflicting estimates; withheld)."
+        },
+        {
+          "text": "Confirmation of the ~12% handwritten-document figure and whether it was measured."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 33 statement groups; 1 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Nordtrans Oy\nProject owner: Aino Rautavaara\nkickoff ma 2.9. w/ ops mgr Pekka + 2 dispatchers (Tiina, Joonas)\n- problem: POD/CMR scans arrive by email, ppl match manually to orders in TMS -> then attach to invoice. ~ 220 docs/day\n- baseline (timed 3 days, Tiina+Joonas): avg 4.1 min/doc, total ~15 h/day?? Pekka says 'ei se niin paljon ole' -> using measured 4.1 min\n- mismatch/wrong attachment rate in sample of 300 invoices: 7.3% (22). customer complaints re late invoicing = common\n- smallest build: email inbox rule -> OCR + order# regex + fuzzy fallback on ref/plate -> auto-attach if conf > 0.9, else queue in sheet for human\n- NO TMS write-back in v1, only draft attachment list + CSV import (TMS vendor API = 6 wk wait, skip)\n- wk2: OCR on handwritten POD = rubbish for ~12% docs. added 'needs human' queue, ok\n- wk3 pilot w/ Tiina only. 5 days. auto-matched 71% of docs, of which 2 wrong out of 310 checked (0.6%)\n- avg handling time after (incl. queue): 1.4 min/doc\n- invoice lead time delivery->invoice sent: 5.2 d -> 3.1 d (measured on 140 invoices, pilot wk only so small sample)\n- Joonas skeptical at first, then asked for same on export docs. Pekka 'tää on kyllä hyvä'\n- adoption: 3/3 dispatchers using by wk4; weekly 15 min review of queue misses\n- claim from Pekka: customers 'happier' - not measured, no CSAT data\n- TODO: threshold tuning, log misses, handover doc in Finnish. Next: export docs (EUR.1) maybe"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Nordtrans Oy: POD/CMR document matching pilot (case-study draft, synthetic notes)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline",
+      "verdict": "review"
+    },
+    {
+      "claim": "Pilot: automated matching of delivery documents to orders, with a 0.6% wrong-match rate on 310 checked documents (single 5-day pilot, one dispatcher).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Measured outcomes",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Handling time per document; Before: 4.1 min/doc (timed, 3 days, 2 dispatchers); After: 1.4 min/doc incl. human queue (pilot week, 1 dispatcher)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Wrong/mismatched attachment rate; Before: 7.3% (22 of 300 invoices, sample); After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Auto-match rate; Before: Not applicable; After: 71% of docs auto-matched (pilot week)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Wrong auto-matches; Before: Not applicable; After: 0.6% (2 of 310 checked, pilot week)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Invoice lead time, delivery to invoice sent; Before: 5.2 days; After: 3.1 days (140 invoices, pilot week only, small sample)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Daily document volume; Before: Approx. 220 docs/day (stated, not timed); After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Total daily handling time; Before: not measured; After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Customer satisfaction; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Nordtrans receives proof-of-delivery and CMR scans by email, and dispatchers matched each one to its order in the TMS by hand before attaching it to the invoice. We timed a sample: about 4.1 minutes per document across the dispatch team. Velho built the smallest useful version first: an inbox rule, OCR, order-number matching with a fuzzy fallback on reference and vehicle plate, and auto-attachment only above a confidence threshold. Everything else goes to a human queue. There is no write-back into the TMS in this version; the output is a draft attachment list and a CSV import, because the TMS vendor's API had a long lead time.",
+      "verdict": "review"
+    },
+    {
+      "claim": "The pilot ran for five days with one dispatcher. About 71% of documents auto-matched, and on a manual check of 310 documents, 2 were wrong. Handling time, including the queue, dropped to about 1.4 minutes per document in that week. Handwritten PODs remained hard for OCR, with roughly 12% of documents routed to the human queue (estimate from the pilot notes).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Adoption went beyond the pilot: all three dispatchers were using the tool by week four, and the team reviews missed matches for 15 minutes each week. The dispatcher who first doubted the approach later asked for the same treatment on export documents, which is a possible next step, not a committed one.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "What is still unknown: the invoice lead-time gain comes from a single pilot week and a small sample; the baseline of 7.3% mismatches was not re-measured after launch; customer satisfaction was not tracked. Threshold tuning, miss logging and a Finnish handover document are open work items.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "LinkedIn draft (for Velho review; not sent)",
+      "verdict": "review"
+    },
+    {
+      "claim": "We timed a logistics team matching proof-of-delivery scans to orders by hand: about 4 minutes a document. Over a five-day pilot, an OCR-based matcher auto-filed about 71% of documents, and on 310 checked documents, 2 were wrong. Handling time dropped to roughly 1.4 minutes in that week, including the human queue. It is one pilot week with one dispatcher, so we are treating it as a starting point, not a result. Still open: a full-month measurement and how handwritten documents behave. If your dispatch or invoicing team does similar matching, we would like to hear how you handle the exceptions.",
+      "verdict": "review"
+    },
+    {
+      "claim": "One-pager (six lines, for review)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Problem: proof-of-delivery matching to orders was manual, about 4.1 min per document (timed sample).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Build: inbox rule, OCR, order-number and reference matching with human queue; no TMS write-back in v1.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Pilot: 5 days, 1 dispatcher; 71% auto-matched; 0.6% wrong on 310 checked.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Time: about 1.4 min per document incl. queue (pilot week).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Not yet measured: full-month outcomes, invoice lead time at scale, customer satisfaction.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Next steps under discussion: threshold tuning, export documents. Not committed.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Missing facts and approvals required before any publication",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirmation that the notes are real project data, not sample data; the source record is labelled synthetic.",
+      "verdict": "unsupported"
+    },
+    {
+      "claim": "Written client approval to name Nordtrans Oy and the dispatchers, and to publish any figures.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Full-period baseline re-measurement of the mismatch rate and invoice lead time after launch.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Customer satisfaction data, or removal of the 'customers happier' claim.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Clarified daily volume and total daily handling time (conflicting estimates; withheld).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Confirmation of the ~12% handwritten-document figure and whether it was measured.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 33 statement groups; 1 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

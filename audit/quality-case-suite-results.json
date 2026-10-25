@@ -1,0 +1,32 @@
+[
+  {
+    "id": "P1",
+    "groups": 33,
+    "review": "Machine source review checked 33 statement groups; 1 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  },
+  {
+    "id": "P2",
+    "groups": 33,
+    "review": "Machine source review checked 33 statement groups; 0 unsupported sections withheld, 12 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  },
+  {
+    "id": "P3",
+    "groups": 30,
+    "review": "Machine source review checked 30 statement groups; 0 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  },
+  {
+    "id": "P4",
+    "groups": 29,
+    "review": "Machine source review checked 29 statement groups; 1 unsupported sections withheld, 13 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  },
+  {
+    "id": "P5",
+    "groups": 19,
+    "review": "Machine source review checked 19 statement groups; 0 unsupported sections withheld, 10 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  },
+  {
+    "id": "P6",
+    "groups": 24,
+    "review": "Machine source review checked 24 statement groups; 2 unsupported sections withheld, 15 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+  }
+]

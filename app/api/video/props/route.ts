@@ -53,6 +53,16 @@ export async function GET(req: Request) {
       .slice(0, 4)
       .reverse()
       .map((s) => ({ date: s.date!, type: s.type, text: clip(s.text, 120), source: s.url ? new URL(s.url).hostname.replace(/^www\./, "") : "" }));
+    const findings = m.blocks.flatMap((b,i) => {
+      if (b.t !== "h") return [];
+      const ev = m.blocks.slice(i+1).find((x)=>x.t === "list" || x.t === "h");
+      return [{title:clip(b.text.replace(/^\d+[.)]\s*/,""),85),fact:ev?.t==="list"?clip(ev.items[0]?.text||"",130):""}];
+    }).slice(0,3);
+    for (const s of d.signals) {
+      if (findings.length>=3) break;
+      findings.push({title:clip(s.text,85),fact:clip(`${s.date || "Date not confirmed"} · ${s.url || "Source not available"}`,130)});
+    }
+    if (findings.length<3) throw new Error("Not enough sourced findings for a three-part film. Use the report or refresh company research.");
     const props: VideoProps = {
       company: d.name.replace(/\s+(Oyj|Oy|Abp|Ab|plc)$/i, "") || company,
       domain: d.website ? new URL(d.website).hostname.replace(/^www\./, "") : "",
@@ -61,19 +71,13 @@ export async function GET(req: Request) {
       accent: "#f2b544",
       sources: dossierSources(d).length,
       signals,
-      quote: quote ? { text: clip(quote.text, 170), speaker: clip(quote.speaker || "", 70) } : { text: "", speaker: "" },
+      quote: quote ? { text: clip(quote.text, 170), speaker: clip(quote.speaker || "Company public materials", 70), paraphrase:true } : { text: "No public priority was found; ask the company directly.", speaker: "Research limitation", paraphrase:true },
       // each report heading plus the first evidence line under it
-      findings: m.blocks
-        .flatMap((b, i) => {
-          if (b.t !== "h") return [];
-          const ev = m.blocks.slice(i + 1).find((x) => x.t === "list" || x.t === "h");
-          return [{ title: b.text.replace(/^\d+[.)]\s*/, ""), fact: ev?.t === "list" ? clip(ev.items[0]?.text || "", 130) : "" }];
-        })
-        .slice(0, 3),
+      findings,
       // the note's question, minus lead-ins like "Genuinely curious:"
       question: clip((back.match(/[^.!?]*\?/)?.[0].replace(/^.*:\s*/, "").trim() || (card?.t === "postcard" ? card.front : m.title)).replace(/^\w/, (c) => c.toUpperCase()), 140),
     };
-    return Response.json({ props });
+    return Response.json({ props,sources:dossierSources(d) });
   } catch (e) {
     return Response.json({ error: String((e as Error).message) }, { status: 500 });
   }

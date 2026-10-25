@@ -1,0 +1,61 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/words?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/words?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading In Their Own Words, Value: 1
+			6 text In Their Own Words
+		7 text The executive’s own public quotes, linked, and an opener that answers what they actually said.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko: verified quotes, LinkedIn comment and repeated priorities (for Velho review), Value: 1
+			15 text Kesko: verified quotes, LinkedIn comment and repeated priorities (for Velho review)
+		16 content list
+			17 container
+				18 AXListMarker • 
+				19 text Mikko Helander, CEO of Kesko (as reported in Investing.com Q1 2026 earnings call transcript) “Our strategic focus on quality, price competitiveness, and store network expansion is yielding measurable results.”
+				20 link Description: source, Value: in.investing.com/news/stock-market-news/earnings-call-transcript-kesko-q1-2026-shows-strong-growth-stock-up-079-93CH-5364597
+			21 container
+				22 AXListMarker • 
+				23 text Mikko Helander, President and CEO of Kesko “All Kesko divisions generated good results in 2023.”
+				24 link Description: source, Value: marketscreener.com/quote/stock/KESKO-OYJ-1412478/news/Kesko-s-financial-statements-release-1-Jan-31-Dec-2023-A-good-result-from-all-divisions-45835988/
+		25 text Draft material only, for Velho staff to review before any manual use. Nothing has been sent. Translations are marked as translations; originals are retained.
+		26 heading Verified quotes used, Value: 2
+			27 text Verified quotes used
+		28 content list
+			29 container
+				30 AXListMarker • 
+				31 text quote Original: "Our strategic focus on quality, price competitiveness, and store network expansion is yielding measurable results." (Mikko Helander, CEO of Kesko, Q1 2026 earnings call)
+				32 link Description: source, Value: in.investing.com/news/stock-market-news/earnings-call-transcript-kesko-q1-2026-shows-strong-growth-stock-up-079-93CH-5364597
+			33 container
+				34 AXListMarker • 
+				35 text quote Original: "All Kesko divisions generated good results in 2023." (Mikko Helander, President and CEO of Kesko)
+				36 link Description: source, Value: marketscreener.com/quote/stock/KESKO-OYJ-1412478/news/Kesko-s-financial-statements-release-1-Jan-31-Dec-2023-A-good-result-from-all-divisions-45835988/
+		37 heading Opener (max 70 words, draft), Value: 2
+			38 text Opener (max 70 words, draft)
+		39 text Opener for review
+		40 text draft — not sent
+		41 button Copy
+		42 text Mikko Helander, Kesko's CEO, put it plainly on the Q1 2026 earnings call: "Our strategic focus on quality, price competitiveness, and store network expansion is yielding measurable results." Quality, price and network growth are three priorities that reward operational speed. We'd be glad to hear where that speed is being tested first on your side.
+		43 heading LinkedIn comment (max 40 words, draft), Value: 2
+			44 text LinkedIn comment (max 40 words, draft)
+		45 text Comment for review
+		46 text draft — not sent
+		47 button Copy
+		48 text Strong to see "measurable results" tied to quality, price and network growth. Those three move fastest when the back-office keeps pace. Curious where your teams feel that pressure most.
+		49 heading Repeated priorities (from the verified quotes only), Value: 2
+			50 text Repeated priorities (from the verified quotes only)
+		51 text Two verified statements from Kesko's CEO point to the same three themes: quality, price competitiveness and store network expansion (Q1 2026 call), and strong results across all divisions (2023 financial statements release). The 2023 quote does not name specific priorities, so the repeated priorities rest mainly on the Q1 2026 statement.
+		52 text Opener and comment use only the two verified quotes above. Translations, if any are later added, must be labelled as translations.
+		53 text 2 quote(s) text-matched in the source pages. Text matching does not independently verify speaker attribution or publication date; review the linked original before sending.
+		54 button (collapsed) Sources (19), Secondary Actions: Expand
+			55 text Sources (
+			56 text 19
+			57 text )
+		58 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/words?c=Kesko

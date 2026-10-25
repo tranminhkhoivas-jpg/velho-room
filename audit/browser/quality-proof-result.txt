@@ -1,0 +1,116 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/proof?c=Kesko".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/proof?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	3 container Staff session
+		4 button Sign out
+	5 container
+		6 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Kesko
+		7 heading Proof before pitch, Value: 1
+			8 text Proof before pitch
+		9 text A small working demo on the prospect’s own public data, before the first meeting. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		10 text field (settable) Description: Company, Value: Kesko
+		11 button Run
+		12 button Refresh research
+		13 button Regenerate
+		14 heading Kesko: enquiry evidence finder demonstrator, Value: 1
+			15 text Kesko: enquiry evidence finder demonstrator
+		16 heading What this demonstrator does, Value: 2
+			17 text What this demonstrator does
+		18 text We built a keyword-based enquiry evidence finder that works on public web pages. Given a topic, it retrieves literal passages from the pages it was given, with the source URL attached, prepares a cited reply for staff review, and exports the records as CSV. In this run it indexed 104 exact public passages from 5 pages, including Kesko's homepage, news and investor material. Nothing in it reads Kesko's internal systems, inboxes or customer records.
+		19 text It could help when a team needs to answer repeated public-facing questions (investor, media or customer enquiries) quickly and with traceable sources. Whether that is a real pain point at Kesko is exactly what we would like to learn from your team.
+		20 text Demonstrator limits: it uses keyword matching on public pages only, so it can miss passages phrased differently from the search term. Every output is a draft for a person to review. No savings, response times or accuracy figures have been measured for this demonstrator.
+		21 heading Discovery questions, Value: 2
+			22 text Discovery questions
+		23 content list
+			24 container
+				25 AXListMarker • 
+				26 text Which enquiries reach your team most often, and roughly how many per month come in through each channel?
+			27 AXListMarker • 
+		28 content list
+			29 container
+				30 AXListMarker • 
+				31 text Who currently decides where an enquiry goes, and where does that handoff tend to stall or get repeated?
+		32 content list
+			33 container
+				34 AXListMarker • 
+				35 text Could you share a real anonymised sample of recent enquiries and the replies sent, so we can test against actual requests rather than assumptions?
+		36 heading Production requirements (if this proves worthwhile), Value: 2
+			37 text Production requirements (if this proves worthwhile)
+		38 content list
+			39 container
+				40 AXListMarker • 
+				41 text A named routing owner who decides which enquiry types go to the tool and who signs off on answers.
+			42 container
+				43 AXListMarker • 
+				44 text A real request sample covering the main enquiry types, reviewed by the team that answers them today.
+			45 container
+				46 AXListMarker • 
+				47 text Approval rules: which replies can be drafted automatically, which always need human sign-off, and how sources are checked before anything is sent.
+		48 text Pre-meeting email (for Velho employee to review and send manually)
+		49 text draft — not sent
+		50 button Copy
+		51 text Hi [Name],
+
+We put together a small demonstrator that searches public Kesko pages for a topic, pulls the exact passages with their source links, and drafts a cited reply for a person to check. It is built on public web content only, so it has no view of internal enquiries and no measured results yet.
+
+I'd like to ask a few questions about how your team currently handles incoming enquiries, to see whether this is worth exploring. Would 30 minutes next week work?
+
+Best,
+[Name]
+		52 button (collapsed) Sources (17), Secondary Actions: Expand
+			53 text Sources (
+			54 text 17
+			55 text )
+		56 content list
+			57 container
+				58 AXListMarker • 
+				59 text site Page read for this demo
+				60 link Description: source, Value: kesko.fi/en/
+			61 container
+				62 AXListMarker • 
+				63 text site Page read for this demo
+				64 link Description: source, Value: kesko.fi/en/company/contacts/
+			65 container
+				66 AXListMarker • 
+				67 text site Page read for this demo
+				68 link Description: source, Value: kesko.fi/en/company/contacts/kesko-corporation/
+			69 container
+				70 AXListMarker • 
+				71 text site Page read for this demo
+				72 link Description: source, Value: kesko.fi/en/company/contacts/grocery-trade/
+			73 container
+				74 AXListMarker • 
+				75 text site Page read for this demo
+				76 link Description: source, Value: kesko.fi/en/company/contacts/grocery-trade/feedback/
+		77 container Working public-data demonstration
+			78 heading Try the working demo: enquiry evidence finder, Value: 2
+				79 text Try the working demo: enquiry evidence finder
+			80 container
+				81 text Before:  109,957  characters across  5  public pages. After:  104  traceable records that can be searched and exported.
+			82 text Try words from an actual customer enquiry. This example finds literal public passages; it does not infer an answer or access internal systems. Queries stay in this browser and use no AI calls.
+			83 container
+				84 text Customer enquiry or topic
+				85 text field (settable) Customer enquiry or topic, Value: investor relations, ID: proof-enquiry
+				86 button Find evidence
+			96 container
+				97 text 1  matching passage(s),  1.1  ms in this browser. This is search latency, not a measured business saving. Source-backed reply for review draft — not sent
+				98 button Copy
+				99 text Public information relevant to your enquiry (exact excerpts; staff review required):
+
+[P3-R83] “Hanna Jaakkola
+VP, Investor Relations
+Tel. +358 10 5311
+firstname.lastname@kesko.fi  
+ Back to top”
+Source: https://www.kesko.fi/en/company/contacts/kesko-corporation/
+			87 button Download all evidence records (CSV)
+			88 button (collapsed) Inspect the actual input and extracted records, Secondary Actions: Expand
+				89 text Inspect the actual input and extracted records
+			90 container
+				91 text Built on  Kesko Oyj 's public information. A production enquiry workflow would also need the company's routing rules, private knowledge, owner and approval process. No enquiry is sent.
+		92 text Live assistant built only from Kesko's public website. Ask it what a customer would ask.
+		93 text field (settable)
+		94 button Send
+		95 text Additional audit AI spend : $ 0.62
+
+The focused UI element is 86 button Find evidence

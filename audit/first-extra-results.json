@@ -1,0 +1,182 @@
+[
+  {
+    "task": "retest ghost",
+    "ok": true,
+    "ms": 5142,
+    "detail": {
+      "title": "Meet Excel-Eero Virtanen, Kesko Oyj's invisible hire"
+    }
+  },
+  {
+    "task": "retest campaign",
+    "ok": false,
+    "ms": 28353,
+    "detail": "Expected values to be strictly equal:\n\n22 !== 24\n"
+  },
+  {
+    "task": "retest deadDeal",
+    "ok": true,
+    "ms": 6452,
+    "detail": {
+      "title": "Dead deal resurrector: Kesko, Heikki Nurmilaakso (D01)"
+    }
+  },
+  {
+    "task": "retest radar",
+    "ok": true,
+    "ms": 11473,
+    "detail": {
+      "title": "Room Radar: Kesko, next 6 months"
+    }
+  },
+  {
+    "task": "Haiku identifies a real Velho slide photo",
+    "ok": true,
+    "ms": 4269,
+    "detail": {
+      "company": "Velho",
+      "confidence": 0.9,
+      "seen": "VELHO / Velho; \"We help companies grow as fast as possible.\" A strategic AI growth partner... PROMPT OPERATIONS HACKATHON · OCT 24-25"
+    }
+  },
+  {
+    "task": "CFO challenges an unsupported promise",
+    "ok": true,
+    "ms": 1864,
+    "detail": {
+      "reply": "Hold on. A guaranteed 50% saving without looking at our processes is exactly the kind of claim I'd push back on, and I'd want to see the basis before I took it to the board. Which of our cost lines are you assuming, and what did you measure at comparable companies to get to 50%? And what happens to that number if the Dahl integration pulls our attention elsewhere?"
+    }
+  },
+  {
+    "task": "CFO responds to a concrete cautious pitch",
+    "ok": true,
+    "ms": 2460,
+    "detail": {
+      "reply": "That's a far more credible approach than the guarantee. For a second meeting I'd want to see three things. First, a baseline: the current cost and cycle time of the process you'd pilot, with the handling-time and error measurements you propose, and a clear definition of what counts as a saving. Second, a pilot scope with a payback estimate and the downside case if it underdelivers. Third, a clear answer on data security and hosting, who maintains the solution after go-live, and at least one reference from a Finnish company of similar scale, with their results.\n\nGiven the Dahl integration and the finance workload already on my team, I'd only spend time on a pilot that doesn't add to the integration queue. If you can show that, I'm willing to take a 30-minute follow-up. Send me the baseline questions and the pilot scope ahead of time, and I'll see whether the right person from finance operations should join."
+    }
+  },
+  {
+    "task": "Pitch scoring produces actionable feedback",
+    "ok": true,
+    "ms": 3171,
+    "detail": {
+      "score": {
+        "score": 62,
+        "strengths": [
+          "Abandoned the opening guarantee once challenged and pivoted to a credible, process-first approach (process owner, measured handling time and errors, narrow pilot).",
+          "Proposed a low-risk commitment under NDA and asked the CFO directly what evidence they would need, which moved the conversation toward a second meeting."
+        ],
+        "fixes": [
+          "The opening line ('guarantee 50% savings without looking at your processes') is a credibility-destroying claim that should never be said; lead with a diagnostic question about where cost and cycle time sit in the Kesko process instead.",
+          "Answer the CFO's Dahl integration concern directly: state that the pilot needs no IT integration queue slot, what resources it does require, and who on the Kesko side must commit time, rather than only asking what evidence they need.",
+          "Do not leave the follow-up open: propose the 30-minute meeting with a specific date, name the finance operations participant the CFO suggested, and commit to sending the baseline questions and pilot scope in writing beforehand."
+        ],
+        "bestLine": "Rather than promise a percentage before we've seen your numbers, I'd like to start with a baseline: what does one invoice or order cycle cost you today, and where do handling time and errors show up? If that's useful, we can scope a small pilot that needs no integration work from your team, and I'll send both the baseline questions and a draft pilot scope before our 30 minutes so your finance operations lead can join."
+      }
+    }
+  },
+  {
+    "task": "Website assistant admits absent internal information",
+    "ok": true,
+    "ms": 1522,
+    "detail": {
+      "reply": "I don't have access to any internal ERP system or passwords, and I can't see internal operations data such as how staff spent their time. I'm a demo assistant limited to Kesko's public website information. For internal system or staffing questions, contact Kesko directly through the contacts listed on https://www.kesko.fi, or reach out to Anu Hämäläinen's Finance team for finance-related matters."
+    }
+  },
+  {
+    "task": "Fresh nonexistent company gives clarification",
+    "ok": true,
+    "ms": 3923,
+    "detail": {
+      "error": "Could not confidently identify this company. Try its full official name or website."
+    }
+  },
+  {
+    "task": "Fresh company research and source dates",
+    "ok": true,
+    "ms": 14571,
+    "detail": {
+      "name": "Kesko Oyj",
+      "leadership": [
+        {
+          "name": "Jorma Rauhala",
+          "role": "President and CEO",
+          "url": "https://stockanalysis.com/quote/hel/KESKOB/company/"
+        },
+        {
+          "name": "Anu Hämäläinen",
+          "role": "EVP, CFO",
+          "url": "https://stockanalysis.com/quote/hel/KESKOB/company/"
+        },
+        {
+          "name": "Ari Akseli",
+          "role": "President, Grocery Trade",
+          "url": "https://stockanalysis.com/quote/hel/KESKOB/company/"
+        },
+        {
+          "name": "Lasse Luukkainen",
+          "role": "EVP, Legal and Sustainability, General Counsel",
+          "url": "https://stockanalysis.com/quote/hel/KESKOB/company/"
+        }
+      ],
+      "signals": [
+        {
+          "type": "acquisition",
+          "text": "Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark; the combined 2025 net sales were about €2.07bn.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/",
+          "date": "2026-06-15",
+          "why": "Large integration of acquired operations creates back-office and data-consolidation work suited to automation."
+        },
+        {
+          "type": "investment",
+          "text": "Kesko plans a rights issue of about €500-700 million to finance the Dahl acquisition.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/",
+          "date": "2026-10-08",
+          "why": "Capital raise tied to a large deal signals budget and a focus on integration efficiency."
+        },
+        {
+          "type": "tender",
+          "text": "European Commission unconditionally approved the Dahl transaction; Kesko expects completion by end of 2026.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/",
+          "date": "2026-09-24",
+          "why": "Deal closing near-term makes integration planning timely."
+        },
+        {
+          "type": "results",
+          "text": "Q1 2026 net sales rose to €3,029.0m (+7.1%); comparable operating profit €102.0m.",
+          "url": "https://www.investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746",
+          "date": "2026-04-29",
+          "why": "Growing sales with stable margins (3.4%) puts pressure on cost-to-serve, a typical automation target."
+        },
+        {
+          "type": "results",
+          "text": "Half-year 2026 comparable operating profit rose to €194.0m in Q2, with building and technical trade leading.",
+          "url": "https://www.investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749",
+          "date": "2026-07-22",
+          "why": "Profit momentum and active store and network investment indicate open budgets for efficiency projects."
+        },
+        {
+          "type": "news",
+          "text": "Kesko published a voluntary Data balance sheet report for 2025 covering its use of data and digitalisation.",
+          "url": "https://www.kesko.fi/en/investor/reports-and-presentations/",
+          "date": "2026-04-08",
+          "why": "Public focus on data and digitalisation signals appetite for AI and data partners."
+        },
+        {
+          "type": "hiring",
+          "text": "Kesko posted an open K Trainee, AI role in the AI Solutions team, with a deadline of 2026-10-31.",
+          "url": "https://www.glassdoor.com/Job/tuusula-kesko-jobs-SRCH_IL.0,7_IC2442868_KO8,13.htm",
+          "date": "2026-10",
+          "why": "Active in-house AI hiring means an external partner could complement or accelerate the team."
+        },
+        {
+          "type": "hiring",
+          "text": "Kesko-IT posted a Business Controller opening.",
+          "url": "https://www.kesko.fi/en/Careers/vacancies/",
+          "date": "2026-09-22",
+          "why": "Finance and control roles can point to reporting and reconciliation workload."
+        }
+      ]
+    }
+  }
+]

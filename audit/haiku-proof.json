@@ -1,0 +1,235 @@
+{
+  "title": "Proof before pitch: Kesko's public news and blog flow as a sorted content queue",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "What we noticed on Kesko's public pages"
+    },
+    {
+      "t": "p",
+      "text": "Kesko's website publishes a steady stream of short items across three kinds of pages: news, IR blogs and social posts, plus stock exchange releases. Each one is tagged by type, date and division, and some are tied to a specific store or a specific topic. We noticed that the same kinds of items arrive in different formats and places, and it is not obvious from the outside how they get routed to the right people. We have not seen Kesko's internal workflow, so this is a question, not a diagnosis."
+    },
+    {
+      "t": "h",
+      "text": "Demo: a sorted queue built from real public items"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Date",
+        "Source page",
+        "Item (as published)",
+        "Type",
+        "Division or topic",
+        "Suggested owner"
+      ],
+      "rows": [
+        [
+          "2026-10-22",
+          "Website news",
+          "Kesko Corporation: Disclosure in compliance with Chapter 9, Section 10 of the Finnish Securities Markets Act",
+          "Stock exchange release",
+          "Investors",
+          "IR team"
+        ],
+        [
+          "2026-10-19",
+          "Website news",
+          "Kesko assesses the biodiversity footprint of private label products",
+          "News",
+          "Sustainability",
+          "Sustainability team"
+        ],
+        [
+          "2026-10-12",
+          "Website news",
+          "Kesko wins recognition for its work in developing its range of MSC-certified fish products",
+          "News",
+          "Grocery trade",
+          "Grocery communications"
+        ],
+        [
+          "2026-10-01",
+          "IR blog",
+          "Recap of Kesko's key events in Q3/2026",
+          "IR blog",
+          "Investors",
+          "IR team"
+        ],
+        [
+          "2026-09-02",
+          "IR blog",
+          "Technical trade in the Nordic countries offers strong potential for growth",
+          "IR blog",
+          "Building and technical trade",
+          "Investors and division communications"
+        ],
+        [
+          "2026-08-28",
+          "Website news",
+          "Poor plastic recycling costs Finland EUR 90 million every year – K Group has collected more than 1,100 tonnes of plastic packaging from stores for recycling",
+          "News",
+          "Sustainability",
+          "Sustainability team"
+        ],
+        [
+          "2026-09-01",
+          "Website news",
+          "Summer tour inspires more than 150,000 children and young people to get moving",
+          "News",
+          "Sustainability",
+          "Sustainability team"
+        ],
+        [
+          "2026-10-23",
+          "Social post (K-ryhmä)",
+          "Halloween range in K-stores (short social post)",
+          "Social post",
+          "Grocery trade",
+          "Social media team"
+        ],
+        [
+          "2026-10-22",
+          "Social post (K-ryhmä)",
+          "New self-scanning shopping option (#skannaajaosta)",
+          "Social post",
+          "Grocery trade",
+          "Social media team"
+        ],
+        [
+          "2026-10-22",
+          "Social post (K-ryhmä)",
+          "K-Market Kotiharju gets a new retailer from 16.11.2026",
+          "Social post",
+          "Grocery trade (K-retailers)",
+          "Retailer relations"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "What an automation on top of this would do, in Kesko's own terms: Kesko's stated aim is to grow profitably and to outperform the market in all divisions. A routing layer would take every incoming item, read its type and topic, and send it straight to the team that owns it, with the right deadline and language attached. Communications, IR and the retailer teams would stop re-sorting the same feed by hand, and the Q3 2026 results period (interim report due 29 October 2026) would have one clean, date-ordered view instead of several scattered ones."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Week 1: collect the public feed (news, IR blogs, social posts) into one structured table with date, source, type and division, refreshed daily."
+        },
+        {
+          "text": "Week 2: add rule-based tagging for type and division, with a human review of every new category before it goes live."
+        },
+        {
+          "text": "Week 3: send each item to the named owner with a one-line summary and a link, and report on what was routed where each week."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Demo vs. real: the table above uses only text published on kesko.fi, copied as written. The owner column and the routing rules are our assumptions, not Kesko's. We do not know who internally owns each item, how approvals work, or which steps are manual today. Anything beyond public routing (approval flows, retailer systems, data from Kesko's ERP or the Dahl integration) would need Kesko's internal data and a conversation with the people who run those processes."
+    },
+    {
+      "t": "draft",
+      "label": "Pre-meeting email",
+      "text": "Subject: A quick idea from Kesko's public feed\n\nHi [Name],\n\nWe looked at the news, IR blogs and social posts on kesko.fi and put a sample of them into one table, sorted by type and division. It's a small thing, but it made us wonder how the feed reaches the right people internally.\n\nWe'd like to show you the version we built from your public pages, and ask what you'd change. It takes 20 minutes and no preparation on your side.\n\nWould a short call in the next two weeks work?\n\n[Sender name], Velho"
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.kesko.fi/en/company/contacts/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.kesko.fi/en/company/contacts/kesko-corporation/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.kesko.fi/en/company/contacts/grocery-trade/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.kesko.fi/en/company/contacts/grocery-trade/feedback/",
+          "tag": "site"
+        }
+      ]
+    }
+  ]
+}

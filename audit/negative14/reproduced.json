@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-25T06:36:52.476Z",
+  "mode": "controlled provider failures/replies; no live inference; isolated DB",
+  "results": [
+    {
+      "id": "N01",
+      "description": "Keyword evidence retrieval does not enforce an explicit exclusion",
+      "evidence": {
+        "query": "glazing not balcony",
+        "returned": "Our balcony glazing has fully retractable panels that protect a balcony from rain and wind."
+      }
+    },
+    {
+      "id": "N02",
+      "description": "Writing-provider failure loses the visitor's submitted lead before persistence",
+      "evidence": {
+        "status": 500,
+        "savedLeads": 0
+      }
+    },
+    {
+      "id": "N03",
+      "description": "Same visitor submitted twice with distinct browser request IDs creates separate ungrouped leads",
+      "evidence": {
+        "identicalContactRecords": 2
+      }
+    },
+    {
+      "id": "N04",
+      "description": "Lead window reports older records but supplies no working pagination",
+      "evidence": {
+        "total": 201,
+        "returned": 200,
+        "offsetHasEffect": false
+      }
+    },
+    {
+      "id": "N05",
+      "description": "Unsupported numeric result in a note block bypasses source checking",
+      "evidence": {
+        "surviving": {
+          "t": "note",
+          "text": "Measured savings were 480 hours per week."
+        },
+        "checked": false,
+        "review": "Machine source review checked 2 statement groups; 0 unsupported sections withheld, 0 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+      }
+    },
+    {
+      "id": "C01",
+      "description": "Control: identical false result in a draft IS checked and withheld",
+      "evidence": {
+        "withheld": true,
+        "checked": true
+      }
+    },
+    {
+      "id": "N06",
+      "description": "Upcoming dated results event is excluded from timely signals",
+      "evidence": {
+        "eventDate": "2026-10-26",
+        "status": "review",
+        "note": "Not a confirmed full date in the last six months; excluded from the timely outreach shortlist."
+      }
+    },
+    {
+      "id": "N07",
+      "description": "Eight weak news candidates crowd out a current register change before evaluation",
+      "evidence": {
+        "evaluated": 8,
+        "registerEvaluated": false
+      }
+    },
+    {
+      "id": "N08",
+      "description": "Talk mining retains out-of-window interview and assigns host's exact span to searched CEO",
+      "evidence": {
+        "date": "2010-01-01",
+        "labelledSpeaker": "Aino Example, CEO",
+        "actualSource": "Host Other Person: Close all offices next year. CEO Aino Example: I disagree",
+        "span": {
+          "label": "priority",
+          "text": "Close all offices next year",
+          "confidence": 0.99
+        }
+      }
+    },
+    {
+      "id": "N09",
+      "description": "Unknown text satisfies every required scoping field",
+      "evidence": {
+        "missingFieldsReported": []
+      }
+    },
+    {
+      "id": "N10",
+      "description": "Opportunity indicator ignores the optional actual workload and constraints",
+      "evidence": {
+        "sameAnswers": [
+          0,
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        "score": 61,
+        "zeroHourOrManyHourContext": "No context argument exists in readiness(); both produce the same indicator"
+      }
+    }
+  ]
+}

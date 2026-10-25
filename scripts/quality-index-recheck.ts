@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import {writeFileSync} from "node:fs";
+process.loadEnvFile("../../.env");
+process.env.VELHO_DB="audit/audit.db";process.env.VELHO_AUDIT_ID="velho-employee-20261024";process.env.MODEL_FAST=process.env.MODEL_WRITE="anthropic/claude-haiku-5.5";
+const {POST}=await import("../app/api/aiindex/route");
+const r=await POST(new Request("http://localhost/api/aiindex",{method:"POST",body:JSON.stringify({industry:"logistics"})}));
+const j=await r.json();writeFileSync("audit/quality-index-recheck.json",JSON.stringify(j,null,2));
+assert.equal(r.status,200);assert.equal(j.score,null);assert(j.coverage.candidates>0);assert(j.coverage.supported>0,"No fully supported candidate; inspect the saved evidence");
+console.log("PASS actual-source industry recheck",JSON.stringify(j.coverage));
+console.log(JSON.stringify(j.examples.map((e:{company:string;status:string;date?:string})=>({company:e.company,status:e.status,period:e.date})),null,2));

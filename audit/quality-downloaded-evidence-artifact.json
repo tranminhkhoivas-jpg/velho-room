@@ -1,0 +1,405 @@
+{
+  "title": "Proof before pitch: enquiry evidence finder demonstrator for Lumon Oy",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "What this demonstrator does"
+    },
+    {
+      "t": "p",
+      "text": "The demonstrator is a keyword-based enquiry evidence finder. Given a topic, it retrieves literal public passages from Lumon's website and privacy page, returns each with its source URL, drafts a cited reply for staff review, and exports the records as CSV. In this build it has 53 exact public passages from 2 pages to search. It could help when a sales or customer-service team wants to find the published wording behind a recurring question, such as what Lumon says about cookies, customer data or contact routes, and to pull that wording into a reply faster. It is not a system that knows Lumon's internal enquiry volumes, routing or customer history."
+    },
+    {
+      "t": "note",
+      "text": "Public-data limitation: only the 53 passages from the 2 pages above are searchable. Anything not published there is outside the demonstrator's evidence, and it has not been tested against Lumon's real enquiries."
+    },
+    {
+      "t": "h",
+      "text": "Discovery questions to ask before going further"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Which enquiry types reach your team most often, and roughly how many arrive each week? (Any volume figure would be an estimate until you share your own data.)"
+        },
+        {
+          "t": "text",
+          "text": "Where do those enquiries currently get answered, and who decides whether a reply is correct before it is sent?"
+        },
+        {
+          "text": "Where do the answers come from today, and how often does someone have to search several pages or internal documents to find them?"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Production requirements, if this is worth building"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "A named routing owner who decides which enquiry types go to the tool and who receives its output."
+        },
+        {
+          "text": "A sample of real, anonymised enquiries so the team can measure whether the retrieved passages actually answer them."
+        },
+        {
+          "text": "Approval rules: every reply is reviewed by a staff member before sending, and personal data in enquiries is handled under Lumon's privacy notice."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Draft pre-meeting email (for Velho reviewer to edit and send manually)"
+    },
+    {
+      "t": "draft",
+      "label": "Pre-meeting email",
+      "text": "Hi [Name],\n\nBefore we meet, I wanted to share a small demonstrator we built. It searches published material from lumon.com and returns the exact passages with source links, so a reply can start from Lumon's own wording.\n\nIt only covers the public pages we could access, so it does not know your internal enquiry volumes or routing. The real question is whether your team spends time hunting for answers that already exist. Could we spend 20 minutes on that?\n\nBest,\n[Your name]"
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.lumon.com"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://lumon.com/int/company/about-us/annual-reviews/"
+        },
+        {
+          "title": "Jussi Kinnunen, CEO, Lumon Group",
+          "url": "https://lumon.com/int/company/about-us/key-figures-and-leadership-team/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0859538-7"
+        },
+        {
+          "title": "Lumon Annual review 2025: stable revenue of EUR 159M, strategy 2025–2030, Lumoni",
+          "url": "https://lumon.com/int/company/news/lumon-annual-review-2025-international-growth-new-strategy-and-sustainability-milestones/"
+        },
+        {
+          "title": "Lumon enters partnership with Ryds Glas to scale its Swedish business.",
+          "url": "https://lumon.com/int/company/news/"
+        },
+        {
+          "title": "Lumon Oy revenue fell 3.5% to EUR 41.9M in 2025, operating profit EUR 3.2M.",
+          "url": "https://www.asiakastieto.fi/yritykset/fi/lumon-oy/22544498/taloustiedot"
+        },
+        {
+          "title": "Active job postings reached 43 in 2026, up 20.5% from 2025 (Revelio Labs).",
+          "url": "https://www.reveliolabs.com/companies/lumon/employees"
+        },
+        {
+          "title": "Global Lumon posted a sales representative role for B2C customer acquisition wit",
+          "url": "https://careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a"
+        },
+        {
+          "title": "Job postings for installers and production workers in Kouvola and Helsinki sugge",
+          "url": "https://www.jobcrawls.com/en/employer/lumon"
+        }
+      ]
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.lumon.com/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://lumon.com/int/company/contact-information/privacy-policy/",
+          "tag": "site"
+        }
+      ]
+    }
+  ],
+  "proof": {
+    "company": "Lumon Oy",
+    "collectedAt": "2026-10-25T00:36:48.892Z",
+    "pages": [
+      {
+        "url": "https://www.lumon.com",
+        "text": "Title: Lumon.com\n\nURL Source: https://www.lumon.com/\n\nMarkdown Content:\n## Welcome\n\nPlease select your country / language preferences\n\n*   Select country/language\n\n*   [Canada](https://lumon.com/ca/)\n*   [Chile (external)](https://www.panoramachile.cl/)\n*   [Czechia](https://lumon.com/cz/)\n*   [Denmark](https://lumon.com/dk/)\n*   [Finland](https://lumon.com/fi/)\n*   [France](https://lumon.com/fr/)\n*   [Germany](https://lumon.com/de/)\n*   [Netherlands](https://lumon.com/nl/)\n*   [Norway](https://lumon.com/no/)\n*   [Poland](https://lumon.com/pl/)\n*   [Portugal](https://lumon.com/pt/)\n*   [Slovakia](https://lumon.com/sk/)\n*   Spain\n\n[Spanish](https://lumon.com/es/) [English](https://lumon.com/es/en/) \n*   [Sweden](https://lumon.com/se/)\n*   Switzerland\n\n[Deutsch](https://lumon.com/ch/) [Francais](https://lumon.com/ch/fr/) \n*   [United Kingdom](https://lumon.com/uk/)\n*   [United States](https://lumon.com/us/)\n*   [Other Countries (Global)](https://lumon.com/int/)\n\nLinks/Buttons:\n- [Learn more](https://lumon.com/int/company/contact-information/privacy-policy/)\n- [Skip to content](https://www.lumon.com/#wp--skip-link--target)\n- [Canada](https://lumon.com/ca/)\n- [Chile (external)](https://www.panoramachile.cl/)\n- [Czechia](https://lumon.com/cz/)\n- [Denmark](https://lumon.com/dk/)\n- [Finland](https://lumon.com/fi/)\n- [France](https://lumon.com/fr/)\n- [Germany](https://lumon.com/de/)\n- [Netherlands](https://lumon.com/nl/)\n- [Norway](https://lumon.com/no/)\n- [Poland](https://lumon.com/pl/)\n- [Portugal](https://lumon.com/pt/)\n- [Slovakia](https://lumon.com/sk/)\n- [Spanish](https://lumon.com/es/)\n- [English](https://lumon.com/es/en/)\n- [Sweden](https://lumon.com/se/)\n- [Deutsch](https://lumon.com/ch/)\n- [Francais](https://lumon.com/ch/fr/)\n- [United Kingdom](https://lumon.com/uk/)\n- [United States](https://lumon.com/us/)\n- [Other Countries (Global)](https://lumon.com/int/)\n"
+      },
+      {
+        "url": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "text": "About cookies on this site\n\nWe use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.\n\nLearn more\n\nAccept cookies\nOnly mandatory cookies\nCookie settings\nSkip to content\nHomeowners\nProfessionals\nAbout us\nSustainability\nNews & Events\nBecome a reseller\nContact information\nCONTACT US\nLumon Group Privacy Notice\n\n\n\n\nUpdated September 15, 2026\n\n\nAll Lumon Group companies are committed to protecting your privacy. The information we collect is always used to serve you in the best possible way. You can rest assured that we store and treat your data respectfully, securely and carefully.\n\nLumon Group processes your personal data in accordance with current data protection legislation. This privacy policy provides you with comprehensive information about Lumon’s personal data processing activities. The purpose of the privacy notice is to provide you with information on how we process personal data in customer relationship management and sales and marketing activities. The information may be supplemented by specific privacy notices and additional local documents. Please note that your data protection rights may vary from country to country depending on the data protection laws of the applicable country. Our privacy notice sets out your rights under the EU General Data Protection Regulation (“GDPR”). However, mandatory laws or regulations take precedence if they conflict with and are stricter than our privacy notice.\n\n1. Data controllers and contact information\n\nLumon Invest Oy\nBusiness ID: FI22544498\nKaitilankatu 11, 45130 Kouvola, Finland\ntel.:+358 (0) 20 7403 200\nemail: info@lumon.com\n\nLumon Invest Oy (established in Finland and acting as the parent company of Lumon Group) is the joint data controller together with other Lumon Group companies:\n\nLumon Oy, Lumon Suomi Oy, Suomen Visor Oy, Lumon International Oy, Lumon Cristales Espana S.A., Svenska Lumon AB, Lumon Norge AS, Lumon North America Inc., Lumon Deutschland GmbH, Lumon Schweiz AG, Lumon France SAS, Lumon Danmark Aps, Lumon Fabrica S.L., Lumon Polska SP. Z O.O., and Balkonser Oy\n\nFor more information on joint controllership, please see section 15 of this privacy notice.\n\nContact details in privacy matters:\nLumon Invest Oy / Data protection\nKaitilankatu 11, 45130 Kouvola, Finland\nprivacypolicy@lumon.com\n\nContact details of the Data Protection Officer: privacypolicy@lumon.com\n\n2. What kind of personal data do we collect?\n\nLumon’s customer register may contain, for example, the following information we collect and process:\n\nBasic information: for example, first name, last name, street address, postal code, city, country, phone number, mobile phone number\nPurchase history: for example, place and date of purchase, total purchase, payment method, delivery address, personal identity code\nCustomer relationship management data: for example, desired contact method, apartment type, start date of customer relationship, ownership of Lumon products, contracts, billing information and similar information necessary for relationship management\nPersonal preferences: for example, Lumon products you are interested in and consents or prohibitions for direct email and SMS marketing\nData collected from the use of the Lumon website and other online tools, such as browsing data, location data and IP address.\n\nWe also store information about companies, such as company name, address, VAT number, shipping and billing addresses, name of company contact persons, email, telephone number and title/position. We collect this information in order to communicate and serve our potential and existing customers better and to improve the overall customer experience.\n\n3. How do we collect personal data?\n\nPersonal data is collected by telephone, websites or other digital channels, meetings or other similar means. Data is also collected in connection with the conclusion of a customer contract and otherwise during the customer relationship. Personal data may also be obtained from Lumon’s representatives on the basis of their business contacts or through information collected and updated from public and private registers.\n\nWe collect and process data when, for example:\n\nfill out a form to book a planning visit, request more information, get a quote, download a guide, e-book or similar document, or subscribe to a newsletter on any of our websites\nplace an order for our products or services available in our online stores\nyou send a message to Lumon’s personnel representative to receive service\nYou accept the agreement in an electronic signature program\nvoluntarily participate in a customer survey on Lumon’s website or by email\ngive feedback or chat via our chat tools or email\nyou voluntarily participate in a survey or raffle conducted by Lumon\nyou voluntarily allow the use of browser cookies\nlog in to our customer portal to review your order or receive other useful information\ncall Lumon and provide your contact information and other personal information\nvisit Lumon’s stand at fairs or exhibitions, shopping centres or parking lots and give your contact information to a Lumon employee or fill out a digital or paper form\nprovide your contact information to a Lumon employee who visits home and enters the information into our systems\nyou provide information to attend an event where the event organizer can pass on your information to the exhibitors of the event.\n\n4. What do we base our use of your personal data on and for what purposes do we collect your personal data?\n\nWhen carrying out sales, marketing or customer relationship management activities, we process personal data of our potential and existing consumer and business customers (including, for example, newsletter subscribers, individuals who have requested a quote or sent a contact request, event attendees and website visitors). \n\nLumon’s websites and online stores use cookies to collect information about user behaviour on our websites, online stores and portals. This includes, for example, information about the devices users use, the pages they visit and what they download. We use this information to improve the usability of our online services for our customers and potential customers. \n\nInsofar as our contractual partner is a consumer customer, the processing of personal data is mainly based on an agreement with the data subject. Insofar as we process corporate customer’s personal data in connection with a contract with a company, Lumon’s legal basis for processing is legitimate interest based on a contractual relationship. The processing is also based on Lumon’s legitimate interest, for example, insofar as we carry out marketing for company representatives, marketing based on a customer relationship or marketing based on mail or telephone to consumer customers, or when we collect receivables or develop our business. \n\nThe processing may also be based on the consent given by the data subject when we use non-essential cookies to take measures, such as targeting advertising, or sending consumers electronic direct marketing. \n\nThe processing of personal data contained in accounting documents is based on our legal obligation.\n\nInsofar as the processing is based on legitimate interest, we consider that the processing benefits both you and us. The processing of personal data enables you to receive relevant information about our contract or services. Taking into account the nature and purpose of the data, we consider that the processing does not conflict with your fundamental rights or freedoms. You can object to marketing at any time. You can object to other processing based on legitimate interest on grounds relating to your personal situation as described below.\n\nThe grounds and purposes of processing your personal data are:\n\non the basis of a contract\n\nprocessing a consumer customer’s order, managing your account, creating an invoice and warranty certificate \n\non the basis of legitimate interest\n\nstreamline communication between you and Lumon (including, for example, feedback and customer satisfaction surveys)\nmanage, develop, compile statistics and analyse your customer relationship so that we can process and respond to your requests\ninvite you to sales and marketing events\nmarketing\nconducting opinion polls and market research, as well as organising competitions and sweepstakes;\nplan and develop business and services\nmanage receivables and collect debts\nidentify users and manage access rightsidentify, prevent and investigate misuse, fraud or other criminal offences\nanalyze and segment data and retrieve statistics for the above purposes;\n\non the basis of consent\n\nonline targeting and advertising using cookies and other similar technologies\ncommunicate with the consumer via email about special offers and other products and services that we think you will like;\n\non the basis of a legal obligation\n\nprocessing of personal data contained in accounting documents\nprocessing of personal data related to the implementation of statutory liability for defects\n\n5. Do we use user profiles?\n\nWe may create user profiles in order to provide you with the best possible customer service and offers that are most relevant to you. The messages you receive from Lumon are tailored based on the information. Your profile can be based on your browsing and shopping history for example. However, we do not make automated decisions that have legal effects or otherwise significantly affect you.\n\nWe may identify the browser you are using by means of a cookie ID or other similar identifier and recognize your browser when you return to our site. We may combine information related to the cookie ID with customer data that identifies you personally, for example, when you order a product from our online store or open a newsletter sent by us. We also use customer information that personally identifies you, such as your name, email address and phone number, for example, when we use modelling to create custom audiences and lookalike audiences. In such cooperation, we transfer our customer data encrypted to our partner, such as Meta or Google, which compares the encrypted data with its own data and forms a target group to which we can target advertising on the partner’s website or utilise the data in such a way that we limit the presentation of advertising to a target group that has already made  purchases in Lumon’s online store.\n\n6. Who is your personal data shared with and can it be transferred outside the EEA?\n\nWe may disclose or otherwise share your information with third parties in the following cases:\n\nAuthorities: We may disclose personal data as required by the competent authorities and based on the legislation in force at the time.\nM&A: If we sell or otherwise reorganize our business, personal data may be disclosed to buyers and their advisors.\nDebt collection and legal claims: We may disclose your data to selected partners for the purpose of collecting our claims and for the exercise and defence of legal claims.\nAdvertising partners: We may share customer register data with advertising partners in hashed, encrypted or otherwise technically protected form. The partner may match the data with its own identifiers and create or exclude audiences for targeted advertising, advertising measurement and audience suppression.\nConsent: Based on your consent, we may disclose your personal data within the limits specified in your consent.\n\nWe use certain services, such as marketing automation tools and website analysis tools, where data may be transferred to other countries (e.g. United Kingdom, Canada, Switzerland and the United States). Data from these services is mainly stored on service providers’ servers in the EEA and the United States. However, some data processing activities of service providers are carried out outside the EEA, for example in Canada. Data transfers to Canada, the United Kingdom and Switzerland are carried out on the basis of an adequacy decision issued by the European Commission.\n\nThe level of data protection may be lower outside the EEA than in the EEA. If the recipient country, such as the United States, has not received an adequacy decision from the EU Commission, Lumon Group applies other appropriate safeguards to ensure the protection of personal data, for example by applying Standard Contractual Clauses for the transfer of personal data to third countries (https://commission.europa.eu/publications/standard-contractual-clauses-international-transfers_en) in accordance with the European Commission’s decision.\n\nWe use the services of external service providers, such as system and communication software services, logistics and printing houses. In accordance with data processing agreements, each service provider processes personal data only to the extent necessary for this purpose.\n\nIn certain countries or geographical areas, Lumon works with or through trusted resellers. Information may be shared with trusted resellers to ensure that you are served in the best possible way. In addition, our service providers may have access to your personal data as their services are required for certain requests and technical processing of orders.\n\nWhen Lumon processes your order, it may send your information to credit reference agencies to prevent fraudulent purchase attempts.\n\n7. What are the principles of protection of your personal data? \n\nYour personal data is always protected by appropriate technical and administrative measures. Lumon strives to ensure that information in Lumon’s possession is not misused, removed without reason, falsified or manipulated, and is not disclosed to third parties or published without your permission. Our systems are secure and access to them is only possible for Lumon employees using personal login information.\n\nAccess to the system requires a username and password. The system is also protected by firewalls and other technical solutions.\n\nThe information in the register is only available to authorized and specifically designated employees\nThe use of the register is protected by personal login information and access rights\nThe registry is located on a computer stored in a data centre with limited access\nThe information in the register is located in safe and protected premises\nThe register is backed up regularly\nTo inform you about topics related to the Lumon world of glazing spaces.\n\n8. How long do we keep the data?\n\nYour personal data will be stored in our customer register for as long as it is necessary to achieve the purposes defined in this privacy notice, for example: \n\ncontacts that do not lead to an offer or a customer relationship are stored for two years;\ncontacts which we have provided with an offer are stored for five years;\nsurvey and lottery responses are stored for six months;\nonline behavioural data and preferences are stored for two years;\naccounting records are stored for 6-10 years from the end of the accounting period;\npurchase data is stored for the life cycle of glass products, which is about 20 to 30 years, or  for  the life cycle of carpets or other accessories, which is about 5 to 10 years. After that, we completely delete the data from our servers. \n\n9. What are your rights regarding data processing?\n\nRequests related to data processing should be sent to the address mentioned in section 1. \n\nAs a data subject, you have the following rights:\n\nRight to access, correct and delete data\n\nYou have the right to receive information about the processing of your personal data, including the right to view the personal data relating to you in your register. You also have the right to request the correction and deletion of your data.\n\nRight to prohibit direct marketing\n\nYou have the right to object to the processing of your data for marketing purposes, including profiling and direct marketing.\n\nRight to data portability\n\nYou have the right to receive your personal data that you have provided to us with your consent o"
+      }
+    ],
+    "records": [
+      {
+        "id": "P1-R1",
+        "source": "https://www.lumon.com",
+        "excerpt": "*   [Canada](https://lumon.com/ca/)\n*   [Chile (external)](https://www.panoramachile.cl/)\n*   [Czechia](https://lumon.com/cz/)\n*   [Denmark](https://lumon.com/dk/)\n*   [Finland](https://lumon.com/fi/)\n*   [France](https://lumon.com/fr/)\n*   [Germany](https://lumon.com/de/)\n*   [Netherlands](https://lumon.com/nl/)\n*   [Norway](https://lumon.com/no/)\n*   [Poland](https://lumon.com/pl/)\n*   [Portugal](https://lumon.com/pt/)\n*   [Slovakia](https://lumon.com/sk/)\n*   Spain"
+      },
+      {
+        "id": "P1-R2",
+        "source": "https://www.lumon.com",
+        "excerpt": "[Spanish](https://lumon.com/es/) [English](https://lumon.com/es/en/) \n*   [Sweden](https://lumon.com/se/)\n*   Switzerland"
+      },
+      {
+        "id": "P1-R3",
+        "source": "https://www.lumon.com",
+        "excerpt": "Links/Buttons:\n- [Learn more](https://lumon.com/int/company/contact-information/privacy-policy/)\n- [Skip to content](https://www.lumon.com/#wp--skip-link--target)\n- [Canada](https://lumon.com/ca/)\n- [Chile (external)](https://www.panoramachile.cl/)\n- [Czechia](https://lumon.com/cz/)\n- [Denmark](https://lumon.com/dk/)\n- [Finland](https://lumon.com/fi/)\n- [France](https://lumon.com/fr/)\n- [Germany](https://lumon.com/de/)\n- [Netherlands](https://lumon.com/nl/)\n- [Norway](https://lumon.com/no/)\n- [Poland](https://lumon.com/pl/)\n- [Portugal](https://lumon.com/pt/)\n- [Slovakia](https://lumon.com/sk/)\n- [Spanish](https://lumon.com/es/)\n- [English](https://lumon.com/es/en/)\n- [Sweden](https://lumon.com/se/)\n- [Deutsch](https://lumon.com/ch/)\n- [Francais](https://lumon.com/ch/fr/)\n- [United Kingdom](https://lumon.com/uk/)\n- [United States](https://lumon.com/us/)\n- [Other Countries (Global)](https://lumon.com/int/)"
+      },
+      {
+        "id": "P2-R4",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements."
+      },
+      {
+        "id": "P2-R5",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "All Lumon Group companies are committed to protecting your privacy. The information we collect is always used to serve you in the best possible way. You can rest assured that we store and treat your data respectfully, securely and carefully."
+      },
+      {
+        "id": "P2-R6",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon Group processes your personal data in accordance with current data protection legislation. This privacy policy provides you with comprehensive information about Lumon’s personal data processing activities. The purpose of the privacy notice is to provide you with information on how we process personal data in customer relationship management and sales and marketing activities. The information may be supplemented by specific privacy notices and additional local documents. Please note that your data protection rights may vary from country to country depending on the data protection laws of the applicable country. Our privacy notice sets out your rights under the EU General Data Protection Regulation (“GDPR”). However, mandatory laws or regulations take precedence if they conflict with and are stricter than our privacy notice."
+      },
+      {
+        "id": "P2-R7",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "1. Data controllers and contact information"
+      },
+      {
+        "id": "P2-R8",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon Invest Oy\nBusiness ID: FI22544498\nKaitilankatu 11, 45130 Kouvola, Finland\ntel.:+358 (0) 20 7403 200\nemail: info@lumon.com"
+      },
+      {
+        "id": "P2-R9",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon Invest Oy (established in Finland and acting as the parent company of Lumon Group) is the joint data controller together with other Lumon Group companies:"
+      },
+      {
+        "id": "P2-R10",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon Oy, Lumon Suomi Oy, Suomen Visor Oy, Lumon International Oy, Lumon Cristales Espana S.A., Svenska Lumon AB, Lumon Norge AS, Lumon North America Inc., Lumon Deutschland GmbH, Lumon Schweiz AG, Lumon France SAS, Lumon Danmark Aps, Lumon Fabrica S.L., Lumon Polska SP. Z O.O., and Balkonser Oy"
+      },
+      {
+        "id": "P2-R11",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "For more information on joint controllership, please see section 15 of this privacy notice."
+      },
+      {
+        "id": "P2-R12",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Contact details in privacy matters:\nLumon Invest Oy / Data protection\nKaitilankatu 11, 45130 Kouvola, Finland\nprivacypolicy@lumon.com"
+      },
+      {
+        "id": "P2-R13",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Contact details of the Data Protection Officer: privacypolicy@lumon.com"
+      },
+      {
+        "id": "P2-R14",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "2. What kind of personal data do we collect?"
+      },
+      {
+        "id": "P2-R15",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon’s customer register may contain, for example, the following information we collect and process:"
+      },
+      {
+        "id": "P2-R16",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Basic information: for example, first name, last name, street address, postal code, city, country, phone number, mobile phone number\nPurchase history: for example, place and date of purchase, total purchase, payment method, delivery address, personal identity code\nCustomer relationship management data: for example, desired contact method, apartment type, start date of customer relationship, ownership of Lumon products, contracts, billing information and similar information necessary for relationship management\nPersonal preferences: for example, Lumon products you are interested in and consents or prohibitions for direct email and SMS marketing\nData collected from the use of the Lumon website and other online tools, such as browsing data, location data and IP address."
+      },
+      {
+        "id": "P2-R17",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We also store information about companies, such as company name, address, VAT number, shipping and billing addresses, name of company contact persons, email, telephone number and title/position. We collect this information in order to communicate and serve our potential and existing customers better and to improve the overall customer experience."
+      },
+      {
+        "id": "P2-R18",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Personal data is collected by telephone, websites or other digital channels, meetings or other similar means. Data is also collected in connection with the conclusion of a customer contract and otherwise during the customer relationship. Personal data may also be obtained from Lumon’s representatives on the basis of their business contacts or through information collected and updated from public and private registers."
+      },
+      {
+        "id": "P2-R19",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We collect and process data when, for example:"
+      },
+      {
+        "id": "P2-R20",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "fill out a form to book a planning visit, request more information, get a quote, download a guide, e-book or similar document, or subscribe to a newsletter on any of our websites\nplace an order for our products or services available in our online stores\nyou send a message to Lumon’s personnel representative to receive service\nYou accept the agreement in an electronic signature program\nvoluntarily participate in a customer survey on Lumon’s website or by email\ngive feedback or chat via our chat tools or email\nyou voluntarily participate in a survey or raffle conducted by Lumon\nyou voluntarily allow the use of browser cookies\nlog in to our customer portal to review your order or receive other useful information\ncall Lumon and provide your contact information and other personal information\nvisit Lumon’s stand at fairs or exhibitions, shopping centres or parking lots and give your contact information to a Lumon employee or fill out a digital or paper form\nprovide your contact information to a Lumon employee who visits home and enters the information into our systems\nyou provide information to attend an event where the event organizer can pass on your information to the exhibitors of the event."
+      },
+      {
+        "id": "P2-R21",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "4. What do we base our use of your personal data on and for what purposes do we collect your personal data?"
+      },
+      {
+        "id": "P2-R22",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "When carrying out sales, marketing or customer relationship management activities, we process personal data of our potential and existing consumer and business customers (including, for example, newsletter subscribers, individuals who have requested a quote or sent a contact request, event attendees and website visitors)."
+      },
+      {
+        "id": "P2-R23",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Lumon’s websites and online stores use cookies to collect information about user behaviour on our websites, online stores and portals. This includes, for example, information about the devices users use, the pages they visit and what they download. We use this information to improve the usability of our online services for our customers and potential customers."
+      },
+      {
+        "id": "P2-R24",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Insofar as our contractual partner is a consumer customer, the processing of personal data is mainly based on an agreement with the data subject. Insofar as we process corporate customer’s personal data in connection with a contract with a company, Lumon’s legal basis for processing is legitimate interest based on a contractual relationship. The processing is also based on Lumon’s legitimate interest, for example, insofar as we carry out marketing for company representatives, marketing based on a customer relationship or marketing based on mail or telephone to consumer customers, or when we collect receivables or develop our business."
+      },
+      {
+        "id": "P2-R25",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "The processing may also be based on the consent given by the data subject when we use non-essential cookies to take measures, such as targeting advertising, or sending consumers electronic direct marketing."
+      },
+      {
+        "id": "P2-R26",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "The processing of personal data contained in accounting documents is based on our legal obligation."
+      },
+      {
+        "id": "P2-R27",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Insofar as the processing is based on legitimate interest, we consider that the processing benefits both you and us. The processing of personal data enables you to receive relevant information about our contract or services. Taking into account the nature and purpose of the data, we consider that the processing does not conflict with your fundamental rights or freedoms. You can object to marketing at any time. You can object to other processing based on legitimate interest on grounds relating to your personal situation as described below."
+      },
+      {
+        "id": "P2-R28",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "The grounds and purposes of processing your personal data are:"
+      },
+      {
+        "id": "P2-R29",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "processing a consumer customer’s order, managing your account, creating an invoice and warranty certificate"
+      },
+      {
+        "id": "P2-R30",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "streamline communication between you and Lumon (including, for example, feedback and customer satisfaction surveys)\nmanage, develop, compile statistics and analyse your customer relationship so that we can process and respond to your requests\ninvite you to sales and marketing events\nmarketing\nconducting opinion polls and market research, as well as organising competitions and sweepstakes;\nplan and develop business and services\nmanage receivables and collect debts\nidentify users and manage access rightsidentify, prevent and investigate misuse, fraud or other criminal offences\nanalyze and segment data and retrieve statistics for the above purposes;"
+      },
+      {
+        "id": "P2-R31",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "online targeting and advertising using cookies and other similar technologies\ncommunicate with the consumer via email about special offers and other products and services that we think you will like;"
+      },
+      {
+        "id": "P2-R32",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "processing of personal data contained in accounting documents\nprocessing of personal data related to the implementation of statutory liability for defects"
+      },
+      {
+        "id": "P2-R33",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We may create user profiles in order to provide you with the best possible customer service and offers that are most relevant to you. The messages you receive from Lumon are tailored based on the information. Your profile can be based on your browsing and shopping history for example. However, we do not make automated decisions that have legal effects or otherwise significantly affect you."
+      },
+      {
+        "id": "P2-R34",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We may identify the browser you are using by means of a cookie ID or other similar identifier and recognize your browser when you return to our site. We may combine information related to the cookie ID with customer data that identifies you personally, for example, when you order a product from our online store or open a newsletter sent by us. We also use customer information that personally identifies you, such as your name, email address and phone number, for example, when we use modelling to create custom audiences and lookalike audiences. In such cooperation, we transfer our customer data encrypted to our partner, such as Meta or Google, which compares the encrypted data with its own data and forms a target group to which we can target advertising on the partner’s website or utilise the data in such a way that we limit the presentation of advertising to a target group that has already made  purchases in Lumon’s online store."
+      },
+      {
+        "id": "P2-R35",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "6. Who is your personal data shared with and can it be transferred outside the EEA?"
+      },
+      {
+        "id": "P2-R36",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We may disclose or otherwise share your information with third parties in the following cases:"
+      },
+      {
+        "id": "P2-R37",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Authorities: We may disclose personal data as required by the competent authorities and based on the legislation in force at the time.\nM&A: If we sell or otherwise reorganize our business, personal data may be disclosed to buyers and their advisors.\nDebt collection and legal claims: We may disclose your data to selected partners for the purpose of collecting our claims and for the exercise and defence of legal claims.\nAdvertising partners: We may share customer register data with advertising partners in hashed, encrypted or otherwise technically protected form. The partner may match the data with its own identifiers and create or exclude audiences for targeted advertising, advertising measurement and audience suppression.\nConsent: Based on your consent, we may disclose your personal data within the limits specified in your consent."
+      },
+      {
+        "id": "P2-R38",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We use certain services, such as marketing automation tools and website analysis tools, where data may be transferred to other countries (e.g. United Kingdom, Canada, Switzerland and the United States). Data from these services is mainly stored on service providers’ servers in the EEA and the United States. However, some data processing activities of service providers are carried out outside the EEA, for example in Canada. Data transfers to Canada, the United Kingdom and Switzerland are carried out on the basis of an adequacy decision issued by the European Commission."
+      },
+      {
+        "id": "P2-R39",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "The level of data protection may be lower outside the EEA than in the EEA. If the recipient country, such as the United States, has not received an adequacy decision from the EU Commission, Lumon Group applies other appropriate safeguards to ensure the protection of personal data, for example by applying Standard Contractual Clauses for the transfer of personal data to third countries (https://commission.europa.eu/publications/standard-contractual-clauses-international-transfers_en) in accordance with the European Commission’s decision."
+      },
+      {
+        "id": "P2-R40",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "We use the services of external service providers, such as system and communication software services, logistics and printing houses. In accordance with data processing agreements, each service provider processes personal data only to the extent necessary for this purpose."
+      },
+      {
+        "id": "P2-R41",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "In certain countries or geographical areas, Lumon works with or through trusted resellers. Information may be shared with trusted resellers to ensure that you are served in the best possible way. In addition, our service providers may have access to your personal data as their services are required for certain requests and technical processing of orders."
+      },
+      {
+        "id": "P2-R42",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "When Lumon processes your order, it may send your information to credit reference agencies to prevent fraudulent purchase attempts."
+      },
+      {
+        "id": "P2-R43",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "7. What are the principles of protection of your personal data?"
+      },
+      {
+        "id": "P2-R44",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Your personal data is always protected by appropriate technical and administrative measures. Lumon strives to ensure that information in Lumon’s possession is not misused, removed without reason, falsified or manipulated, and is not disclosed to third parties or published without your permission. Our systems are secure and access to them is only possible for Lumon employees using personal login information."
+      },
+      {
+        "id": "P2-R45",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Access to the system requires a username and password. The system is also protected by firewalls and other technical solutions."
+      },
+      {
+        "id": "P2-R46",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "The information in the register is only available to authorized and specifically designated employees\nThe use of the register is protected by personal login information and access rights\nThe registry is located on a computer stored in a data centre with limited access\nThe information in the register is located in safe and protected premises\nThe register is backed up regularly\nTo inform you about topics related to the Lumon world of glazing spaces."
+      },
+      {
+        "id": "P2-R47",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Your personal data will be stored in our customer register for as long as it is necessary to achieve the purposes defined in this privacy notice, for example:"
+      },
+      {
+        "id": "P2-R48",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "contacts that do not lead to an offer or a customer relationship are stored for two years;\ncontacts which we have provided with an offer are stored for five years;\nsurvey and lottery responses are stored for six months;\nonline behavioural data and preferences are stored for two years;\naccounting records are stored for 6-10 years from the end of the accounting period;\npurchase data is stored for the life cycle of glass products, which is about 20 to 30 years, or  for  the life cycle of carpets or other accessories, which is about 5 to 10 years. After that, we completely delete the data from our servers."
+      },
+      {
+        "id": "P2-R49",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "9. What are your rights regarding data processing?"
+      },
+      {
+        "id": "P2-R50",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Requests related to data processing should be sent to the address mentioned in section 1."
+      },
+      {
+        "id": "P2-R51",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "As a data subject, you have the following rights:"
+      },
+      {
+        "id": "P2-R52",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "Right to access, correct and delete data"
+      },
+      {
+        "id": "P2-R53",
+        "source": "https://lumon.com/int/company/contact-information/privacy-policy/",
+        "excerpt": "You have the right to receive information about the processing of your personal data, including the right to view the personal data relating to you in your register. You also have the right to request the correction and deletion of your data."
+      }
+    ],
+    "inputCharacters": 17894
+  }
+}

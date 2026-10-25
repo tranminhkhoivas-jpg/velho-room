@@ -60,3 +60,9 @@ th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); v
   .banner, .noprint, button { display: none !important; }
   body { background: #fff; }
 }
+
+main, .card, .tile, .row > * { min-width: 0; }
+p, li, td, pre, .msg, a { overflow-wrap: anywhere; }
+input[type="email"], input[type="password"] { flex: 1; max-width: 100%; }
+input[type="file"] { width: 100%; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }

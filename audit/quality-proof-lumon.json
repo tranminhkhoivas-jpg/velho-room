@@ -1,0 +1,368 @@
+{
+  "title": "Lumon Oy: public enquiry evidence demonstrator",
+  "blocks": [
+    {
+      "t": "p",
+      "text": "This working keyword demo searches 51 exact passages across 5 readable public pages. Enter a topic, inspect source-linked excerpts, prepare a cited reply for staff review and export records as CSV."
+    },
+    {
+      "t": "note",
+      "text": "Public information only. No internal inbox, CRM, routing, enquiry volumes, savings or production integration have been observed. The demo retrieves literal passages; a staff member decides whether they answer the question."
+    },
+    {
+      "t": "h",
+      "text": "Questions before an internal build"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Which recurring enquiry would your team choose to test first, and who currently answers it?"
+        },
+        {
+          "text": "Can the process owner supply an approved, anonymised sample and identify the source of a correct answer?"
+        },
+        {
+          "text": "How would staff measure answer quality, handling time and exceptions before and after a small trial?"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Requirements to agree"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "A named routing owner and explicit review/approval rules."
+        },
+        {
+          "text": "An approved request sample, permitted knowledge sources and a clear data-handling boundary."
+        },
+        {
+          "text": "A small acceptance test, a baseline and a person who reviews every proposed answer before sending."
+        }
+      ]
+    },
+    {
+      "t": "draft",
+      "label": "Pre-meeting invitation for review",
+      "text": "Hi [Name],\n\nWe built a small public-data enquiry demonstrator for Lumon Oy. It searches 51 exact passages from 5 public pages, links the originals and prepares excerpts for staff review.\n\nIt has no access to your inbox or internal systems. Could we explore whether finding published answers is a recurring task for your team, and which approved sample would be worth testing?\n\n[Your name]"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Page read for this demo",
+          "url": "https://www.lumon.com/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://lumon.com/int/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://lumon.com/int/lumon-products/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://lumon.com/int/balcony-glazing/",
+          "tag": "site"
+        },
+        {
+          "text": "Page read for this demo",
+          "url": "https://lumon.com/int/terrace-glazing/",
+          "tag": "site"
+        }
+      ]
+    }
+  ],
+  "proof": {
+    "company": "Lumon Oy",
+    "collectedAt": "2026-10-25T01:19:03.770Z",
+    "pages": [
+      {
+        "url": "https://www.lumon.com",
+        "text": "Title: Lumon.com\n\nURL Source: https://www.lumon.com/\n\nMarkdown Content:\n## Welcome\n\nPlease select your country / language preferences\n\n*   Select country/language\n\n*   [Canada](https://lumon.com/ca/)\n*   [Chile (external)](https://www.panoramachile.cl/)\n*   [Czechia](https://lumon.com/cz/)\n*   [Denmark](https://lumon.com/dk/)\n*   [Finland](https://lumon.com/fi/)\n*   [France](https://lumon.com/fr/)\n*   [Germany](https://lumon.com/de/)\n*   [Netherlands](https://lumon.com/nl/)\n*   [Norway](https://lumon.com/no/)\n*   [Poland](https://lumon.com/pl/)\n*   [Portugal](https://lumon.com/pt/)\n*   [Slovakia](https://lumon.com/sk/)\n*   Spain\n\n[Spanish](https://lumon.com/es/) [English](https://lumon.com/es/en/) \n*   [Sweden](https://lumon.com/se/)\n*   Switzerland\n\n[Deutsch](https://lumon.com/ch/) [Francais](https://lumon.com/ch/fr/) \n*   [United Kingdom](https://lumon.com/uk/)\n*   [United States](https://lumon.com/us/)\n*   [Other Countries (Global)](https://lumon.com/int/)\n\nLinks/Buttons:\n- [Learn more](https://lumon.com/int/company/contact-information/privacy-policy/)\n- [Skip to content](https://www.lumon.com/#wp--skip-link--target)\n- [Canada](https://lumon.com/ca/)\n- [Chile (external)](https://www.panoramachile.cl/)\n- [Czechia](https://lumon.com/cz/)\n- [Denmark](https://lumon.com/dk/)\n- [Finland](https://lumon.com/fi/)\n- [France](https://lumon.com/fr/)\n- [Germany](https://lumon.com/de/)\n- [Netherlands](https://lumon.com/nl/)\n- [Norway](https://lumon.com/no/)\n- [Poland](https://lumon.com/pl/)\n- [Portugal](https://lumon.com/pt/)\n- [Slovakia](https://lumon.com/sk/)\n- [Spanish](https://lumon.com/es/)\n- [English](https://lumon.com/es/en/)\n- [Sweden](https://lumon.com/se/)\n- [Deutsch](https://lumon.com/ch/)\n- [Francais](https://lumon.com/ch/fr/)\n- [United Kingdom](https://lumon.com/uk/)\n- [United States](https://lumon.com/us/)\n- [Other Countries (Global)](https://lumon.com/int/)\n"
+      },
+      {
+        "url": "https://lumon.com/int/",
+        "text": "Title: Lumon International\n\nURL Source: https://lumon.com/int/\n\nMarkdown Content:\n### Transfer your balcony into a haven that echoes your lifestyle.\n\nLumon creates frameless balcony and terrace glazing solutions that transform outdoor spaces into comfortable, usable living areas. Our retractable glazing systems improve comfort, reduce weather exposure, support energy efficiency, and help protect building facades. With over one million satisfied customers worldwide, Lumon combines Scandinavian design, durability, and customized glazing solutions for homes and residential buildings.\n\nLearn more about the Lumon Balcony Glazing. All the benefits, how to plan or see what other customers worldwide have done and get inspired.\n\nSee how our glazing systems turn those unused outdoor places into inspiring and stylish spaces with life.\n\nLumon cares\n\nAs a reliable partner we keep our promises\n\nSaves energy and protects the balcony facade\n\n## See how the frameless Lumon Balcony Glazing system works\n\n### Looking for our professional pages?\n\nAre you an architect or a contractor, a developer or a real estate investor? Find more about how we work as a professional partner in the building industry.\n\n### Want to learn more about Lumon?\n\nWe help our customers get more room for life. Over one million satisfied customers across the globe are already enjoy their outdoor spaces.\n\nLinks/Buttons:\n- [Learn more](https://lumon.com/int/company/contact-information/privacy-policy/)\n- [Skip to content](https://lumon.com/int/#wp--skip-link--target)\n- [](https://www.instagram.com/lumon_professional/)\n- [Professionals](https://lumon.com/int/professionals/)\n- [Company](https://lumon.com/int/company/)\n- [Balcony Glazing](https://lumon.com/int/balcony-glazing/)\n- [Balcony glazing planning](https://lumon.com/int/balcony-glazing/balcony-glazing-planning/)\n- [Balcony glazing benefits](https://lumon.com/int/balcony-glazing/balcony-glazing-benefits/)\n- [Balcony glazing price](https://lumon.com/int/balcony-glazing/balcony-glazing-price/)\n- [How to buy balcony glazing](https://lumon.com/int/balcony-glazing/how-to-buy-balcony-glazing/)\n- [Terrace Glazing](https://lumon.com/int/terrace-glazing/)\n- [Terrace glazing planning](https://lumon.com/int/terrace-glazing/terrace-glazing-planning/)\n- [Terrace glazing benefits](https://lumon.com/int/terrace-glazing/terrace-glazing-benefits/)\n- [Terrace glazing price](https://lumon.com/int/terrace-glazing/terrace-glazing-price/)\n- [How to buy terrace glazing](https://lumon.com/int/terrace-glazing/how-to-buy-terrace-glazing/)\n- [Inspiration](https://lumon.com/int/inspiration/)\n- [Blog](https://lumon.com/int/inspiration/blog/)\n- [Gallery](https://lumon.com/int/inspiration/gallery/)\n- [Customer stories](https://lumon.com/int/inspiration/customer-stories/)\n- [Lumonizer – AI-image generators](https://lumon.com/int/inspiration/lumonizer-ai-image-generators/)\n- [Balcony & terrace design ideas](https://lumon.com/int/inspiration/balcony-terrace-design-ideas/)\n- [Lumon virtual reality balcony glazing 360](https://lumon.com/int/inspiration/virtual-reality-balcony-glazing-360/)\n- [Support](https://lumon.com/int/support/)\n- [User guides](https://lumon.com/int/support/user-guides/)\n- [Warranty](https://lumon.com/int/support/warranty/)\n- [FAQ](https://lumon.com/int/support/faq/)\n- [Lumon products](https://lumon.com/int/lumon-products/)\n- [Contact us](https://lumon.com/int/contact-us/)\n- [ASK FOR A FREE estimate](https://lumon.com/ask-for-estimate/)\n- [+358 20 7403 200](tel:+358207403200)\n- [info@lumon.com](mailto:info@lumon.com)\n- [Architects](https://lumon.com/int/professionals/sectors/architects/)\n- [Builders](https://lumon.com/int/professionals/sectors/contractors/)\n- [Horeca](https://lumon.com/int/professionals/sectors/horeca/)\n- [Insights](https://lumon.com/int/professionals/insights/)\n- [Real Estate Investors](https://lumon.com/int/professionals/sectors/real-estate-investors/)\n- [Products](https://lumon.com/int/professionals/glazing-solutions/)\n- [Design Support](https://lumon.com/int/professionals/design-support/)\n- [Lumon Glazing](https://lumon.com/int/lumon-products/lumon-glazing/)\n- [Lumon Roof](https://lumon.com/int/lumon-products/lumon-roof/)\n- [Visor Blinds](https://lumon.com/int/lumon-products/visor-blinds/)\n- [About Us](https://lumon.com/int/company/about-us/)\n- [Contact Information](https://lumon.com/int/company/contact-information/)\n- [Cookie Policies](https://lumon.com/int/#)\n- [Canada](https://lumon.com/ca/)\n- [Chile (external)](https://www.panoramachile.cl/)\n- [Czechia](https://lumon.com/cz/)\n- [Denmark](https://lumon.com/dk/)\n- [Finland](https://lumon.com/fi/)\n- [France](https://lumon.com/fr/)\n- [Germany](https://lumon.com/de/)\n- [Netherlands](https://lumon.com/nl/)\n- [Norway](https://lumon.com/no/)\n- [Poland](https://lumon.com/pl/)\n- [Portugal](https://lumon.com/pt/)\n- [Slovakia](https://lumon.com/sk/)\n- [Spanish](https://lumon.com/es/)\n- [English](https://lumon.com/es/en/)\n- [Sweden](https://lumon.com/se/)\n- [Deutsch](https://lumon.com/ch/)\n- [Francais](https://lumon.com/ch/fr/)\n- [United Kingdom](https://lumon.com/uk/)\n- [United States](https://lumon.com/us/)\n"
+      },
+      {
+        "url": "https://lumon.com/int/lumon-products/",
+        "text": "About cookies on this site\n\nWe use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.\n\nLearn more\n\nAccept cookies\nOnly mandatory cookies\nCookie settings\nSkip to content\nProfessionals\nCompany\nBalcony Glazing\nTerrace Glazing\nInspiration\nSupport\nContact us\nASK FOR A FREE ESTIMATE\nFAQ\nBalcony\nTerrace\nWarranty\nUser guides\nContact us\nLumon products\nLumon products\nDesigned to work beautifully together\n\nLumon Glazing is a frameless balcony and terrace glazing system designed for flexible indoor-outdoor living. The fully retractable or sliding glass panels allow homeowners to open or close their outdoor space depending on weather and lifestyle needs. Engineered for durability, weather resistance, energy efficiency, and panoramic views, Lumon glazing systems are custom-made for each project worldwide.\n\nExplore our products\nLumon Glazing\n\nOpen when you want. Sheltered when you need.\nMade-to-measure glass panels help protect your balcony or terrace from the weather while preserving light and views. Choose between retractable and sliding glazing to suit your space.\n\n\nLumon Railing\n\nA railing that completes the look.\nLumon Railing offers glass and aluminium designs that complement the building. It can also be combined with Lumon Glazing for a coordinated balcony facade.\n\nLumon Roof\n\nEnjoy your terrace beneath the glass.\nLumon Roof provides overhead shelter while keeping the space bright and open. Choose from roof designs that suit your home and combine the roof with Lumon Glazing to create a more protected terrace.\n\nVisor Blinds\n\nFind your right light.\nMade-to-measure Visor Blinds help you manage sunlight, glare and privacy. Options are available for Lumon glazing, glass railings and roofs.\n\nLet’s plan your outdoor space\n\nYour Lumon expert can help you choose products that suit your space, the building and the way you want to use your balcony or terrace.\n\nCONTACT US\n\nHomeowners\n\nBalcony Glazing\nTerrace Glazing\n\nInspiration\n\nBlog\nGallery\nCustomer Experience\n\nProfessionals\n\nArchitects\nBuilders\nHoreca\nInsights\nReal Estate Investors\nProducts\nDesign Support\n\nLumon products\n\nLumon Glazing\nLumon Roof\nVisor Blinds\nHow to buy\n\nSupport\n\nFAQ\nWarranties\nUser guides\n\nCompany\n\nAbout Us\nContact Information\n\nContact us\n\nContact Us\nCookie Policies\nGet connected\n\nOther Countries (Global)\n\nRegistry and Privacy Statement\nCookie policies\nCookie settings\n© 2026 Lumon Group"
+      },
+      {
+        "url": "https://lumon.com/int/balcony-glazing/",
+        "text": "About cookies on this site\n\nWe use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.\n\nLearn more\n\nAccept cookies\nOnly mandatory cookies\nCookie settings\nSkip to content\nProfessionals\nCompany\nBalcony Glazing\nTerrace Glazing\nInspiration\nSupport\nContact us\nASK FOR A FREE ESTIMATE\nBalcony Glazing\nLumon Balcony Glazing\n\nLumon balcony glazing systems create more usable living space by protecting balconies from wind, rain, dust, and noise while maintaining open views and fresh air access. The frameless retractable glazing can be opened or closed depending on the weather, helping homeowners enjoy their balconies for more months each year. Custom-made glazing solutions also improve balcony safety, facade protection, and long-term property value.\n\nWhy balcony glazing\nWhen wind, rain and cool temperatures would otherwise keep you and your family inside, our balcony glazing can be closed to create a bright and comfortable solarium with unobstructed views. This is one of the major benefits of our system.\nOn warm summer days, you can slide the retractable glazing fully or partially open, letting you enjoy your outdoor balcony however you like.\nEnhanced security: balcony glazing adds an extra layer of security, deterring intruders and preventing unauthorised access to your balcony.\nEnergy efficiency: balcony glazing can help reduce energy costs by preventing heat loss in the winter and heat retention in the summer.\nDesign your balcony\n\nDesigning your balcony can be an exciting and fulfilling experience. It’s a chance to create a space that reflects your style, personality, and lifestyle while providing a peaceful sanctuary that you can retreat to at any time.\n\nFrequently Asked Questions about Balcony Glazing\nWhat is balcony glazing?\nBalcony glazing is a system of glass panels installed around a balcony to protect the space from wind, rain, snow, dust, and noise while maintaining outdoor views and natural ventilation. Lumon balcony glazing uses frameless retractable or sliding glass panels that can be opened or closed depending on weather conditions.\n\nDoes balcony glazing make a balcony warmer?\nBalcony glazing can help create a more comfortable balcony environment by reducing wind and weather exposure. While balcony glazing is not intended as thermal insulation for indoor living space, it can help moderate temperature changes and extend balcony usability throughout the year.\n\nCan balcony glazing reduce noise?\nYes. Balcony glazing can help reduce outdoor noise levels by creating an additional glass barrier between the balcony and the surrounding environment. Noise reduction depends on the glazing structure, balcony design, and surrounding conditions.\n\nIs frameless balcony glazing safe?\nFrameless balcony glazing systems are designed using durable tempered safety glass and tested for weather resistance, wind loads, and everyday use. Lumon glazing systems are manufactured according to strict quality and safety standards.\n\nCan balcony glazing increase property value?\nA glazed balcony can improve balcony usability, appearance, and weather protection, which may positively influence property attractiveness and long-term value. Many homeowners also appreciate the added outdoor living space created by balcony glazing.\nYour dream balcony\nStart planning your balcony\nGO TO PLANNING\nThe benefits of balcony glazing\n\nOur balcony glazing offers significant advantages over both open balconies and fixed-glazing systems. With the possibility to open and close as needed, our glazing provides unparalleled flexibility and comfort.\n\nREAD MORE ABOUT ALL THE BENEFITS\n\nMore room for life\n\nLess wind, rain and dust\n\nSave energy and your building facade\n\nLumon balcony glazing prices\n\nWe recognise the uniqueness of every space, which is why our pricing depends on various factors such as the ideal product system for your balcony, glass thickness, local wind pressure, colours, balcony size, fitting solutions, height, installation type, and chosen accessories.\n\n\nOur products are always tailor-made, and as such, we don’t have pre-set prices or off-the-shelf solutions. Instead, everything we offer is customised and made-to-measure to perfectly fit your space.\n\nREAD MORE ABOUT PRICES\nWatch our More Room for Life video\nYou might also be interested in these\nGallery\n\nGet Inspired in our Lumon Photo Gallery. See how our customers worldwide have turned that unused space into More Room for Life\n\nGO TO GALLERY\nHow to Buy?\n\nIt’s easy.\nLearn more about how easy it really is.\n\nHOW TO BUY\nWe are here to help\n+358 20 7403 200\ninfo@lumon.com\n\nHomeowners\n\nBalcony Glazing\nTerrace Glazing\n\nInspiration\n\nBlog\nGallery\nCustomer Experience\n\nProfessionals\n\nArchitects\nBuilders\nHoreca\nInsights\nReal Estate Investors\nProducts\nDesign Support\n\nLumon products\n\nLumon Glazing\nLumon Roof\nVisor Blinds\nHow to buy\n\nSupport\n\nFAQ\nWarranties\nUser guides\n\nCompany\n\nAbout Us\nContact Information\n\nContact us\n\nContact Us\nCookie Policies\nGet connected\n\nOther Countries (Global)\n\nRegistry and Privacy Statement\nCookie policies\nCookie settings\n© 2026 Lumon Group"
+      },
+      {
+        "url": "https://lumon.com/int/terrace-glazing/",
+        "text": "About cookies on this site\n\nWe use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.\n\nLearn more\n\nAccept cookies\nOnly mandatory cookies\nCookie settings\nSkip to content\nProfessionals\nCompany\nBalcony Glazing\nTerrace Glazing\nInspiration\nSupport\nContact us\nASK FOR A FREE ESTIMATE\nTerrace Glazing\nLumon Terrace Glazing\n\nLumon terrace glazing transforms terraces and patios into stylish multi-purpose spaces that can be enjoyed in different weather conditions throughout the year. Frameless sliding and retractable glass systems provide protection from wind and rain while preserving natural light and outdoor views. Terrace glazing helps extend outdoor living space, reduce maintenance needs, and improve everyday comfort at home.\n\nGain extra space for your home with terrace glazing\n\nLumon terrace glazing is a stylish way to bring more space and comfort to living! It not only looks stylish, but also extends the terrace season and brings more ways to enjoy everyday life: convert that unused space into a home office, a children’s playground, a small garden, a reading corner – you name it. At best, terrace glazing extends the use of the terrace by many months every year. Glazing your terrace turns it into a real multipurpose room for the whole family.\n\nLumon terrace glazing is elegance, preservation and exceptional quality\n\nOur frameless terrace glazing provides many benefits that increase the quality of your home, including more living space, reduced maintenance and repairs, energy savings and safety. Our frameless glazing systems can be opened during warm weather and closed during windy, rainy or cold conditions.\n\nUse of space and placement of terrace furniture\n\nWhen planning a terrace space, you should consider what functions you want to fit into your terrace space. Think about how you plan to place your furniture, whether the room can fit a dining table for many people, and in which direction the doors open.\n\nASK FOR A FREE ESTIMATE\nTerraces\nStart planning your dream terrace\nSTART PLANNING\nBenefits of a Lumon Terrace Glazing\n\nOur terrace glazing without frames provides a multitude of advantages that enhance the value of your residence. These include expanded living area, minimized maintenance and repair requirements, energy conservation, and heightened safety measures among many other benefits.\n\nLEARN MORE\n\nCreating More Room for Life\n\nProtects\n\nSaves energy and renovation costs\n\nTerrace Glazing Questions Answered\nWhat is terrace glazing?\nTerrace glazing is a retractable or sliding glass system designed to protect terraces and patios from weather while maintaining outdoor visibility and natural light. Terrace glazing creates a flexible indoor-outdoor living experience.\n\nCan terrace glazing be used year-round?\nTerrace glazing helps extend terrace usability across multiple seasons by protecting the space from rain, wind, and dirt. The system can be opened during warm weather and closed during colder or wetter conditions.\n\nDoes terrace glazing require planning permission?\nPlanning permission requirements vary by country, municipality, and property type. Homeowners should always check local building regulations before installing terrace glazing.\n\nHow do you clean terrace glazing?\nLumon terrace glazing panels are designed to be movable and accessible, making both sides of the glass easier to clean safely from inside the terrace area.\n\nWhat are the benefits of frameless terrace glazing?\nFrameless terrace glazing provides weather protection while preserving open views, natural light, and modern architectural appearance. It also helps create more functional outdoor living space with minimal visual obstruction.\n \nGet inspired in our terrace gallery\n\nBrowse through our gallery to gather ideas and inspiration of terrace glazings, glass walls, terrace roofs, blinds and more!\n\nGO TO GALLERY\nYou might be interested in these as well:\nHow to buy?\n\nIt’s easy.\nLearn more about how easy it really is.\n\nHOW TO BUY\nStart planning your terrace\n\nGet inspired and see different kind of solutions for your balcony. See what others have done.\n\nSTART PLANNING\nWe are here to help\n+358 20 7403 200\ninfo@lumon.com\n\nHomeowners\n\nBalcony Glazing\nTerrace Glazing\n\nInspiration\n\nBlog\nGallery\nCustomer Experience\n\nProfessionals\n\nArchitects\nBuilders\nHoreca\nInsights\nReal Estate Investors\nProducts\nDesign Support\n\nLumon products\n\nLumon Glazing\nLumon Roof\nVisor Blinds\nHow to buy\n\nSupport\n\nFAQ\nWarranties\nUser guides\n\nCompany\n\nAbout Us\nContact Information\n\nContact us\n\nContact Us\nCookie Policies\nGet connected\n\nOther Countries (Global)\n\nRegistry and Privacy Statement\nCookie policies\nCookie settings\n© 2026 Lumon Group"
+      }
+    ],
+    "records": [
+      {
+        "id": "P2-R1",
+        "source": "https://lumon.com/int/",
+        "excerpt": "Lumon creates frameless balcony and terrace glazing solutions that transform outdoor spaces into comfortable, usable living areas. Our retractable glazing systems improve comfort, reduce weather exposure, support energy efficiency, and help protect building facades. With over one million satisfied customers worldwide, Lumon combines Scandinavian design, durability, and customized glazing solutions for homes and residential buildings."
+      },
+      {
+        "id": "P2-R2",
+        "source": "https://lumon.com/int/",
+        "excerpt": "Learn more about the Lumon Balcony Glazing. All the benefits, how to plan or see what other customers worldwide have done and get inspired."
+      },
+      {
+        "id": "P2-R3",
+        "source": "https://lumon.com/int/",
+        "excerpt": "See how our glazing systems turn those unused outdoor places into inspiring and stylish spaces with life."
+      },
+      {
+        "id": "P2-R4",
+        "source": "https://lumon.com/int/",
+        "excerpt": "As a reliable partner we keep our promises"
+      },
+      {
+        "id": "P2-R5",
+        "source": "https://lumon.com/int/",
+        "excerpt": "Saves energy and protects the balcony facade"
+      },
+      {
+        "id": "P2-R6",
+        "source": "https://lumon.com/int/",
+        "excerpt": "Are you an architect or a contractor, a developer or a real estate investor? Find more about how we work as a professional partner in the building industry."
+      },
+      {
+        "id": "P2-R7",
+        "source": "https://lumon.com/int/",
+        "excerpt": "We help our customers get more room for life. Over one million satisfied customers across the globe are already enjoy their outdoor spaces."
+      },
+      {
+        "id": "P3-R8",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "We use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements."
+      },
+      {
+        "id": "P3-R9",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Lumon Glazing is a frameless balcony and terrace glazing system designed for flexible indoor-outdoor living. The fully retractable or sliding glass panels allow homeowners to open or close their outdoor space depending on weather and lifestyle needs. Engineered for durability, weather resistance, energy efficiency, and panoramic views, Lumon glazing systems are custom-made for each project worldwide."
+      },
+      {
+        "id": "P3-R10",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Open when you want. Sheltered when you need.\nMade-to-measure glass panels help protect your balcony or terrace from the weather while preserving light and views. Choose between retractable and sliding glazing to suit your space."
+      },
+      {
+        "id": "P3-R11",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "A railing that completes the look.\nLumon Railing offers glass and aluminium designs that complement the building. It can also be combined with Lumon Glazing for a coordinated balcony facade."
+      },
+      {
+        "id": "P3-R12",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Enjoy your terrace beneath the glass.\nLumon Roof provides overhead shelter while keeping the space bright and open. Choose from roof designs that suit your home and combine the roof with Lumon Glazing to create a more protected terrace."
+      },
+      {
+        "id": "P3-R13",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Find your right light.\nMade-to-measure Visor Blinds help you manage sunlight, glare and privacy. Options are available for Lumon glazing, glass railings and roofs."
+      },
+      {
+        "id": "P3-R14",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Your Lumon expert can help you choose products that suit your space, the building and the way you want to use your balcony or terrace."
+      },
+      {
+        "id": "P3-R15",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Architects\nBuilders\nHoreca\nInsights\nReal Estate Investors\nProducts\nDesign Support"
+      },
+      {
+        "id": "P3-R16",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Lumon Glazing\nLumon Roof\nVisor Blinds\nHow to buy"
+      },
+      {
+        "id": "P3-R17",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Contact Us\nCookie Policies\nGet connected"
+      },
+      {
+        "id": "P3-R18",
+        "source": "https://lumon.com/int/lumon-products/",
+        "excerpt": "Registry and Privacy Statement\nCookie policies\nCookie settings\n© 2026 Lumon Group"
+      },
+      {
+        "id": "P4-R19",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Lumon balcony glazing systems create more usable living space by protecting balconies from wind, rain, dust, and noise while maintaining open views and fresh air access. The frameless retractable glazing can be opened or closed depending on the weather, helping homeowners enjoy their balconies for more months each year. Custom-made glazing solutions also improve balcony safety, facade protection, and long-term property value."
+      },
+      {
+        "id": "P4-R20",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Why balcony glazing\nWhen wind, rain and cool temperatures would otherwise keep you and your family inside, our balcony glazing can be closed to create a bright and comfortable solarium with unobstructed views. This is one of the major benefits of our system.\nOn warm summer days, you can slide the retractable glazing fully or partially open, letting you enjoy your outdoor balcony however you like.\nEnhanced security: balcony glazing adds an extra layer of security, deterring intruders and preventing unauthorised access to your balcony.\nEnergy efficiency: balcony glazing can help reduce energy costs by preventing heat loss in the winter and heat retention in the summer.\nDesign your balcony"
+      },
+      {
+        "id": "P4-R21",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Designing your balcony can be an exciting and fulfilling experience. It’s a chance to create a space that reflects your style, personality, and lifestyle while providing a peaceful sanctuary that you can retreat to at any time."
+      },
+      {
+        "id": "P4-R22",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Frequently Asked Questions about Balcony Glazing\nWhat is balcony glazing?\nBalcony glazing is a system of glass panels installed around a balcony to protect the space from wind, rain, snow, dust, and noise while maintaining outdoor views and natural ventilation. Lumon balcony glazing uses frameless retractable or sliding glass panels that can be opened or closed depending on weather conditions."
+      },
+      {
+        "id": "P4-R23",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Does balcony glazing make a balcony warmer?\nBalcony glazing can help create a more comfortable balcony environment by reducing wind and weather exposure. While balcony glazing is not intended as thermal insulation for indoor living space, it can help moderate temperature changes and extend balcony usability throughout the year."
+      },
+      {
+        "id": "P4-R24",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Can balcony glazing reduce noise?\nYes. Balcony glazing can help reduce outdoor noise levels by creating an additional glass barrier between the balcony and the surrounding environment. Noise reduction depends on the glazing structure, balcony design, and surrounding conditions."
+      },
+      {
+        "id": "P4-R25",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Is frameless balcony glazing safe?\nFrameless balcony glazing systems are designed using durable tempered safety glass and tested for weather resistance, wind loads, and everyday use. Lumon glazing systems are manufactured according to strict quality and safety standards."
+      },
+      {
+        "id": "P4-R26",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Can balcony glazing increase property value?\nA glazed balcony can improve balcony usability, appearance, and weather protection, which may positively influence property attractiveness and long-term value. Many homeowners also appreciate the added outdoor living space created by balcony glazing.\nYour dream balcony\nStart planning your balcony\nGO TO PLANNING\nThe benefits of balcony glazing"
+      },
+      {
+        "id": "P4-R27",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Our balcony glazing offers significant advantages over both open balconies and fixed-glazing systems. With the possibility to open and close as needed, our glazing provides unparalleled flexibility and comfort."
+      },
+      {
+        "id": "P4-R28",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "We recognise the uniqueness of every space, which is why our pricing depends on various factors such as the ideal product system for your balcony, glass thickness, local wind pressure, colours, balcony size, fitting solutions, height, installation type, and chosen accessories."
+      },
+      {
+        "id": "P4-R29",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Our products are always tailor-made, and as such, we don’t have pre-set prices or off-the-shelf solutions. Instead, everything we offer is customised and made-to-measure to perfectly fit your space."
+      },
+      {
+        "id": "P4-R30",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "READ MORE ABOUT PRICES\nWatch our More Room for Life video\nYou might also be interested in these\nGallery"
+      },
+      {
+        "id": "P4-R31",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "Get Inspired in our Lumon Photo Gallery. See how our customers worldwide have turned that unused space into More Room for Life"
+      },
+      {
+        "id": "P4-R32",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "It’s easy.\nLearn more about how easy it really is."
+      },
+      {
+        "id": "P4-R33",
+        "source": "https://lumon.com/int/balcony-glazing/",
+        "excerpt": "HOW TO BUY\nWe are here to help\n+358 20 7403 200\ninfo@lumon.com"
+      },
+      {
+        "id": "P5-R34",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Lumon terrace glazing transforms terraces and patios into stylish multi-purpose spaces that can be enjoyed in different weather conditions throughout the year. Frameless sliding and retractable glass systems provide protection from wind and rain while preserving natural light and outdoor views. Terrace glazing helps extend outdoor living space, reduce maintenance needs, and improve everyday comfort at home."
+      },
+      {
+        "id": "P5-R35",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Gain extra space for your home with terrace glazing"
+      },
+      {
+        "id": "P5-R36",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Lumon terrace glazing is a stylish way to bring more space and comfort to living! It not only looks stylish, but also extends the terrace season and brings more ways to enjoy everyday life: convert that unused space into a home office, a children’s playground, a small garden, a reading corner – you name it. At best, terrace glazing extends the use of the terrace by many months every year. Glazing your terrace turns it into a real multipurpose room for the whole family."
+      },
+      {
+        "id": "P5-R37",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Lumon terrace glazing is elegance, preservation and exceptional quality"
+      },
+      {
+        "id": "P5-R38",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Our frameless terrace glazing provides many benefits that increase the quality of your home, including more living space, reduced maintenance and repairs, energy savings and safety. Our frameless glazing systems can be opened during warm weather and closed during windy, rainy or cold conditions."
+      },
+      {
+        "id": "P5-R39",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Use of space and placement of terrace furniture"
+      },
+      {
+        "id": "P5-R40",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "When planning a terrace space, you should consider what functions you want to fit into your terrace space. Think about how you plan to place your furniture, whether the room can fit a dining table for many people, and in which direction the doors open."
+      },
+      {
+        "id": "P5-R41",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "ASK FOR A FREE ESTIMATE\nTerraces\nStart planning your dream terrace\nSTART PLANNING\nBenefits of a Lumon Terrace Glazing"
+      },
+      {
+        "id": "P5-R42",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Our terrace glazing without frames provides a multitude of advantages that enhance the value of your residence. These include expanded living area, minimized maintenance and repair requirements, energy conservation, and heightened safety measures among many other benefits."
+      },
+      {
+        "id": "P5-R43",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Terrace Glazing Questions Answered\nWhat is terrace glazing?\nTerrace glazing is a retractable or sliding glass system designed to protect terraces and patios from weather while maintaining outdoor visibility and natural light. Terrace glazing creates a flexible indoor-outdoor living experience."
+      },
+      {
+        "id": "P5-R44",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Can terrace glazing be used year-round?\nTerrace glazing helps extend terrace usability across multiple seasons by protecting the space from rain, wind, and dirt. The system can be opened during warm weather and closed during colder or wetter conditions."
+      },
+      {
+        "id": "P5-R45",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Does terrace glazing require planning permission?\nPlanning permission requirements vary by country, municipality, and property type. Homeowners should always check local building regulations before installing terrace glazing."
+      },
+      {
+        "id": "P5-R46",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "How do you clean terrace glazing?\nLumon terrace glazing panels are designed to be movable and accessible, making both sides of the glass easier to clean safely from inside the terrace area."
+      },
+      {
+        "id": "P5-R47",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "What are the benefits of frameless terrace glazing?\nFrameless terrace glazing provides weather protection while preserving open views, natural light, and modern architectural appearance. It also helps create more functional outdoor living space with minimal visual obstruction."
+      },
+      {
+        "id": "P5-R48",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Browse through our gallery to gather ideas and inspiration of terrace glazings, glass walls, terrace roofs, blinds and more!"
+      },
+      {
+        "id": "P5-R49",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "GO TO GALLERY\nYou might be interested in these as well:\nHow to buy?"
+      },
+      {
+        "id": "P5-R50",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "Get inspired and see different kind of solutions for your balcony. See what others have done."
+      },
+      {
+        "id": "P5-R51",
+        "source": "https://lumon.com/int/terrace-glazing/",
+        "excerpt": "START PLANNING\nWe are here to help\n+358 20 7403 200\ninfo@lumon.com"
+      }
+    ],
+    "inputCharacters": 19463
+  }
+}

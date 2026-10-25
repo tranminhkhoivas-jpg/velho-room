@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { StaffNav } from "@/components/StaffNav";
 
 export const metadata: Metadata = {
   title: "Velho Room",
@@ -11,7 +12,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <div className="banner">Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.</div>
+        <div className="banner">Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.</div>
+        <StaffNav />
         {children}
       </body>
     </html>

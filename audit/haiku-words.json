@@ -1,0 +1,181 @@
+{
+  "title": "Kesko Oyj: verified quotes and draft outreach (for Velho review)",
+  "blocks": [
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "“In the first quarter of 2026, Kesko's profit improved and net sales grew in all divisions.” (2026-04-29)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://mb.cision.com/Main/13061/4341874/4065330.pdf"
+        },
+        {
+          "text": "“Kesko's profit improved significantly.” (2026-07-22)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-half-year-financial-report-1.1.30.6.2026-keskos-profit-improved-significantly--technical-trade-as-the-driver/"
+        },
+        {
+          "text": "“Markets in Finland and Norway are still muted but have improved compared to before.” (2026-07-22)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://finance.yahoo.com/quote/KEK.F/earnings/KEK.F-Q2-2026-earnings_call-379298.html"
+        },
+        {
+          "text": "“Technical Trade as a driver is our headline.” (2026-07-22)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://finance.yahoo.com/quote/0BNT.L/earnings/0BNT.L-Q2-2026-earnings_call-379298.html"
+        },
+        {
+          "text": "“Yeah, retail media, Mainly that is in our grocery business.” (2026-07-22)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://finance.yahoo.com/quote/KEK.F/earnings/KEK.F-Q2-2026-earnings_call-379298.html"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Scope: only the verified quotes supplied in the task are used below. Translations are labelled as such and the original text is retained. All drafts are for Velho team review and manual sending. No new facts or additional quotations have been added."
+    },
+    {
+      "t": "h",
+      "text": "Opener (max 70 words, original English quotes only)"
+    },
+    {
+      "t": "p",
+      "text": "\"In the first quarter of 2026, Kesko's profit improved and net sales grew in all divisions.\" (Jorma Rauhala, President and CEO, 29 April 2026.) Later, at the half-year report, he said: \"Kesko's profit improved significantly.\" (22 July 2026.)"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Q1 2026 release: profit improved and net sales grew in all divisions",
+          "url": "https://mb.cision.com/Main/13061/4341874/4065330.pdf",
+          "tag": "quote"
+        },
+        {
+          "text": "Half-year report: \"Kesko's profit improved significantly.\"",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-half-year-financial-report-1.1.30.6.2026-keskos-profit-improved-significantly--technical-trade-as-the-driver/",
+          "tag": "quote"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn comment (max 40 words, draft for review)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn comment",
+      "text": "\"Technical Trade as a driver is our headline.\" It is a useful line to watch. Curious how the Technical Trade growth is being carried by the teams doing the day-to-day work."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Half-year call: \"Technical Trade as a driver is our headline.\"",
+          "url": "https://finance.yahoo.com/quote/0BNT.L/earnings/0BNT.L-Q2-2026-earnings_call-379298.html",
+          "tag": "quote"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Repeated priorities (short explanation)"
+    },
+    {
+      "t": "p",
+      "text": "Across the verified quotes, two priorities recur. First, profitability and growth across divisions: the Q1 release and the half-year report both point to improved profit. Second, the Technical Trade and grocery-related growth areas: Rauhala names Technical Trade as the headline driver, and when discussing retail media he links it mainly to the grocery business. Markets in Finland and Norway are described as still muted but improved. These are public signals only and are offered as a reason to ask questions, not as a diagnosis of internal processes."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Retail media, mainly in the grocery business (quote from the half-year call)",
+          "url": "https://finance.yahoo.com/quote/KEK.F/earnings/KEK.F-Q2-2026-earnings_call-379298.html",
+          "tag": "quote"
+        },
+        {
+          "text": "Markets in Finland and Norway \"still muted but have improved compared to before\"",
+          "url": "https://finance.yahoo.com/quote/KEK.F/earnings/KEK.F-Q2-2026-earnings_call-379298.html",
+          "tag": "quote"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "5 quote(s) text-matched in the source pages. Text matching does not independently verify speaker attribution or publication date; review the linked original before sending."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ]
+}

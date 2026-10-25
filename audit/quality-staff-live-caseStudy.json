@@ -1,0 +1,242 @@
+{
+  "title": "Synthetic Test Case Study: Invoice Sample Pilot (Fictional, Not for Publication)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "FICTIONAL EMPLOYEE TEST. The source notes state: 'Fictional employee test, not an actual Kesko project or meeting.' This document is a synthetic exercise. It must not be published, shared externally, or attributed to Kesko or any real client."
+    },
+    {
+      "t": "h",
+      "text": "1) Headline"
+    },
+    {
+      "t": "p",
+      "text": "Headline (non-numeric, because the outcome is not a validated result): A fictional pilot explored reducing manual invoice work for a small sample. Only one week of observation was recorded."
+    },
+    {
+      "t": "p",
+      "text": "No financial savings or production deployment were measured, so no savings or ROI headline is supported."
+    },
+    {
+      "t": "h",
+      "text": "2) Measured metrics"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Staff hours per week on a small invoice sample (one week only, self-reported or staff-recorded; source notes do not specify)",
+          "12 hours",
+          "8 hours"
+        ],
+        [
+          "Financial savings",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Production deployment",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Duplicate spreadsheet entry removed",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Only the hours figure is supplied. The source does not state whether it was directly timed or estimated, and a single week is too short to establish a stable trend. Treat it as an indicative observation, not a proven result."
+    },
+    {
+      "t": "h",
+      "text": "3) Story"
+    },
+    {
+      "t": "p",
+      "text": "Staff on a fictional invoice sample reported spending about 12 hours a week on the process before a pilot began. In the single week observed during the pilot, the recorded figure was 8 hours. The notes do not say how the time was measured."
+    },
+    {
+      "t": "p",
+      "text": "The pilot focused on a small sample of invoices. The notes record no production rollout, so nothing beyond the sample has been tested."
+    },
+    {
+      "t": "p",
+      "text": "Staff have expressed interest in exploring the removal of duplicate spreadsheet entry. This is a stated intention, not a completed change, and its effect has not been measured."
+    },
+    {
+      "t": "p",
+      "text": "No buyer has agreed to a purchase or commercial next step. Any further work would need scoping and agreement before it could be described as planned."
+    },
+    {
+      "t": "h",
+      "text": "4) Drafts (for internal review only, not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn (max 120 words, internal review only)",
+      "text": "A fictional test: we looked at a small invoice sample where staff reported about 12 hours a week of manual work before a pilot, and 8 hours in one week afterwards. That's one week, one sample, no production rollout and no savings calculated. Staff now want to explore removing duplicate spreadsheet entry. Too early to call it a result, but a useful signal about where to look next. What manual step is quietly eating your team's week?"
+    },
+    {
+      "t": "draft",
+      "label": "One-pager (six lines, internal review only)",
+      "text": "Fictional test case, not a real client.\nSmall invoice sample: about 12 staff hours/week before, 8 hours in one observed week after.\nSingle week, small sample, no production rollout.\nNo financial savings or ROI measured.\nStaff interested in exploring removal of duplicate spreadsheet entry.\nNo buyer commitment; next steps not agreed."
+    },
+    {
+      "t": "h",
+      "text": "5) Missing facts and approvals"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Whether the 12- and 8-hour figures were timed, self-reported or estimated, and by whom."
+        },
+        {
+          "text": "Sample size and how representative the invoices were."
+        },
+        {
+          "text": "Duration of observation beyond one week."
+        },
+        {
+          "text": "Any financial or error-rate measurements (none recorded)."
+        },
+        {
+          "text": "Whether any production deployment is planned."
+        },
+        {
+          "text": "Written approval from any real organisation before its name or data appears in any publication."
+        },
+        {
+          "text": "Internal legal/communications review before any LinkedIn or external use, even for a fictional test."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Do not publish. This is a synthetic exercise; the drafts above are for internal review only and have not been sent or posted."
+    },
+    {
+      "t": "note",
+      "text": "Staff-supplied notes. Verify claims with the project owner; publishing needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 25 statement groups; 0 unsupported sections withheld, 5 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Kesko\nProject owner: Fictional process owner\nFictional employee test, not an actual Kesko project or meeting. A small invoice sample took 12 staff hours per week before a pilot and 8 afterwards, measured for one week only. No financial savings or production deployment were measured. Staff want to explore removing duplicate spreadsheet entry. No buyer has agreed to a purchase."
+  },
+  "sourceChecks": [
+    {
+      "claim": "Synthetic Test Case Study: Invoice Sample Pilot (Fictional, Not for Publication)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "1) Headline",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Headline (non-numeric, because the outcome is not a validated result): A fictional pilot explored reducing manual invoice work for a small sample. Only one week of observation was recorded.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "No financial savings or production deployment were measured, so no savings or ROI headline is supported.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "2) Measured metrics",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Staff hours per week on a small invoice sample (one week only, self-reported or staff-recorded; source notes do not specify); Before: 12 hours; After: 8 hours",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Financial savings; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Production deployment; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Duplicate spreadsheet entry removed; Before: not measured; After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "3) Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Staff on a fictional invoice sample reported spending about 12 hours a week on the process before a pilot began. In the single week observed during the pilot, the recorded figure was 8 hours. The notes do not say how the time was measured.",
+      "verdict": "review"
+    },
+    {
+      "claim": "The pilot focused on a small sample of invoices. The notes record no production rollout, so nothing beyond the sample has been tested.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Staff have expressed interest in exploring the removal of duplicate spreadsheet entry. This is a stated intention, not a completed change, and its effect has not been measured.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "No buyer has agreed to a purchase or commercial next step. Any further work would need scoping and agreement before it could be described as planned.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "4) Drafts (for internal review only, not sent)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "A fictional test: we looked at a small invoice sample where staff reported about 12 hours a week of manual work before a pilot, and 8 hours in one week afterwards. That's one week, one sample, no production rollout and no savings calculated. Staff now want to explore removing duplicate spreadsheet entry. Too early to call it a result, but a useful signal about where to look next. What manual step is quietly eating your team's week?",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Fictional test case, not a real client.\nSmall invoice sample: about 12 staff hours/week before, 8 hours in one observed week after.\nSingle week, small sample, no production rollout.\nNo financial savings or ROI measured.\nStaff interested in exploring removal of duplicate spreadsheet entry.\nNo buyer commitment; next steps not agreed.",
+      "verdict": "review"
+    },
+    {
+      "claim": "5) Missing facts and approvals",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Whether the 12- and 8-hour figures were timed, self-reported or estimated, and by whom.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Sample size and how representative the invoices were.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Duration of observation beyond one week.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Any financial or error-rate measurements (none recorded).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Whether any production deployment is planned.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Written approval from any real organisation before its name or data appears in any publication.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Internal legal/communications review before any LinkedIn or external use, even for a fictional test.",
+      "verdict": "supported"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 25 statement groups; 0 unsupported sections withheld, 5 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-25T07:19:45.289Z",
+  "mode": "controlled providers; isolated DB; no live inference",
+  "results": [
+    {
+      "test": "Provider outage retains one saved enquiry with retryable pending result",
+      "passed": true
+    },
+    {
+      "test": "Repeated outage retry does not duplicate saved enquiry",
+      "passed": true
+    },
+    {
+      "test": "Retry recovers the original row and completed retries remain idempotent",
+      "passed": true
+    },
+    {
+      "test": "Repeat-contact submissions remain discoverable together without deleting history",
+      "passed": true
+    },
+    {
+      "test": "Cursor reaches the older 201st record without repetition",
+      "passed": true
+    },
+    {
+      "test": "False result is checked and withheld in all seven allowed factual surfaces",
+      "passed": true
+    },
+    {
+      "test": "Future milestone is checked and explicitly labelled upcoming",
+      "passed": true
+    },
+    {
+      "test": "Stale news cannot crowd out a current registry change",
+      "passed": true
+    },
+    {
+      "test": "Stale recording never supplies executive spans",
+      "passed": true
+    },
+    {
+      "test": "Host words remain unverified rather than attributed to the CEO",
+      "passed": true
+    },
+    {
+      "test": "Correctly labelled executive turn passes its stance check",
+      "passed": true
+    },
+    {
+      "test": "Executive disagreement does not become an endorsed priority",
+      "passed": true
+    },
+    {
+      "test": "Unknown scope fields remain open",
+      "passed": true
+    },
+    {
+      "test": "Explicit and typed keyword exclusions remove excluded passages",
+      "passed": true
+    },
+    {
+      "test": "Supplied actual workload affects the answer-based indicator",
+      "passed": true
+    },
+    {
+      "test": "Restricted event remains research-only and produces no pre-event draft",
+      "passed": true
+    },
+    {
+      "test": "Staff chart claims cannot inherit an unrelated public citation or unchecked result",
+      "passed": true
+    },
+    {
+      "test": "Deal check-in includes its selected new trigger and preserves original history",
+      "passed": true
+    }
+  ]
+}

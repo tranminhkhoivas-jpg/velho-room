@@ -1,0 +1,115 @@
+Browser tab: 5, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/proof?c=Lumon".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/proof?c=Lumon
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	3 container Staff session
+		4 button Sign out
+	5 container
+		6 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Lumon
+		7 heading Proof before pitch, Value: 1
+			8 text Proof before pitch
+		9 text A small working demo on the prospect’s own public data, before the first meeting. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		10 text field (settable) Description: Company, Value: Lumon
+		11 button Run
+		12 button Refresh research
+		13 button Regenerate
+		14 heading Lumon Oy: public enquiry evidence demonstrator, Value: 1
+			15 text Lumon Oy: public enquiry evidence demonstrator
+		16 text This working keyword demo searches 51 exact passages across 5 readable public pages. Enter a topic, inspect source-linked excerpts, prepare a cited reply for staff review and export records as CSV.
+		17 text Public information only. No internal inbox, CRM, routing, enquiry volumes, savings or production integration have been observed. The demo retrieves literal passages; a staff member decides whether they answer the question.
+		18 heading Questions before an internal build, Value: 2
+			19 text Questions before an internal build
+		20 content list
+			21 container
+				22 AXListMarker • 
+				23 text Which recurring enquiry would your team choose to test first, and who currently answers it?
+			24 container
+				25 AXListMarker • 
+				26 text Can the process owner supply an approved, anonymised sample and identify the source of a correct answer?
+			27 container
+				28 AXListMarker • 
+				29 text How would staff measure answer quality, handling time and exceptions before and after a small trial?
+		30 heading Requirements to agree, Value: 2
+			31 text Requirements to agree
+		32 content list
+			33 container
+				34 AXListMarker • 
+				35 text A named routing owner and explicit review/approval rules.
+			36 container
+				37 AXListMarker • 
+				38 text An approved request sample, permitted knowledge sources and a clear data-handling boundary.
+			39 container
+				40 AXListMarker • 
+				41 text A small acceptance test, a baseline and a person who reviews every proposed answer before sending.
+		42 text Pre-meeting invitation for review
+		43 text draft — not sent
+		44 button Edit draft
+		45 button Copy
+		46 text Hi [Name],
+
+We built a small public-data enquiry demonstrator for Lumon Oy. It searches 51 exact passages from 5 public pages, links the originals and prepares excerpts for staff review.
+
+It has no access to your inbox or internal systems. Could we explore whether finding published answers is a recurring task for your team, and which approved sample would be worth testing?
+
+[Your name]
+		47 content list
+			48 container
+				49 AXListMarker • 
+				50 text site Page read for this demo
+				51 link Description: source, Value: lumon.com/
+			52 container
+				53 AXListMarker • 
+				54 text site Page read for this demo
+				55 link Description: source, Value: lumon.com/int/
+			56 container
+				57 AXListMarker • 
+				58 text site Page read for this demo
+				59 link Description: source, Value: lumon.com/int/lumon-products/
+			60 container
+				61 AXListMarker • 
+				62 text site Page read for this demo
+				63 link Description: source, Value: lumon.com/int/balcony-glazing/
+			64 container
+				65 AXListMarker • 
+				66 text site Page read for this demo
+				67 link Description: source, Value: lumon.com/int/terrace-glazing/
+		68 container Working public-data demonstration
+			69 heading Try the working demo: enquiry evidence finder, Value: 2
+				70 text Try the working demo: enquiry evidence finder
+			71 container
+				72 text Before:  19,463  characters across  5  public pages. After:  51  traceable records that can be searched and exported.
+			73 text Try words from an actual customer enquiry. This example finds literal public passages; it does not infer an answer or access internal systems. Queries stay in this browser and use no AI calls.
+			74 container
+				75 text Customer enquiry or topic
+				76 text field (settable) Customer enquiry or topic, Value: terrace glazing, not balcony glazing, ID: proof-enquiry
+				77 button Find evidence
+				78 text Exclude words 
+				79 text field (settable) Exclude words
+				80 text Keyword search, not question answering. Excluded words remove whole passages. Use the source language; select only passages that answer your enquiry.
+			92 container
+				93 text 3  matching passage(s),  2.0  ms in this browser. This is search latency, not a measured business saving.
+				94 checkbox (settable, integer) Value: 0, Description: P5-R36: Lumon terrace glazing is a stylish way to bring more space and comfort to living! It not only looks stylish, but also extends the terrace season and brings more ways to enjoy every
+				95 checkbox (settable, integer) Value: 1, Description: P5-R34: Lumon terrace glazing transforms terraces and patios into stylish multi-purpose spaces that can be enjoyed in different weather conditions throughout the year. Frameless sliding an
+				96 checkbox (settable, integer) Value: 1, Description: P5-R38: Our frameless terrace glazing provides many benefits that increase the quality of your home, including more living space, reduced maintenance and repairs, energy savings and safety
+				97 text Selected evidence for your reply — check that it answers the question draft — not sent
+				98 button Edit draft
+				99 button Copy
+				100 text Public information relevant to your enquiry (exact excerpts; staff review required):
+
+[P5-R34] “Lumon terrace glazing transforms terraces and patios into stylish multi-purpose spaces that can be enjoyed in different weather conditions throughout the year. Frameless sliding and retractable glass systems provide protection from wind and rain while preserving natural light and outdoor views. Terrace glazing helps extend outdoor living space, reduce maintenance needs, and improve everyday comfort at home.”
+Source: https://lumon.com/int/terrace-glazing/
+
+[P5-R38] “Our frameless terrace glazing provides many benefits that increase the quality of your home, including more living space, reduced maintenance and repairs, energy savings and safety. Our frameless glazing systems can be opened during warm weather and closed during windy, rainy or cold conditions.”
+Source: https://lumon.com/int/terrace-glazing/
+			81 button Download all evidence records (CSV)
+			82 button (collapsed) Inspect the actual input and extracted records, Secondary Actions: Expand
+				83 text Inspect the actual input and extracted records
+			84 container
+				85 text Built on  Lumon Oy 's public information. A production enquiry workflow would also need the company's routing rules, private knowledge, owner and approval process. No enquiry is sent.
+		86 button (collapsed) Check the source before using a draft, Secondary Actions: Expand
+			87 text Check the source before using a draft
+		88 text Live assistant built only from Lumon's public website. Ask it what a customer would ask.
+		89 text field (settable)
+		90 button Send
+		91 text OpenRouter audit spend (Fastino checks logged separately) : $ 1.11
+
+The focused UI element is 94 checkbox (settable, integer) Value: 0, Description: P5-R36: Lumon terrace glazing is a stylish way to bring more space and comfort to living! It not only looks stylish, but also extends the terrace season and brings more ways to enjoy every

@@ -1,0 +1,232 @@
+{
+  "title": "Meriklinikka Oy: reducing no-shows with a two-way SMS reminder (case study draft)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTHETIC / SAMPLE NOTES. The source notes are fictional sample material and must be kept labelled as such. Not client-approved. Not for publication until Meriklinikka Oy approves the wording, names and any figures. No independent verification has been done: all figures below come from staff-supplied project notes (expert Helena Ojala, 2025-04) and the clinic's booking export, not from independently audited data."
+    },
+    {
+      "t": "h",
+      "text": "Headline"
+    },
+    {
+      "t": "p",
+      "text": "Headline (measured outcome, approval pending): a two-way SMS reminder was associated with a drop in no-show and late-cancel rate at one clinic location over four weeks. Counts are shown in the table; the comparison is against a six-month average, so seasonality is not ruled out."
+    },
+    {
+      "t": "p",
+      "text": "Non-numeric alternative if the client does not approve figures: Making appointment reminders two-way at a Finnish physio clinic, with no clinical data or AI on patient records."
+    },
+    {
+      "t": "h",
+      "text": "Measured outcomes"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "No-show + late cancel (<24h) rate",
+          "11.8% (6-month booking export baseline)",
+          "8.1% (4 weeks, approx. 1,150 appointments)"
+        ],
+        [
+          "Cancelled slots refilled from waitlist",
+          "not measured",
+          "41 of 96 cancellations (43%)"
+        ],
+        [
+          "Reception phone calls about reminders",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Appointment volume",
+          "Approx. 300 per week (baseline)",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Only the first two rows are explicitly measured in the notes. The reception-call reduction is a staff impression with no count. The pre-period is a six-month average, so seasonal effects could explain part of the change."
+    },
+    {
+      "t": "h",
+      "text": "Story"
+    },
+    {
+      "t": "p",
+      "text": "Meriklinikka Oy runs physio and occupational health appointments in Espoo with 18 therapists and doctors and three reception staff. Two operational pressures had been visible: missed appointments and a steady stream of phone calls to reception. The team chose to address only the no-show problem first, within one month."
+    },
+    {
+      "t": "p",
+      "text": "The existing setup sent a single SMS reminder 48 hours before each appointment, with no way for patients to reply, so cancellations usually came by phone. Velho's build kept the scope narrow: a two-way SMS reminder (sent at 48 hours, and at 4 hours for first-time patients) where patients reply KYLLÄ or PERU; a cancellation frees the slot, notifies reception, and sends a waitlist message to the next person (manual approval in v1). A language model is used only to parse free-text replies and route them to reception. No medical content goes into prompts, and no AI touches patient records, which compliance had required."
+    },
+    {
+      "t": "p",
+      "text": "Before go-live, a data processing agreement and a light data protection impact assessment were completed with the clinic's data protection officer, and the SMS provider is EU-based. The reminder ran at one location for four weeks. Over that period, no-show and late-cancel rate moved from 11.8% to 8.1%, and 41 of 96 cancelled slots were refilled from the waitlist. Staff report fewer reminder-related calls but have not counted them; a one-week tally has been requested."
+    },
+    {
+      "t": "p",
+      "text": "Limits and next steps: one location, four weeks, a six-month baseline, and no control group. One patient complained that messages were only in Finnish, so English and Swedish are next. An automatic waitlist offer after two weeks is planned, contingent on no mishaps in the manual phase."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn draft (for Velho review, not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn (max 120 words, pending client approval)",
+      "text": "We helped an Espoo physio clinic test a two-way SMS reminder. Patients can reply to confirm or cancel, and a freed slot goes to the next person on the waitlist. Over four weeks at one location, the no-show and late-cancel rate went from 11.8% to 8.1%, and 41 of 96 cancelled slots were refilled. It is one site and a short window, so we are treating this as early evidence, not proof. Clinical data stays out of the AI entirely. Next: English and Swedish messages, then automatic waitlist offers. Happy to compare notes with anyone running a similar booking setup."
+    },
+    {
+      "t": "h",
+      "text": "One-pager (six lines, for review)"
+    },
+    {
+      "t": "draft",
+      "label": "One-pager",
+      "text": "Statement withheld by source review. Consult the original notes and confirm the claim before using this section."
+    },
+    {
+      "t": "h",
+      "text": "Missing facts and approvals required"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Client written approval of the story, figures, client name and any quotes (none supplied in the notes)."
+        },
+        {
+          "text": "List statement withheld by source review. Confirm it with the project owner."
+        },
+        {
+          "text": "A reception call tally (requested, not yet done)."
+        },
+        {
+          "text": "Whether the clinic is willing to be named publicly; the notes do not say."
+        },
+        {
+          "text": "Confirmation that the sample/synthetic notice is removed or the material is treated strictly as an internal example before any real publication."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 24 statement groups; 2 unsupported sections withheld, 15 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Meriklinikka Oy\nProject owner: Helena Ojala\nclinic, Espoo, 18 therapists/docs, 3 reception. booking system = Pro Medico-ish (vendor API limited)\n- 2 problems: no-shows + reception phone load. only touching no-shows in 1 mo. NOT clinical stuff, no diagnoses, no AI on patient records (compliance said no, fine)\n- baseline from booking export (6 mo): no-show / late cancel (<24h) rate 11.8%, ~ 300 appts/wk -> ~35 empty slots/wk\n- current: single SMS reminder 48 h before, no way to reply, ppl call reception\n- smallest build: 2-way SMS reminder (48h + 4h for 1st-time pts), reply KYLLÄ/PERU, cancel -> frees slot + notifies reception + waitlist msg to next on list (manual approve v1)\n- LLM only for parsing free-text replies ('en pääse huomenna, voinko siirtää?') -> route to reception. no medical content in prompts\n- wk2: DPA + DPIA light done w/ their tietosuojavastaava. SMS provider EU\n- wk3 go-live 1 location, 4 wks of data\n- no-show+late cancel 11.8% -> 8.1% (4 wk, ~1 150 appts; pre-period was 6 mo avg so seasonality uncertain)\n- cancelled slots refilled from waitlist: 41 of 96 cancellations (43%)\n- reception phone calls re: reminders 'clearly down' per Sari - nobody counted. ask them to tally 1 wk\n- 3 reception staff all use dashboard; therapists dont care (fine). one pt complained SMS in Finnish only -> add EN/SV next\n- next: waitlist auto-offer after 2 wks if no mishaps"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Meriklinikka Oy: reducing no-shows with a two-way SMS reminder (case study draft)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline (measured outcome, approval pending): a two-way SMS reminder was associated with a drop in no-show and late-cancel rate at one clinic location over four weeks. Counts are shown in the table; the comparison is against a six-month average, so seasonality is not ruled out.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Non-numeric alternative if the client does not approve figures: Making appointment reminders two-way at a Finnish physio clinic, with no clinical data or AI on patient records.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Measured outcomes",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: No-show + late cancel (<24h) rate; Before: 11.8% (6-month booking export baseline); After: 8.1% (4 weeks, approx. 1,150 appointments)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Cancelled slots refilled from waitlist; Before: not measured; After: 41 of 96 cancellations (43%)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Reception phone calls about reminders; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Appointment volume; Before: Approx. 300 per week (baseline); After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Meriklinikka Oy runs physio and occupational health appointments in Espoo with 18 therapists and doctors and three reception staff. Two operational pressures had been visible: missed appointments and a steady stream of phone calls to reception. The team chose to address only the no-show problem first, within one month.",
+      "verdict": "review"
+    },
+    {
+      "claim": "The existing setup sent a single SMS reminder 48 hours before each appointment, with no way for patients to reply, so cancellations usually came by phone. Velho's build kept the scope narrow: a two-way SMS reminder (sent at 48 hours, and at 4 hours for first-time patients) where patients reply KYLLÄ or PERU; a cancellation frees the slot, notifies reception, and sends a waitlist message to the next person (manual approval in v1). A language model is used only to parse free-text replies and route them to reception. No medical content goes into prompts, and no AI touches patient records, which compliance had required.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Before go-live, a data processing agreement and a light data protection impact assessment were completed with the clinic's data protection officer, and the SMS provider is EU-based. The reminder ran at one location for four weeks. Over that period, no-show and late-cancel rate moved from 11.8% to 8.1%, and 41 of 96 cancelled slots were refilled from the waitlist. Staff report fewer reminder-related calls but have not counted them; a one-week tally has been requested.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Limits and next steps: one location, four weeks, a six-month baseline, and no control group. One patient complained that messages were only in Finnish, so English and Swedish are next. An automatic waitlist offer after two weeks is planned, contingent on no mishaps in the manual phase.",
+      "verdict": "review"
+    },
+    {
+      "claim": "LinkedIn draft (for Velho review, not sent)",
+      "verdict": "review"
+    },
+    {
+      "claim": "We helped an Espoo physio clinic test a two-way SMS reminder. Patients can reply to confirm or cancel, and a freed slot goes to the next person on the waitlist. Over four weeks at one location, the no-show and late-cancel rate went from 11.8% to 8.1%, and 41 of 96 cancelled slots were refilled. It is one site and a short window, so we are treating this as early evidence, not proof. Clinical data stays out of the AI entirely. Next: English and Swedish messages, then automatic waitlist offers. Happy to compare notes with anyone running a similar booking setup.",
+      "verdict": "review"
+    },
+    {
+      "claim": "One-pager (six lines, for review)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client: Meriklinikka Oy (private physio and occupational health, Espoo)\nProblem: missed appointments and reminder-driven reception calls\nBuild: two-way SMS reminders, reply-to-cancel, waitlist messages; LLM only parses free-text replies\nMeasured: no-show + late cancel 11.8% to 8.1% (4 weeks, one site); 41 of 96 cancelled slots refilled\nNot yet measured: reception call volume; post-period appointment volume\nStatus: pilot at one location; DPA and light DPIA complete; approval pending",
+      "verdict": "unsupported"
+    },
+    {
+      "claim": "Missing facts and approvals required",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client written approval of the story, figures, client name and any quotes (none supplied in the notes).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirmation that the 11.8% baseline is a comparable six-month period and that seasonality has been assessed.",
+      "verdict": "unsupported"
+    },
+    {
+      "claim": "A reception call tally (requested, not yet done).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Whether the clinic is willing to be named publicly; the notes do not say.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirmation that the sample/synthetic notice is removed or the material is treated strictly as an internal example before any real publication.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 24 statement groups; 2 unsupported sections withheld, 15 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

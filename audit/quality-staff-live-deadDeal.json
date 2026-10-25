@@ -1,0 +1,61 @@
+{
+  "title": "Kesko Oyj: no dated new trigger",
+  "blocks": [
+    {
+      "t": "score",
+      "label": "Dated trigger evidence",
+      "value": 0,
+      "max": 100,
+      "why": "No complete dated signal after 2026-10-25 was found in the collected evidence. This does not prove nothing changed."
+    },
+    {
+      "t": "note",
+      "text": "No reconnection message generated. Check missing or partial dates and the current relationship before contacting anyone."
+    },
+    {
+      "t": "note",
+      "text": "Staff-supplied conversation; independently confirm the record before use."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko targets Group net sales of some €20 billion and division net sales of some",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic staff-input sample — not a real customer conversation, project or agreed plan."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "SYNTHETIC SAMPLE (self-reported, approved for processing; preserve unknowns):\n{\"kind\":\"synthetic\",\"company\":\"Kesko\",\"notes\":\"Fictional employee test, not an actual Kesko project or meeting. A small invoice sample took 12 staff hours per week before a pilot and 8 afterwards, measured for one week only. No financial savings or production deployment were measured. Staff want to explore removing duplicate spreadsheet entry. No buyer has agreed to a purchase.\",\"contact\":\"Fictional buyer\",\"lastContact\":\"2026-10-25\",\"objection\":\"No approved data access\",\"owner\":\"Fictional process owner\",\"dataAccess\":\"Approved fictional CSV of 20 invoices only\",\"constraints\":\"No production system access, no outbound messages, two-hour exploration\",\"success\":\"Correctly copy all 20 fictional records with no omissions; employee reviews every row\",\"approved\":true}"
+  }
+}

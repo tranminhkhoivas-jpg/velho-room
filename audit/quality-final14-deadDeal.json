@@ -1,0 +1,154 @@
+{
+  "title": "Dead deal resurrector: Lassila & Tikanoja / Marjo Eskelinen",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Synthetic demo record. The conversation history (D02, Marjo Eskelinen, Director Operations Excellence, EUR 75,000, last contact 2025-12-04) is demo data, not a real conversation. Treat all of it as illustrative."
+    },
+    {
+      "t": "h",
+      "text": "1. Relevant new triggers since 2025-12-04"
+    },
+    {
+      "t": "p",
+      "text": "The candidate triggers supplied in the dossier are dated 2026, so they fall after the last contact. Several are relevant to the operations and back-office work discussed in the record:"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Transformation programme in Waste Management covering commercial excellence, operational efficiency, performance management and a leaner organisation (2026-08-06).",
+          "url": "https://www.investing.com/news/company-news/lassila--tikanoja-h1-2026-slides-sales-rise-margins-squeezed-93CH-4840293",
+          "tag": "signal"
+        },
+        {
+          "text": "Profit outlook cut: 2026 adjusted EBITA EUR 33–38M; adjusted EBITA fell over one-third in H1 (2026-08-06).",
+          "url": "https://www.investing.com/news/company-news/lassila--tikanoja-h1-2026-slides-sales-rise-margins-squeezed-93CH-4840293",
+          "tag": "signal"
+        },
+        {
+          "text": "Change negotiations concluded 2026-07-07: up to 20 terminations and up to 420 employees temporarily laid off.",
+          "url": "https://ml-eu.globenewswire.com/Resource/Download/952f5d79-7d54-43b0-abf5-92cb120f58b8",
+          "tag": "signal"
+        },
+        {
+          "text": "CEO Eero Hautaniemi to step down by 30 June 2027; successor recruitment started (2026-03-19).",
+          "url": "https://www.globenewswire.com/news-release/2026/03/19/3258751/0/en/lassila-tikanoja-plc-s-president-and-ceo-eero-hautaniemi-to-step-down-at-his-own-request-in-2027.html",
+          "tag": "signal"
+        },
+        {
+          "text": "Acquisition of Kempeleen Siirtokuljetus and Kempeleen Jätekuljetus (~EUR 14M revenue, ~50 staff), completion pending competition approval (2026-05-18).",
+          "url": "https://yahoo.com/news/lassila-tikanoja-strengthens-waste-management-104500159.html",
+          "tag": "signal"
+        },
+        {
+          "text": "Open field-operations roles, including production workers, truck drivers and ground-construction workers (2026-10-13).",
+          "url": "https://laura.fi/avoimet-tyopaikat/lassila-tikanoja-oyj/",
+          "tag": "signal"
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Note: the triggers above are public signals about the company. None of them is a public record of the Operations Excellence budget, the invoicing-exception work, or Marjo's own priorities."
+    },
+    {
+      "t": "h",
+      "text": "2. Does a trigger address the recorded objection?"
+    },
+    {
+      "t": "p",
+      "text": "The recorded objection was timing: the team was busy with year-end, and the next year's budget was not yet confirmed. Marjo said to pick it up after the budget is confirmed in Q1."
+    },
+    {
+      "t": "p",
+      "text": "The margin pressure and the transformation programme make an efficiency initiative more plausible, but they do not confirm that the budget has been approved or that the invoicing-exception work is in scope. The workforce reduction and the Kempele acquisition could also change priorities, owners or timing in either direction. No evidence in the supplied material shows the budget was confirmed. The objection is not resolved."
+    },
+    {
+      "t": "h",
+      "text": "3. Reconnection decision"
+    },
+    {
+      "t": "p",
+      "text": "There is a plausible reason to reconnect, because Marjo asked to resume after the Q1 budget decision and the Q1 window has now passed. However, the supplied evidence does not show whether that decision happened. Missing evidence: the outcome of the 2026 budget decision, whether the Operations Excellence team still owns the invoicing-exception work, and whether Marjo is still in the role. A draft is therefore an open question rather than a claim that anything was agreed."
+    },
+    {
+      "t": "draft",
+      "label": "Email to Marjo Eskelinen (for Velho employee review, not sent)",
+      "text": "Hi Marjo,\n\nYou mentioned we could pick up the invoicing-exception work once the budget was set. With the Q1 planning window behind us, I wanted to ask whether that is still on your agenda, or whether priorities have moved.\n\nIf it is still live, I can send a short recap of the five candidates from our November session. If not, I'm happy to close the loop.\n\nBest,\n[Name]"
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.lt.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.lt.fi/hubfs/Investors/Annual%20Report/Lassila-Tikanoja%20Annual%20Report%202025.pdf"
+        },
+        {
+          "title": "Eero Hautaniemi, President and CEO (steps down by 2027-06-30; successor recruitment started)",
+          "url": "https://www.globenewswire.com/news-release/2026/03/19/3258751/0/en/lassila-tikanoja-plc-s-president-and-ceo-eero-hautaniemi-to-step-down-at-his-own-request-in-2027.html"
+        },
+        {
+          "title": "Joni Sorsanen, CFO",
+          "url": "https://www.manilatimes.net/2026/10/05/tmt-newswire/globenewswire/lassila-tikanoja-plc-will-publish-interim-report-for-january-september-2026-on-28-october-2026/2438762"
+        },
+        {
+          "title": "Juha Saarinen, Chief Purchasing Officer",
+          "url": "https://simplywall.st/stocks/de/commercial-services/fra-4dw/lassila-tikanoja-shares/management"
+        },
+        {
+          "title": "Arttu Lindroos, SVP Human Resources, Group Executive Board (effective 2026-09-01)",
+          "url": "https://briefglance.com/companies/lassila-tikanoja-plc"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/3555336-9"
+        },
+        {
+          "title": "CEO Eero Hautaniemi to step down no later than 30 June 2027; Board started recru",
+          "url": "https://www.lt.fi/en/media/releases-news/lassila-tikanoja-plc-interim-report-january-march-2026-3288470-en"
+        },
+        {
+          "title": "Profit outlook cut: 2026 net sales EUR 420–450M, adjusted EBITA EUR 33–38M; adju",
+          "url": "https://www.investing.com/news/company-news/lassila--tikanoja-h1-2026-slides-sales-rise-margins-squeezed-93CH-4840293"
+        },
+        {
+          "title": "Change negotiations concluded 2026-07-07: up to 20 terminations and up to 420 em",
+          "url": "https://ml-eu.globenewswire.com/Resource/Download/952f5d79-7d54-43b0-abf5-92cb120f58b8"
+        },
+        {
+          "title": "Agreement signed to acquire Kempeleen Siirtokuljetus Oy and Kempeleen Jätekuljet",
+          "url": "https://yahoo.com/news/lassila-tikanoja-strengthens-waste-management-104500159.html"
+        },
+        {
+          "title": "Acquired remaining shares of Swedish SVB (Sand & Vattenbläst i Tyringe AB), now ",
+          "url": "https://www.manilatimes.net/2026/04/01/tmt-newswire/globenewswire/lassila-tikanoja-has-acquired-the-remaining-shares-of-svb-in-sweden/2312606/amp"
+        },
+        {
+          "title": "Open positions include production workers, truck drivers and ground-construction",
+          "url": "https://laura.fi/avoimet-tyopaikat/lassila-tikanoja-oyj/"
+        },
+        {
+          "title": "Carbon-neutral own operations by 2030 (strategic aim).",
+          "url": "https://matrixbcg.com/blogs/how-it-works/lt"
+        },
+        {
+          "title": "Growth focus on the circular economy after the demerger, with resource-efficient",
+          "url": "https://www.mainsights.io/ma-news/demerger-of-lassila-amp-tikanoja-implemented-with-trading-in-new-lassila-amp-tikanoja-shares-commencing-on-nasdaq-helsinki"
+        },
+        {
+          "title": "Seasonal sorting workers hired for peak periods on fixed-term contracts (hourly ",
+          "url": "https://fi.indeed.com/q-lassila-&-tikanoja-oyj,-oulu-l-oulu-tyopaikat.html"
+        },
+        {
+          "title": "Job ad for a work supervisor (työnjohtaja) in waste management in Jyväskylä.",
+          "url": "https://duunitori.fi/tyopaikat/tyo/tyonjohtaja-jyvaskyla-slsas-19947032"
+        }
+      ]
+    }
+  ]
+}

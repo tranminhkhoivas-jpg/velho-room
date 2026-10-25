@@ -6,3 +6,9 @@ node_modules
 next-env.d.ts
 *.tsbuildinfo
 videos
+audit/*.db*
+audit/*.jsonl
+audit/*secret*
+audit/*.mp4
+audit/video-props.json
+songs

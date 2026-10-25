@@ -1,0 +1,80 @@
+[
+  {
+    "tool": "signals",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "proof",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "buyer",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "ghost",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "luotsi",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "media",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "campaign",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "tradefair",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "words",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "radar",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "hackathon",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "deadDeal",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  },
+  {
+    "tool": "caseStudy",
+    "scrollWidth": 469,
+    "width": 469,
+    "output": true
+  }
+]

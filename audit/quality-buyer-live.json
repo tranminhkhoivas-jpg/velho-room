@@ -1,0 +1,81 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "I noticed your public focus on operational efficiency. Could we first ask your process owner where duplicate entry occurs, using only an approved fictional sample and no production access?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Leans back, mildly amused.* Duplicate entry, you say. I'd have to check with our process owners on where that happens in practice, and I'm not in a position to hand out anything about our systems on a call like this. Fictional samples or production access aren't something I can speak to either. What's the specific use case you're thinking of?"
+    },
+    {
+      "role": "user",
+      "content": "We cannot promise savings yet. With your process owner, we could compare manual handling time and omissions on 20 approved sample records. No production integration or purchase is assumed. Who would review data access and ongoing ownership before any next step?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a more reasonable ask than a pitch, and I appreciate you not promising savings. Still, I'd want to know who sets the sample criteria and where the 20 records come from before anyone touches them. For data access, the owners would be our Finance and IT security functions, and I'd have to check who on those teams signs off on a pilot like this. Ongoing ownership is a question I can't answer from here.\n\nSend me a short note on what the comparison would measure, who runs it, and how the data is handled and deleted afterwards. If that's concrete enough, I'll set up a 30-minute follow-up with the relevant process owner."
+    }
+  ],
+  "coaching": {
+    "score": {
+      "score": 65,
+      "rubric": [
+        {
+          "id": "relevance",
+          "points": 3,
+          "quote": "I noticed your public focus on operational efficiency.",
+          "reason": "Ties the opener to a public signal (efficiency focus in the annual report and CEO commentary), but does not name a specific, evidenced pain point such as the Dahl integration or the Onnela logistics ramp-up.",
+          "label": "Relevant problem and public evidence"
+        },
+        {
+          "id": "discovery",
+          "points": 2,
+          "quote": "Could we first ask your process owner where duplicate entry occurs",
+          "reason": "Asks a question that tests whether the problem exists, but it is framed as a request to get information from someone else rather than a discovery question for the CFO about how the integration or order and financial data reconciliation actually works today.",
+          "label": "Questions that test unknown needs"
+        },
+        {
+          "id": "measurement",
+          "points": 3,
+          "quote": "we could compare manual handling time and omissions on 20 approved sample records",
+          "reason": "Proposes a small, bounded test with no invented savings, which fits the criterion well. It is missing a stated success metric or baseline, so the comparison could be hard to judge afterwards.",
+          "label": "Measurable small test; no invented savings"
+        },
+        {
+          "id": "risk",
+          "points": 2,
+          "quote": "Who would review data access and ongoing ownership before any next step?",
+          "reason": "Raises data access and ownership, which is the right concern. It does not address data handling, retention, deletion, or the maintenance burden after a pilot, and it leaves the question open rather than stating the rep's own safeguards.",
+          "label": "Data, ownership, maintenance and constraints"
+        },
+        {
+          "id": "nextStep",
+          "points": 3,
+          "quote": "No production integration or purchase is assumed.",
+          "reason": "Bounds the ask clearly and keeps the pressure low. The concrete next step only emerges in the CFO's reply, so the rep's own message ends without a specific, time-bound proposal.",
+          "label": "Specific low-pressure next step"
+        }
+      ],
+      "strengths": [
+        "Explicitly avoids promising savings or integration, which keeps the ask credible for a CFO audience.",
+        "Proposes a bounded 20-record comparison with no production access, a low-risk way to test the problem.",
+        "Asks who owns data access and ongoing ownership, showing awareness of governance concerns."
+      ],
+      "fixes": [
+        "Anchor the opener in specific public evidence, such as the Dahl acquisition integration or the Onnela logistics centre ramp-up, rather than the general efficiency theme.",
+        "State the success measure and baseline for the 20-record comparison, for example average handling time per record and error rate, so both sides know what result would matter.",
+        "Address data handling in your own words: how records are anonymised, where they are stored, who can access them, and how they are deleted afterwards."
+      ],
+      "bestLine": "Given the Dahl integration timeline, would it be useful to compare manual handling time and error rates on 20 anonymised order records with your process owner, with no production access and an agreed deletion date afterwards?",
+      "sourceContext": {
+        "reportAvailable": true,
+        "reportUrl": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+        "reportStatus": "document",
+        "note": "Readable annual-report PDF excerpt; limited selection, not the entire document. Check period, units and original pages.",
+        "researched": "2026-10-24T19:19:00.554Z"
+      },
+      "notice": "Subjective practice feedback, not real-buyer validation or likelihood of a meeting. 5 criteria × 0–4 points × 5."
+    }
+  }
+}

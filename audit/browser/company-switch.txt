@@ -1,0 +1,16 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/signals?c=Kesko".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/signals?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	11 container Staff session
+		12 button Sign out
+	3 container
+		4 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Normet
+		5 heading Signals in public data, Value: 1
+			6 text Signals in public data
+		7 text Register changes, EU tenders, hiring and leadership news that say “now”, scored with a cited reason. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		8 text field (settable) Description: Company, Value: Normet
+		9 button Run
+		10 button Refresh research
+		76 text Additional audit AI spend : $ 0.42
+
+The focused UI element is 8 text field (settable) Description: Company, Value: Normet

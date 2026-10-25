@@ -2,7 +2,9 @@ import { db } from "@/lib/db";
 
 // Campaign engine thumbs: stored per angle id, used client-side to re-rank (Beta-mean bandit)
 export async function POST(req: Request) {
-  const { angle, up } = (await req.json()) as { angle: string; up: boolean };
+  let input;try{input=await req.json();}catch{return Response.json({error:"Invalid feedback."},{status:400});}
+  const {angle,up}=input||{};
+  if(typeof angle!=="string"||!/^[-a-z0-9]{1,200}$/.test(angle)||typeof up!=="boolean")return Response.json({error:"Choose a valid angle and a thumbs-up/down preference."},{status:400});
   db.prepare("INSERT INTO feedback (angle, up, down) VALUES (?, ?, ?) ON CONFLICT(angle) DO UPDATE SET up = up + excluded.up, down = down + excluded.down").run(angle, up ? 1 : 0, up ? 0 : 1);
   return Response.json({ ok: true });
 }

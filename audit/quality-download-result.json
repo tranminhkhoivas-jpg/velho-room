@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "rows": 53,
+  "artifactVersion": "quality-v3",
+  "note": "Downloaded CSV matched this generation exactly; later page-selection version quality-v4 has separate source-fidelity checks."
+}

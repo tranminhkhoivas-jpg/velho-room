@@ -1,0 +1,124 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/caseStudy?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/caseStudy?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Case-study machine, Value: 1
+			6 text Case-study machine
+		7 text Project notes into a before/after story, a LinkedIn post and a one-pager. (Synthetic notes.)
+		8 pop up button (collapsed, settable) Description: Choose a synthetic record, Value: Nordtrans Oy (Logistics / freight forwarding), 2024-09, Secondary Actions: Expand
+			9 menu
+				10 (selected) Nordtrans Oy (Logistics / freight forwarding), 2024-09
+				11 Kallio & Lehtonen Kiinteistöt Oy (Property management), 2024-11
+				12 Pohjanmaan Metalli Oy (Manufacturing (sheet metal / subcontract)), 2025-01
+				13 Lumo Verkkokauppa Oy (E-commerce (home textiles & decor)), 2025-02
+				14 Aaltonen Tilitoimisto Oy (Accounting / bookkeeping firm), 2025-03
+				15 Meriklinikka Oy (Private healthcare clinic (physio & occupational health)), 2025-04
+		16 button Run
+		19 heading Case study: Nordtrans Oy – POD/CMR document matching, Value: 1
+			20 text Case study: Nordtrans Oy – POD/CMR document matching
+		21 heading Value: 2, Nordtrans cut invoice lead time from 5.2 to 3.1 days (estimate: ~40% faster) by automating POD/CMR matching
+			22 text Nordtrans cut invoice lead time from 5.2 to 3.1 days (estimate: ~40% faster) by automating POD/CMR matching
+		23 table
+			24 row
+				25 cell
+					26 text Metric
+				27 cell
+					28 text Before
+				29 cell
+					30 text After
+			31 row
+				32 cell
+					33 text Handling time per document
+				34 cell
+					35 text 4.1 min/doc (measured, 3 days, 2 dispatchers)
+				36 cell
+					37 text 1.4 min/doc incl. queue (pilot, 1 dispatcher)
+			38 row
+				39 cell
+					40 text Wrong or mismatched attachments
+				41 cell
+					42 text 7.3% (22 of 300 invoices sampled)
+				43 cell
+					44 text 0.6% (2 of 310 auto-matched docs checked)
+			45 row
+				46 cell
+					47 text Invoice lead time, delivery to invoice sent
+				48 cell
+					49 text 5.2 days
+				50 cell
+					51 text 3.1 days (pilot week, 140 invoices, small sample)
+			52 row
+				53 cell
+					54 text Documents auto-matched
+				55 cell
+					56 text 0%
+				57 cell
+					58 text 71% (pilot, 5 days)
+			59 row
+				60 cell
+					61 text Dispatcher adoption
+				62 cell
+					63 text –
+				64 cell
+					65 text 3 of 3 dispatchers by week 4
+			66 row
+				67 cell
+					68 text Customer satisfaction
+				69 cell
+					70 text not measured
+				71 cell
+					72 text not measured
+		73 text Nordtrans's dispatchers were matching proof-of-delivery and CMR scans from email to orders in the TMS by hand, about 220 documents a day. The matches were slow and error-prone, and customers complained about late invoicing. We noticed that this kind of manual matching is a common pattern in freight forwarding, so we started with a conversation about it.
+		74 text Velho built the smallest version that could work. An email inbox rule feeds OCR and an order-number regex with a fuzzy fallback on reference and plate. Documents above 0.9 confidence attach automatically; the rest go to a sheet that a person reviews. We skipped the TMS write-back in v1 and used a draft attachment list plus CSV import, because the vendor API had a six-week wait. Handwritten PODs were poor OCR input for about 12% of documents, which is why the human queue exists.
+		75 text We piloted with one dispatcher for five days. Adoption spread on its own: all three dispatchers were using it by week four, with a 15-minute weekly review of queue misses. The operations manager's first reaction was positive, and the dispatcher who was skeptical at first asked for the same approach on export documents.
+		76 text The measured results are faster handling, fewer wrong attachments and a shorter invoice lead time. The customer happiness the team reports has not been measured yet. Next steps are threshold tuning, miss logging, a Finnish handover document, and possibly export documents such as EUR.1.
+		77 text LinkedIn post
+		78 text draft — not sent
+		79 button Copy
+		80 text A dispatcher spent 4 minutes on every proof-of-delivery scan. Nordtrans had about 220 a day.
+
+We built a small pipeline: email rule, OCR, order-number matching, and a human queue for anything unsure. In a five-day pilot, 71% of documents matched automatically, handling time dropped from 4.1 to 1.4 minutes, and wrong attachments went from 7.3% to 0.6% in the sample we checked.
+
+The part I like most: the team asked for it on export documents before we suggested it.
+
+We're still measuring customer impact. Pilot numbers are small, so we're tuning thresholds before scaling.
+
+If manual document matching is slowing your invoicing, I'd like to hear how you handle it today.
+		81 text One-pager summary
+		82 text draft — not sent
+		83 button Copy
+		84 text Client: Nordtrans Oy (freight forwarding, Finland)
+Problem: ~220 POD/CMR documents a day matched to orders by hand; 7.3% wrong attachments; slow invoicing.
+Built: email-to-order matching with OCR, fuzzy fallback and a human review queue. No TMS write-back in v1.
+Pilot: 5 days, 1 dispatcher; 71% auto-matched; 0.6% error in checked sample.
+Results: 4.1 to 1.4 min/doc; invoice lead time 5.2 to 3.1 days (small sample). Customer impact not yet measured.
+Adoption: 3 of 3 dispatchers by week 4; weekly 15-minute review of misses.
+		85 content list
+			86 container
+				87 AXListMarker • 
+				88 text Written permission from Nordtrans to name the company and the people quoted (Pekka, Tiina, Joonas).
+			89 container
+				90 AXListMarker • 
+				91 text Verify the 7.3% baseline sample method (300 invoices: how selected, what counted as wrong).
+			92 container
+				93 AXListMarker • 
+				94 text Verify the 1.4 min/doc figure: does it include queue time for all documents or only auto-matched ones?
+			95 container
+				96 AXListMarker • 
+				97 text Verify the 3.1-day lead time on the 140-invoice sample; the pilot period is short.
+			98 container
+				99 AXListMarker • 
+				100 text Confirm the 15 h/day figure in the notes was a rough guess; the case uses only the measured 4.1 min/doc.
+			101 container
+				102 AXListMarker • 
+				103 text Confirm the 'customers happier' claim is either backed by data or removed from the story.
+			104 container
+				105 AXListMarker • 
+				106 text Confirm the pilot covered only one dispatcher; the 3-of-3 adoption refers to week 4 status.
+		107 text Synthetic notes. Publishing a real case needs client and Velho approval.
+		108 text OpenRouter spend so far: $ 4.88
+	17 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		18 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/caseStudy?c=Kesko

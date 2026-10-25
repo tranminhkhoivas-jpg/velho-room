@@ -1,0 +1,166 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/ghost?c=Lumon".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/ghost?c=Lumon
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	11 container Staff session
+		12 button Sign out
+	3 container
+		4 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Lumon
+		5 heading Ghost Employee, Value: 1
+			6 text Ghost Employee
+		7 text “Meet your invisible hire”: the manual work a company pays for, as a trading card a CEO forwards. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		8 text field (settable) Description: Company, Value: Lumon
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Meet Tilaus-Tapio Kinnunen, Lumon Oy's invisible hire, Value: 1
+			15 text Meet Tilaus-Tapio Kinnunen, Lumon Oy's invisible hire
+		16 container Ghost employee card
+		17 content list
+			18 container
+				19 AXListMarker • 
+				20 text hypothesis Hypothesis: Drafting customer contract documents by hand for each new balcony or terrace order — Public clue: Sales representative job posting lists preparing customer contract drafts as part of the role (inferred from job description) (~6 h/week, estimate)
+				21 link Description: source, Value: careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a
+			22 container
+				23 AXListMarker • 
+				24 text hypothesis Hypothesis: Chasing post-sale installation status and updating records for each installation — Public clue: Same posting describes post-sale monitoring of each installation (inferred from job description) (~5 h/week, estimate)
+				25 link Description: source, Value: careers.lumon.com/jobs/8575889-przedstawiciel-ka-handlowy-a
+			26 container
+				27 AXListMarker • 
+				28 text hypothesis Hypothesis: Scheduling installers and production slots for Kouvola and Helsinki orders — Public clue: Installer and production worker postings in Kouvola and Helsinki suggest hands-on order and installation scheduling (inferred) (~4 h/week, estimate)
+				29 link Description: source, Value: jobcrawls.com/en/employer/lumon
+			30 container
+				31 AXListMarker • 
+				32 text hypothesis Hypothesis: Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales — Public clue: Partnership announced to scale the Swedish business; partner-network growth can add order-handling volume (inferred) (~3 h/week, estimate)
+				33 link Description: source, Value: lumon.com/int/company/news/
+		34 text Estimate: Hours per week are scenario estimates built from inferred job-ad descriptions, not measurements of Lumon's internal processes; an FTE conversion of hours/37.5 and a loaded cost of EUR 55,000 per FTE per year are also estimates. Public evidence only; the real numbers come from a conversation.
+		35 text Note to the COO (with the card)
+		36 text draft — not sent
+		37 button Edit draft
+		38 button Copy
+		39 text Hi, I came across Lumon's recent growth and the sales role asking for contract drafts and installation follow-up. We built a persona we call Tilaus-Tapio to explore whether that work is taking up real hours. It is only a guess from public job ads, so I'd genuinely like to know if it's close to what your team sees. Would you be open to a short chat about it?
+		40 button (collapsed) Sources (10), Secondary Actions: Expand
+			41 text Sources (
+			42 text 10
+			43 text )
+		44 container Workload scenario calculator
+			45 heading Replace the guesses with your own workload, Value: 2
+				46 text Replace the guesses with your own workload
+			47 text The playful card above is a hypothesis. This separate calculator lets a process owner enter a baseline and test a recovery scenario. Every starting number is a hypothesis; changing the label does not independently verify it.
+			48 container
+				49 container Drafting customer contract documents by hand for each new balcony or terrace order
+					50 text Drafting customer contract documents by hand for each new balcony or terrace order
+					51 container
+						52 text Task name 
+						53 text field (settable) Task name, Value: Drafting customer contract documents by hand for each new balcony or terrace order
+					54 container
+						55 text Hours per week 
+						56 stepper (settable, integer) Hours per week, Value: 0
+					57 container
+						58 text Recoverable time (%) 
+						59 stepper (settable, integer) Recoverable time (%), Value: 25
+					60 container
+						61 text Basis 
+						62 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							63 menu
+								64 (selected) Hypothesis
+								65 Employee estimate
+								66 Measured sample
+					67 container
+						68 text Source or measurement notes 
+						69 text field (settable) Source or measurement notes, Value: Sales representative job posting lists preparing customer contract drafts as part of the role (inferred from job description)
+					70 button Remove task
+				71 container Chasing post-sale installation status and updating records for each installation
+					72 text Chasing post-sale installation status and updating records for each installation
+					73 container
+						74 text Task name 
+						75 text field (settable) Task name, Value: Chasing post-sale installation status and updating records for each installation
+					76 container
+						77 text Hours per week 
+						78 stepper (settable, integer) Hours per week, Value: 5
+					79 container
+						80 text Recoverable time (%) 
+						81 stepper (settable, integer) Recoverable time (%), Value: 25
+					82 container
+						83 text Basis 
+						84 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							85 menu
+								86 (selected) Hypothesis
+								87 Employee estimate
+								88 Measured sample
+					89 container
+						90 text Source or measurement notes 
+						91 text field (settable) Source or measurement notes, Value: Same posting describes post-sale monitoring of each installation (inferred from job description)
+					92 button Remove task
+				93 container Scheduling installers and production slots for Kouvola and Helsinki orders
+					94 text Scheduling installers and production slots for Kouvola and Helsinki orders
+					95 container
+						96 text Task name 
+						97 text field (settable) Task name, Value: Scheduling installers and production slots for Kouvola and Helsinki orders
+					98 container
+						99 text Hours per week 
+						100 stepper (settable, integer) Hours per week, Value: 4
+					101 container
+						102 text Recoverable time (%) 
+						103 stepper (settable, integer) Recoverable time (%), Value: 25
+					104 container
+						105 text Basis 
+						106 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							107 menu
+								108 (selected) Hypothesis
+								109 Employee estimate
+								110 Measured sample
+					111 container
+						112 text Source or measurement notes 
+						113 text field (settable) Source or measurement notes, Value: Installer and production worker postings in Kouvola and Helsinki suggest hands-on order and installation scheduling (inferred)
+					114 button Remove task
+				115 container Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales
+					116 text Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales
+					117 container
+						118 text Task name 
+						119 text field (settable) Task name, Value: Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales
+					120 container
+						121 text Hours per week 
+						122 stepper (settable, integer) Hours per week, Value: 3
+					123 container
+						124 text Recoverable time (%) 
+						125 stepper (settable, integer) Recoverable time (%), Value: 25
+					126 container
+						127 text Basis 
+						128 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							129 menu
+								130 (selected) Hypothesis
+								131 Employee estimate
+								132 Measured sample
+					133 container
+						134 text Source or measurement notes 
+						135 text field (settable) Source or measurement notes, Value: Partnership announced to scale the Swedish business; partner-network growth can add order-handling volume (inferred)
+					136 button Remove task
+				137 button Add your own task
+				138 text Loaded labour cost (EUR/hour) 
+				139 stepper (settable, integer) Loaded labour cost (EUR/hour), Value: 30
+				140 text Annual running cost (EUR) 
+				141 stepper (settable, integer) Annual running cost (EUR), Value: 0
+				142 button Calculate scenario
+			146 container
+				147 text Workload scenario — review with the process owner draft — not sent
+				148 button Edit draft
+				149 button Copy
+				150 text Baseline: 12.0 hours/week.
+Potential time recovered: 3.0 hours/week (0.08 FTE equivalent at 37.5h/week).
+Annual capacity value: EUR 4680.
+Annual running cost: EUR 0.
+Net annual capacity value: EUR 4680.
+
+Formula: weekly hours × recoverable fraction × 52 weeks × EUR/hour, minus running cost.
+Assumptions: stable weekly workload, no overlap between tasks, 52 active weeks; setup cost is excluded. Capacity value is not guaranteed cash savings or a staffing reduction.
+
+Inputs:
+Drafting customer contract documents by hand for each new balcony or terrace order: 0 h/week, 25% recoverable, basis: hypothesis. Notes: Sales representative job posting lists preparing customer contract drafts as part of the role (inferred from job description)
+Chasing post-sale installation status and updating records for each installation: 5 h/week, 25% recoverable, basis: hypothesis. Notes: Same posting describes post-sale monitoring of each installation (inferred from job description)
+Scheduling installers and production slots for Kouvola and Helsinki orders: 4 h/week, 25% recoverable, basis: hypothesis. Notes: Installer and production worker postings in Kouvola and Helsinki suggest hands-on order and installation scheduling (inferred)
+Re-keying dealer and partner order details as the Ryds Glas Swedish partnership scales: 3 h/week, 25% recoverable, basis: hypothesis. Notes: Partnership announced to scale the Swedish business; partner-network growth can add order-handling volume (inferred)
+		143 button (collapsed) Check the source before using a draft, Secondary Actions: Expand
+			144 text Check the source before using a draft
+		145 text OpenRouter audit spend (Fastino checks logged separately) : $ 1.11
+
+The focused UI element is 142 button Calculate scenario

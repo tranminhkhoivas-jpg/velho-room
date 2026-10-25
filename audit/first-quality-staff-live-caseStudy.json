@@ -1,0 +1,223 @@
+{
+  "title": "Kesko invoice pilot: a fictional, one-week sample (not a verified case study)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Fictional employee test. This is not an actual Kesko project, meeting or outcome. Everything below is drawn from the internal project notes, which are staff-supplied and not independently verified. Do not publish, send externally or treat as a client case study without verification and written client and Velho approval."
+    },
+    {
+      "t": "h",
+      "text": "1) Headline"
+    },
+    {
+      "t": "p",
+      "text": "Headline (only measured outcome, marked as a one-week sample): A one-week invoice sample showed weekly staff time falling from 12 to 8 hours after a pilot."
+    },
+    {
+      "t": "h",
+      "text": "2) Measured metrics"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Staff hours per week, small invoice sample (one week measured each)",
+          "12 hours",
+          "8 hours"
+        ],
+        [
+          "Financial savings",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Production deployment",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Duplicate spreadsheet entry removed",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Source: staff-supplied project notes only. Only one week was measured for the sample. No conflicting statistics were supplied."
+    },
+    {
+      "t": "h",
+      "text": "3) Story"
+    },
+    {
+      "t": "p",
+      "text": "Staff noticed that a small sample of invoice handling took about 12 hours of staff time per week before a pilot. The notes say the same sample took about 8 hours in the week measured after the pilot."
+    },
+    {
+      "t": "p",
+      "text": "The measurement covers a single week on each side, so it is an early signal rather than a stable result. Duplicate spreadsheet entry was identified by staff as something worth exploring, but it has not been removed or proven to be the cause of the change."
+    },
+    {
+      "t": "p",
+      "text": "No financial savings were measured, and the pilot has not been deployed in production. No buyer has agreed to a purchase."
+    },
+    {
+      "t": "p",
+      "text": "The next step proposed is to test whether the reduction holds over a longer period and across a larger sample, before any wider claim is made."
+    },
+    {
+      "t": "h",
+      "text": "4) Drafts (for Velho staff review only, not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn (max 120 words)",
+      "text": "We ran a small, fictional test on invoice handling. In one week, a sample that took about 12 staff hours fell to about 8 after a pilot. It is one week of data, with no financial savings measured and no production rollout. Staff also want to look at removing duplicate spreadsheet entry. Is the same pattern showing up in your back office? If you'd like to test it on a sample of your own, we'd be glad to talk. #Operations #Automation"
+    },
+    {
+      "t": "draft",
+      "label": "One-pager (six lines)",
+      "text": "Project: Invoice handling pilot (fictional test)\nMeasured: small sample, 12 to 8 staff hours per week (one week each)\nNot measured: financial savings, production deployment\nStaff proposal: explore removing duplicate spreadsheet entry\nStatus: no buyer agreement, no client approval\nNext: longer, larger test before any wider claim"
+    },
+    {
+      "t": "h",
+      "text": "5) Missing facts and approvals required"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Verification that this is a real project; current notes say it is fictional."
+        },
+        {
+          "text": "Client (Kesko) written approval to name them and publish any outcome."
+        },
+        {
+          "text": "Longer-period and larger-sample data before claiming the reduction is durable."
+        },
+        {
+          "text": "Confirmation of how the hours were measured and whether they were self-reported."
+        },
+        {
+          "text": "Financial savings figures, if any, with method and approval."
+        },
+        {
+          "text": "Velho internal review and sign-off on all external wording."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Staff-supplied notes. Verify claims with the project owner; publishing needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 22 statement groups; 0 unsupported sections withheld, 7 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    },
+    {
+      "t": "note",
+      "text": "Synthetic staff-input sample — not a real customer conversation, project or agreed plan."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Kesko\nProject owner: Fictional process owner\nFictional employee test, not an actual Kesko project or meeting. A small invoice sample took 12 staff hours per week before a pilot and 8 afterwards, measured for one week only. No financial savings or production deployment were measured. Staff want to explore removing duplicate spreadsheet entry. No buyer has agreed to a purchase."
+  },
+  "sourceChecks": [
+    {
+      "claim": "1) Headline",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Headline (only measured outcome, marked as a one-week sample): A one-week invoice sample showed weekly staff time falling from 12 to 8 hours after a pilot.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "2) Measured metrics",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Staff hours per week, small invoice sample (one week measured each); Before: 12 hours; After: 8 hours",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Financial savings; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Production deployment; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Duplicate spreadsheet entry removed; Before: not measured; After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "3) Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Staff noticed that a small sample of invoice handling took about 12 hours of staff time per week before a pilot. The notes say the same sample took about 8 hours in the week measured after the pilot.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "The measurement covers a single week on each side, so it is an early signal rather than a stable result. Duplicate spreadsheet entry was identified by staff as something worth exploring, but it has not been removed or proven to be the cause of the change.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "No financial savings were measured, and the pilot has not been deployed in production. No buyer has agreed to a purchase.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "The next step proposed is to test whether the reduction holds over a longer period and across a larger sample, before any wider claim is made.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "4) Drafts (for Velho staff review only, not sent)",
+      "verdict": "review"
+    },
+    {
+      "claim": "We ran a small, fictional test on invoice handling. In one week, a sample that took about 12 staff hours fell to about 8 after a pilot. It is one week of data, with no financial savings measured and no production rollout. Staff also want to look at removing duplicate spreadsheet entry. Is the same pattern showing up in your back office? If you'd like to test it on a sample of your own, we'd be glad to talk. #Operations #Automation",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Project: Invoice handling pilot (fictional test)\nMeasured: small sample, 12 to 8 staff hours per week (one week each)\nNot measured: financial savings, production deployment\nStaff proposal: explore removing duplicate spreadsheet entry\nStatus: no buyer agreement, no client approval\nNext: longer, larger test before any wider claim",
+      "verdict": "review"
+    },
+    {
+      "claim": "5) Missing facts and approvals required",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Verification that this is a real project; current notes say it is fictional.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client (Kesko) written approval to name them and publish any outcome.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Longer-period and larger-sample data before claiming the reduction is durable.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirmation of how the hours were measured and whether they were self-reported.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Financial savings figures, if any, with method and approval.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Velho internal review and sign-off on all external wording.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 22 statement groups; 0 unsupported sections withheld, 7 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-25T00:13:12.628Z",
+  "passed": true,
+  "checks": [
+    "private experiment/evidence endpoints",
+    "staff login",
+    "invalid evidence refused before inference",
+    "experiment save/retry/read",
+    "creative retention",
+    "invalid funnel refusal",
+    "changed creative requires a new cohort"
+  ]
+}

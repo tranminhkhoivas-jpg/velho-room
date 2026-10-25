@@ -1,0 +1,153 @@
+{
+  "title": "Kesko Oyj: outreach opener and LinkedIn comment (for review)",
+  "blocks": [
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "“We have been seeking significant acquisition opportunities for years, especially in technical trade in the Nordic region, where attractive targets are very rarely available.” (2026-06-15)",
+          "tag": "Jorma Rauhala, President and CEO",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Source-checked quote (original, English)"
+    },
+    {
+      "t": "p",
+      "text": "\"We have been seeking significant acquisition opportunities for years, especially in technical trade in the Nordic region, where attractive targets are very rarely available.\" — Jorma Rauhala, President and CEO, 15 June 2026"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Kesko's stated priority: acquisitions in technical trade in the Nordic region, where attractive targets are rare.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+          "tag": "signal"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Outreach opener (max 70 words)"
+    },
+    {
+      "t": "draft",
+      "label": "Email opener to Jorma Rauhala, President and CEO (for Velho reviewer to send manually)",
+      "text": "Dear Mr Rauhala,\n\nYou've described technical trade acquisitions in the Nordics as a long pursuit, with few attractive targets. Once a deal like that closes, integrating the new operations is often where time and attention get stretched.\n\nWhen Kesko brings a new business into its technical trade, which handoffs between sales, purchasing and operations take the most manual coordination today?\n\nBest regards,\n[Velho sender name]"
+    },
+    {
+      "t": "note",
+      "text": "Word count of the opener body: about 55 words. The sentence about integration is a general possibility framed as a question, not a claim about Kesko's internal processes. Translation note: the draft above is written in English; if sent in Finnish or Swedish it must be labelled as a translation and checked against the original quote."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn comment (max 40 words, for review)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn comment on Kesko announcement (for Velho reviewer to post manually)",
+      "text": "Strong move into Nordic technical trade. Acquisitions like this tend to succeed or stall on the handoffs after closing, so the integration workflow deserves as much attention as the deal itself."
+    },
+    {
+      "t": "h",
+      "text": "Repeated priorities"
+    },
+    {
+      "t": "note",
+      "text": "Only one source is supplied, so repetition cannot be established. One source is insufficient to say this is a recurring priority; no claim of repetition is made here."
+    },
+    {
+      "t": "note",
+      "text": "1 original-language quote(s) text-matched, then machine-checked for company, speaker and date against the surrounding source passage. This is not independent confirmation; inspect the original context before sending. Translations must stay labelled."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ],
+  "publicEvidence": [
+    {
+      "subject": "Kesko Oyj",
+      "claim": "The following original-language words were said: “We have been seeking significant acquisition opportunities for years, especially in technical trade in the Nordic region, where attractive targets are very rarely available.”",
+      "quote": "We have been seeking significant acquisition opportunities for years, especially in technical trade in the Nordic region, where attractive targets are very rarely available.",
+      "attribution": "Jorma Rauhala, President and CEO",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+      "date": "2026-06-15",
+      "status": "supported",
+      "excerpt": "Contacts| Suomeksi\nCOMPANY SUSTAINABILITY INVESTORS MEDIA CAREERS\n  Media  News and releases  Stock exchange releases  2026  Inside information: Kesko to strengthen its technical...\nINSIDE INFORMATION: KESKO TO STRENGTHEN ITS TECHNICAL TRADE BY ACQUIRING DAHL’S OPERATIONS IN SWEDEN, NORWAY AND DENMARK\n STOCK EXCHANGE RELEASE, MEDIA / 15.06.2026 09:00 \nKesko has agreed to acquire the technical trade operator Dahl’s companies in Sweden, Norway and Denmark from Saint-Gobain, listed on the Euronext Paris. The combined net sales of the businesses to be acquired amounted to nearly €2.1 billion in 2025. The largest transaction in Kesko’s history would expand Kesko’s reach in the HPAC and infrastructure construction businesses in Sweden, Norway and Denmark. The debt-free transaction price is €1,200 million excluding lease commitments. The transaction price including lease commitments at the end of 2025 is €1,518 million. The completion of the acquisition is subject to approval by competition authorities.\n\nJorma Rauhala, President and CEO, Kesko: “We have been seeking significant acquisition opportunities for years, especially in technical trade in the Nordic region, where attractive targets are very rarely available. The operations we now seek to acquire would be an excellent fit for Kesko’s growth strategy and they would complement our existing building and technical trade business. Dahl is a leading technical trade operator in the Nordic countries, with a long history and a strong iconic brand. This is the right timing for an acquisition: technical trade offers significant growth potential in the stable and affluent Nordic markets, as construction becomes increasingly technical and infrastructure and renovation building continue to grow.”\n\nRauhala continues: “Once completed, the acquisition would make building and technical trade Kesko’s biggest division. Through this, the largest acquisition in Kesko’s history, and growth strategy execution, Kesko targets Group net sales of some €20 billion (€12.5 billion in 2025) and division net sales of some €10 billion (€4.7 billion in 2025) in the early 2030s. With the acquisition, we seek synergies, volume benefits and earnings improvement in the upcoming years, in line with the building and technical trade division’s targeted operating margin level of 6–8%.\n\nKey facts concerning the acquisition:\n\nA strategic acquisition for Kesko: Once completed, the acquisition is set to support Kesko’s growth and the strengthening of profitability.\nThe acquisition would make Kesko’s operations more international: 71% of the net sales for the building and technical trade division and 33% of Group net sales would come from outside Finland (figures for 2025: 58% and 22%, respectively).\nThe acquisition would strengthen sales and profit: Factors underpinning growth include a strengthening market and megatrends (such as construction becoming more technical, infrastructure investment debt, the green transition, and urbanisation), synergies and benefits from higher volumes in e.g. purchasing, own brands and IT systems.\nThe acquisition would complement Kesko’s existing technical trade business: Dahl is a leading operator in technical trade especially in HPAC products and infrastructure construction. Dahl and Kesko do not have overlapping operations in Sweden, Norway or Denmark.\nThe acquisition would comprise Dahl companies and brands in Sweden, Norway and Denmark.\nThe combined net sales of the companies to be acquired amounts to nearly €2.1 billion: The combined net sales of the companies to be acquired totalled €2,068 million and EBITDA (IFRS) €146 million in 2025. Dahl’s net sales in Sweden totalled €922 million, in Norway €614 million and in Denmark €533 million.\nDahl has a strong network in Sweden, Norway and Denmark: Combined, the companies have some 190 stores, three automated central warehouses, some 2,700 employees and over 70,000 customers. Digital accounts for some 35% of sales.\nThe majority of Dahl’s sales are stable: Approximately half of the sales come from renovation building and close to one-third from infrastructure construction. The business is 100% B2B.\nDahl is an esteemed company with a long history and valuable brands that Kesko respects: The preliminary plan is to lightly integrate the businesses once the acquisition is completed. Dahl in Sweden and Brødrene Dahl in Norway and Denmark would continue as separate business units under their existing brands.\nKesko has strong experience and proven track record in technical trade: Following the acquisition of Onninen in 2016, Kesko has strong expertise in technical trade as well as proven track-record in significant business development and profit improvement. Onninen, which itself has a long history, has continued as an independent brand as part of Kesko.\nStrong strategic investment in technical trade and B2B customers: The acquisition would raise technical trade’s share of the net sales of Kesko’s building and technical trade division from 49% (2025) to 65%, and the share of B2B trade from 83% (2025) to 88%.\n\nBenoit Bazin, Chairman and CEO, Saint-Gobain: \"Kesko will create a strong business combination with Dahl for the benefit of customers specialising in plumbing, sanitary and heating in the region. This transaction also deepens the strategic partnership between Kesko and Saint-Gobain in the Nordics. I would like to warmly thank all Dahl teams for their outstanding work and commitment over many years and wish them every success for the future.”\n\nKey facts concerning the execution of the acquisition:\n\nInvestor and media briefings\n\nFurther information:\n\nSami Kiiski, President, building and technical trade division, Kesko, tel. +358 1053 39090, sami.kiiski@kesko.fi\nKaroliina Partanen, Executive Vice President, Communications, Kesko, tel. + 358 1053 20744, karoliina.partanen@kesko.fi\nHanna Jaakkola, Vice President, Investor Relations, Kesko, tel. +358 105 323 540, hanna.jaakkola@kesko.fi\n\nKesko Corporation\n\n2025\tKesko\tDahl\nSweden, Norway, Denmark\tCombined\nNet sales, € million\t12,475\t2,068\t14,543\nEBITDA (IFRS), comparable\n€ million\t1,229\t146\t1,375\nEBITDA (IFRS) margin, comparable\t9.9%\t7.1%\t9.5%\nInterest-bearing net debt /EBITDA, excluding the impact of IFRS 16\t1.6\t-\t2.8\nPersonnel\t18,991\tapprox. 2,700\tapprox. 21,700\n\nThe interest-bearing net debt/EBITDA ratio (excluding the impact of IFRS 16) has been calculated before the refinancing of the bridge financing, with the bridge financing loan included in full in the interest-bearing net debt.\n\nIllustrative net sales, Kesko’s building and technical trade and Dahl Sweden, Norway and Denmark\n\nThe purpose of the illustrative financial information on Kesko’s building and technical trade division is to provide information on the scope of the business of the building and technical trade division and country-specific operations as well as on the combination of Kesko and the Dahl businesses to be acquired in Sweden, Norway and Denmark using financial information for 2025.\n\nNet sales 2025, € million\n\nNet sales,\n€ million\tKesko, building and home improvement trade\tKesko, technical trade\tDahl, technical trade\tKesko BTT and Dahl combined\nSweden\t343\t134\t922\t1,400\nNorway\t520\t503\t614\t1,637\nDenmark\t709\t-\t533\t1,242\nFinland\t900\t1,122\t-\t2,021\nPoland\t-\t378\t-\t378\nBaltic countries\t-\t154\t-\t154\n\nPrior to the acquisition, Kesko has significant HPAC business in Finland, Poland and the Baltic countries. Kesko’s technical trade business in Norway mostly consists of the sales of electrical products. Dahl’s business in Norway consists of the sales of HPAC products. The companies do not have overlapping operations.\n\nIllustrative combined net sales, Dahl Sweden, Norway and Denmark, 2021-2025\n\n\t2021\t2022\t2023\t2024\t2025\nNet sales, € million\t 2,209\t 2,466\t 2,226\t 2,020\t 2,068\n\nKesko and K-retailers together form K Group, whose retail sales total around €15 billion. K Group is the leading trading sector operator in Northern Europe and it employs approximately 39,000 people. Kesko operates in grocery trade, building and technical trade, and car trade. Its divisions and chains act in close cooperation with retailer entrepreneurs and other partners. Kesko's net sales total around €12 billion and Kesko employs approximately 19,000 people. Kesko’s chain operations include approximately 1,700 stores in Finland, Sweden,  Norway, Denmark, Poland, Estonia, Latvia and Lithuania. Kesko’s shares are listed on Nasdaq Helsinki. The company's domicile and main premises are in Helsinki. www.kesko.fi \n\nAttachments\nInside information: Kesko to strengthen its technical trade by acquiring Dahl’s operations in Sweden, Norway and Denmark.pdf\nPrint\nCreate PDF\nShare\n© K GROUP 2026\nSite terms\nData protection notice\nUse of cookies in K Group\nCookie settings\nKesko Corporation, PO Box 1, FI-00016 Kesko, tel. +358 105 311. Call charge: mobile call charge/ local network charge\nFollow us\n\nTO TOP\nCookies enable better service\nK Group and its partners use cookies in their services to ensure that our services function as desired. In addition, cookies are used to measure the effectiveness of the services, enable a personalized shopping experience, and offer personalized advertising. You can give your consent by pressing \"Accept all.\" You can change your choices later through the \"Cookie settings\" link. More on K Group use of cookies\nMore choices\nOnly necessary cookies Accept all",
+      "note": "Machine check of entity, claim, date and speaker; review the original source. It does not verify source truth."
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "audit": "velho-employee-20261024",
+  "at": "2026-10-24T19:16:06.899Z",
+  "totals": {
+    "calls": 79,
+    "usd": 0.4276291,
+    "unconfirmed": 0
+  },
+  "models": [
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "calls": 79,
+      "usd": 0.4276291
+    }
+  ],
+  "purposes": [
+    {
+      "purpose": "Buyer simulator setup card for rehearsing a pitch to this company's CFO",
+      "calls": 1,
+      "usd": 0.0021043
+    },
+    {
+      "purpose": "Case-study machine",
+      "calls": 1,
+      "usd": 0.0010779
+    },
+    {
+      "purpose": "Company: \"Kesko\"",
+      "calls": 1,
+      "usd": 0.0580255
+    },
+    {
+      "purpose": "Company: \"VelhoAuditNonexistentXQZ829173\"",
+      "calls": 1,
+      "usd": 0.0224382
+    },
+    {
+      "purpose": "Dead deal resurrector",
+      "calls": 1,
+      "usd": 0.0010426
+    },
+    {
+      "purpose": "For Kesko Oyj, use ONLY these text-matched original quotes for an opener (max 70 words), one useful LinkedIn comment (ma",
+      "calls": 1,
+      "usd": 0.0006903
+    },
+    {
+      "purpose": "Hackathon-in-a-box: write this company a 48-hour hackathon brief in the style of a real hackathon challenge brief (like ",
+      "calls": 1,
+      "usd": 0.0010563
+    },
+    {
+      "purpose": "Industry",
+      "calls": 28,
+      "usd": 0.1841708
+    },
+    {
+      "purpose": "Proof before pitch",
+      "calls": 1,
+      "usd": 0.0022019
+    },
+    {
+      "purpose": "Role-play",
+      "calls": 4,
+      "usd": 0.006658300000000001
+    },
+    {
+      "purpose": "Room Radar",
+      "calls": 1,
+      "usd": 0.0343869
+    },
+    {
+      "purpose": "Signals board",
+      "calls": 1,
+      "usd": 0.0014968
+    },
+    {
+      "purpose": "TASK:\nFor Kesko Oyj, use ONLY these text-matched original quotes for an opener (max 70 words), one useful LinkedIn comme",
+      "calls": 1,
+      "usd": 0.0005483
+    },
+    {
+      "purpose": "Trade fair companion: a Velho employee is standing at this company's booth RIGHT NOW",
+      "calls": 1,
+      "usd": 0.0009286
+    },
+    {
+      "purpose": "buyer:reply",
+      "calls": 1,
+      "usd": 0.0015728
+    },
+    {
+      "purpose": "campaign:batch1",
+      "calls": 1,
+      "usd": 0.0011468
+    },
+    {
+      "purpose": "campaign:batch2",
+      "calls": 1,
+      "usd": 0.0011887
+    },
+    {
+      "purpose": "campaign:batch3",
+      "calls": 1,
+      "usd": 0.0011983
+    },
+    {
+      "purpose": "campaign:batch4",
+      "calls": 1,
+      "usd": 0.001299
+    },
+    {
+      "purpose": "generation",
+      "calls": 2,
+      "usd": 0.0461636
+    },
+    {
+      "purpose": "ghost",
+      "calls": 1,
+      "usd": 0.0012762
+    },
+    {
+      "purpose": "industry",
+      "calls": 15,
+      "usd": 0.025810299999999998
+    },
+    {
+      "purpose": "luotsi",
+      "calls": 1,
+      "usd": 0.0008659
+    },
+    {
+      "purpose": "media",
+      "calls": 3,
+      "usd": 0.0036395
+    },
+    {
+      "purpose": "photo",
+      "calls": 1,
+      "usd": 0.0005275
+    },
+    {
+      "purpose": "pitch rehearsal",
+      "calls": 1,
+      "usd": 0.0003003
+    },
+    {
+      "purpose": "quiz:result",
+      "calls": 1,
+      "usd": 0.0003597
+    },
+    {
+      "purpose": "visitor",
+      "calls": 4,
+      "usd": 0.0027944
+    },
+    {
+      "purpose": "words:research",
+      "calls": 1,
+      "usd": 0.0226594
+    }
+  ]
+}

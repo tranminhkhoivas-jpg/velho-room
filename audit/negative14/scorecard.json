@@ -1,0 +1,211 @@
+{
+  "assessor": "gpt-6.1-sol via Codex",
+  "date": "2026-10-25",
+  "stage": "skeptical review; fixes not implemented",
+  "scope": "14 methods; personalised media/video and song excluded",
+  "total": 93,
+  "maximum": 140,
+  "average": 6.642857142857143,
+  "atLeast8": 3,
+  "dimensionOrder": [
+    "source fidelity",
+    "job completion",
+    "recovery",
+    "employee usability",
+    "traceability"
+  ],
+  "rows": [
+    {
+      "method": "Quiz + industry index",
+      "previous": 8,
+      "score": 6,
+      "dimensions": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "reason": "Indicator ignores supplied actual workload; tiny industry evidence sample cannot answer adoption prevalence."
+    },
+    {
+      "method": "Campaign",
+      "previous": 9,
+      "score": 7,
+      "dimensions": [
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "reason": "Editable tested content is retained, but the comparison labels the original generated hook; summary-level claim checks and one repair remain limited."
+    },
+    {
+      "method": "Proof before pitch",
+      "previous": 10,
+      "score": 8,
+      "dimensions": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "reason": "Reliable traceable keyword lookup, but excludes neither negated topics nor irrelevant mixed passages; staff still constructs the answer."
+    },
+    {
+      "method": "Signals",
+      "previous": 9,
+      "score": 6,
+      "dimensions": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "reason": "Upcoming triggers excluded; eight stale news items can crowd out a current registry change before evaluation."
+    },
+    {
+      "method": "Trade fair companion",
+      "previous": 9,
+      "score": 8,
+      "dimensions": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "reason": "Useful company/notes-to-follow-up flow and manual fallback; varied booth recognition and live camera use remain unverified."
+    },
+    {
+      "method": "Talk-to-pipeline",
+      "previous": 10,
+      "score": 6,
+      "dimensions": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "reason": "Provider outage prevents lead persistence; repeat visitors fragment and the latest-200 window has no working pagination."
+    },
+    {
+      "method": "Buyer simulator",
+      "previous": 9,
+      "score": 8,
+      "dimensions": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "reason": "Useful report-grounded text practice; literal transcript citations validate words, not the quality/calibration of the subjective score."
+    },
+    {
+      "method": "Dead-deal resurrector",
+      "previous": 9,
+      "score": 7,
+      "dimensions": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "reason": "Valid post-contact signals do not establish that the old objection changed; saved opener is weaker than its source analysis."
+    },
+    {
+      "method": "Case-study machine",
+      "previous": 9,
+      "score": 6,
+      "dimensions": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "reason": "Note-block claim bypass; almost half the checked statement groups in the saved six-case batch still require review."
+    },
+    {
+      "method": "Ghost Employee",
+      "previous": 9,
+      "score": 7,
+      "dimensions": [
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "reason": "Correct calculator is separate from the unchanged card; corrected inputs/results disappear on reload."
+    },
+    {
+      "method": "Hackathon proposal",
+      "previous": 9,
+      "score": 7,
+      "dimensions": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "reason": "Filling every required field with \u201cUnknown\u201d clears the missing-scope list; substantive agreement remains untested."
+    },
+    {
+      "method": "In Their Own Words",
+      "previous": 9,
+      "score": 5,
+      "dimensions": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "reason": "New transcript path assigns another speaker's span to the executive and accepts an out-of-window talk."
+    },
+    {
+      "method": "Room Radar",
+      "previous": 8,
+      "score": 6,
+      "dimensions": [
+        2,
+        0,
+        1,
+        1,
+        2
+      ],
+      "reason": "Saved result is a restricted shareholder meeting with no confirmed target attendance; no demonstrated usable route into a room."
+    },
+    {
+      "method": "Luotsi Chart",
+      "previous": 9,
+      "score": 6,
+      "dimensions": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "reason": "Same weak scope check; saved chart attaches an unrelated public-management URL to a fictional staff-supplied workload claim."
+    }
+  ],
+  "evidence": {
+    "controlled": "reproduced.json",
+    "liveBrowser": [
+      "proof-exclusion.txt",
+      "ghost-before.txt",
+      "ghost-after.txt",
+      "ghost-reloaded.txt"
+    ],
+    "report": "REPORT.md"
+  }
+}

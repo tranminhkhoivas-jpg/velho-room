@@ -1,13 +1,24 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Angle, SeedMeta } from "@/lib/seeds";
 import type { Artifact } from "@/lib/types";
 import { post } from "./api";
-import { Blocks } from "./Blocks";
+import { Blocks, Draft } from "./Blocks";
 import { Chat } from "./Chat";
 import { Quiz } from "./Quiz";
+import { ProofDemo } from "./ProofDemo";
+import { WorkloadCalculator } from "./WorkloadCalculator";
+import { CampaignExperiments } from "./CampaignExperiments";
+import { EvidenceReview } from "./EvidenceReview";
+import type {IndustryIndex} from "@/lib/industry";
+import {StaffInputs} from "./StaffInputs";
+import {STAFF_TOOLS} from "@/lib/staff-input";
+import {LeadAction} from "./LeadAction";
+import {FilmScript} from "./FilmScript";
+import type {LeadWork,QuizContext} from "@/lib/lead-work";
 import { Player } from "@remotion/player";
 import { CompanyVideo, DURATION, type VideoProps } from "@/video/CompanyVideo";
+import { LyricVideo, type LyricProps } from "@/video/LyricVideo";
 
 type Opt = { id: string; label: string };
 
@@ -17,7 +28,12 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
   const [art, setArt] = useState<(Artifact & { angles?: Angle[] }) | null>(null);
   const [busy, setBusy] = useState("");
   const [err, setErr] = useState("");
+  const version = useRef(0);
+  const [resultCompany, setResultCompany] = useState("");
+  const [staffInput,setStaffInput]=useState("");
+  function changeCompany(c: string) { version.current++; setCompany(c); setArt(null); setErr(""); setBusy("");setStaffInput(""); }
   const [spend, setSpend] = useState<number | null>(null);
+  const [isAudit, setIsAudit] = useState(false);
 
   useEffect(() => {
     const c = new URLSearchParams(location.search).get("c");
@@ -25,18 +41,23 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
   }, []);
 
   async function run(extra: Record<string, string> = {}, c = company) {
+    const request = ++version.current;
     setBusy("Researching live and writing… (30–90 s on a new company)");
     setErr("");
     setArt(null);
     try {
-      const body = { company: c, dealId: meta.ui === "crm" ? pick : "", noteId: meta.ui === "notes" ? pick : "", ...extra };
-      const r = await post<{ artifact: Artifact & { angles?: Angle[] }; spend: number }>(`/api/seed/${meta.id}`, body);
+      const body = { company: c, dealId: meta.ui === "crm"&&!staffInput ? pick : "", noteId: meta.ui === "notes"&&!staffInput ? pick : "", staffInput, ...extra };
+      const r = await post<{ artifact: Artifact & { angles?: Angle[] }; spend: number; auditSpend?:number|null }>(`/api/seed/${meta.id}`, body);
+      if (request !== version.current) return;
+      setResultCompany(c);
       setArt(r.artifact);
-      setSpend(r.spend);
+      if (c) history.replaceState(null, "", "?c=" + encodeURIComponent(c));
+      setIsAudit(r.auditSpend !== null && r.auditSpend !== undefined);
+      setSpend(r.auditSpend ?? r.spend);
     } catch (e) {
-      setErr((e as Error).message);
+      if (request === version.current) setErr((e as Error).message);
     }
-    setBusy("");
+    if (request === version.current) setBusy("");
   }
 
   const companyBar = meta.needsCompany && meta.ui !== "photo" && (
@@ -47,8 +68,16 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
         run();
       }}
     >
-      <input value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Company name" aria-label="Company" />
+      <input value={company} onChange={(e) => changeCompany(e.target.value)} placeholder="Company name" aria-label="Company" />
       <button disabled={!!busy || !company.trim()}>Run</button>
+      <button type="button" className="ghost" disabled={!!busy || !company.trim()} onClick={async () => {
+        setBusy("Refreshing company research and replacing old results…"); setErr(""); setArt(null);
+        const request = ++version.current;
+        try {
+          await post("/api/dossier", {company, fresh:true});
+          if (request === version.current) await run({fresh:"1"});
+        } catch (e) { if (request === version.current) {setErr((e as Error).message);setBusy("");} }
+      }}>Refresh research</button>
       {art && (
         <button type="button" className="ghost" disabled={!!busy} onClick={() => run({ fresh: "1" })}>
           Regenerate
@@ -64,17 +93,19 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
       </a>
       <h1>{meta.title}</h1>
       <p className="muted">{meta.blurb}</p>
+      {meta.needsCompany && <p className="note">Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.</p>}
       {companyBar}
-      {meta.ui === "photo" && <Photo busy={!!busy} onCompany={(c) => (setCompany(c), run({}, c))} />}
+      {STAFF_TOOLS.includes(meta.id)&&(meta.ui!=="photo"||company)&&<><StaffInputs key={meta.id+company} id={meta.id} company={company} onChange={raw=>{version.current++;setStaffInput(raw);setArt(null);setErr("");setBusy("");}}/>{staffInput&&<button disabled={!!busy} onClick={()=>run()}>Generate using staff input</button>}</>}
+      {meta.ui === "photo" && <Photo busy={!!busy} onCompany={(c) => {if(c.trim().toLocaleLowerCase()===company.trim().toLocaleLowerCase())run({},c);else{changeCompany(c);run({staffInput:""},c);}}} />}
       {(meta.ui === "crm" || meta.ui === "notes") && (
         <div className="row">
-          <select value={pick} onChange={(e) => setPick(e.target.value)} style={{ flex: 1 }}>
+          {!staffInput&&<select value={pick} aria-label="Choose a synthetic record" onChange={(e) => { version.current++; setPick(e.target.value); setArt(null); setErr(""); setBusy(""); }} style={{ flex: 1 }}>
             {options.map((o) => (
               <option key={o.id} value={o.id}>
                 {o.label}
               </option>
             ))}
-          </select>
+          </select>}
           <button disabled={!!busy} onClick={() => run()}>
             Run
           </button>
@@ -87,14 +118,18 @@ export function Runner({ meta, options }: { meta: SeedMeta; options: Opt[] }) {
         </>
       )}
       {meta.ui === "pipeline" && <Pipeline />}
-      {busy && <p className="loading">{busy}</p>}
-      {err && <p className="err">{err}</p>}
-      {art?.angles && <Campaign angles={art.angles} />}
-      {art && meta.id === "media" && <Video company={company} />}
+      {busy && <p role="status" className="loading">{busy}</p>}
+      {err && <p role="alert" className="err">{err}</p>}
+      {art?.angles && <><CampaignExperiments key={art.angles.map(a=>a.id).join(":")} angles={art.angles} /><Campaign angles={art.angles} /></>}
+      {art && meta.id === "song" && <Song key={resultCompany + JSON.stringify(art.title)} company={resultCompany} />}
+      {art && meta.id === "media" && <Video key={resultCompany + JSON.stringify(art.title)} company={resultCompany} />}
       {art && <Blocks artifact={art} />}
-      {art && meta.ui === "chat-website" && <Chat mode="website" company={company} opener={`Live assistant built only from ${company}'s public website. Ask it what a customer would ask.`} />}
-      {art && meta.ui === "chat-cfo" && <Chat mode="cfo" company={company} opener="AI simulation of the CFO, grounded in the annual report. Pitch Velho; it will push back. Voice works in Chrome/Edge." />}
-      {spend !== null && <p className="muted" style={{ fontSize: 12 }}>OpenRouter spend so far: ${spend.toFixed(2)}</p>}
+      {art?.proof && <ProofDemo key={resultCompany + art.proof.collectedAt} data={art.proof} />}
+      {art?.workload && <WorkloadCalculator key={resultCompany + art.title} tasks={art.workload} company={resultCompany} />}
+      {art && <EvidenceReview key={resultCompany + art.title} />}
+      {art && meta.ui === "chat-website" && <Chat key={resultCompany} mode="website" company={resultCompany} opener={`Live assistant built only from ${company}'s public website. Ask it what a customer would ask.`} />}
+      {art && meta.ui === "chat-cfo" && <Chat key={resultCompany} mode="cfo" company={resultCompany} opener="AI simulation of the CFO using available public research and report text. Review source limitations above. Pitch Velho; it will push back. Voice works in Chrome/Edge." />}
+      {spend !== null && <p className="muted" style={{ fontSize: 12 }}>{isAudit ? "OpenRouter audit spend (Fastino checks logged separately)" : "OpenRouter spend so far"}: ${spend.toFixed(2)}</p>}
     </main>
   );
 }
@@ -103,24 +138,29 @@ function Photo({ busy, onCompany }: { busy: boolean; onCompany: (c: string) => v
   const [seen, setSeen] = useState("");
   const [err, setErr] = useState("");
   const [manual, setManual] = useState("");
+  const [reading, setReading] = useState(false);
+  useEffect(() => { setManual(new URLSearchParams(location.search).get("c") || ""); }, []);
 
   async function onFile(f: File) {
     setErr("");
     setSeen("Reading the photo…");
+    setReading(true);
+    try {
+    if (!f.type.startsWith("image/") || f.size > 15 * 1024 * 1024) throw new Error("Choose an image under 15 MB, or type the company below.");
     // shrink to ~1024px so phone photos upload fast
     const img = await createImageBitmap(f);
     const k = Math.min(1, 1024 / Math.max(img.width, img.height));
     const c = Object.assign(document.createElement("canvas"), { width: img.width * k, height: img.height * k });
     c.getContext("2d")!.drawImage(img, 0, 0, c.width, c.height);
-    try {
+      img.close();
       const r = await post<{ company: string | null; confidence: number; seen: string }>("/api/photo", { image: c.toDataURL("image/jpeg", 0.8) });
       if (!r.company) return setSeen(`Could not tell which company (saw: ${r.seen}). Type it below.`);
       setSeen(`Recognised ${r.company} (${Math.round(r.confidence * 100)}% sure; saw “${r.seen}”).`);
-      onCompany(r.company);
+      setManual(r.company);
     } catch (e) {
       setErr((e as Error).message);
       setSeen("");
-    }
+    } finally { setReading(false); }
   }
 
   return (
@@ -128,10 +168,10 @@ function Photo({ busy, onCompany }: { busy: boolean; onCompany: (c: string) => v
       <label>
         <b>Snap a booth, badge or business card</b>
         <br />
-        <input type="file" accept="image/*" capture="environment" disabled={busy} onChange={(e) => e.target.files?.[0] && onFile(e.target.files[0])} />
+        <input type="file" accept="image/*" capture="environment" disabled={busy || reading} onChange={(e) => e.target.files?.[0] && onFile(e.target.files[0])} />
       </label>
       {seen && <p>{seen}</p>}
-      {err && <p className="err">{err}</p>}
+      {err && <p role="alert" className="err">{err}</p>}
       <form
         className="row"
         onSubmit={(e) => {
@@ -139,8 +179,8 @@ function Photo({ busy, onCompany }: { busy: boolean; onCompany: (c: string) => v
           if (manual.trim()) onCompany(manual.trim());
         }}
       >
-        <input value={manual} onChange={(e) => setManual(e.target.value)} placeholder="…or type the company" />
-        <button disabled={busy}>Brief me</button>
+        <input value={manual} aria-label="Confirm company name" onChange={(e) => setManual(e.target.value)} placeholder="…or type the company" />
+        <button disabled={busy || reading || !manual.trim()}>Confirm company and brief me</button>
       </form>
     </div>
   );
@@ -149,18 +189,27 @@ function Photo({ busy, onCompany }: { busy: boolean; onCompany: (c: string) => v
 function Pipeline() {
   const [talk, setTalk] = useState("keynote-" + new Date().toISOString().slice(0, 10));
   const [origin, setOrigin] = useState("");
-  const [leads, setLeads] = useState<{ id: number; name: string; company: string; role: string; email: string; result: { score: number; headline: string; meetingDraft: string } }[]>([]);
-  useEffect(() => setOrigin(location.origin), []);
+  const [leads, setLeads] = useState<{ id: number; name: string; company: string; role: string; email: string;contactCount?:number;work:LeadWork; result: { score: number; headline: string; pending?:boolean; meetingDraft: string;context?:QuizContext } }[]>([]);
+  const [total,setTotal]=useState(0);
+  const [search,setSearch]=useState(""),[before,setBefore]=useState<number|null>(null),[next,setNext]=useState<number|null>(null);
+  useEffect(() => {setOrigin(location.origin);const tag=new URLSearchParams(location.search).get("talk");if(tag)setTalk(tag);}, []);
 
-  async function load() {
-    setLeads((await (await fetch("/api/lead?talk=" + encodeURIComponent(talk))).json()).leads);
-  }
+  const [loadError, setLoadError] = useState("");
   useEffect(() => {
-    load();
-    const t = setInterval(load, 5000);
-    return () => clearInterval(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [talk]);
+    const controller = new AbortController();
+    let active = true;
+    setLeads([]); setLoadError("");
+    async function load() {
+      try {
+        const r = await fetch("/api/lead?talk=" + encodeURIComponent(talk)+"&search="+encodeURIComponent(search)+(before?"&before="+before:""), { signal: controller.signal });
+        const j = await r.json();
+        if (!r.ok) throw new Error(j.error || "Could not load leads.");
+        if (active) { setLeads(j.leads);setTotal(j.total??j.leads.length);setNext(j.nextCursor); setLoadError(""); }
+      } catch (e) { if (active) setLoadError((e as Error).message); }
+    }
+    load(); const t = setInterval(load, 5000);
+    return () => { active = false; controller.abort(); clearInterval(t); };
+  }, [talk,search,before]);
 
   const url = `${origin}/check?talk=${encodeURIComponent(talk)}`;
   return (
@@ -168,7 +217,7 @@ function Pipeline() {
       <div className="card">
         <div className="row">
           <b>Talk tag</b>
-          <input value={talk} onChange={(e) => setTalk(e.target.value)} />
+            <input value={talk} maxLength={200} aria-label="Talk tag" onChange={(e) => {setTalk(e.target.value);setBefore(null);const u=new URL(location.href);u.searchParams.set("talk",e.target.value);history.replaceState(null,"",u);}} />
         </div>
         {origin && (
           <div className="row" style={{ marginTop: 12, alignItems: "flex-start" }}>
@@ -183,16 +232,18 @@ function Pipeline() {
           </div>
         )}
       </div>
-      <h2>Leads from this talk ({leads.length})</h2>
+      <h2>Leads from this talk ({total})</h2><label>Find a contact, name or company <input value={search} onChange={e=>{setSearch(e.target.value);setBefore(null);}}/></label><div className="row"><button className="ghost" disabled={!before} onClick={()=>setBefore(null)}>Latest submissions</button><button className="ghost" disabled={!next} onClick={()=>setBefore(next)}>Older submissions</button></div>
+        {total>leads.length&&<p className="note">Showing {leads.length} of {total} matching submissions. Use Older submissions or search to find the rest.</p>}
+      {loadError && <p role="alert" className="err">{loadError}</p>}
       {leads.length === 0 && <p className="muted">None yet — scan the QR with a phone to try it.</p>}
       {leads.map((l) => (
         <div key={l.id} className="card">
-          <b>{l.name || "Anonymous"}</b> {l.company && `· ${l.company}`} · {l.role} <span className="tag">readiness {l.result.score}</span>
+          <b>{l.name || "Anonymous"}</b> {l.company && `· ${l.company}`} · {l.role} <span className="tag">opportunity indicator {l.result.score}</span>
           <p className="muted">{l.result.headline}</p>
-          <div className="draft">
-            <b>Meeting request</b> <span className="tag">draft — not sent</span>
-            <pre>{l.result.meetingDraft}</pre>
-          </div>
+          {l.email && <p>Contact: {l.email} · {l.contactCount||1} submission(s) across talks. {(l.contactCount||0)>1&&<button className="ghost" onClick={()=>{setTalk("");setSearch(l.email);setBefore(null);}}>View contact history</button>}</p>}
+          <LeadAction id={l.id} work={l.work} context={l.result.context} email={l.email}/>
+          {l.result.pending&&<p className="note">Answers saved. Personalised result pending; no meeting draft is ready.</p>}
+          {l.email&&!l.result.pending&&l.result.meetingDraft&&l.result.context?.contactPermission&&<Draft label="Meeting request (permission recorded; staff review still required)" text={l.result.meetingDraft} />}
         </div>
       ))}
     </div>
@@ -202,13 +253,13 @@ function Pipeline() {
 function AiIndex() {
   const [industry, setIndustry] = useState("logistics");
   const [busy, setBusy] = useState(false);
-  const [r, setR] = useState<{ score: number; summary: string; examples: { company: string; what: string; url: string; date?: string }[]; laggingSignals: string[]; asOf: string; tol?: string; registry?: { companies: number; newLast12m: number; url: string } } | null>(null);
+  const [r, setR] = useState<IndustryIndex | null>(null);
   const [err, setErr] = useState("");
-  async function go() {
+  async function go(fresh=false) {
     setBusy(true);
-    setErr("");
+    setErr(""); setR(null);
     try {
-      setR(await post("/api/aiindex", { industry }));
+      setR(await post("/api/aiindex", { industry,fresh }));
     } catch (e) {
       setErr((e as Error).message);
     }
@@ -224,29 +275,35 @@ function AiIndex() {
           go();
         }}
       >
-        <input value={industry} onChange={(e) => setIndustry(e.target.value)} placeholder="Industry, e.g. construction" />
+        <input aria-label="Industry" disabled={busy} value={industry} maxLength={120} onChange={(e) => {setIndustry(e.target.value);setR(null);}} placeholder="Industry, e.g. construction" />
         <button disabled={busy}>{busy ? "Sweeping the web…" : "Check"}</button>
+        <button type="button" className="ghost" disabled={busy||!industry.trim()} onClick={()=>go(true)}>Refresh evidence</button>
       </form>
-      {err && <p className="err">{err}</p>}
+      {err && <p role="alert" className="err">{err}</p>}
       {r && (
         <>
           <p>
-            <b>{r.score}/100</b> visible AI adoption (estimate, {r.asOf}). {r.summary}
+            <b>{r.coverage?.supported??0} source-supported candidate examples</b> ({r.asOf}). {r.summary}
           </p>
           <ul>
             {r.examples.map((x, i) => (
               <li key={i}>
                 <b>{x.company}</b>: {x.what}{" "}
+                <span className="tag">{x.status||"not reviewed"}</span>{" "}
                 <a href={x.url} target="_blank" rel="noreferrer">
                   source
                 </a>
+                {x.date&&<span> · Research-supplied date: {x.date}; confirm in original.</span>}
+                {x.checkNote&&<p className="muted">{x.checkNote}</p>}
+                {x.identity&&<p>Matched Finnish legal entity: <a href={x.identity.url} target="_blank" rel="noreferrer">{x.identity.name} ({x.identity.businessId})</a>. Confirm that the case concerns this entity.</p>}
+                {x.sourceExcerpt&&<details><summary>Inspect original passage used for the check</summary><pre style={{whiteSpace:"pre-wrap"}}>{x.sourceExcerpt}</pre></details>}
               </li>
             ))}
           </ul>
-          <p className="muted">Still manual: {r.laggingSignals.join(" · ")}</p>
+          <p className="note">Coverage: {r.coverage?.candidates??r.examples.length} candidates, {r.coverage?.readable??0} readable source windows. These are discovery results with machine checks, not independent proof of adoption. Source passages are sent to Fastino with inference storage disabled requested.</p>
           {r.registry && (
             <p>
-              Finnish trade register, industry code {r.tol}: <b>{r.registry.companies.toLocaleString("en")}</b> companies, <b>{r.registry.newLast12m.toLocaleString("en")}</b> registered in the last 12 months (includes inactive ones).{" "}
+              Finnish trade register, model-selected industry code {r.tol} (confirm its fit): <b>{r.registry.companies.toLocaleString("en")}</b> companies, <b>{r.registry.newLast12m.toLocaleString("en")}</b> registered in the last 12 months (includes inactive ones; not an adoption denominator).{" "}
               <a href={r.registry.url} target="_blank" rel="noreferrer">
                 source
               </a>
@@ -260,11 +317,13 @@ function AiIndex() {
 
 function Campaign({ angles }: { angles: Angle[] }) {
   const [fb, setFb] = useState<Record<string, { up: number; down: number }>>({});
-  const prefix = angles[0]?.id.replace(/-\d+$/, "-") || "";
+  const [voteError, setVoteError] = useState("");
+  const [voted, setVoted] = useState<Record<string,boolean>>({});
+  const prefix = angles[0]?.id.replace(/-[^-]+$/, "-") || "";
   useEffect(() => {
     fetch("/api/feedback?prefix=" + encodeURIComponent(prefix))
       .then((r) => r.json())
-      .then((j) => setFb(j.feedback));
+      .then((j) => { if (!j.feedback) throw new Error(j.error || "Could not load votes"); setFb(j.feedback); }).catch((e) => setVoteError(e.message));
   }, [prefix]);
 
   // ponytail: Beta-mean bandit — simulated panel is the prior (worth ~2 votes), real thumbs dominate fast
@@ -274,12 +333,19 @@ function Campaign({ angles }: { angles: Angle[] }) {
     return (1 + 2 * p + f.up) / (2 + 2 + f.up + f.down);
   };
   async function vote(id: string, up: boolean) {
-    setFb((o) => ({ ...o, [id]: { up: (o[id]?.up || 0) + (up ? 1 : 0), down: (o[id]?.down || 0) + (up ? 0 : 1) } }));
-    await post("/api/feedback", { angle: id, up });
+    if (voted[id]) return;
+    setVoted((v) => ({...v,[id]:true})); setVoteError("");
+    try {
+      await post("/api/feedback", { angle: id, up });
+      setFb((o) => ({ ...o, [id]: { up: (o[id]?.up || 0) + (up ? 1 : 0), down: (o[id]?.down || 0) + (up ? 0 : 1) } }));
+    } catch (e) { setVoted((v)=>({...v,[id]:false})); setVoteError((e as Error).message); }
   }
 
   return (
     <div>
+      <h2>Draft angles: AI panel and staff preferences</h2>
+      <p className="muted">This order reflects simulated buyer opinions and employee thumbs. Use the separate observed-results comparison above for campaign evidence.</p>
+      {voteError && <p role="alert" className="err">{voteError}</p>}
       {[...angles]
         .sort((a, b) => rank(b) - rank(a))
         .map((a, i) => (
@@ -289,16 +355,18 @@ function Campaign({ angles }: { angles: Angle[] }) {
                 <b>#{i + 1}</b> <span className="tag">{a.format}</span> <span className="tag">panel CFO {a.panel.cfo} · COO {a.panel.coo} · CEO {a.panel.ceo} (simulated)</span>
               </span>
               <span className="row">
-                <button className="ghost" onClick={() => vote(a.id, true)}>
+                <button className="ghost" disabled={voted[a.id]} onClick={() => vote(a.id, true)}>
                   👍 {fb[a.id]?.up || 0}
                 </button>
-                <button className="ghost" onClick={() => vote(a.id, false)}>
+                <button className="ghost" disabled={voted[a.id]} onClick={() => vote(a.id, false)}>
                   👎 {fb[a.id]?.down || 0}
                 </button>
               </span>
             </div>
             <h2 style={{ margin: "8px 0" }}>{a.hook}</h2>
             <p style={{ whiteSpace: "pre-wrap" }}>{a.body}</p>
+            {a.theme&&<p className="muted">Theme: {a.theme}</p>}
+            {a.review&&<p className="note">{a.review}</p>}
             <p className="muted">Visual: {a.visual}</p>
             <p className="muted">Panel: “{a.panel.comment}”</p>
           </div>
@@ -336,21 +404,36 @@ function Video({ company }: { company: string }) {
   const [busy, setBusy] = useState(false);
   const [url, setUrl] = useState("");
   const [err, setErr] = useState("");
+  const [reviewed,setReviewed]=useState(false);
+  const [filmSources,setFilmSources]=useState<{title:string;url:string}[]>([]);
   useEffect(() => {
+    setProps(null); setUrl(""); setErr("");setReviewed(false);setFilmSources([]);
+    let active = true;
     fetch("/api/video/props?company=" + encodeURIComponent(company))
       .then((r) => r.json())
       .then(async (j) => {
         if (j.error) throw new Error(j.error);
         const p: VideoProps = j.props;
-        setProps(p.shot ? { ...p, ...(await brandShot(p.shot)) } : p);
+        const ready = p.shot ? { ...p, ...(await brandShot(p.shot).catch(() => ({shot:p.shot, accent:p.accent}))) } : p;
+        if (active) {setProps(ready);setFilmSources(j.sources||[]);}
       })
-      .catch((e) => setErr((e as Error).message));
+      .catch((e) => { if (active) setErr((e as Error).message); });
+    return () => { active = false; };
   }, [company]);
   async function render() {
     setBusy(true);
     setErr("");
     try {
-      setUrl((await post<{ url: string }>("/api/video", { props })).url);
+      let r = await post<{id:string;status:string;url?:string;error?:string}>("/api/video", { props });
+      const until = Date.now() + 300000;
+      while (r.status !== "ready" && r.status !== "failed" && Date.now() < until) {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+        const response = await fetch("/api/video?status=1&id=" + r.id);
+        if (!response.ok) throw new Error("Could not check the render. Sign in again if your session expired.");
+        r = await response.json();
+      }
+      if (!r.url) throw new Error(r.error || "The render is still queued. Retry to check the same job; it will not start a duplicate.");
+      setUrl(r.url);
     } catch (e) {
       setErr((e as Error).message);
     }
@@ -361,8 +444,9 @@ function Video({ company }: { company: string }) {
       <h2 style={{ marginTop: 0 }}>30-second film for {company}</h2>
       {!props && !err && <p className="loading">Capturing their homepage and building the film…</p>}
       {props && <Player component={CompanyVideo} inputProps={props} durationInFrames={DURATION} fps={30} compositionWidth={1920} compositionHeight={1080} initialFrame={45} style={{ width: "100%" }} controls />}
+      {props&&<><FilmScript value={props} disabled={busy} onChange={p=>{setProps(p);setUrl("");setReviewed(false);setErr("");}}/><details><summary>Original research sources for script review ({filmSources.length})</summary><ul>{filmSources.map((s,i)=><li key={i}><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a></li>)}</ul></details><label><input type="checkbox" disabled={busy} checked={reviewed} onChange={e=>setReviewed(e.target.checked)}/> I reviewed the current script against its sources and previewed the scenes. Export stays local; publication needs approval.</label></>}
       <div className="row" style={{ marginTop: 8 }}>
-        <button disabled={busy || !props} onClick={render}>
+        <button disabled={busy || !props || !reviewed} onClick={render}>
           {busy ? "Rendering MP4… (about a minute)" : "Render MP4"}
         </button>
         {url && (
@@ -371,7 +455,66 @@ function Video({ company }: { company: string }) {
           </a>
         )}
       </div>
+      {err && <p role="alert" className="err">{err}</p>}
+    </div>
+  );
+}
+
+// Polls a queued job (song or render) until it is ready or failed.
+async function waitFor<T extends { id: string; status: string; error?: string }>(first: T, statusUrl: (id: string) => string): Promise<T> {
+  let r = first;
+  const until = Date.now() + 300000;
+  while (r.status !== "ready" && r.status !== "failed" && Date.now() < until) {
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+    const response = await fetch(statusUrl(r.id));
+    if (!response.ok) throw new Error("Could not check the job. Sign in again if your session expired.");
+    r = await response.json();
+  }
+  if (r.status !== "ready") throw new Error(r.error || "Still working. Press the button again to check the same job; it will not start a duplicate.");
+  return r;
+}
+
+function Song({ company }: { company: string }) {
+  const [props, setProps] = useState<LyricProps | null>(null);
+  const [busy, setBusy] = useState("");
+  const [url, setUrl] = useState("");
+  const [err, setErr] = useState("");
+  async function sing() {
+    setBusy("Lyria is writing and singing the song… (about a minute)"); setErr(""); setUrl("");
+    try {
+      const r = await waitFor(await post<{ id: string; status: string; error?: string }>("/api/song", { company }), (id) => `/api/song?status=1&id=${id}`);
+      const meta = await (await fetch(`/api/song?meta=1&id=${r.id}`)).json();
+      setBusy("Capturing their homepage for the backdrop…");
+      const v = await fetch("/api/video/props?company=" + encodeURIComponent(company)).then((x) => x.json()).catch(() => ({}));
+      const look = v.props?.shot ? await brandShot(v.props.shot).catch(() => ({ shot: "", accent: v.props.accent || "#f2b544" })) : { shot: "", accent: "#f2b544" };
+      const plan = await post<{ artifact: Artifact }>("/api/seed/song", { company }).then((x) => x.artifact.song?.plan);
+      setProps({ company, title: plan?.title || "A song for " + company, genre: plan?.genre || "", ...look, audio: `/api/song?id=${r.id}`, duration: meta.duration, lines: meta.lines, facts: (plan?.facts || []).map((x) => x.text).slice(0, 6) });
+    } catch (e) { setErr((e as Error).message); }
+    setBusy("");
+  }
+  async function render() {
+    setBusy("Rendering the music video… (a few minutes)"); setErr("");
+    try {
+      const r = await waitFor(await post<{ id: string; status: string; url?: string; error?: string }>("/api/video", { composition: "LyricVideo", props }), (id) => `/api/video?status=1&id=${id}`);
+      setUrl(r.url || "");
+    } catch (e) { setErr((e as Error).message); }
+    setBusy("");
+  }
+  return (
+    <div className="card">
+      <h2 style={{ marginTop: 0 }}>The song and its music video</h2>
+      {!props && <button disabled={!!busy} onClick={sing}>Make the song (about $0.10)</button>}
+      {busy && <p className="loading">{busy}</p>}
+      {props && <>
+        <audio controls src={props.audio} style={{ width: "100%" }} />
+        <Player component={LyricVideo} inputProps={props} durationInFrames={Math.max(90, Math.ceil(props.duration * 30))} fps={30} compositionWidth={1920} compositionHeight={1080} style={{ width: "100%", marginTop: 8 }} controls />
+        <div className="row" style={{ marginTop: 8 }}>
+          <button disabled={!!busy} onClick={render}>Render music video MP4</button>
+          {url && <a href={url} download>Download MP4</a>}
+        </div>
+      </>}
       {err && <p className="err">{err}</p>}
+      <p className="note">AI music by Google Lyria. Draft for staff review; nothing is published or sent.</p>
     </div>
   );
 }

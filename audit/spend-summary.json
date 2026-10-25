@@ -1,0 +1,15 @@
+{
+  "audit": "velho-employee-20261024",
+  "totals": {
+    "calls": 99,
+    "usd": 0.6089809,
+    "unconfirmed": 0
+  },
+  "models": [
+    {
+      "model": "anthropic/claude-haiku-5.5",
+      "calls": 99,
+      "usd": 0.6089809
+    }
+  ]
+}

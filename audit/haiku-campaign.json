@@ -1,0 +1,396 @@
+{
+  "title": "Campaign engine — 24 angles tuned for companies like Kesko Oyj",
+  "angles": [
+    {
+      "format": "LinkedIn post",
+      "hook": "We noticed Kesko is integrating Dahl's Nordic technical trade operations. Worth asking what changes first?",
+      "body": "Kesko announced the Dahl acquisition in Sweden, Norway and Denmark, with completion targeted by end-2026. Acquired units often keep their own brands, order flows and reporting, so the first months can be full of reconciliation. We don't know how Kesko is approaching this. Would it help to compare notes on where order and financial data currently get moved by hand across units?",
+      "visual": "Clean photo of a Nordic distribution yard with a simple line-drawn map overlay of Sweden, Norway and Denmark.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Specific and polite, but a CEO may find it too sales-adjacent."
+      },
+      "id": "kesko-oyj-7448a261564c"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Two units. Two order systems. One integration deadline.",
+      "body": "Kesko is bringing Dahl's Nordic operations in-house by end-2026. In past integrations, teams like these often find the handoffs are the slow part, not the strategy. We're curious how Kesko is handling it, and happy to share what we'd look at first.",
+      "visual": "Split-screen of two spreadsheets converging into one dashboard, cut to a logistics yard at dawn.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Punchy, but reads as a pitch and might feel presumptuous."
+      },
+      "id": "kesko-oyj-8d6654c8b946"
+    },
+    {
+      "format": "carousel",
+      "hook": "Integration day one: what actually needs to work?",
+      "body": "Slide 1: Dahl's units keep separate brands and systems. Slide 2: Order and financial data often needs reconciling across units. Slide 3: Ask first, build second. We're asking where the manual handoffs sit at Kesko's integration. Swipe for a short checklist we'd use to find them, shared without any claim about Kesko's internal workflows.",
+      "visual": "Five-slide card deck with a navy and green palette, one icon per slide, and a plain checklist on the final card.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Useful checklist format; the CEO may skim past it."
+      },
+      "id": "kesko-oyj-976192eb7d38"
+    },
+    {
+      "format": "data visual",
+      "hook": "Kesko's guidance narrowed to €670-730m. Where does efficiency come from?",
+      "body": "Q2 2026 comparable operating profit rose to €194m, and full-year guidance was narrowed to €670-730m. Management has stated that margin discipline matters. A simple bar chart of guidance range against the €654.9m 2025 result makes the scale of the target visible. Estimate: even small cuts in manual processing could matter at this scale, but the numbers are illustrative only.",
+      "visual": "Range bar chart showing the 2025 result against the 2026 guidance band, with a footnote marking the estimate as illustrative.",
+      "panel": {
+        "cfo": 8,
+        "coo": 6,
+        "ceo": 6,
+        "comment": "Strong for finance, but the efficiency claim needs careful framing."
+      },
+      "id": "kesko-oyj-670634bae4f0"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Most integrations don't fail on strategy. They fail in the spreadsheet.",
+      "body": "Big acquisitions get all the boardroom attention. The unglamorous part, matching orders and invoices across units that still run separately, often decides how fast the value arrives. Kesko's Dahl deal makes this live right now. Worth asking which handoffs they're watching most closely, before it becomes a quarterly surprise.",
+      "visual": "A single spreadsheet cell zoomed in on a mismatched number, with the rest of the frame blurred.",
+      "panel": {
+        "cfo": 7,
+        "coo": 7,
+        "ceo": 6,
+        "comment": "Provocative enough to get shared, though the claim is generic."
+      },
+      "id": "kesko-oyj-e55e526d698f"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Nobody on the Dahl integration team: 'Let's just export it to Excel.'",
+      "body": "Every integration has a moment where someone says the quick fix is a spreadsheet. Usually it works until it doesn't. We're not saying that's happening at Kesko. We're curious how they're preventing it, and whether the unit-level reporting is already tidy before the deal closes.",
+      "visual": "Stock-style photo of a person at a desk looking tired next to an overflowing spreadsheet, with a caption overlay.",
+      "panel": {
+        "cfo": 4,
+        "coo": 6,
+        "ceo": 3,
+        "comment": "Funny for ops folks, risky for a CEO audience."
+      },
+      "id": "kesko-oyj-f6e1994e6590"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "Integrating a Nordic acquisition is mostly about the data nobody owns yet.",
+      "body": "We noticed Kesko has agreed to acquire Dahl's technical trade operations in Sweden, Norway and Denmark, with completion targeted by end-2026 (https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/). Separate brands and units often mean order and financial data gets reconciled by hand for a while. Is that something your team is already planning for, or still on the list?",
+      "visual": "Clean Nordic map with three highlighted countries and a simple line linking two separate data streams.",
+      "panel": {
+        "cfo": 7,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Specific, honest question. Good for an operations reader."
+      },
+      "id": "kesko-oyj-011442599f24"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Two brands, one deadline, and a lot of copy-paste.",
+      "body": "[0-3s] Text on screen: Dahl joins Kesko's technical trade. [3-8s] Voiceover: Separate units often mean order data gets rebuilt by hand during integration. [8-12s] Voiceover: We noticed this could be a question worth asking early. [12-15s] End card: What would you automate first?",
+      "visual": "Quick cuts of spreadsheets and order screens, then a single clean dashboard frame.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 4,
+        "comment": "Punchy, but feels a little generic for a CEO audience."
+      },
+      "id": "kesko-oyj-75b1807f04f0"
+    },
+    {
+      "format": "carousel",
+      "hook": "Six questions to ask before any acquisition's systems go live.",
+      "body": "Slide 1: Which order data must match on day one? Slide 2: Who owns reconciliation between units? Slide 3: Where do finance and sales numbers diverge? Slide 4: Which manual steps repeat every month? Slide 5: What breaks first if volume doubles? Slide 6: Which of these would you fix first? Context: Kesko's Dahl deal (https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/).",
+      "visual": "Six bold question cards in Kesko-neutral colours, one question per slide.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Practical checklist format operators would save and share."
+      },
+      "id": "kesko-oyj-8b24694cfa1b"
+    },
+    {
+      "format": "data visual",
+      "hook": "Kesko's Q2 profit rose to €194m, but integration costs will test it.",
+      "body": "Chart: Kesko comparable operating profit guidance for 2026 is €670-730m, narrowed from the earlier range (https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/). Overlay the Dahl completion timeline and the Q3 report on 29 October (https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/). Question for the CFO: which efficiency lines are already measured, and which are still assumptions?",
+      "visual": "Simple bar chart of the guidance range with a timeline marker for the Dahl close and Q3 results.",
+      "panel": {
+        "cfo": 9,
+        "coo": 5,
+        "ceo": 6,
+        "comment": "Finance leaders will read this closely; avoids claiming any cost figures."
+      },
+      "id": "kesko-oyj-a4df50a09736"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Buying a business is easy. Running two of them as one is where margin goes.",
+      "body": "Big acquisitions get judged on the price and the strategy. Less attention goes to the workflows that decide whether the combined business runs cleanly. Kesko's Dahl deal is a reminder: the next 12 months are about order flow, finance reporting and the handoffs between units. Are those being planned with the same care as the purchase itself?",
+      "visual": "A single handshake photo cropped tight so only the hands and a spreadsheet printout are visible.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 6,
+        "comment": "Provocative but fair; invites a reply from operations heads."
+      },
+      "id": "kesko-oyj-77088f575aca"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Dahl integration plan: step 1, export to Excel. Step 2, ask why it's Friday.",
+      "body": "Not a claim about how Kesko is doing this, just the joke every operations team has lived through. Mergers multiply reports, and reports multiply reconciliations. If your integration plan still has a 'copy the numbers across' step, it might be worth a conversation before the deal closes rather than after.",
+      "visual": "Two-panel meme with a tired office worker beside a towering stack of printed spreadsheets.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 3,
+        "comment": "Funny for ops, but a CEO may find it too flip."
+      },
+      "id": "kesko-oyj-caa4d061cf2b"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "Our read: the Dahl deal will be won or lost in order data, not the press release.",
+      "body": "Kesko's Dahl technical trade deal is unconditionally approved by the European Commission, with completion still pending other conditions (source: kesko.fi stock exchange releases, 2026-09-24). When two units keep separate brands and order flows, reconciliation tends to land on people, not systems. We noticed the integration plan is still taking shape. Worth asking: which order and financial data must match on day one, and who owns it today?",
+      "visual": "Clean two-column diagram: Dahl order flow on the left, Kesko order flow on the right, a single question mark where they meet.",
+      "panel": {
+        "cfo": 7,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Specific and grounded; CEO may find it too operational."
+      },
+      "id": "kesko-oyj-aa9331b27270"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Day one of an acquisition, someone is always reconciling orders by hand.",
+      "body": "Shot 1 (0-4s): Hands on a keyboard, two screens, two order formats. Shot 2 (4-10s): Text overlay: 'Two units. Two brands. One integration date.' Shot 3 (10-15s): Caption: 'What must match on day one? Ask us.' Keep it to questions, no claims about Kesko's internal workload.",
+      "visual": "Handheld shots of two monitors showing different order screens, cut tight on the hands.",
+      "panel": {
+        "cfo": 5,
+        "coo": 7,
+        "ceo": 4,
+        "comment": "Visually strong but hard to tie to a Kesko decision."
+      },
+      "id": "kesko-oyj-2ba92e6ad920"
+    },
+    {
+      "format": "carousel",
+      "hook": "Six questions to answer before any Nordic integration goes live.",
+      "body": "Slide 1: Which order data must reconcile on day one? Slide 2: Which financial reports must consolidate first? Slide 3: Who owns each shared data field today? Slide 4: Which brands keep separate order systems? Slide 5: What is the manual step nobody has documented? Slide 6: What breaks first if it's late? Frame as a checklist for the integration team, not a diagnosis.",
+      "visual": "Six-slide deck, one question per slide, large numerals and a single accent colour.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Useful checklist; CEO may see it as generic."
+      },
+      "id": "kesko-oyj-5bc20df5f1bb"
+    },
+    {
+      "format": "data visual",
+      "hook": "Kesko's Q2 comparable operating profit reached €194m; FY guidance is €670-730m.",
+      "body": "Bar chart of guidance range against Q2 run-rate, with the Dahl completion window marked on the timeline (targeted by end-2026, source: kesko.fi, 2026-06-15). The gap between the bars is where integration cost and efficiency choices will show up. Label all derived figures as estimates.",
+      "visual": "Horizontal range bar chart: FY2026 guidance band with a marker for Q2 profit and a dated line for Dahl completion.",
+      "panel": {
+        "cfo": 9,
+        "coo": 6,
+        "ceo": 6,
+        "comment": "CFO will read the chart; the framing is clean and factual."
+      },
+      "id": "kesko-oyj-cc1760c66c71"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Buying a Nordic business is the easy part. The spreadsheet is the hard part.",
+      "body": "Most deal narratives focus on price and synergies. The unglamorous work is who maps order codes, who reconciles ledgers and who answers when two systems disagree. Kesko's Dahl acquisition, approved by the Commission (kesko.fi, 2026-09-24), makes that question concrete. We would rather ask how that work is staffed than assume it is.",
+      "visual": "A single spreadsheet cell highlighted in red, cropped tight, with no logos.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 8,
+        "comment": "Provocative enough to get a reply; keep the tone measured."
+      },
+      "id": "kesko-oyj-68381cf732fd"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Dahl integration plan, step 1: export to Excel. Step 2: wait until Friday.",
+      "body": "Light joke aimed at the universal integration reality, not at Kesko. Close with a question: which step on your integration plan still depends on someone exporting a file by hand? Keep it self-deprecating and avoid any claim about how Kesko actually works.",
+      "visual": "Simple two-panel meme: a spreadsheet icon, then a calendar with Friday circled.",
+      "panel": {
+        "cfo": 3,
+        "coo": 6,
+        "ceo": 5,
+        "comment": "Shareable but risks reading as flippant to executives."
+      },
+      "id": "kesko-oyj-7ac47ff45165"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "Kesko's Dahl deal is closing. What breaks first is rarely the strategy.",
+      "body": "Two brands, separate units, and order data living in different places. When acquired operations come in, a lot of the work becomes reconciling numbers by hand. We noticed the Dahl integration and the Q3 results call land close together. Worth asking: which order and finance flows does the integration team trust on day one? Happy to compare notes with anyone running this right now.",
+      "visual": "A plain text-led post image: 'Dahl. Two units. Which order data is the source of truth?'",
+      "panel": {
+        "cfo": 7,
+        "coo": 8,
+        "ceo": 6,
+        "comment": "Specific and operational; CEO may find it too narrow."
+      },
+      "id": "kesko-oyj-2e836f7de5c3"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Acquired business, separate brands, same deadline.",
+      "body": "[0-3s] Text on screen: Dahl closes soon. [3-8s] Voiceover: Integration usually means matching order and finance data across units that were never built to talk. [8-13s] Voiceover: Ask one question before go-live: which flow still needs a person to copy it? [13-15s] End card: Velho. Find the manual work first.",
+      "visual": "Clean, high-contrast cutaways of a warehouse aisle and a dashboard, cut fast.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Strong for ops; generic for C-suite on a cold feed."
+      },
+      "id": "kesko-oyj-c44d178fe6d4"
+    },
+    {
+      "format": "carousel",
+      "hook": "Six questions before any Nordic integration goes live.",
+      "body": "1. Who owns each order record after close? 2. Which reports are rebuilt by hand each month? 3. Where do Swedish, Norwegian and Danish figures get reconciled? 4. What breaks if one unit's system changes? 5. Which step still depends on one person? 6. What would we fix first if we had one quarter? Estimate: a short diagnostic can surface the answers in weeks, not a full programme.",
+      "visual": "Six numbered slides, one question per slide, navy and white with a single accent colour.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Useful checklist, but the 'estimate' timeline needs proof."
+      },
+      "id": "kesko-oyj-2f477eee9100"
+    },
+    {
+      "format": "data visual",
+      "hook": "Kesko targets ~€20bn group sales in the early 2030s. Growth means more units to run.",
+      "body": "Source: Kesko CEO statement, 15 June 2026. Kesko's own guidance points to comparable operating profit of €670-730m for 2026 (Q2 2026 release). Chart idea: group sales ambition against the number of operating units to integrate. Question for leaders: at what unit count does manual reconciliation start to cap margin?",
+      "visual": "Bar chart of the €20bn target next to a simple line showing unit count growth, with a question mark on the gap.",
+      "panel": {
+        "cfo": 8,
+        "coo": 6,
+        "ceo": 6,
+        "comment": "Good financial framing; the unit-count line is an assumption."
+      },
+      "id": "kesko-oyj-eaf038384860"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Buying a Nordic business is the easy part. Running two as one is where margin leaks.",
+      "body": "Everyone will talk about the €1.2bn price and the European Commission clearance. Less attention goes to order data, invoicing and reporting that still rely on copy-paste. Integration costs show up after the press release. Our view: start with the spreadsheets, not the synergy slide.",
+      "visual": "A single bold line on a plain background: 'The synergy slide is not the integration plan.'",
+      "panel": {
+        "cfo": 7,
+        "coo": 6,
+        "ceo": 5,
+        "comment": "Provocative, but may read as criticism of Kesko's deal."
+      },
+      "id": "kesko-oyj-f9ad5805717f"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Integration plan, step 1: export to Excel. Step 2: wait until Friday.",
+      "body": "Anyone who has run a multi-unit merger has lived this. Nobody in the room says it out loud, but the reconciliation happens by hand, every month, until someone asks for a fix. If that's your Monday too, we can talk. No judgement, just a quick look at where the copy-paste lives.",
+      "visual": "A familiar office-humour image with a spreadsheet grid and a 'Friday' calendar overlay, captioned lightly.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 3,
+        "comment": "Funny for ops, risky for a CEO audience; tone may land poorly."
+      },
+      "id": "kesko-oyj-b3e74794a16b"
+    }
+  ],
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Panel scores are a SIMULATED pre-test by AI buyer personas. Real ranking comes from thumbs below and, once Velho approves posting, from real engagement."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ]
+}

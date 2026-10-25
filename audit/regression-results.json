@@ -1,0 +1,97 @@
+{
+  "at": "2026-10-25T07:19:17.374Z",
+  "checks": [
+    {
+      "name": "valid staff token and expiry/tamper checks",
+      "passed": true
+    },
+    {
+      "name": "private leads denied without session",
+      "passed": true
+    },
+    {
+      "name": "private pages redirect and public quiz stays open",
+      "passed": true
+    },
+    {
+      "name": "cross-site mutations rejected",
+      "passed": true
+    },
+    {
+      "name": "valid answers and invalid ranges",
+      "passed": true
+    },
+    {
+      "name": "malformed blocks and unsafe URLs rejected",
+      "passed": true
+    },
+    {
+      "name": "citation markup removed, Finnish text preserved",
+      "passed": true
+    },
+    {
+      "name": "truncated provider output detected and charged",
+      "passed": true
+    },
+    {
+      "name": "malformed model JSON gives a recoverable error",
+      "passed": true
+    },
+    {
+      "name": "audit refuses non-Haiku, unknown costs and over-budget requests",
+      "passed": true
+    },
+    {
+      "name": "invalid quiz rejected before AI",
+      "passed": true
+    },
+    {
+      "name": "quiz acknowledgement required before AI",
+      "passed": true
+    },
+    {
+      "name": "concurrent duplicate quiz saves one lead and hides staff draft",
+      "passed": true
+    },
+    {
+      "name": "all 16 tools declared; blank campaigns rejected before provider call",
+      "passed": true
+    },
+    {
+      "name": "ambiguous register prefix requires disambiguation",
+      "passed": true
+    },
+    {
+      "name": "fresh research invalidates only that company's artifacts",
+      "passed": true
+    },
+    {
+      "name": "ghost staffing and cost calculated in code",
+      "passed": true
+    },
+    {
+      "name": "empty index evidence is unknown rather than zero",
+      "passed": true
+    },
+    {
+      "name": "unavailable sources remain unknown with explicit limits",
+      "passed": true
+    },
+    {
+      "name": "conflicting source sample counts block case-study metric",
+      "passed": true
+    },
+    {
+      "name": "campaign batches produce 24 separately identified angles",
+      "passed": true
+    },
+    {
+      "name": "website assistant receives the public pages used by its demo",
+      "passed": true
+    },
+    {
+      "name": "TED keeps legal identity and shows the matched winner",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/ghost?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/ghost?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Ghost Employee, Value: 1
+			6 text Ghost Employee
+		7 text “Meet your invisible hire”: the manual work a company pays for, as a trading card a CEO forwards.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Meet Excel-Esa Virtanen, Kesko Oyj's invisible hire, Value: 1
+			15 text Meet Excel-Esa Virtanen, Kesko Oyj's invisible hire
+		16 container Ghost employee card
+		17 content list
+			18 container
+				19 AXListMarker • 
+				20 text evidence Manual consolidation of store and division financial reporting for controllers (copying figures between systems and spreadsheets) — Business Controller opening in Kesko-IT, a finance role that may involve manual reporting (inferred from job posting); Kesko Q2 2026 results show four divisions reporting profit that must be consolidated. (~8 h/week, estimate)
+				21 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			22 container
+				23 AXListMarker • 
+				24 text evidence Transactional accounting for the Baltic digital team (invoice entry, reconciliation) — Accountant opening at Kesko Senukai Digital (Vilnius) to support the team; recruitment-based inference of transactional finance work. (~6 h/week, estimate)
+				25 link Description: source, Value: builtin.com/job/accountant/11592654
+			26 container
+				27 AXListMarker • 
+				28 text evidence Sales-admin and order paperwork for store and K-Auto staff alongside customer service — Store and sales roles (myyjä, automyyjä) posted at K-stores and K-Auto, with sales-admin tasks likely in scope (inferred from job postings). (~5 h/week, estimate)
+				29 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			30 container
+				31 AXListMarker • 
+				32 text evidence Integrating acquired Dahl technical trade data into group systems by hand (customer, product and price master data) — Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (combined 2025 net sales about €2.07bn), with completion expected end of 2026. (~10 h/week, estimate)
+				33 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			34 container
+				35 AXListMarker • 
+				36 text evidence Public tender bid assembly: pulling product and price data into standard tender response forms for municipal and regional buyers — Kesko is listed as winner in several EU tenders (e.g. Espoon kaupunki, Etelä-Pohjanmaan hyvinvointialue, Västerås stad), implying repeated bid preparation. (~6 h/week, estimate)
+				37 link Description: source, Value: ted.europa.eu/en/notice/-/detail/67091-2025
+		38 text Estimate: Hours are estimates derived from job-posting scope and deal/tender frequency, not observed internal workflows; fte = total hours (35) / 37.5, and eurPerYear = fte × €55,000 loaded Finnish salary (estimate). Public evidence only; the real numbers come from a conversation.
+		39 text Note to the COO (with the card)
+		40 text draft — not sent
+		41 button Copy
+		42 text Hi, we came across Kesko's Dahl integration and the Business Controller and Baltic accountant openings. Once a deal like that lands, a lot of copy-paste reconciliation tends to pile up. We put together a short card of where a 'ghost employee' might sit in that work, with rough estimates attached. Is this close to reality for your team, or completely off? Happy to be told either way.
+		43 button (collapsed) Sources (19), Secondary Actions: Expand
+			44 text Sources (
+			45 text 19
+			46 text )
+		47 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/ghost?c=Kesko

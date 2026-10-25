@@ -1,0 +1,72 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/radar?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/radar?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Room Radar, Value: 1
+			6 text Room Radar
+		7 text Where the target’s execs will physically be in the next months, and how Velho gets in that room.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Room Radar: Kesko, next 6 months (as of 24 Oct 2026), Value: 1
+			15 text Room Radar: Kesko, next 6 months (as of 24 Oct 2026)
+		16 heading Upcoming rooms, Value: 2
+			17 text Upcoming rooms
+		18 table
+			19 row
+				20 cell
+					21 text Date
+				22 cell
+					23 text Event
+				24 cell
+					25 text Who from them / why relevant
+				26 cell
+					27 text Link
+			28 row
+				29 cell
+					30 text 17–19 Nov 2026 (Day 0 on 17 Nov; main event 18–19 Nov)
+				31 cell
+					32 text Slush 2026, Messukeskus, Helsinki (industry event: Kesko not confirmed)
+				33 cell
+					34 text Multiple listings put the main event on 18–19 Nov, with an Investor Day on 17 Nov and 600+ side events across the city. Corporate leaders come for partnership scouting, which fits a Kesko audience looking for a partner beyond CGI. Kesko attendance is unconfirmed.
+				35 cell
+					36 link Description: Open source, Value: slush.org/
+			37 row
+				38 cell
+					39 text 16 Nov 2026
+				40 cell
+					41 text AI Summit 2026, Turku (industry event: Kesko not confirmed)
+				42 cell
+					43 text Programme opens with EU Commission and research speakers, so the room is about AI strategy at executive level. Kesko's AI and automation agenda fits, but no Kesko speaker is listed in what I found.
+				44 cell
+					45 link Description: Open source, Value: aisummit.fi/
+			46 row
+				47 cell
+					48 text Early Feb 2027 (estimate; date not yet announced)
+				49 cell
+					50 text Kesko full-year 2026 results briefing, K-Kampus, Helsinki
+				51 cell
+					52 text Last year's in-person results conference was held at K-Kampus, with CEO Jorma Rauhala presenting and the three division Presidents taking questions. This is the room where Kesko's top team is in one place, but it is an investor event, not a networking room.
+				53 cell
+					54 link Description: Open source, Value: marketscreener.com/news/invitation-to-kesko-s-q4-financial-statements-briefing-on-thursday-5-february-2026-ce7e58dbdd8ef320
+		55 text Best room: Slush, 18 Nov, with a side event rather than the main stage. Kesko's execs are not confirmed there, so this is a bet, not a sure thing. Velho's buyers (CEOs, COOs, CFOs) are in the Slush corporate and partnership crowd, and the Dahl integration (completion expected by end-2026) gives a live reason to talk. The move: sponsor a coffee or host a small 45-minute breakfast on 18 Nov, and invite 8–10 operations and finance leaders from Nordic retail and wholesale. Check the cost of a side-event slot first; one listing shows a $900 starting pass price, which is not a side-event price. Keep the pitch to one question: how the Dahl units and the new warehouse system will get their manual work done.
+		56 text Pre-event note
+		57 text draft — not sent
+		58 button Copy
+		59 text Hi [first name], we noticed Kesko is bringing Dahl's Nordic units into the group before year-end, and a new warehouse system is coming in too. We help teams find the manual work that slows them down, then build the fix. Could we take 15 minutes at Slush on the 18th? I'll come to you.
+		60 text Walk-up line
+		61 text draft — not sent
+		62 button Copy
+		63 text We noticed Kesko is absorbing Dahl's Nordic units and a new warehouse system at the same time, and I'd rather hear how your team is handling that than pitch you.
+		64 text Unconfirmed or to verify: (1) Kesko attendance at Slush and AI Summit is not confirmed in any source; check the Slush speaker and partner lists and Kesko's LinkedIn before the event. (2) The Feb 2027 results date is an estimate based on the Feb 2026 pattern; confirm on kesko.fi. (3) A Kesko Q3 2026 Finnish webcast page exists (kesko.events.inderes.com/q3-2026), but I found no date; check it. (4) The EGM for the rights issue has a notice on kesko.fi, but no date was in my results; check it, as an EGM is a real investor event. (5) The Ruoka food fair (retail buyers) and the AI Finland autumn forum are relevant but I found no dates for 2026 or 2027. (6) Slush pricing and side-event rules were not verified; sources disagree on attendance (12,000 to 20,000+). (7) The AI Summit Turku date (16 Nov) comes from one site; confirm on aisummit.fi.
+		65 button (collapsed) Sources (24), Secondary Actions: Expand
+			66 text Sources (
+			67 text 24
+			68 text )
+		69 text OpenRouter spend so far: $ 4.64
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/radar?c=Kesko

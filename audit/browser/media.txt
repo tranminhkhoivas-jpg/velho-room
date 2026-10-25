@@ -1,0 +1,119 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/media?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/media?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading One-of-one media, Value: 1
+			6 text One-of-one media
+		7 text A mini-report and a printable postcard made for exactly one company.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading 30-second film for Kesko, Value: 2
+			14 text 30-second film for  Kesko
+		15 text Capturing their homepage and building the film…
+		16 button (disabled) Render MP4
+		17 heading Three things we noticed about Kesko's next 12 months, Value: 1
+			18 text Three things we noticed about Kesko's next 12 months
+		19 text Kesko's next year: Dahl, a new warehouse, agents. Hi Arto, Dahl and the new warehouse system are landing in the same year, which is a lot to carry. I built Luotsi, the boating app, and I know how much work hides in steps people still do by hand. We'd only look, not replace what CGI runs. Would it help to walk through three of those steps before go-live? Oskar
+		20 button Print / save as PDF
+		21 heading Why we're writing, Value: 2
+			22 text Why we're writing
+		23 text Kesko has a lot moving at once: a large Nordic acquisition, a warehouse system change and a stated push on AI and automation. We're not claiming to know how your teams work. These are public signals that might be worth a conversation.
+		24 heading 1. The Dahl integration is landing in the next 12 months, Value: 2
+			25 text 1. The Dahl integration is landing in the next 12 months
+		26 content list
+			27 container
+				28 AXListMarker • 
+				29 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark; 2025 combined net sales about €2.1B.
+				30 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/
+			31 container
+				32 AXListMarker • 
+				33 text acquisition The European Commission unconditionally approved the Dahl purchase; completion is expected by end-2026.
+				34 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			35 container
+				36 AXListMarker • 
+				37 text investment Kesko plans a €500–700M rights issue of B shares to help finance the deal.
+				38 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+		39 text Question we'd ask: how will order, logistics and reporting flows from the new Nordic units get onto Kesko's systems, and which of those steps are still handled by hand today?
+		40 heading 2. The grocery warehouse is moving to agentic AI, Value: 2
+			41 text 2. The grocery warehouse is moving to agentic AI
+		42 content list
+			43 container
+				44 AXListMarker • 
+				45 text news Kesko selected Manhattan's cloud-native, agentic-AI warehouse management system to replace its grocery WMS (date approximate).
+				46 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+			47 container
+				48 AXListMarker • 
+				49 text stated goal Pekka Tala, Director Strategic Programs, Grocery Trade Logistics: the aim is to use agentic AI for operational efficiency in grocery warehouses and terminal hubs.
+				50 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+		51 text Question we'd ask: which tasks around the new WMS (exceptions, dispatch planning, parts stock) are likely to stay manual during the rollout, and who owns them?
+		52 heading 3. Hiring points to repeated manual work (inferred), Value: 2
+			53 text 3. Hiring points to repeated manual work (inferred)
+		54 content list
+			55 container
+				56 AXListMarker • 
+				57 text hiring Revelio Labs counts 329 active Kesko job postings in 2026, up 20.1% year on year.
+				58 link Description: source, Value: reveliolabs.com/companies/kesko/employees
+			59 container
+				60 AXListMarker • 
+				61 text inferred A dispatch coordinator (ajojärjestelijä) role for K-group in Vantaa has been open 30+ days (inferred from listing).
+				62 link Description: source, Value: glassdoor.com/Jobs/Kesko-Finland-Jobs-EI_IE10397.0,5_IL.6,13_IN79.htm
+			63 container
+				64 AXListMarker • 
+				65 text inferred A part-time replenishment planner vacancy steers K-grocery supply chain planning (inferred).
+				66 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+		67 text Question we'd ask: are these roles being hired for steps that the new WMS and AI tools are meant to change, and would it help to map those steps first?
+		68 table
+			69 row
+				70 cell
+					71 text Public signal
+				72 cell
+					73 text Possible question for your team
+			74 row
+				75 cell
+					76 text Dahl deal, EC approval, rights issue
+				77 cell
+					78 text Which Nordic finance and order flows need to be connected first?
+			79 row
+				80 cell
+					81 text Manhattan agentic WMS selection
+				82 cell
+					83 text Which warehouse tasks stay manual during the rollout?
+			84 row
+				85 cell
+					86 text 329 postings, dispatch and replenishment roles
+				87 cell
+					88 text Are these hires for work the new systems will change?
+			89 row
+				90 cell
+					91 text CGI strategic partnership (2025-08-20)
+				92 cell
+					93 text Where does a new partner complement CGI's scope, rather than overlap it?
+		94 text Timing fit for a conversation (Velho estimate)
+		95 container
+			96 text 7 / 10
+		97 text Estimate: the Dahl integration and WMS rollout both fall within the next 12 months. CGI already covers AI and automation, so any scope has to complement it.
+		98 text Inferred items come from job listings and are not confirmed internal processes. Scores and timing are Velho estimates. Dates are as recorded in the source notes; the WMS date is approximate.
+		99 text Cover email to Arto Hiltunen, CIO (draft for manual review, not sent)
+		100 text draft — not sent
+		101 button Copy
+		102 text Hi Arto,
+
+Dahl and the new grocery WMS are landing in the same year. That's a lot to carry alongside CGI's work.
+
+We help teams find the manual steps that slow operations down, then build and roll out the fix. We wouldn't touch what CGI runs.
+
+Would a 30-minute look at three hand-run steps around the warehouse rollout be useful?
+
+Best,
+[Name], Velho
+		103 button (collapsed) Sources (24), Secondary Actions: Expand
+			104 text Sources (
+			105 text 24
+			106 text )
+		107 text OpenRouter spend so far: $ 4.59
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/media?c=Kesko

@@ -1,0 +1,104 @@
+{
+  "title": "Case study P5: Aaltonen Tilitoimisto Oy (synthetic notes)",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "Time per receipt at a 14-accountant firm dropped from 2.8 to 1.2 minutes in a 4-person pilot"
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Average time per document (pilot)",
+          "2.8 min/doc (5 accountants, 1 week time tracking)",
+          "1.2 min/doc (4 pilot accountants, weeks 3-4)"
+        ],
+        [
+          "Error rate in review sample",
+          "6.1% of 500 documents (month-end review) [UNVERIFIED: sample size differs, 500 vs 400, see missing list]",
+          "3.5% of 400 documents (pilot sample) [UNVERIFIED]"
+        ],
+        [
+          "Client month-end speed",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Firm-wide weekly document volume",
+          "~1,600 docs/week (baseline, not carried into After)",
+          "not measured"
+        ],
+        [
+          "Pilot users retaining the tool",
+          "not measured",
+          "4 of 4 pilot users staying on; 2 more asking when they can start"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "The problem, in the firm's own words: receipts and supplier invoices, many sent as photos over WhatsApp or email by small clients, had to be coded by hand: account, VAT rate and cost centre. Across the firm this was roughly 75 hours a week of manual coding, based on a one-week time study of five accountants."
+    },
+    {
+      "t": "p",
+      "text": "What Velho shipped: a suggestion tool, not an auto-poster. It reads each document (vendor, date, amount, VAT), proposes an account and VAT code from the client's own history (same vendor, same coding), and falls back to a language model for new vendors. Accountants accept or edit suggestions in a simple web table and export CSV into Procountor. Low-confidence rows are highlighted red, and VAT edge cases such as representation and EU purchases always go to manual review."
+    },
+    {
+      "t": "p",
+      "text": "Adoption: the pilot ran with four accountants. Training took 45 minutes with a Finnish cheat sheet. All four kept using the tool, and two more asked to join. Responsibility for the bookkeeping stays with the accountant, and this is written into the standard operating procedure."
+    },
+    {
+      "t": "p",
+      "text": "Result: time per document fell from 2.8 to 1.2 minutes and the sampled error rate fell from 6.1% to 3.5%. The team found that some errors came from accepting a wrong suggestion (automation bias, 5 of 14 errors in the pilot), which is why low-confidence highlighting was added. The partner believes clients get their monthly bookkeeping faster; this has not been measured."
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "A 14-person accounting firm asked us a simple question: why does coding one receipt still take almost 3 minutes?\n\nWe built a suggestion tool, not an auto-poster. It reads the document, proposes the account and VAT code from each client's own history, and flags anything uncertain in red. The accountant accepts or edits, then exports to Procountor as before.\n\nIn a 4-person pilot, time per document went from 2.8 to 1.2 minutes, and the sampled error rate dropped from 6.1% to 3.5%. All four pilot users stayed on, and two more asked to join.\n\nThe accountant still owns every entry. The tool just makes the boring part faster.\n\nIf your team is still hand-coding invoices, we're happy to look at it with you."
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Aaltonen Tilitoimisto Oy, accounting firm, 14 accountants, ~120 SME clients (Procountor).\nProblem: manual coding of supplier invoices and receipts (account, VAT code, cost centre), about 75 hours/week firm-wide (estimate from a one-week time study of five accountants).\nSolution: suggestion tool that extracts document fields and proposes coding from client history, with an LLM fallback for new vendors; accountant approves, CSV export to Procountor.\nPilot result: 2.8 to 1.2 min per document (4 accountants, weeks 3-4); sampled error rate 6.1% to 3.5% (sample sizes to be verified).\nAdoption: 4 of 4 pilot users retained; 2 more requested access; 45-minute training.\nGuardrail: no auto-posting; VAT edge cases always manual; accountant remains responsible."
+    },
+    {
+      "t": "list",
+      "tag": "missing",
+      "items": [
+        {
+          "text": "Permission to name Aaltonen Tilitoimisto Oy and quote partner Jari and expert Tuomas Eklund."
+        },
+        {
+          "text": "Verify error-rate sample sizes: notes cite 500 documents for the baseline and 400 for the pilot, and the error-rate figures need the same sample basis."
+        },
+        {
+          "text": "Confirm the 6.1% and 3.5% figures are measured on comparable samples and reviewer."
+        },
+        {
+          "text": "Confirm the ~1,600 docs/week and ~75 h/week figures and their extrapolation method before publishing."
+        },
+        {
+          "text": "Measure client-facing outcome (monthly bookkeeping turnaround); currently only a partner quote, not measured."
+        },
+        {
+          "text": "Confirm the 64% vendor-history coverage and ~70% vs 95% accuracy figures and whether they appear publicly."
+        },
+        {
+          "text": "Confirm the number of clients in scope (10 highest-volume) and whether client data handling needs disclosure."
+        },
+        {
+          "text": "Confirm Procountor API integration is still planned, not live, so public copy does not overstate scope."
+        }
+      ]
+    }
+  ]
+}

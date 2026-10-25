@@ -1,0 +1,81 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/buyer?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/buyer?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Buyer simulator, Value: 1
+			6 text Buyer simulator
+		7 text Rehearse the pitch on an AI CFO built from the company’s real annual report. Text or voice.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading Buyer simulator: Anu Hämäläinen, CFO, Kesko, Value: 1
+			14 text Buyer simulator: Anu Hämäläinen, CFO, Kesko
+		15 heading Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01), Value: 2
+			16 text Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)
+		17 text The CFO in the chat below is an AI simulation built from public documents, not the real person. Use it to rehearse, not to predict what she will say.
+		18 content list
+			19 container
+				20 AXListMarker • 
+				21 text figure Net sales €12,474.7M in 2025, up 4.7% (2.3% comparable). Report by the Board, Financial performance, p.4.
+				22 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			23 container
+				24 AXListMarker • 
+				25 text figure Comparable operating profit €654.9M (€650.1M). 2026 guidance: €650–750M, with the outlook saying profit should improve in all divisions. Report, p.3–4.
+				26 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			27 container
+				28 AXListMarker • 
+				29 text figure Operating cash flow fell to €879.7M from €1,008.2M, weighed down by working capital. The Food Market Act change (in force 1 July 2025) shortened payment periods, which Kesko estimates cost some €100M. Report, Cash flow and financial position, p.5.
+				30 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			31 container
+				32 AXListMarker • 
+				33 text figure Interest-bearing net debt excl. leases €1,308.9M (€857.2M). Net debt/EBITDA excl. IFRS 16 1.6 (1.1). Gearing 120.5%. Report, p.5.
+				34 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			35 container
+				36 AXListMarker • 
+				37 text figure Grocery trade comparable operating profit fell €19.9M to €418.1M; margin 6.5% (6.9%), hit by the K Group price programme. Report, Segments, p.6.
+				38 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			39 container
+				40 AXListMarker • 
+				41 text figure Capex €735.7M in 2025, of which IT €22.8M (€18.0M). Report, Capital expenditure, p.5.
+				42 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			43 container
+				44 AXListMarker • 
+				45 text figure Kesko plans a €500–700M rights issue of B shares to help finance the Dahl acquisition (public signal, 2026-10-08).
+				46 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+		47 content list
+			48 container
+				49 AXListMarker • 
+				50 text objection 'Operating cash flow dropped by €128M and you say about €100M of that is the payment-period change. Why would I fund a new programme before working capital is back under control?'
+				51 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			52 container
+				53 AXListMarker • 
+				54 text objection 'IT capex was €22.8M out of €735.7M. Where would an AI programme sit in the budget, and what does it displace?'
+				55 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			56 container
+				57 AXListMarker • 
+				58 text objection 'CGI is already our strategic digital partner and the CIO has said AI and automation are central. What do you do that they don't, and why shouldn't I consolidate?'
+				59 link Description: source, Value: cgi.com/en/cgi-and-kesko-enter-strategic-partnership-to-accelerate-digital-transformation
+			60 container
+				61 AXListMarker • 
+				62 text objection 'Net debt is €1.3B, gearing is 120.5%, and a €500–700M rights issue is coming for Dahl. Every euro we spend on a programme needs a payback I can see inside a year.'
+				63 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			64 container
+				65 AXListMarker • 
+				66 text objection 'Grocery margin fell from 6.9% to 6.5%. Savings only count if they show up in the P&L. What is the baseline, and who signs off that it happened?'
+				67 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+		68 text Coaching: open with the €100M, not with AI. It is Kesko's own estimate of cash lost to shorter payment periods, so you are not inventing a problem. Ask her a question instead of making a claim, for example: 'Is any of that cash pressure visible in the planning and back-office work your teams do each day?' Then stop and listen. Keep the first two minutes about cash and payback, and bring CGI into the conversation early as a complement, not a replacement. Her strongest objection will probably be the baseline (objection 5), so have a measurement plan ready before the call.
+		69 button (collapsed) Sources (24), Secondary Actions: Expand
+			70 text Sources (
+			71 text 24
+			72 text )
+		73 text AI simulation of the CFO, grounded in the annual report. Pitch Velho; it will push back. Voice works in Chrome/Edge.
+		74 text field (settable)
+		75 button Send
+		76 button 🎤 Speak
+		77 button (disabled) Score my pitch
+		78 text OpenRouter spend so far: $ 4.59
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/buyer?c=Kesko

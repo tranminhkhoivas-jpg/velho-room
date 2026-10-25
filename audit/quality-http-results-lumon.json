@@ -1,0 +1,19 @@
+{
+  "company": "Lumon",
+  "results": [
+    {
+      "tool": "proof",
+      "passed": true,
+      "ms": 4846,
+      "pages": 5,
+      "records": 51,
+      "inputCharacters": 19463
+    },
+    {
+      "tool": "ghost",
+      "passed": true,
+      "ms": 16,
+      "tasks": 4
+    }
+  ]
+}

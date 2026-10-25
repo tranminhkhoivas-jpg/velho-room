@@ -1,0 +1,147 @@
+[
+  {
+    "name": "unauthenticated lead read refused",
+    "passed": true,
+    "ms": 512
+  },
+  {
+    "name": "staff login",
+    "passed": true,
+    "ms": 159
+  },
+  {
+    "name": "cached employee output: signals",
+    "passed": true,
+    "ms": 94,
+    "detail": {
+      "title": "Kesko Oyj — Signals board (researched 2026-10-24)",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "cached employee output: proof",
+    "passed": true,
+    "ms": 252,
+    "detail": {
+      "title": "Kesko: proof-before-pitch demo from public web pages",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "cached employee output: buyer",
+    "passed": true,
+    "ms": 170,
+    "detail": {
+      "title": "Buyer simulator setup card: Kesko CFO",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "cached employee output: ghost",
+    "passed": true,
+    "ms": 211,
+    "detail": {
+      "title": "Meet Excel-Esa Virtanen, Kesko Oyj's invisible hire",
+      "blocks": 5
+    }
+  },
+  {
+    "name": "cached employee output: luotsi",
+    "passed": true,
+    "ms": 166,
+    "detail": {
+      "title": "Luotsi Chart: Kesko Oyj",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "cached employee output: media",
+    "passed": true,
+    "ms": 76,
+    "detail": {
+      "title": "3 things we noticed about Kesko's next 12 months",
+      "blocks": 12
+    }
+  },
+  {
+    "name": "cached employee output: tradefair",
+    "passed": true,
+    "ms": 82,
+    "detail": {
+      "title": "Kesko Oyj: trade fair companion brief",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "cached employee output: words",
+    "passed": true,
+    "ms": 209,
+    "detail": {
+      "title": "Kesko: verified quotes, LinkedIn comment and repeated priorities (for Velho review)",
+      "blocks": 13
+    }
+  },
+  {
+    "name": "cached employee output: radar",
+    "passed": true,
+    "ms": 202,
+    "detail": {
+      "title": "Room Radar: Kesko, next 6 months",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "cached employee output: hackathon",
+    "passed": true,
+    "ms": 202,
+    "detail": {
+      "title": "Kesko Challenge: Integration and Cost-to-Serve in a Growing Nordic Trading Group",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "cached employee output: campaign",
+    "passed": true,
+    "ms": 149,
+    "detail": {
+      "title": "Campaign engine — 24 angles tuned for companies like Kesko Oyj",
+      "blocks": 2
+    }
+  },
+  {
+    "name": "cached employee output: deadDeal",
+    "passed": true,
+    "ms": 56,
+    "detail": {
+      "title": "Dead deal resurrector: Kesko (D01, Heikki Nurmilaakso)",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "cached employee output: caseStudy",
+    "passed": true,
+    "ms": 100,
+    "detail": {
+      "title": "Case study: Nordtrans Oy – POD/CMR document matching",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "invalid photo and conversation rejected",
+    "passed": true,
+    "ms": 410
+  },
+  {
+    "name": "invalid quiz choices rejected",
+    "passed": true,
+    "ms": 62
+  },
+  {
+    "name": "pipeline staff list",
+    "passed": true,
+    "ms": 150,
+    "detail": {
+      "leads": 2
+    }
+  }
+]

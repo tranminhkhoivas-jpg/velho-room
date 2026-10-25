@@ -18,7 +18,7 @@ function wrap(s: string, n: number, max = 3): string[] {
     } else line += " " + w;
   }
   if (line.trim()) out.push(line.trim());
-  if (out.length > max) out.splice(max, out.length, out[max - 1].replace(/.{0,2}$/, "…"));
+  if (out.length > max) { out.length = max; out[max - 1] = out[max - 1].replace(/.{0,2}$/, "…"); }
   return out;
 }
 
@@ -26,7 +26,7 @@ const tspans = (lines: string[], x: number, dy: number) => lines.map((l, i) => `
 
 export function ghostCard(
   company: string,
-  g: { ghostName: string; title: string; tagline: string; tasks: { task: string; hoursPerWeek: number }[]; fte: number; eurPerYear: number },
+  g: { ghostName: string; title: string; tagline: string; tasks: { task: string; hoursPerWeek: number }[]; fte: number; eurPerYear: number; basisLabel?:string; costLabel?:string },
 ): string {
   const tasks = g.tasks.slice(0, 6);
   const eur = Math.round(g.eurPerYear / 1000);
@@ -42,11 +42,11 @@ export function ghostCard(
 <text x="36" y="56" font-size="12" letter-spacing="3" fill="#9fc0ff">INVISIBLE HIRE · ${esc(company.toUpperCase().slice(0, 34))}</text>
 <g transform="translate(240 150)" fill="#e8eefc"><path d="M-46 40 V-10 a46 46 0 0 1 92 0 V40 l-15 -12 -16 12 -15 -12 -15 12 -16 -12z" fill="#e8eefc" opacity=".92"/><circle cx="-16" cy="-6" r="7" fill="#0b1a33"/><circle cx="16" cy="-6" r="7" fill="#0b1a33"/><rect x="-14" y="10" width="28" height="6" rx="3" fill="#0b1a33"/></g>
 <text x="240" y="232" font-size="28" font-weight="700" fill="#fff" text-anchor="middle">${esc(g.ghostName)}</text>
-<text x="240" y="258" font-size="15" fill="#9fc0ff" text-anchor="middle">${esc(g.title)}</text>
+<text x="240" y="258" font-size="15" fill="#9fc0ff" text-anchor="middle">${esc(wrap(g.title, 48, 1)[0])}</text>
 <text x="240" y="286" font-size="13" fill="#c9d6f2" text-anchor="middle" font-style="italic">${tspans(wrap(`“${g.tagline}”`, 56, 1), 240, 16)}</text>
 ${rows}
-<g transform="translate(36 ${330 + tasks.length * 40})"><text font-size="12" fill="#9fc0ff" letter-spacing="2">COSTS YOU (ESTIMATE)</text><text y="34" font-size="30" font-weight="700" fill="#fff">≈ ${esc(g.fte.toFixed(1))} FTE · €${esc(eur)}k / yr</text></g>
-<text x="240" y="616" font-size="11" fill="#9fc0ff99" text-anchor="middle">Estimated from public evidence · Velho Room prototype</text>
+<g transform="translate(36 ${330 + tasks.length * 40})"><text font-size="12" fill="#9fc0ff" letter-spacing="2">${esc(g.costLabel||"ILLUSTRATIVE COST (ESTIMATE)")}</text><text y="34" font-size="30" font-weight="700" fill="#fff">≈ ${esc(g.fte.toFixed(1))} FTE · €${esc(eur)}k / yr</text></g>
+<text x="240" y="616" font-size="11" fill="#9fc0ff99" text-anchor="middle">${esc(g.basisLabel||"Estimated from public evidence · Velho Room prototype")}</text>
 </svg>`;
 }
 
@@ -104,6 +104,6 @@ ${soundings}${islands}${course}${currents}${rocks}${lights}
 <g transform="translate(${end.x} ${end.y})"><path d="M0 0 V-34 L24 -26 L0 -18" fill="#c0392b" stroke="#1b2a41" stroke-width="2"/><text x="-10" y="22" font-size="15" fill="#1b2a41" font-weight="700" text-anchor="end">${tspans(wrap(c.destination, 26, 2), -10, 16)}</text></g>
 <g transform="translate(820 470)"><circle r="42" fill="#fff8" stroke="#1b2a41"/><path d="M0 -38 L7 0 L0 38 L-7 0Z" fill="#1b2a41"/><path d="M-38 0 L0 -6 L38 0 L0 6Z" fill="#1b2a4188"/><text y="-46" font-size="12" text-anchor="middle" fill="#1b2a41">N</text></g>
 <text x="30" y="44" font-size="22" fill="#1b2a41" font-weight="700">Growth chart · ${esc(company)}</text>
-<text x="30" y="64" font-size="12" fill="#1b2a41" font-style="italic">✳ rocks: bottlenecks from public evidence · lighthouses: quick wins · drawn by Velho Room</text>
+<text x="30" y="64" font-size="12" fill="#1b2a41" font-style="italic">✳ rocks: questions to test · lighthouses: quick wins · drawn by Velho Room</text>
 </svg>`;
 }

@@ -1,0 +1,444 @@
+{
+  "title": "Campaign engine — 24 angles tuned for companies like Kesko Oyj",
+  "angles": [
+    {
+      "format": "LinkedIn post",
+      "hook": "We noticed Kesko is integrating Dahl's Nordic operations. What repeats there?",
+      "body": "Public signals: Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and Denmark, with completion targeted by end-2026 (https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/). Brands and units stay separate for now. We don't know how orders and financials are reconciled across them. Question for the ops team: which reconciliation steps are still done by hand?",
+      "visual": "A simple flow diagram showing two separate unit systems feeding into a shared reconciliation step, with the manual handoffs marked as open questions.",
+      "panel": {
+        "cfo": 7,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Specific and grounded, but CEO may find it too operational."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-6d6764d4a745",
+      "review": "Uncertain factual support — compare every claim with the original sources"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Hypothetical: a Monday morning order file gets retyped by hand.",
+      "body": "Hypothetical scene, not a Kesko fact: a warehouse coordinator copies order lines from one system into another. Then a question appears on screen: where else does this happen across your units? We are asking, not diagnosing. Ends with a single prompt to comment with the step you would automate first.",
+      "visual": "Stylised hypothetical scene of a clerk retyping rows between two screens, clearly labelled hypothetical on screen.",
+      "panel": {
+        "cfo": 5,
+        "coo": 7,
+        "ceo": 4,
+        "comment": "Engaging, but the hypothetical framing could feel like a stunt."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-38f0a657897c",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "carousel",
+      "hook": "Five questions before any Nordic integration touches the back office.",
+      "body": "Slide 1 frames the Dahl deal as a public signal. Slides 2-4 ask which order, invoice and data-entry steps cross units, who owns each handoff, and where errors get caught. Slide 5 invites a discovery call to map the steps together, with no promised outcome or offer.",
+      "visual": "Five-slide carousel with one question per slide on a plain background and a small process icon.",
+      "panel": {
+        "cfo": 8,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Practical checklist format; CEO may not stop for it."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-720a6119133f",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "data visual",
+      "hook": "Where do the manual handoffs sit between three unit systems?",
+      "body": "Qualitative process map, no numbers: three unit boxes (grocery, building and technical, car trade) connected by arrows for orders, invoices and reporting. Dashed arrows mark steps that look manual from outside. Caption asks the reader to tell us which arrows they would verify first. Labelled as an outside-in view, not an internal diagnosis.",
+      "visual": "Qualitative process map with three unit boxes and dashed manual-handoff arrows, no figures.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Clear visual, but needs a sharper reason to share."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-8b07d5c81a2b",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Big acquisitions rarely fail on strategy. They fail on the spreadsheet nobody owns.",
+      "body": "Argument, not a claim about Kesko: integration plans focus on brands and synergies, while the daily reconciliation between units often sits with whoever is available. Where that happens, the work quietly multiplies. Ask your own team which reconciliation nobody can name an owner for. If the answer is silence, that is the place to start.",
+      "visual": "A single line of text on a dark background with one question mark.",
+      "panel": {
+        "cfo": 7,
+        "coo": 8,
+        "ceo": 7,
+        "comment": "Provocative but framed as opinion, so it is safe to share."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-ba64593cc1ee",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Hypothetical: the integration plan says 'synergies' and the Excel says 'final_v7_REAL'.",
+      "body": "Hypothetical joke, not about Kesko's actual files: every integration team has a plan deck and a shadow spreadsheet doing the real work. Question for leaders: which of your reconciliations lives in a file only one person understands? Tag the person who would be most nervous answering that.",
+      "visual": "Meme-style image of two folders, one labelled 'Plan', one labelled 'final_v7_REAL', marked hypothetical.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 6,
+        "comment": "Light and shareable; risks feeling flippant to a CFO."
+      },
+      "theme": "Repetitive manual work: a small public-data demonstration and a discovery question",
+      "id": "kesko-oyj-c620ac3911cf",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "Hypothetical: a customer emails a delivery change at 16:40 on Friday.",
+      "body": "Hypothetical journey: the email lands in a shared inbox. Someone reads it Monday, copies the change into the order system by hand, then phones the depot to confirm. Three handoffs, one customer waiting. Nothing here proves Kesko works this way. We are asking what a change request looks like end to end in a multi-brand setup. Where does it wait longest? Happy to compare notes.",
+      "visual": "A simple hypothetical flowchart showing a customer request passing through inbox, order entry, depot call and confirmation, with the waiting points marked.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Relatable, but a COO will want evidence before engaging publicly."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-ec03705da8b6",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Hypothetical: the customer asked one question. Four people answered it.",
+      "body": "Hypothetical scene: a trade customer asks whether a delivery can move a day. The question goes to sales, then logistics, then a spreadsheet, then back to sales. Voiceover: 'This is a made-up example. Ask your team how long your version takes.' End card: a question, not a claim about Kesko.",
+      "visual": "Split screen of four colleagues passing one message, labelled clearly as a hypothetical scene.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Clear and short, though the ending feels like a soft pitch."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-746bac4811b1",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "carousel",
+      "hook": "Hypothetical: three slides about one customer complaint that never got answered.",
+      "body": "Slide 1: a hypothetical customer chases a missing pallet. Slide 2: the complaint sits between a branch system and a central order tool. Slide 3: the question for your team: who owns that gap? Explicitly fictional, no claim about any real company's performance.",
+      "visual": "Three-panel carousel with simple icons for customer, branch system, central tool and a question mark.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 4,
+        "comment": "Good for operations leads; CEOs may skip it without a business stake."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-85bb060aa3e5",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "data visual",
+      "hook": "Hypothetical: a customer request travels through the org; here is where it could stall.",
+      "body": "A qualitative decision tree of a hypothetical request: accepted, re-keyed, checked, escalated, resolved. Each branch marks a possible manual handoff. No numbers are shown because none were supplied. Question for readers: which branch looks most like your own process?",
+      "visual": "A decision tree with five nodes, handoffs highlighted in a warm accent colour, no figures.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Clean and diagnostic, but needs a clearer reason to care."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-957d64a001f1",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Faster customer answers may not need a new system at all.",
+      "body": "Hypothetical: a team adds another tool to speed up replies, but the request still waits in the same inbox. The bottleneck was the handoff, not the software. Before buying anything, map one real request from first email to final answer. The slow step is rarely where people expect it.",
+      "visual": "A single image of a bottleneck in a pipe, labelled as an illustration rather than a company.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 6,
+        "comment": "Provocative enough to share, provided it stays a question."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-658d49c82cab",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Hypothetical customer: 'Just a quick question.' Hypothetical internal reply: 'Forward to Dave.'",
+      "body": "A light sketch of a request bouncing between four inboxes, labelled as a made-up scenario. Caption invites readers to count how many forwards their last customer question needed. Keep it self-aware, no jab at Kesko or any named team.",
+      "visual": "A four-panel comic of one email being forwarded, marked 'hypothetical' in the corner.",
+      "panel": {
+        "cfo": 3,
+        "coo": 6,
+        "ceo": 4,
+        "comment": "Shareable among operators, weak as a signal of business value."
+      },
+      "theme": "Customer response friction: a hypothetical customer request journey, not internal facts",
+      "id": "kesko-oyj-7e2f8e024240",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "A pilot that worked in March can quietly die by June. Who owns it then?",
+      "body": "We noticed Kesko is bringing a large Nordic technical trade business into the group, with completion targeted for end-2026 (source: kesko.fi stock exchange release, 2026-06-15). Integration often means new workflows, and workflows need owners after the launch team moves on. Question for leaders: when a new process tool goes live, who is named to maintain it, train new joiners and hand it over if people change roles? We can explore that with your team before any build starts. No commitment implied.",
+      "visual": "A simple timeline graphic showing a pilot launch, then a blank space labelled 'owner?' before the tool is used by week 12.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 5,
+        "comment": "Useful question, but a CEO wants a clearer reason to engage."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-73d2be221dc7",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Hypothetical: the automation pilot works. Then the one person who knew it leaves.",
+      "body": "[Hypothetical scene, labelled as such on screen.] A team lead opens a tool that nobody has updated since launch. A new colleague asks who to call. Silence. On screen: 'Hypothetical example. Ask us how ownership and handover can be planned before a pilot starts.' End card: Velho.",
+      "visual": "Split screen: a clean dashboard on the left, an empty chair with a sticky note 'who owns this?' on the right, marked hypothetical.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 6,
+        "comment": "Relatable scene, but the ask needs to feel less like a sales close."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-84f5f4e4c7d6",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "carousel",
+      "hook": "Six places a process tool quietly loses its owner after go-live.",
+      "body": "Slide 1: Launch team moves on. Slide 2: New joiners never get trained. Slide 3: Rules change, tool does not. Slide 4: Nobody knows who approves edits. Slide 5: Workarounds reappear in email. Slide 6: Ask who owns it this week. These are general patterns we see as questions to test with each team, not measured results from any client.",
+      "visual": "Six-slide carousel, each slide one failure point with a simple icon and a bold owner-question at the bottom.",
+      "panel": {
+        "cfo": 5,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Practical checklist, but no proof it fits this client."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-97c8eb38e4a7",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "data visual",
+      "hook": "Decision tree: does your automated process have a named owner after month three?",
+      "body": "Start: pilot live. Branch 1: a named owner exists and is trained? If yes, schedule a 90-day review. Branch 2: no? Assign an owner before expanding scope. Branch 3: owner leaves? Trigger a handover checklist. No numbers shown; this is a qualitative map of where adoption tends to stall, to discuss with the team.",
+      "visual": "A clean decision tree diagram with three branches, yes/no labels and no quantitative data.",
+      "panel": {
+        "cfo": 5,
+        "coo": 8,
+        "ceo": 4,
+        "comment": "Clear and useful for ops leads, weak for a CEO."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-eb97652c3e04",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Most pilots don't fail on technology. They fail when the pilot team goes home.",
+      "body": "Everyone celebrates the demo. Few plan who trains the next hire, who fixes the exception that appears in month four, or who signs off changes. Before any integration pilot, ask: who will still be answering questions in six months? If nobody can answer, the build is not finished. We can explore that handover with your team as a scoping question.",
+      "visual": "A single empty chair beside a finished dashboard, with the words 'launch day' fading into 'month six'.",
+      "panel": {
+        "cfo": 6,
+        "coo": 8,
+        "ceo": 7,
+        "comment": "Strong provocation; it lands because it names a real gap."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-6172907a346c",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Hypothetical: the pilot slide says 'adopted'. The support inbox says 'how do I?'",
+      "body": "[Hypothetical example, stated in the image.] Launch day: applause, screenshot, promotion. Week eight: a new colleague emails the old project lead, who has moved to another team. Nobody knows the password reset process. Ask us how we plan ownership before the first screenshot.",
+      "visual": "Two-panel meme: a celebratory 'launch' screenshot, then a sad inbox with 'how do I?' marked hypothetical.",
+      "panel": {
+        "cfo": 4,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Funny enough to share, but could read as flippant to executives."
+      },
+      "theme": "Staff adoption and maintenance: ownership, training, handover and why pilots stall",
+      "id": "kesko-oyj-14af79509e94",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "LinkedIn post",
+      "hook": "Before any Dahl synergy target gets signed off, what would make the CFO change her mind?",
+      "body": "Public signals suggest Kesko's Dahl integration and rights issue are moving at the same time. A useful test for leadership: pick one metric that would prove the plan wrong within a quarter, such as order-to-invoice cycle time in one pilot unit. Write the threshold down before the work starts. If it misses, stop or change course, and keep the cost small. Curious how your team decides what to measure first.",
+      "visual": "A simple decision tree: hypothesis, one metric, threshold, reversible pilot, continue or stop.",
+      "panel": {
+        "cfo": 8,
+        "coo": 6,
+        "ceo": 7,
+        "comment": "Clear decision rule, but needs a sharper first metric."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-7422de848aa2",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "15s vertical video script",
+      "hook": "Hypothetical: the board asks for a number. The team has three guesses and no baseline.",
+      "body": "Hypothetical scene: a leadership meeting where every synergy figure is labelled 'estimate'. Narrator: before you commit budget, agree on the baseline, the one metric, and the stop point. Then run a two-week reversible test on one unit. Decisions get easier when the measurement is agreed first. Velho, ask us how.",
+      "visual": "Vertical clip of a meeting room with a whiteboard showing baseline, metric, stop point, all marked hypothetical.",
+      "panel": {
+        "cfo": 7,
+        "coo": 6,
+        "ceo": 6,
+        "comment": "Strong on measurement discipline, lacks a concrete trigger."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-15440f1cbaeb",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "carousel",
+      "hook": "Five things to decide before the first automation test runs. Swipe through.",
+      "body": "Slide one: name the decision the test informs. Slide two: pick one baseline metric and record it. Slide three: set a threshold that would count as failure. Slide four: cap spend and duration so reversal is cheap. Slide five: name who reads the result and when. No outcomes are promised; these are only pre-test choices.",
+      "visual": "Five slide carousel, each slide one decision checkpoint with a numbered icon.",
+      "panel": {
+        "cfo": 8,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Practical checklist, a bit generic for a CEO audience."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-9626840b2b25",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "data visual",
+      "hook": "Uncertainty map: which integration assumptions are known, unknown, or only estimates?",
+      "body": "A qualitative matrix sorts planning assumptions for a multi-unit integration by confidence: confirmed in source documents, plausible but untested, and unknown. The point is to show leadership where a reversible experiment would reduce the most uncertainty. No figures are shown, only the categories and the question of which box to test first.",
+      "visual": "A 3x3 qualitative matrix of assumption types against confidence levels, with no numbers.",
+      "panel": {
+        "cfo": 7,
+        "coo": 7,
+        "ceo": 5,
+        "comment": "Useful framing, but reads as an internal planning tool."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-11adc8f347da",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "contrarian take",
+      "hook": "Stop measuring integration progress by the number of workstreams that started.",
+      "body": "Activity metrics feel like progress and rarely prove value. A contrarian test: measure how many decisions were reversed in the last month, and how fast. If reversals are zero, decisions may be too slow to matter. Ask leadership which decisions they would be comfortable reversing next quarter, and why.",
+      "visual": "A single line chart concept with no numbers, contrasting activity labels against decision reversal points.",
+      "panel": {
+        "cfo": 6,
+        "coo": 7,
+        "ceo": 8,
+        "comment": "Provocative and specific; a CEO would reply."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-dd1394d9a08c",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    },
+    {
+      "format": "meme-ish",
+      "hook": "Hypothetical: the steering committee approves the pilot. Nobody remembers the stop rule.",
+      "body": "Hypothetical scene: a slide titled 'Phase 1 success' with no definition of success anywhere on it. Caption: when the stop rule is missing, every result looks like a win. Fix it before kickoff by writing one threshold on the first slide, in plain words, and initialling it.",
+      "visual": "A meme-style slide with a bold caption over a blank success slide, labelled hypothetical in the top corner.",
+      "panel": {
+        "cfo": 6,
+        "coo": 6,
+        "ceo": 7,
+        "comment": "Funny and memorable, but the fix needs more weight."
+      },
+      "theme": "Management decision quality: what to measure, uncertainty and a reversible experiment",
+      "id": "kesko-oyj-1a59add2d23b",
+      "review": "Machine checked against the research summary; verify original sources before use"
+    }
+  ],
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Panel scores are simulated buyer opinions; thumbs are employee preferences. Observed audience outcomes are recorded separately above. 24/24 creatives checked against the supplied research summary, which is not independent source verification. Four distinct themes guide variety; review for substantive overlap. Nothing is published or sent."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ]
+}

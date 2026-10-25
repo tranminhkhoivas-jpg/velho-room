@@ -1,0 +1,195 @@
+{
+  "title": "Aaltonen Tilitoimisto: a suggestion layer for receipt and invoice coding (pilot case study, P5)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTHETIC / SAMPLE PROJECT NOTES (P5). Source: internal project notes supplied by Velho, expert Tuomas Eklund, dated 2025-03. These are not independently verified. Everything below is limited to what the notes state. No public URLs were supplied, so no list items are linked to external sources. Client and publication approval has NOT been obtained."
+    },
+    {
+      "t": "h",
+      "text": "1) Headline"
+    },
+    {
+      "t": "p",
+      "text": "No measured outcome is headline-ready on its own. The one explicitly measured pilot result (time per document, 4 accountants, weeks 3-4) can be stated with its scope: \"Time per receipt coding fell from 2.8 to 1.2 minutes in a four-accountant pilot.\" Error-rate and client-satisfaction claims are excluded from the headline (see notes below)."
+    },
+    {
+      "t": "h",
+      "text": "2) Measured outcomes"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Average time per document (baseline: 5 accountants, 1 week; pilot: 4 accountants, weeks 3-4)",
+          "2.8 min/doc",
+          "1.2 min/doc"
+        ],
+        [
+          "Firm-wide weekly documents",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Wrong account or VAT code in month-end sample",
+          "6.1% (sample of 500, senior review)",
+          "3.5% (sample of 400, pilot period) - see caveat on automation bias"
+        ],
+        [
+          "Share of documents covered by vendor-history rule (week 2 test)",
+          "Not applicable",
+          "~64% (test result, not a production rate)"
+        ],
+        [
+          "Accuracy on new vendors (LLM fallback, week 2)",
+          "Not applicable",
+          "~70% (vs 95% on known vendors)"
+        ],
+        [
+          "Client satisfaction with faster monthly bookkeeping",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Pilot users retained",
+          "Not applicable",
+          "4 of 4 pilot users stayed on; 2 further accountants asked to join (self-report)"
+        ]
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Conflicting or unreliable statistics withheld from all prose, headings and drafts: the 6.1% to 3.5% error-rate change compares different sample sizes (500 vs 400) and periods, and 5 of 14 errors were attributed to accepting a wrong suggestion (automation bias). It must not be presented as a clean improvement without client/QA review. Do not cite client-satisfaction or 'faster monthly closing' outcomes; they are unmeasured."
+    },
+    {
+      "t": "h",
+      "text": "3) Story"
+    },
+    {
+      "t": "p",
+      "text": "Aaltonen Tilitoimisto's accountants spent much of their time manually coding supplier invoices and receipts, especially for smaller clients who send photos by WhatsApp or email. The notes describe a baseline sample where five accountants averaged 2.8 minutes per document across roughly 1,600 documents a week."
+    },
+    {
+      "t": "p",
+      "text": "The team shipped a deliberately narrow tool: it reads each document, proposes an account and VAT code from the same vendor's past coding, and uses an LLM fallback for new vendors. Accountants accept or edit suggestions in a simple web table, then export CSV into Procountor. Nothing is posted automatically, VAT edge cases are always flagged for manual handling, and low-confidence rows are highlighted red."
+    },
+    {
+      "t": "p",
+      "text": "In a four-accountant pilot over weeks 3-4, the notes record time per document falling from 2.8 to 1.2 minutes. The same notes record a sample error rate moving from 6.1% to 3.5%, but flag that several errors came from accepting a wrong suggestion, so the team treats the quality effect as unresolved. Partner comments that clients appreciate faster monthly bookkeeping were not measured."
+    },
+    {
+      "t": "p",
+      "text": "Responsibility for every booking stays with the accountant, as written into the standard operating procedure. Pilot users stayed on after a 45-minute training session and a Finnish cheat sheet, and two more accountants asked when they could join. The integration with Procountor's API is a later step; the current build is the suggestion layer only."
+    },
+    {
+      "t": "h",
+      "text": "4) Drafts (for internal review, not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post (max 120 words, pending client approval)",
+      "text": "Receipt coding is slow work, and most of it is repetitive. At Aaltonen Tilitoimisto we tested a narrow idea: suggest the account and VAT code from each vendor's past coding, and let the accountant decide. In a four-accountant pilot the notes show time per document dropping from 2.8 to 1.2 minutes. Nothing posts automatically, and low-confidence rows are highlighted for a closer look. We are still measuring quality properly, because a few errors came from accepting a wrong suggestion. Accountants stay responsible for every entry. Curious how other firms handle the review step? Tell us what you have tried."
+    },
+    {
+      "t": "draft",
+      "label": "One-pager (six lines, pending approval)",
+      "text": "Client: Aaltonen Tilitoimisto Oy (accounting firm, 14 accountants, ~120 SME clients on Procountor).\nProblem: manual account and VAT coding of supplier invoices and receipts.\nBuild: suggestion-only layer (vendor history + LLM fallback), accountant-approved CSV export, no auto-posting.\nPilot result: 2.8 to 1.2 minutes per document (4 accountants, weeks 3-4).\nOpen: error-rate effect unresolved (automation bias); client outcomes unmeasured.\nNext: Procountor API integration, subject to scoping; no commitment implied."
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 19 statement groups; 0 unsupported sections withheld, 10 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Aaltonen Tilitoimisto Oy\nProject owner: Tuomas Eklund\ntilitoimisto, 14 accountants, ~120 SME clients, mostly Procountor\n- pain: ostolaskut + kuitit coding (tili, ALV-kanta, kustannuspaikka) manual, esp. small clients w/ photo receipts via WhatsApp/email\n- baseline (5 accountants x 1 wk time tracking): avg 2.8 min/doc, ~ 1 600 docs/wk firm-wide -> ~75 h/wk\n- quality: month-end review found 6.1% docs w/ wrong account or VAT (sample 500, reviewed by senior Anne-Mari)\n- smallest build: suggestion only. OCR/extract (vendor, date, amount, VAT) + propose account + VAT code from client's own history (same vendor -> same coding) + LLM fallback for new vendors\n- no auto-posting. accountant accepts/edits in a simple web table, then CSV into Procountor. Procountor API integration later\n- scope = 10 clients w/ highest volume of receipts\n- wk2: vendor-history rule alone covers ~64% of docs, LLM fallback acc lower (~70% on new vendors vs 95% on known)\n- wk3-4 pilot w/ 4 accountants: time/doc 2.8 -> 1.2 min. error rate in sample 400: 6.1% -> 3.5% (some due to accepting wrong suggestion = automation bias!, 5 of 14 errors)\n- added: low-confidence rows highlighted red, forced to look\n- ALV edge cases (representation, EU purchases) -> always manual flag\n- partner Jari: 'asiakkaat tykkää nopeammasta kuukausikirjauksesta' - not measured\n- adoption: 4/4 pilot users stay on; 2 others ask when. training 45 min + cheat sheet FI\n- risk: responsibility stays with accountant, wrote that in the SOP"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Aaltonen Tilitoimisto: a suggestion layer for receipt and invoice coding (pilot case study, P5)",
+      "verdict": "review"
+    },
+    {
+      "claim": "1) Headline",
+      "verdict": "review"
+    },
+    {
+      "claim": "No measured outcome is headline-ready on its own. The one explicitly measured pilot result (time per document, 4 accountants, weeks 3-4) can be stated with its scope: \"Time per receipt coding fell from 2.8 to 1.2 minutes in a four-accountant pilot.\" Error-rate and client-satisfaction claims are excluded from the headline (see notes below).",
+      "verdict": "review"
+    },
+    {
+      "claim": "2) Measured outcomes",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Average time per document (baseline: 5 accountants, 1 week; pilot: 4 accountants, weeks 3-4); Before: 2.8 min/doc; After: 1.2 min/doc",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Firm-wide weekly documents; Before: not measured; After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Wrong account or VAT code in month-end sample; Before: 6.1% (sample of 500, senior review); After: 3.5% (sample of 400, pilot period) - see caveat on automation bias",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Share of documents covered by vendor-history rule (week 2 test); Before: Not applicable; After: ~64% (test result, not a production rate)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Accuracy on new vendors (LLM fallback, week 2); Before: Not applicable; After: ~70% (vs 95% on known vendors)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Client satisfaction with faster monthly bookkeeping; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Pilot users retained; Before: Not applicable; After: 4 of 4 pilot users stayed on; 2 further accountants asked to join (self-report)",
+      "verdict": "review"
+    },
+    {
+      "claim": "3) Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Aaltonen Tilitoimisto's accountants spent much of their time manually coding supplier invoices and receipts, especially for smaller clients who send photos by WhatsApp or email. The notes describe a baseline sample where five accountants averaged 2.8 minutes per document across roughly 1,600 documents a week.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "The team shipped a deliberately narrow tool: it reads each document, proposes an account and VAT code from the same vendor's past coding, and uses an LLM fallback for new vendors. Accountants accept or edit suggestions in a simple web table, then export CSV into Procountor. Nothing is posted automatically, VAT edge cases are always flagged for manual handling, and low-confidence rows are highlighted red.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "In a four-accountant pilot over weeks 3-4, the notes record time per document falling from 2.8 to 1.2 minutes. The same notes record a sample error rate moving from 6.1% to 3.5%, but flag that several errors came from accepting a wrong suggestion, so the team treats the quality effect as unresolved. Partner comments that clients appreciate faster monthly bookkeeping were not measured.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Responsibility for every booking stays with the accountant, as written into the standard operating procedure. Pilot users stayed on after a 45-minute training session and a Finnish cheat sheet, and two more accountants asked when they could join. The integration with Procountor's API is a later step; the current build is the suggestion layer only.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "4) Drafts (for internal review, not sent)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Receipt coding is slow work, and most of it is repetitive. At Aaltonen Tilitoimisto we tested a narrow idea: suggest the account and VAT code from each vendor's past coding, and let the accountant decide. In a four-accountant pilot the notes show time per document dropping from 2.8 to 1.2 minutes. Nothing posts automatically, and low-confidence rows are highlighted for a closer look. We are still measuring quality properly, because a few errors came from accepting a wrong suggestion. Accountants stay responsible for every entry. Curious how other firms handle the review step? Tell us what you have tried.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client: Aaltonen Tilitoimisto Oy (accounting firm, 14 accountants, ~120 SME clients on Procountor).\nProblem: manual account and VAT coding of supplier invoices and receipts.\nBuild: suggestion-only layer (vendor history + LLM fallback), accountant-approved CSV export, no auto-posting.\nPilot result: 2.8 to 1.2 minutes per document (4 accountants, weeks 3-4).\nOpen: error-rate effect unresolved (automation bias); client outcomes unmeasured.\nNext: Procountor API integration, subject to scoping; no commitment implied.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 19 statement groups; 0 unsupported sections withheld, 10 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

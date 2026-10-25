@@ -1,0 +1,174 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/proof?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/proof?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Proof before pitch, Value: 1
+			6 text Proof before pitch
+		7 text A small working demo on the prospect’s own public data, before the first meeting.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko: proof-before-pitch demo from public web pages, Value: 1
+			15 text Kesko: proof-before-pitch demo from public web pages
+		16 heading Where we looked: K-ryhmä's public contact and career pages, Value: 2
+			17 text Where we looked: K-ryhmä's public contact and career pages
+		18 text We picked one process that's visible from Kesko's own public pages: the way customer and supplier contacts are routed across the retail chains and business units. The contact page lists the same kind of inquiry (feedback, supplier questions, business-controlling, HR, media) under different owners, each with its own address and postal details. Routing that kind of request by hand is a repetitive triage task. This is a hypothesis built from public text, not a diagnosis of their internal process.
+		19 table
+			20 row
+				21 cell
+					22 text Contact point (as listed)
+				23 cell
+					24 text Type of request it receives
+				25 cell
+					26 text Address / channel on the page
+				27 cell
+					28 text Source
+			29 row
+				30 cell
+					31 text Päivittäistavarakaupan palautteet (Palaute ruokakaupoille)
+				32 cell
+					33 text Customer feedback on grocery stores
+				34 cell
+					35 text Sähköposti etunimi.sukunimi@kesko.fi; Päätoimitalo K-Kampus
+				36 cell
+					37 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/palautteet/
+			38 row
+				39 cell
+					40 text Kespro asiakaspalvelu
+				41 cell
+					42 text Foodservice customer service requests
+				43 cell
+					44 text kespro.asiakaspalvelu@kesko.fi, puh. 010 532 4300
+				45 cell
+					46 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			47 row
+				48 cell
+					49 text Tietoa tavarantoimittajille (Yhteystietoja tavarantoimittajille)
+				50 cell
+					51 text Supplier information requests
+				52 cell
+					53 text Listed under Yhteystiedot, Kesko Oyj
+				54 cell
+					55 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/kesko-oyj/
+			56 row
+				57 cell
+					58 text Talouteen liittyvät yhteydenotot
+				59 cell
+					60 text Finance-related contact requests
+				61 cell
+					62 text Listed under Yhteystiedot, Kesko Oyj
+				63 cell
+					64 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/kesko-oyj/
+			65 row
+				66 cell
+					67 text Asiakaspalautteet
+				68 cell
+					69 text Customer feedback (general)
+				70 cell
+					71 text Listed under Yhteystiedot, Kesko Oyj
+				72 cell
+					73 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/
+			74 row
+				75 cell
+					76 text Business Controlling
+				77 cell
+					78 text Business controlling queries
+				79 cell
+					80 text PL 10, 00016 Kesko; päätoimitalo K-Kampus, Työpajankatu 12, Helsinki
+				81 cell
+					82 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			83 row
+				84 cell
+					85 text HR
+				86 cell
+					87 text HR queries
+				88 cell
+					89 text PL 10, 00016 Kesko; päätoimitalo K-Kampus, Työpajankatu 12, Helsinki
+				90 cell
+					91 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			92 row
+				93 cell
+					94 text Tavarakauppa ja vastuullisuus
+				95 cell
+					96 text Merchandise and sustainability queries
+				97 cell
+					98 text PL 40, 00016 Kesko; päätoimitalo K-Kampus
+				99 cell
+					100 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			101 row
+				102 cell
+					103 text Toimitusketjun ohjaus, logistiikka ja kaupan palvelut
+				104 cell
+					105 text Supply-chain and logistics queries
+				106 cell
+					107 text PL 40, 00016 Kesko; Kyytitie 31, Vantaa
+				108 cell
+					109 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			110 row
+				111 cell
+					112 text Päivittäistavarakaupan viestintä (median yhteydenotot)
+				113 cell
+					114 text Media enquiries
+				115 cell
+					116 text viestinta@kesko.fi, p. 010 53 50200 (ma-pe 9-16)
+				117 cell
+					118 link Description: Open source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+		119 text In their words: Kesko describes its work as 'Jokainen päivä kohti parempaa kauppaa' and says its digital teams use software robotics and automated systems to automate routine and repetitive tasks, reduce errors and improve efficiency (careers page, 2026-02-13). An automation on top of this would read each incoming message, classify it by type and region, draft the first response and route it to the right owner, leaving judgement calls to people. That is the kind of routine triage their own careers page says they want automated.
+		120 content list
+			121 container
+				122 AXListMarker • 
+				123 text Map the inbound channels (feedback, supplier, finance, HR, media) and agree on a short routing taxonomy with the team that owns the mailboxes.
+				124 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/palautteet/
+			125 container
+				126 AXListMarker • 
+				127 text Build a classifier and draft-reply tool on a sample of past messages, with a human approve-before-send step, and measure time-to-route and misroute rate.
+				128 link Description: source, Value: kesko.fi/en/Careers/diverse-career-options/technology-experts/
+			129 container
+				130 AXListMarker • 
+				131 text Connect routing to the owning mailbox or queue and run a two-week pilot in one channel (e.g. Kespro customer service) before expanding.
+				132 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+		133 text DEMO vs NEEDS INTERNAL DATA. The table is real: every row's contact point, channel and address comes from the public pages cited. The 'type of request' column is our reading of the page labels, not Kesko's own description. Volumes, misroute rates, response times, mailbox counts and actual message content are NOT in the dossier and need their internal data. No volume or time-saving figure is given here; any such number would be an estimate and must be measured in the pilot.
+		134 text Pre-meeting email
+		135 text draft — not sent
+		136 button Copy
+		137 text Hi [Name],
+
+We looked at how Kesko's public contact pages route customer, supplier, finance and HR enquiries across the chains and business units. It's a lot of separate addresses for one kind of triage job.
+
+We built a small demo on that public data: the routing map, and a first pass at how a classifier and draft-reply step would sort incoming messages for a human to approve. It uses only what's on your website.
+
+Would 30 minutes next week work to walk through it? We'd like to see where it's wrong and what your team would change.
+
+[Velho contact]
+		138 text Live 'ask our website' assistant is available below this artifact on the page. Note: it answers from the Kesko public pages only, and any answer about internal operations is out of scope.
+		139 button (collapsed) Sources (19), Secondary Actions: Expand
+			140 text Sources (
+			141 text 19
+			142 text )
+		143 content list
+			144 container
+				145 AXListMarker • 
+				146 text site Page read for this demo
+				147 link Description: source, Value: kesko.fi/yritys/yhteystiedot/
+			148 container
+				149 AXListMarker • 
+				150 text site Page read for this demo
+				151 link Description: source, Value: kesko.fi/yritys/yhteystiedot/kesko-oyj/
+			152 container
+				153 AXListMarker • 
+				154 text site Page read for this demo
+				155 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			156 container
+				157 AXListMarker • 
+				158 text site Page read for this demo
+				159 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/palautteet/
+		160 text Live assistant built only from Kesko's public website. Ask it what a customer would ask.
+		161 text field (settable)
+		162 button Send
+		163 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/proof?c=Kesko

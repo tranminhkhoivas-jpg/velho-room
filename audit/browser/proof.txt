@@ -1,0 +1,140 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/proof?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/proof?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Proof before pitch, Value: 1
+			6 text Proof before pitch
+		7 text A small working demo on the prospect’s own public data, before the first meeting.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading One switchboard, eight units: how Kesko's public contact routing could work, Value: 1
+			14 text One switchboard, eight units: how Kesko's public contact routing could work
+		15 heading What the public contact pages show, Value: 2
+			16 text What the public contact pages show
+		17 text Source: https://www.kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/ (Yhteystiedot page). Verbatim rows from the page text, not estimates.
+		18 table
+			19 row
+				20 cell
+					21 text Unit
+				22 cell
+					23 text Postal / address
+				24 cell
+					25 text Phone or email
+			26 row
+				27 cell
+					28 text Tavarakauppa ja vastuullisuus
+				29 cell
+					30 text PL 40, 00016 Kesko
+				31 cell
+					32 text 010 53030
+			33 row
+				34 cell
+					35 text Analytiikka, digikehitys ja markkinointi
+				36 cell
+					37 text PL 10, 00016 Kesko (K-Kampus, Työpajankatu 12)
+				38 cell
+					39 text 010 53030
+			40 row
+				41 cell
+					42 text Kauppapaikat ja kauppiastoiminnot
+				43 cell
+					44 text PL 10, 00016 Kesko (K-Kampus, Työpajankatu 12)
+				45 cell
+					46 text 010 53030
+			47 row
+				48 cell
+					49 text Toimitusketjun ohjaus, logistiikka ja kaupan palvelut
+				50 cell
+					51 text PL 40, 00016 Kesko · Kyytitie 31, Vantaa
+				52 cell
+					53 text 010 53030
+			54 row
+				55 cell
+					56 text Business Controlling
+				57 cell
+					58 text PL 10, 00016 Kesko (K-Kampus, Työpajankatu 12)
+				59 cell
+					60 text 010 53030
+			61 row
+				62 cell
+					63 text HR
+				64 cell
+					65 text PL 10, 00016 Kesko (K-Kampus, Työpajankatu 12)
+				66 cell
+					67 text 010 53030
+			68 row
+				69 cell
+					70 text Kespro asiakaspalvelu
+				71 cell
+					72 text Kespro, PL 1, 00016 Kesko
+				73 cell
+					74 text 010 532 4300 · kespro.asiakaspalvelu@kesko.fi
+			75 row
+				76 cell
+					77 text Päivittäistavarakaupan viestintä
+				78 cell
+					79 text —
+				80 cell
+					81 text viestinta@kesko.fi · 010 53 50200 (ma-pe 9-16)
+		82 heading What an automation on top of this would do, Value: 2
+			83 text What an automation on top of this would do
+		84 text Most of these units are reached through one shared switchboard (010 53030) and a few separate inboxes, so each supplier, feedback or press message has to be read and sent on by hand. We noticed that the public page lists eight destinations for what is probably one stream of messages. Your CIO put it this way: "Automation and AI-based solutions are significant for renewing the business and improving productivity" (https://www.cgi.com/en/cgi-and-kesko-enter-strategic-partnership-to-accelerate-digital-transformation). An intake layer would read each incoming message, tag it to the right unit, draft a first reply from approved wording and log it, so people only handle the exceptions. It would sit next to CGI's work, not replace it.
+		85 content list
+			86 container
+				87 AXListMarker • 
+				88 text 1. Map the last 90 days of inbound enquiries by type and by the unit that actually answered them. Output: a routing rule set agreed with the units.
+			89 container
+				90 AXListMarker • 
+				91 text 2. Build the tagging and draft-reply layer on the Kespro and retail channels first, with a human approving every send. Measure time to first correct owner.
+			92 container
+				93 AXListMarker • 
+				94 text 3. Run a two-week shadow pilot, then widen to the remaining units once the misroute rate is known and signed off by the unit leads.
+			95 container
+				96 AXListMarker • 
+				97 text Routing categories are taken from the public unit list: https://www.kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+				98 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+		99 text Demo vs internal data. Demo: the eight rows in the table are copied verbatim from the public contact pages; the routing idea is illustrative only. Needs Kesko's internal data: real enquiry volumes and mailbox categories, current routing rules, who triages today, response-time targets, and which messages can never be auto-drafted (feedback, media, supplier disputes). Nothing here shows how Kesko handles enquiries internally.
+		100 text Pre-meeting email
+		101 text draft — not sent
+		102 button Copy
+		103 text Hi [Name],
+
+While reading Kesko's public contact pages, I noticed eight separate units share one switchboard and a few inboxes. I put together a small demo that tags and routes a sample of those enquiry types to the right unit, drafting a first reply for a human to approve.
+
+It uses only what's on your public site. If useful, I can show it in 20 minutes and we can see what a version built on your own enquiry data would look like.
+
+Would next Tuesday or Wednesday work?
+
+[Velho expert name]
+Velho Applied Intelligence
+		104 button (collapsed) Sources (24), Secondary Actions: Expand
+			105 text Sources (
+			106 text 24
+			107 text )
+		108 content list
+			109 container
+				110 AXListMarker • 
+				111 text site Page read for this demo
+				112 link Description: source, Value: kesko.fi/yritys/yhteystiedot/
+			113 container
+				114 AXListMarker • 
+				115 text site Page read for this demo
+				116 link Description: source, Value: kesko.fi/yritys/yhteystiedot/kesko-oyj/
+			117 container
+				118 AXListMarker • 
+				119 text site Page read for this demo
+				120 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/
+			121 container
+				122 AXListMarker • 
+				123 text site Page read for this demo
+				124 link Description: source, Value: kesko.fi/yritys/yhteystiedot/paivittaistavarakauppa/palautteet/
+		125 text Live assistant built only from Kesko's public website. Ask it what a customer would ask.
+		126 text field (settable)
+		127 button Send
+		128 text OpenRouter spend so far: $ 4.59
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/proof?c=Kesko

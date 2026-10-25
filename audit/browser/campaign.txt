@@ -1,0 +1,241 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/campaign?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/campaign?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Viral campaign engine, Value: 1
+			6 text Viral campaign engine
+		7 text 24 B2B content angles, pre-tested on a simulated CFO/COO/CEO panel, re-ranked by real thumbs.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 text # 1 contrarian take panel CFO  8  · COO  8  · CEO  8  (simulated)
+		15 button 👍 0
+			16 text 👍 
+			17 text 0
+		18 button 👎 0
+			19 text 👎 
+			20 text 0
+		21 heading Most AI strategy decks are procrastination in a nice font., Value: 2
+			22 text Most AI strategy decks are procrastination in a nice font.
+		23 text One shipped fix beats a 60-page roadmap. Pick the most annoying manual task, solve it in weeks, and let results fund the next one. Strategy is what you do twice. We help with the doing, then the using. Visual:  Stack of slick slide decks next to one small working tool. Caption: 'which one saves time?' Panel: “ Blunt, true, shareable. Slightly ironic from a strategy partner. ” # 2 meme-ish panel CFO  9  · COO  7  · CEO  7  (simulated)
+		24 button 👍 0
+			25 text 👍 
+			26 text 0
+		27 button 👎 0
+			28 text 👎 
+			29 text 0
+		30 heading 'We're AI-first.' Also us: Report_v7_FINAL_reallyFINAL.xlsx, Value: 2
+			31 text 'We're AI-first.' Also us: Report_v7_FINAL_reallyFINAL.xlsx
+		32 text Split caption meme. Top: boardroom slide saying 'AI-first'. Bottom: a screenshot-style file name chain. Closing line: 'Start with the spreadsheet. We'll bring the adoption.' Keep it kind, self-aware and not mocking anyone. Visual:  Screenshot-style file list in a spreadsheet, red circle on the last file name. Panel: “ Painfully funny. This one gets forwarded in finance teams. ” # 3 carousel panel CFO  8  · COO  8  · CEO  6  (simulated)
+		33 button 👍 0
+			34 text 👍 
+			35 text 0
+		36 button 👎 0
+			37 text 👎 
+			38 text 0
+		39 heading Five things to automate first after an acquisition, Value: 2
+			40 text Five things to automate first after an acquisition
+		41 text 1 Order entry across units. 2 Supplier and product master data. 3 Intercompany invoicing. 4 Month-end reporting pulls. 5 Your question: which of these takes the longest today? Each slide gets one line on why it breaks first. Last slide invites a 20-minute chat. Visual:  Clean numbered cards, one big digit per slide, Velho accent colour, last slide has a question mark. Panel: “ Useful checklist. I'd save it, and maybe forward it. ” # 4 carousel panel CFO  7  · COO  8  · CEO  7  (simulated)
+		42 button 👍 0
+			43 text 👍 
+			44 text 0
+		45 button 👎 0
+			46 text 👎 
+			47 text 0
+		48 heading Why most AI projects stop at step three, Value: 2
+			49 text Why most AI projects stop at step three
+		50 text Slide 1 Find: spot the manual work. Slide 2 Prioritise: pick the one that pays back. Slide 3 Ship: build it. Slide 4 Adopt: people use it every week. Slide 5: most budgets end at slide 3. Ask who owns slide 4 in your company. Visual:  Four-step staircase, the last step highlighted and labelled 'where value shows up'. Panel: “ Adoption point rings true. Generic until backed with a real story. ” # 5 data visual panel CFO  8  · COO  7  · CEO  7  (simulated)
+		51 button 👍 0
+			52 text 👍 
+			53 text 0
+		54 button 👎 0
+			55 text 👎 
+			56 text 0
+		57 heading Where AI budgets go, and where adoption quietly dies, Value: 2
+			58 text Where AI budgets go, and where adoption quietly dies
+		59 text Illustrative estimate, not survey data: most budget funds building, a thin slice funds adoption, yet value only appears once people use the tool. One bar chart, one arrow. Caption: 'Fund the last mile.' Label clearly as estimate. Visual:  Two bars, thick 'build' and thin 'adopt', red annotation arrow, 'estimate' stamped. Panel: “ Strong chart idea. Must show real data or I'll distrust it. ” # 6 data visual panel CFO  8  · COO  7  · CEO  7  (simulated)
+		60 button 👍 0
+			61 text 👍 
+			62 text 0
+		63 button 👎 0
+			64 text 👎 
+			65 text 0
+		66 heading Deal timeline: where the process work hides, Value: 2
+			67 text Deal timeline: where the process work hides
+		68 text Signing, regulatory approval, financing, close, integration. A horizontal timeline shows that finance, ordering and logistics pressure begins before close, not after. Caption: 'Start the process map before the keys change hands.' Visual:  Horizontal timeline, pressure shown as a rising gradient before the close marker. Panel: “ Smart timing insight. Simple and credible for deal-heavy CEOs. ” # 7 meme-ish panel CFO  7  · COO  8  · CEO  7  (simulated)
+		69 button 👍 0
+			70 text 👍 
+			71 text 0
+		72 button 👎 0
+			73 text 👎 
+			74 text 0
+		75 heading Pilot launched vs pilot actually used on Tuesday, Value: 2
+			76 text Pilot launched vs pilot actually used on Tuesday
+		77 text Expectation vs reality. Left: champagne, 'Pilot launched!'. Right: empty desk, a tool nobody opens, 'Adoption: pending'. Footer: 'Find, Prioritise, Ship, Adopt. Skip the last one and see.' Visual:  Two-panel image, champagne vs empty office chair, caption in bold. Panel: “ Truth in meme form. Adoption is the real pain point. ” # 8 LinkedIn post panel CFO  7  · COO  8  · CEO  6  (simulated)
+		78 button 👍 0
+			79 text 👍 
+			80 text 0
+		81 button 👎 0
+			82 text 👎 
+			83 text 0
+		84 heading Acquisitions close on paper. Integration closes in someone's inbox., Value: 2
+			85 text Acquisitions close on paper. Integration closes in someone's inbox.
+		86 text After a big deal, the real work is orders, invoices and stock moving between two ways of working. We noticed deals get announced fast and integrated slowly. A question for any COO or CFO: which one process would you want identical on day one? Pick one. Fix it. Then make sure people use it. Visual:  Plain black text on warm off-white, one sentence underlined in red. No logo clutter. Panel: “ Relatable and specific. Needs a sharper example before I reply. ” # 9 LinkedIn post panel CFO  8  · COO  7  · CEO  6  (simulated)
+		87 button 👍 0
+			88 text 👍 
+			89 text 0
+		90 button 👎 0
+			91 text 👎 
+			92 text 0
+		93 heading Hiring is the most expensive way to discover a process is manual., Value: 2
+			94 text Hiring is the most expensive way to discover a process is manual.
+		95 text We noticed retailers and wholesalers posting many planner, coordinator and controller roles. That's not a diagnosis, only a question. Which parts of those jobs are repetitive copy, check, chase? Automate that part first. Then hire for judgement, not for keystrokes. Visual:  Job-ad screenshot style card with one line struck through: 'copy data between systems'. Panel: “ CFO angle works. Tone is close to accusing, so soften it. ” # 10 15s vertical video script panel CFO  6  · COO  8  · CEO  7  (simulated)
+		96 button 👍 0
+			97 text 👍 
+			98 text 0
+		99 button 👎 0
+			100 text 👎 
+			101 text 0
+		102 heading Three small jobs a COO would delete first, Value: 2
+			103 text Three small jobs a COO would delete first
+		104 text Scene 1: Big red delete key over 'chasing delivery confirmations'. Scene 2: Same over 'rekeying supplier prices'. Scene 3: Same over 'weekly report nobody reads'. End card: 'What's your third?' Visual:  Stop-motion paper cards, keyboard delete sound, upbeat. Panel: “ Snappy, shareable, comment-bait. Tight and honest. ” # 11 data visual panel CFO  7  · COO  9  · CEO  5  (simulated)
+		105 button 👍 0
+			106 text 👍 
+			107 text 0
+		108 button 👎 0
+			109 text 👎 
+			110 text 0
+		111 heading A planner's day: where the hours go (estimate), Value: 2
+			112 text A planner's day: where the hours go (estimate)
+		113 text Illustrative estimate: a donut showing time on gathering data, chasing confirmations, deciding, and communicating. The decide slice is the smallest. Question: what if it were the biggest? Source line states 'estimate, to be validated with your team'. Visual:  Donut chart, the 'decide' slice in accent colour, small 'estimate' badge. Panel: “ COO would argue with the split, which is exactly engagement. ” # 12 contrarian take panel CFO  5  · COO  9  · CEO  7  (simulated)
+		114 button 👍 0
+			115 text 👍 
+			116 text 0
+		117 button 👎 0
+			118 text 👎 
+			119 text 0
+		120 heading Don't automate the warehouse first. Automate the phone calls around it., Value: 2
+			121 text Don't automate the warehouse first. Automate the phone calls around it.
+		122 text Robots and agents get the headlines. But delays often start in the calls, emails and checks around the physical flow. Fix the coordination layer and the warehouse system finally performs. Tell us if your best people spend their day on the phone. Visual:  Giant phone icon crossed out beside a small warehouse icon. Bold headline text. Panel: “ Provocative and probably true. I'd reply to argue. ” # 13 contrarian take panel CFO  9  · COO  6  · CEO  6  (simulated)
+		123 button 👍 0
+			124 text 👍 
+			125 text 0
+		126 button 👎 0
+			127 text 👎 
+			128 text 0
+		129 heading More headcount isn't always growth. Sometimes it's a longer queue., Value: 2
+			130 text More headcount isn't always growth. Sometimes it's a longer queue.
+		131 text When volume grows, adding people feels safe. But if the process stays the same, you scale the delay too. Before the next hire, ask: should this job exist in this shape? Sometimes yes. Often the answer is a smaller job. Visual:  A long queue of identical figures, one stepping out to a faster lane. Panel: “ CFOs will love it, ops leaders may bristle. Good tension. ” # 14 contrarian take panel CFO  7  · COO  8  · CEO  6  (simulated)
+		132 button 👍 0
+			133 text 👍 
+			134 text 0
+		135 button 👎 0
+			136 text 👎 
+			137 text 0
+		138 heading Your integration team doesn't need another dashboard., Value: 2
+			139 text Your integration team doesn't need another dashboard.
+		140 text Dashboards tell you the work is late. They don't do the work. After a merger, pick one flow and automate the work itself: matching orders, reconciling invoices, updating stock. Then watch the dashboard go quiet on its own. Visual:  Red-crossed dashboard icon next to a green check on a finished task list. Panel: “ Sharp line. Dashboard fatigue is real in every Nordic firm. ” # 15 15s vertical video script panel CFO  5  · COO  9  · CEO  6  (simulated)
+		141 button 👍 0
+			142 text 👍 
+			143 text 0
+		144 button 👎 0
+			145 text 👎 
+			146 text 0
+		147 heading 6:40am. Dispatch. Spreadsheet, phone, second phone., Value: 2
+			148 text 6:40am. Dispatch. Spreadsheet, phone, second phone.
+		149 text Scene 1: Hand-held shot of a coordinator juggling two phones and a printout. Scene 2: Text overlay 'It works because Marko knows'. Scene 3: Cut to calm screen, 'What if Marko's knowledge was a workflow?' plus Velho tag. Visual:  Handheld, warm morning light, fast cuts, bold subtitles. Panel: “ Instantly recognisable to anyone in logistics. I'd stop for this. ” # 16 data visual panel CFO  7  · COO  8  · CEO  5  (simulated)
+		150 button 👍 0
+			151 text 👍 
+			152 text 0
+		153 button 👎 0
+			154 text 👎 
+			155 text 0
+		156 heading Which tasks to automate: frequency vs rules, Value: 2
+			157 text Which tasks to automate: frequency vs rules
+		158 text A 2x2 matrix. Axis one: how often a task repeats. Axis two: how rule-based it is. Top right is 'automate now', bottom left is 'leave to humans'. Invite readers to plot three of their own tasks and send it back. Visual:  Clean 2x2 grid with sample dots, top-right quadrant tinted green. Panel: “ Practical and saveable. Common framework, but nicely framed. ” # 17 LinkedIn post panel CFO  5  · COO  9  · CEO  5  (simulated)
+		159 button 👍 0
+			160 text 👍 
+			161 text 0
+		162 button 👎 0
+			163 text 👎 
+			164 text 0
+		165 heading A new warehouse system won't fix the handoffs around it., Value: 2
+			166 text A new warehouse system won't fix the handoffs around it.
+		167 text Agentic WMS is promising. But planners, dispatchers and suppliers still bridge systems with calls and spreadsheets. We noticed that is where the time goes after go-live. Ask your team: what sits between the system and the person? Start there. It's usually small, boring and very fixable. Visual:  Photo of a warehouse screen next to a phone and sticky note. Caption overlay: 'the gap'. Panel: “ COO nails it. Others want a number before caring. ” # 18 LinkedIn post panel CFO  6  · COO  6  · CEO  7  (simulated)
+		168 button 👍 0
+			169 text 👍 
+			170 text 0
+		171 button 👎 0
+			172 text 👎 
+			173 text 0
+		174 heading Already have a big IT partner for AI? Good. Here's our lane., Value: 2
+			175 text Already have a big IT partner for AI? Good. Here's our lane.
+		176 text Large partners build platforms. We find the small manual jobs nobody budgeted for, ship the fix, and make sure teams actually use it. Find, Prioritise, Ship, Adopt. A named Velho expert works with your team every month. We complement your partner. We don't replace it. Visual:  Two puzzle pieces fitting, one labelled 'platform', one 'adoption'. Flat colours. Panel: “ Clear and non-threatening. A bit salesy, but it answers my objection. ” # 19 carousel panel CFO  7  · COO  6  · CEO  6  (simulated)
+		177 button 👍 0
+			178 text 👍 
+			179 text 0
+		180 button 👎 0
+			181 text 👎 
+			182 text 0
+		183 heading You published a data report. Now what?, Value: 2
+			184 text You published a data report. Now what?
+		185 text Slide 1 Knowing your data is step one. Slide 2 Pick one flow where data is re-typed. Slide 3 Ship a small fix in weeks. Slide 4 Measure use, not launch. Slide 5 Repeat. Data strategy becomes visible when someone's Monday gets easier. Visual:  Balance-sheet table that morphs into a simple flow diagram across slides. Panel: “ Good bridge from reports to action. Slightly abstract. ” # 20 15s vertical video script panel CFO  8  · COO  5  · CEO  6  (simulated)
+		186 button 👍 0
+			187 text 👍 
+			188 text 0
+		189 button 👎 0
+			190 text 👎 
+			191 text 0
+		192 heading Month-end close, but shot like a heist movie., Value: 2
+			193 text Month-end close, but shot like a heist movie.
+		194 text Scene 1: Team whispers 'we have 4 hours, 9 spreadsheets'. Scene 2: Dramatic zoom on a locked cell. Scene 3: Title card 'Close it before lunch', then 'Velho'. Visual:  Dark heist-trailer colour grade, finance team as crew, deadpan humour. Panel: “ Funny, and CFOs will share it. The numbers are made up, fine. ” # 21 meme-ish panel CFO  6  · COO  7  · CEO  6  (simulated)
+		195 button 👍 0
+			196 text 👍 
+			197 text 0
+		198 button 👎 0
+			199 text 👎 
+			200 text 0
+		201 heading Buy a company in three countries. Merge three ERPs by Monday., Value: 2
+			202 text Buy a company in three countries. Merge three ERPs by Monday.
+		203 text Two-button meme. Left button: 'Announce the biggest deal in company history'. Right button: 'Reconcile three order systems'. Sweating character in the middle. Tagline: 'We help with the right button.' Visual:  Classic two-button meme template, Velho-coloured buttons, readable on mobile. Panel: “ Funny, and relatable. A bit overused format. ” # 22 15s vertical video script panel CFO  5  · COO  8  · CEO  5  (simulated)
+		204 button 👍 0
+			205 text 👍 
+			206 text 0
+		207 button 👎 0
+			208 text 👎 
+			209 text 0
+		210 heading Which shelf has that spare part? Ask the one person who knows., Value: 2
+			211 text Which shelf has that spare part? Ask the one person who knows.
+		212 text Scene 1: Parts counter, customer waits, clerk searches three screens. Scene 2: Text 'knowledge lives in one head'. Scene 3: Same counter, answer in seconds, caption 'Make it everyone's knowledge.' Visual:  Split screen before and after, workshop setting, real-feel audio. Panel: “ Concrete and visual. Niche to car and technical trade. ” # 23 meme-ish panel CFO  5  · COO  7  · CEO  6  (simulated)
+		213 button 👍 0
+			214 text 👍 
+			215 text 0
+		216 button 👎 0
+			217 text 👎 
+			218 text 0
+		219 heading CEO looking at agentic AI while dispatch phones ring behind, Value: 2
+			220 text CEO looking at agentic AI while dispatch phones ring behind
+		221 text Distracted boyfriend template. Man: 'CEO'. Girlfriend: 'the daily coordination calls'. Other woman: 'shiny agentic AI'. Caption: 'Best results come from doing both, in the right order.' Visual:  Distracted boyfriend template, labels in clean sans-serif, small Velho tag. Panel: “ Amusing but tired template. COOs will still smirk. ” # 24 carousel panel CFO  7  · COO  6  · CEO  4  (simulated)
+		222 button 👍 0
+			223 text 👍 
+			224 text 0
+		225 button 👎 0
+			226 text 👎 
+			227 text 0
+		228 heading How to read a job vacancy like a CFO, Value: 2
+			229 text How to read a job vacancy like a CFO
+		230 text Slide 1 Role title: planner, coordinator, controller. Slide 2 Verbs in the ad: 'compile', 'update', 'follow up'. Slide 3 How long it's been open. Slide 4 A public signal is a reason to ask, never a verdict. Slide 5 Ask the team, not the ad. Visual:  Magnifying glass over a vacancy text, verbs highlighted in yellow. Panel: “ Clever idea. Reads like prospecting tips, not a CEO topic. ”
+		231 heading Campaign engine — 24 angles tuned for companies like Kesko Oyj, Value: 1
+			232 text Campaign engine — 24 angles tuned for companies like Kesko Oyj
+		233 text Panel scores are a SIMULATED pre-test by AI buyer personas. Real ranking comes from thumbs below and, once Velho approves posting, from real engagement.
+		234 button (collapsed) Sources (21), Secondary Actions: Expand
+			235 text Sources (
+			236 text 21
+			237 text )
+		238 text OpenRouter spend so far: $ 4.64
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/campaign?c=Kesko

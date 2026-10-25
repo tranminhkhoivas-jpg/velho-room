@@ -1,0 +1,83 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/signals?c=Kesko".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/signals?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	11 container Staff session
+		12 button Sign out
+	3 container
+		4 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Kesko
+		5 heading Signals in public data, Value: 1
+			6 text Signals in public data
+		7 text Register changes, EU tenders, hiring and leadership news that say “now”, scored with a cited reason. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko Oyj — Signals board (researched 2026-10-24), Value: 1
+			15 text Kesko Oyj — Signals board (researched 2026-10-24)
+		16 text Why-now score
+		17 container
+			18 text 82 / 100
+		19 text Live Dahl integration, a €500–700m rights issue to fund it, and a closing expected by end-2026 create a near-term window where back-office and data consolidation work is likely to be on the agenda.
+		20 content list
+			21 container
+				22 AXListMarker • 
+				23 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (combined 2025 net sales about €2.07bn). Why it matters to Velho: a large integration of acquired operations creates back-office and data-consolidation work.
+				24 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			25 container
+				26 AXListMarker • 
+				27 text investment Kesko plans a rights issue of about €500–700m to finance the Dahl acquisition. Why it matters to Velho: a capital raise tied to a large deal signals budget and a focus on integration efficiency.
+				28 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			29 container
+				30 AXListMarker • 
+				31 text tender European Commission unconditionally approved the Dahl transaction; Kesko expects completion by end of 2026. Why it matters to Velho: near-term closing makes integration planning timely.
+				32 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			33 container
+				34 AXListMarker • 
+				35 text hiring Kesko posted an open K Trainee, AI role in the AI Solutions team (deadline 2026-10-31). Why it matters to Velho: active in-house AI hiring means an external partner could complement or accelerate the team.
+				36 link Description: source, Value: glassdoor.com/Job/tuusula-kesko-jobs-SRCH_IL.0,7_IC2442868_KO8,13.htm
+			37 container
+				38 AXListMarker • 
+				39 text results Q1 2026 net sales rose to €3,029.0m (+7.1%); comparable operating profit €102.0m. Why it matters to Velho: growing sales with a 3.4% margin puts pressure on cost-to-serve, a typical automation target.
+				40 link Description: source, Value: investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746
+			41 container
+				42 AXListMarker • 
+				43 text results Half-year 2026 comparable operating profit rose to €194.0m in Q2, with building and technical trade leading. Why it matters to Velho: profit momentum and active store and network investment suggest open budgets for efficiency projects.
+				44 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+			45 container
+				46 AXListMarker • 
+				47 text news Kesko published a voluntary Data balance sheet report for 2025 covering its use of data and digitalisation. Why it matters to Velho: public focus on data signals appetite for AI and data partners.
+				48 link Description: source, Value: kesko.fi/en/investor/reports-and-presentations/
+			49 container
+				50 AXListMarker • 
+				51 text hiring Kesko-IT posted a Business Controller opening. Why it matters to Velho: finance and control roles can point to reporting and reconciliation workload (inferred).
+				52 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			53 container
+				54 AXListMarker • 
+				55 text hiring Accountant opening at Kesko Senukai Digital (Vilnius). Why it matters to Velho: a recruitment-based inference of transactional finance work (inferred).
+				56 link Description: source, Value: builtin.com/job/accountant/11592654
+			57 container
+				58 AXListMarker • 
+				59 text register Name registrations on 2025-10-31: Siwa Plus, Jounin Kauppa, Suomen Lähikauppa, Valintatalo, K-Market; plus Espoon Sinikalliontie 1 on 2025-11-30. Why it matters to Velho: a brand and entity rename wave can mean back-office and master-data clean-up; treat as a question to ask, not a confirmed project.
+				60 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			61 container
+				62 AXListMarker • 
+				63 text tender Kesko listed as winner in several EU public tenders in 2025 (Ale kommun VA-material, Dienvidkurzemes novada construction materials, Etelä-Pohjanmaan frozen berries, Espoon kaupunki event services, Västerås stad VA-material). Why it matters to Velho: a public-sector supply and bid-administration footprint across three countries.
+				64 link Description: source, Value: ted.europa.eu/en/notice/-/detail/20334-2025
+		65 text Approach first: Anu Hämäläinen, EVP and CFO. The Dahl deal, the €500–700m rights issue and the integration economics all sit in her remit, and the Business Controller and accountant openings suggest finance workload is where the first conversation will land. Keep Jorma Rauhala (CEO) as the second touchpoint once a finance-side case exists; Lasse Luukkainen (General Counsel) is relevant later for data-handling questions.
+		66 text Timing: reach out in the window after the Dahl closing is confirmed but before integration plans are locked, which is roughly Q4 2026 to early 2027 (Dahl completion expected by end-2026). Avoid the days right after the rights issue announcement, when IR and finance are saturated. Q4 results will be a natural reason to reference progress.
+		67 text Opener (LinkedIn/email)
+		68 text draft — not sent
+		69 button Copy
+		70 text Hi Anu,
+
+Kesko's Dahl integration and the rights issue to fund it are a big piece of work for any finance team. We've seen integrations like this stall on manual consolidation and reconciliation between acquired and existing systems, and Velho builds the fixes and stays to make sure people use them.
+
+Would it be useful to compare notes on where the consolidation workload is likely to bite first?
+		71 text What we do NOT know and must ask: whether the Business Controller and accountant roles are linked to Dahl or to routine work; whether the register renames (K-Market, Suomen Lähikauppa, etc.) involve any system or data migration; the actual headcount (sources conflict: ~15.9k, ~18.9k, 39k); who owns the AI Solutions budget; whether Kesko already has an integration partner for Dahl; and whether the 2026 completion date still holds after the rights issue. The draft is for a Velho employee to review and send manually.
+		72 button (collapsed) Sources (19), Secondary Actions: Expand
+			73 text Sources (
+			74 text 19
+			75 text )
+		76 text Additional audit AI spend : $ 0.42
+
+The focused UI element is 1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/signals?c=Kesko

@@ -1,0 +1,98 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/hackathon?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/hackathon?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Hackathon-in-a-box, Value: 1
+			6 text Hackathon-in-a-box
+		7 text “We wrote your company a hackathon brief.” A 48-hour build sprint Velho could run for them.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko Challenge: Making the Nordic Work Run Itself, Value: 1
+			15 text Kesko Challenge: Making the Nordic Work Run Itself
+		16 heading Kesko Challenge: Making the Nordic Work Run Itself, Value: 2
+			17 text Kesko Challenge: Making the Nordic Work Run Itself
+		18 text **Build a working agent for one real operational flow that Kesko's Nordic growth will put under pressure.** Kesko has said AI and automation are significant for renewing the business, and it is taking on a large technical trade integration in Sweden, Norway and Denmark. The brief is to pick one flow, build something a process owner can use on Monday, and show where it saves time.
+		19 table
+			20 row
+				21 cell
+					22 text Direction
+				23 cell
+					24 text The goal
+				25 cell
+					26 text What success looks like
+			27 row
+				28 cell
+					29 text Integrating the Dahl units
+				30 cell
+					31 text Get order, logistics and reporting flows from the new Nordic technical trade units into one usable view before integration peaks.
+				32 cell
+					33 text A process owner runs one real order from Sweden or Norway end to end in the demo, with no manual re-keying.
+			34 row
+				35 cell
+					36 text Warehouse and dispatch exceptions
+				37 cell
+					38 text Help grocery warehouse and terminal hub teams handle exceptions (replenishment gaps, dispatch changes) with less manual coordination.
+				39 cell
+					40 text Each exception arrives with its cause and a suggested action, and the planner can accept or change it in one step.
+			41 row
+				42 cell
+					43 text Parts, stock and bids
+				44 cell
+					45 text Shorten the path from a stock question or a public tender notice to a clear, checked answer.
+				46 cell
+					47 text A supervisor or bid writer gets a sourced answer in one screen, and the team can see where each fact came from.
+		48 content list
+			49 container
+				50 AXListMarker • 
+				51 text idea If the Dahl order and logistics flows were one dataset on day one, which single cross-border order would your team most want to trace end to end, and what breaks today when it crosses from Denmark into Finland?
+				52 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/
+			53 container
+				54 AXListMarker • 
+				55 text idea Kesko is replacing its grocery WMS with an agentic, AI-driven system. What should a human dispatcher still decide, and what could an agent draft for them to approve, especially for the Vantaa dispatch role that has been open for a while?
+				56 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+			57 container
+				58 AXListMarker • 
+				59 text idea A replenishment planning role is advertised to steer K-grocery supply planning. Could an agent prepare the first-pass replenishment suggestion each morning so the planner spends time on the exceptions only?
+				60 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			61 container
+				62 AXListMarker • 
+				63 text idea K-Auto in Espoo is recruiting a spare-parts supervisor. What would a parts-availability assistant need to answer a stock question in seconds, across the stock records the supervisor checks by hand today?
+				64 link Description: source, Value: glassdoor.com/Jobs/Kesko-Espoo-Jobs-EI_IE10397.0,5_IL.6,11_IC2503014.htm
+			65 container
+				66 AXListMarker • 
+				67 text idea With a rights issue of €500–700M funding the Dahl deal, how quickly could finance get a consolidated view of the new Nordic units' results, and which monthly reporting steps could an agent pre-fill from the source ledgers?
+				68 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			69 container
+				70 AXListMarker • 
+				71 text idea Kesko's units have won several public tenders in Sweden, Latvia and Finland. Could an agent match new tender notices against past winning bids and flag compliance requirements before a bid writer starts?
+				72 link Description: source, Value: ted.europa.eu/en/notice/-/detail/70026-2025
+		73 content list
+			74 container
+				75 AXListMarker • 
+				76 text Works on a real Kesko process, with real or realistic data, and the process owner can use it in the room.
+			77 container
+				78 AXListMarker • 
+				79 text Complements the existing CGI partnership rather than duplicating it: clear about what it adds and who runs it after the event.
+			80 container
+				81 AXListMarker • 
+				82 text Adoption is designed in: a named person will use the output on Monday, and the team can say what they would change.
+			83 container
+				84 AXListMarker • 
+				85 text Credible path to production: data access, security and Nordic data rules are considered, even if not fully solved in 48 hours.
+		86 text Practicalities: two days. Each team is a Velho expert, two builders and one of Kesko's process owners. The output is a working demo on Monday, with a short write-up on what it saves, what it needs, and what to build next. Velho runs the challenge and stays on for the adoption work.
+		87 text Cover note to the CEO
+		88 text draft — not sent
+		89 button Copy
+		90 text Jorma, we wrote Kesko a hackathon brief, not a pitch deck. Two days, a Velho expert, two builders and one of your process owners, aimed at the Dahl integration and the order and dispatch flows behind it. Working demo by Monday. Your team picks the problem; we handle the build and make sure people use it. Happy to run it if the brief is useful. Worth a 20-minute call?
+		91 button (collapsed) Sources (24), Secondary Actions: Expand
+			92 text Sources (
+			93 text 24
+			94 text )
+		95 text OpenRouter spend so far: $ 4.64
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/hackathon?c=Kesko

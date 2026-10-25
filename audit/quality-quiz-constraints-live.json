@@ -1,0 +1,58 @@
+{
+  "input": {
+    "talk": "quality-constraints-20261025",
+    "answers": [
+      2,
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    "consent": true,
+    "name": "Fictional constraint test",
+    "company": "Fictional Example",
+    "email": "",
+    "context": {
+      "task": "Copy fictional invoice rows from a sample CSV to a second spreadsheet",
+      "constraints": "Only fictional sample records; no production access. A person must approve EVERY row, even normal rows. Never exception-only approval.",
+      "people": 2,
+      "weeklyHours": 5,
+      "intent": "result-only",
+      "contactPermission": false
+    }
+  },
+  "status": 200,
+  "result": {
+    "score": 61,
+    "headline": "Your team loses hours copying data; a small, reviewed test could give some back.",
+    "ideas": [
+      {
+        "title": "Map the copy-paste path on fictional invoice rows",
+        "how": "You said copying data between systems costs your team 5-10 hours per person per week, and this task copies fictional invoice rows from a sample CSV into a second spreadsheet. Record the exact fields, steps and clicks for 20 sample rows, then list which steps are pure transfer and which need judgement. Keep every row in the human approval queue, including normal rows, with no production access. Test: time the manual process on those 20 rows for one person.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      },
+      {
+        "title": "Test a template that pre-fills the second spreadsheet for review",
+        "how": "Build a simple sheet that maps CSV columns to the target layout and pre-fills the fields. A person still opens and approves every row before it is final. Compare the time spent per row against the manual baseline from the first test, and track how many corrections reviewers make. Test: run both methods on the same 20 fictional rows with two people and compare minutes per approved row.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      },
+      {
+        "title": "Draft a shared review checklist for the approval step",
+        "how": "Your last idea stalled because nobody had time to build it, so keep this one small: a one-page checklist that reviewers use on every row to confirm each field matches the source. This supports the rule that every row gets approved and reduces back-and-forth when two people share the work. Test: have both people use the checklist on the same 20 rows and note any disagreements.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      }
+    ],
+    "firstStep": "Using only the fictional sample CSV, have one person time and log the manual copy of 20 rows, with every row marked for human approval and no production systems involved.",
+    "explanation": "Rule of thumb: reported hours contribute 50%, company-size band 20%, previous automation experience 30%. It does not establish feasibility, budget or buying intent. Reported task: Copy fictional invoice rows from a sample CSV to a second spreadsheet. Constraints: Only fictional sample records; no production access. A person must approve EVERY row, even normal rows. Never exception-only approval..",
+    "context": {
+      "task": "Copy fictional invoice rows from a sample CSV to a second spreadsheet",
+      "constraints": "Only fictional sample records; no production access. A person must approve EVERY row, even normal rows. Never exception-only approval.",
+      "people": 2,
+      "weeklyHours": 5,
+      "intent": "result-only",
+      "contactPermission": false
+    },
+    "proposalReview": "Machine constraint review: 0 conflicting suggestions withheld; 0 uncertain proposals need your review. This is not a feasibility test."
+  }
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "name": "unauthenticated lead read refused",
+    "passed": true,
+    "ms": 57
+  },
+  {
+    "name": "staff login",
+    "passed": true,
+    "ms": 13
+  },
+  {
+    "name": "invalid photo and conversation rejected",
+    "passed": true,
+    "ms": 31
+  },
+  {
+    "name": "invalid quiz choices rejected",
+    "passed": true,
+    "ms": 11
+  },
+  {
+    "name": "pipeline staff list",
+    "passed": true,
+    "ms": 7,
+    "detail": {
+      "leads": 2
+    }
+  },
+  {
+    "name": "fresh Haiku output: signals",
+    "passed": true,
+    "ms": 9754,
+    "detail": {
+      "title": "Kesko Oyj — Signals board (researched 2026-10-24)",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "fresh Haiku output: proof",
+    "passed": true,
+    "ms": 10420,
+    "detail": {
+      "title": "Kesko: proof before pitch — a public-data demo for the Dahl integration and store-network workflow",
+      "blocks": 12
+    }
+  },
+  {
+    "name": "fresh Haiku output: buyer",
+    "passed": true,
+    "ms": 8914,
+    "detail": {
+      "title": "Buyer simulator setup card: Kesko CFO (Anu Hämäläinen)",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "fresh Haiku output: ghost",
+    "passed": true,
+    "ms": 5828,
+    "detail": {
+      "title": "Meet Laskuri-Lasse Vainio, Kesko Oyj's invisible hire",
+      "blocks": 5
+    }
+  },
+  {
+    "name": "fresh Haiku output: luotsi",
+    "passed": true,
+    "ms": 5312,
+    "detail": {
+      "title": "Luotsi Chart: Kesko Oyj",
+      "blocks": 6
+    }
+  },
+  {
+    "name": "fresh Haiku output: media",
+    "passed": false,
+    "ms": 7932,
+    "detail": "{\"error\":\"Expected ':' after property name in JSON at position 3610 (line 1 column 3611)\"}\n\n500 !== 200\n"
+  },
+  {
+    "name": "fresh Haiku output: tradefair",
+    "passed": true,
+    "ms": 5509,
+    "detail": {
+      "title": "Kesko Oyj – trade fair brief",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "fresh Haiku output: words",
+    "passed": true,
+    "ms": 19968,
+    "detail": {
+      "title": "Kesko Oyj: verified quotes and draft outreach for Velho review",
+      "blocks": 13
+    }
+  },
+  {
+    "name": "fresh Haiku output: radar",
+    "passed": true,
+    "ms": 10082,
+    "detail": {
+      "title": "Room Radar: Kesko and the Finnish trade room, next 6 months",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "fresh Haiku output: hackathon",
+    "passed": true,
+    "ms": 7124,
+    "detail": {
+      "title": "Kesko Challenge: Integration speed and store-level efficiency",
+      "blocks": 8
+    }
+  },
+  {
+    "name": "fresh Haiku output: campaign",
+    "passed": true,
+    "ms": 34870,
+    "detail": {
+      "title": "Campaign engine — 24 angles tuned for companies like Kesko Oyj",
+      "blocks": 2
+    }
+  },
+  {
+    "name": "fresh Haiku output: deadDeal",
+    "passed": true,
+    "ms": 6033,
+    "detail": {
+      "title": "Dead deal resurrector: Kesko / Heikki Nurmilaakso",
+      "blocks": 7
+    }
+  },
+  {
+    "name": "fresh Haiku output: caseStudy",
+    "passed": true,
+    "ms": 8563,
+    "detail": {
+      "title": "Nordtrans case study: invoice matching",
+      "blocks": 10
+    }
+  },
+  {
+    "name": "fresh Finnish CFO exchange",
+    "passed": true,
+    "ms": 2523,
+    "detail": {
+      "reply": "Hei. Olet oikeassa, et voi tuntea sisäisiä prosessejamme, eikä kannata lupailla säästöjä ennen kuin ne on mitattu. Mitä minulle olisi konkreettisesti tärkeää nähdä: mihin prosessiin ehdotatte automaatiota, mikä on nykyinen käsittelyaika ja virhemäärä, ja miten säästö laskettaisiin ja kuka sen varmentaisi? Ja jos vertailukohteena on jokin muu suomalainen yritys, kenen kanssa olette tehneet tätä ennen?"
+    }
+  },
+  {
+    "name": "audience quiz through to staff lead, duplicate retry",
+    "passed": true,
+    "ms": 4589,
+    "detail": {
+      "score": 58,
+      "leads": 3
+    }
+  },
+  {
+    "name": "fresh Finnish industry index",
+    "passed": true,
+    "ms": 13,
+    "detail": {
+      "examples": 0,
+      "registry": {
+        "companies": 68716,
+        "newLast12m": 1366,
+        "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=41"
+      }
+    }
+  }
+]

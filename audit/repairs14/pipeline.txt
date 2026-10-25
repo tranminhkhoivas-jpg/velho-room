@@ -1,0 +1,51 @@
+Browser tab: 5, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/pipeline?talk=quality-browser-20261025".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/pipeline?talk=quality-browser-20261025
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	3 container Staff session
+		4 button Sign out
+	5 container
+		6 link Description: ← all tools, Value: 127.0.0.1:3015/
+		7 heading Talk-to-pipeline, Value: 1
+			8 text Talk-to-pipeline
+		9 text A QR code on the keynote slide; the audience gets a personal result, Velho gets warm leads with meeting drafts. Talk tag
+		10 text field (settable) Description: Talk tag, Value: quality-browser-20261025
+		11 image QR code for the audience
+		12 text Put this QR on the last slide. The audience gets a personal automation result; leads appear below live.
+		13 link Description: http://127.0.0.1:3015/check?talk=quality-browser-20261025, Value: 127.0.0.1:3015/check?talk=quality-browser-20261025
+		14 heading Leads from this talk (1), Value: 2
+			15 text Leads from this talk ( 1 )
+		16 text Find a contact, name or company 
+		17 text field (settable) Find a contact, name or company
+		18 button (disabled) Latest submissions
+		19 button (disabled) Older submissions
+		20 text Fictional browser tester · Fictional Example  ·  COO / operations opportunity indicator  61 Your team loses hours copying data between systems; a small test could help. Contact:  fictional@example.test  ·  2  submission(s) across talks. 
+		21 button View contact history
+		22 text Visitor intent: result-only  ·  Follow-up permission: Not granted — do not use the address for follow-up Task:  Fictional test: copy invoice rows from a sample CSV into a second spreadsheet.
+		23 text Constraints:  Only fictional records; keep a person approving every row. No production access. A high opportunity score is not a request to be contacted. This queue only records staff actions; it sends nothing.
+		24 container Staff next action
+			25 text Staff next action
+			26 container
+				27 text Owner 
+				28 text field (settable) Owner, Value: Fictional staff tester
+			29 container
+				30 text Status 
+				31 pop up button (collapsed, settable) Status, Value: reviewing, Secondary Actions: Expand
+					32 menu
+						33 new
+						34 (selected) reviewing
+						35 waiting
+						36 closed
+			37 container
+				38 text Due date 
+				39 date field (settable) Due date
+					40 container
+						41 stepper
+						42 stepper
+						43 stepper
+					44 pop up button Show date picker Show date picker
+			45 container
+				46 text Next action 
+				47 text field (settable) Next action, Value: Review fictional sample internally. Visitor did not permit contact.
+			48 button (disabled) Save next action
+
+The focused UI element is 10 text field (settable) Description: Talk tag, Value: quality-browser-20261025

@@ -1,0 +1,112 @@
+{
+  "title": "Case study: Lumo Verkkokauppa — WISMO handled by a draft tool",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "Lumo's support agents cut handle time on 'where is my order' tickets from 4.9 to 1.6 minutes"
+    },
+    {
+      "t": "p",
+      "text": "Lumo Verkkokauppa Oy is a direct-to-consumer home textiles and decor shop selling in Finland, Sweden and Estonia, with 11 people and two full-time support agents working in Zendesk. Roughly 1,900 tickets a month come in, and about 40% of them are 'where's my order' questions (WISMO). The team's own feeling was that returns took the most time. When Velho's expert Sanna Virtanen-Moilanen showed the ticket data, the team saw that WISMO was the largest category by volume. The team's own sense of the workload had pointed elsewhere."
+    },
+    {
+      "t": "p",
+      "text": "Velho built the smallest version first: WISMO only. The tool pulls tracking status from the Posti and DHL APIs using the order number and writes a draft reply in Finnish, Swedish or Estonian inside Zendesk. The agent reviews it and sends it. Returns and product questions were deliberately left for a later version. In week two, about 18% of WISMO emails had no order number, so the lookup was extended to match on customer email plus last order. Oskar checked the Swedish translations and three phrasing fixes followed. In week four, nine drafts said a parcel was 'delivered' when it was waiting at a pickup point, and the status mapping was corrected."
+    },
+    {
+      "t": "p",
+      "text": "Both agents went live in week three. Over the period, 612 WISMO tickets were handled and 74% of drafts were sent with no more than minor edits. Oskar also added his own edge cases to the status mapping sheet, which suggests the team took ownership of the tool. Adoption was not a problem."
+    },
+    {
+      "t": "p",
+      "text": "Measured results: average handle time on WISMO tickets fell from 4.9 to 1.6 minutes, and median first-reply time across all tickets fell from 9.4 to 5.8 hours. The first-reply figure covers only three weeks and February is a quieter month than December, so the seasonal effect is not yet separated out. The shop owner reports fewer angry customers, but there is no sentiment measure, so that claim is not included here. Re-measurement is planned for Black Friday and the Christmas peak."
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "WISMO avg handle time",
+          "4.9 min (baseline period)",
+          "1.6 min (3 weeks live)"
+        ],
+        [
+          "Median first reply, all tickets",
+          "9.4 h (Zendesk export)",
+          "5.8 h (3 weeks, Feb, unverified for season)"
+        ],
+        [
+          "Average handle time, all tickets",
+          "6.2 min",
+          "not measured"
+        ],
+        [
+          "Draft sent with ≤ minor edit",
+          "n/a",
+          "74% of 612 WISMO tickets"
+        ],
+        [
+          "Customer sentiment / 'angry' customers",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Returns handle time",
+          "not measured",
+          "not measured"
+        ]
+      ]
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "Our client's support team thought returns were eating their day. The ticket data said otherwise.\n\nAt Lumo, a home decor shop in FI, SE and EE, 40% of 1,900 monthly tickets were 'where's my order'. We built a draft reply that pulls live tracking from Posti and DHL. The agent reviews and sends.\n\nIn three weeks, WISMO handle time went from 4.9 to 1.6 minutes. 74% of drafts went out with at most minor edits.\n\nThe lesson for us: show the data before you build the tool. The team was surprised by their own numbers.\n\nWe will re-measure through the Christmas peak, because February is quiet."
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Lumo Verkkokauppa Oy (D2C home textiles, FI/SE/EE, 11 staff)\nProblem: ~1,900 support tickets/month, 40% 'where is my order', 2 agents in Zendesk\nBuilt: WISMO-only draft replies (FI/SV/ET) from live Posti/DHL tracking, agent sends\nAdoption: both agents live week 3; 74% of 612 drafts sent with ≤ minor edit\nMeasured: WISMO handle time 4.9 → 1.6 min; median first reply (all tickets) 9.4 h → 5.8 h, 3 weeks, seasonal caveat\nNext: re-measure at Black Friday/Christmas; returns and product questions in v2"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Written permission from Lumo to name the company, the people and the shop owner's quotes",
+          "tag": "missing"
+        },
+        {
+          "text": "Verify the 612 WISMO ticket count and the 74% draft-use rate against the Zendesk export",
+          "tag": "missing"
+        },
+        {
+          "text": "Verify the 4.9 → 1.6 min handle time calculation and its sample size",
+          "tag": "missing"
+        },
+        {
+          "text": "Verify the 9.4 h baseline and 5.8 h first-reply figure, and whether the 5.8 h covers the same period and ticket mix",
+          "tag": "missing"
+        },
+        {
+          "text": "Confirm the 18% missing-order-number figure and the 9 incorrect 'delivered' drafts",
+          "tag": "missing"
+        },
+        {
+          "text": "Decide whether to include the shop owner's 'fewer angry customers' claim; it is unmeasured and should stay out until a sentiment measure exists",
+          "tag": "missing"
+        },
+        {
+          "text": "Confirm Emmi and Oskar are comfortable being quoted or named",
+          "tag": "missing"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/campaign?c=Kesko".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/campaign?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	11 container Staff session
+		12 button Sign out
+	3 container
+		4 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Kesko
+		5 heading Viral campaign engine, Value: 1
+			6 text Viral campaign engine
+		7 text 24 content angles with simulated buyer feedback, staff preferences and a separate record of observed campaign outcomes. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 container Observed campaign experiments
+			15 heading Learn from observed campaign results, Value: 2
+				16 text Learn from observed campaign results
+			17 text Record a cumulative snapshot for one variant and non-overlapping audience cohort. Re-saving the same angle/channel/cohort replaces its counts; retries do not add people. Only staff-reported observations appear in the comparison. Nothing is published or sent.
+			18 text AI panel scores and thumbs below are opinions. Reported results here are entered by staff and not independently verified. Compare the same channel and cohort; differences may reflect audience or timing rather than content.
+			19 container
+				20 text Content angle 
+				21 pop up button (collapsed, settable) Content angle, Secondary Actions: Expand, Value: We noticed Kesko is integrating Dahl's Nordic technical trade operations. Worth asking what changes first?
+					22 menu
+						23 (selected) We noticed Kesko is integrating Dahl's Nordic technical trade operations. Worth asking what changes first?
+						24 Two units. Two order systems. One integration deadline.
+						25 Integration day one: what actually needs to work?
+						26 Kesko's guidance narrowed to €670-730m. Where does efficiency come from?
+						27 Most integrations don't fail on strategy. They fail in the spreadsheet.
+						28 Nobody on the Dahl integration team: 'Let's just export it to Excel.'
+						29 Integrating a Nordic acquisition is mostly about the data nobody owns yet.
+						30 Two brands, one deadline, and a lot of copy-paste.
+						31 Six questions to ask before any acquisition's systems go live.
+						32 Kesko's Q2 profit rose to €194m, but integration costs will test it.
+						33 Buying a business is easy. Running two of them as one is where margin goes.
+						34 Dahl integration plan: step 1, export to Excel. Step 2, ask why it's Friday.
+						35 Our read: the Dahl deal will be won or lost in order data, not the press release.
+						36 Day one of an acquisition, someone is always reconciling orders by hand.
+						37 Six questions to answer before any Nordic integration goes live.
+						38 Kesko's Q2 comparable operating profit reached €194m; FY guidance is €670-730m.
+						39 Buying a Nordic business is the easy part. The spreadsheet is the hard part.
+						40 Dahl integration plan, step 1: export to Excel. Step 2: wait until Friday.
+						41 Kesko's Dahl deal is closing. What breaks first is rarely the strategy.
+						42 Acquired business, separate brands, same deadline.
+						43 Six questions before any Nordic integration goes live.
+						44 Kesko targets ~€20bn group sales in the early 2030s. Growth means more units to run.
+						45 Buying a Nordic business is the easy part. Running two as one is where margin leaks.
+						46 Integration plan, step 1: export to Excel. Step 2: wait until Friday.
+				47 text Channel 
+				48 pop up button (collapsed, settable) Channel, Value: email, Secondary Actions: Expand
+					49 menu
+						50 (selected) email
+						51 LinkedIn
+						52 event
+						53 other
+				54 text Cohort / test name 
+				55 text field (settable) Cohort / test name, Value: quality-ui-20261024
+				56 text Data basis 
+				57 pop up button (collapsed, settable) Data basis, Value: Synthetic test, Secondary Actions: Expand
+					58 menu
+						59 Staff-reported observation
+						60 (selected) Synthetic test
+				61 text People reached (unique in variant)
+				62 stepper (settable, integer) People reached (unique in variant), Value: 100
+				63 text People who replied
+				64 stepper (settable, integer) People who replied, Value: 20
+				65 text Meetings from those replies
+				66 stepper (settable, integer) Meetings from those replies, Value: 3
+				67 text Source report URL or measurement notes 
+				68 text field (settable) Source report URL or measurement notes, Value: Fictional UI test; not actual campaign outcomes.
+				69 button Update this cohort result
+				70 button Reload results
+			308 text Saved cumulative result. Identical retries do not duplicate it.
+			71 heading Observed comparison: email, quality-ui-20261024, Value: 3
+				72 text Observed comparison:  email ,  quality-ui-20261024
+			73 text No staff-reported audience data in this comparison. No winning angle can be inferred.
+			74 text Order uses a descriptive 95% Wilson lower bound on reply rate, so tiny samples are treated cautiously. It is not a causal test, guaranteed conversion or proof of statistical superiority. Zero-reach and synthetic records are excluded.
+			75 button (collapsed) All saved snapshots (1), Secondary Actions: Expand
+				76 text All saved snapshots (
+				77 text 1
+				78 text )
+		79 heading Draft angles: AI panel and staff preferences, Value: 2
+			80 text Draft angles: AI panel and staff preferences
+		81 text This order reflects simulated buyer opinions and employee thumbs. Use the separate observed-results comparison above for campaign evidence. # 1 data visual panel CFO  9  · COO  6  · CEO  6  (simulated)
+		82 button 👍 0
+			83 text 👍 
+			84 text 0
+		85 button 👎 0
+			86 text 👎 
+			87 text 0
+		88 heading Kesko's Q2 comparable operating profit reached €194m; FY guidance is €670-730m., Value: 2
+			89 text Kesko's Q2 comparable operating profit reached €194m; FY guidance is €670-730m.
+		90 text Bar chart of guidance range against Q2 run-rate, with the Dahl completion window marked on the timeline (targeted by end-2026, source: kesko.fi, 2026-06-15). The gap between the bars is where integration cost and efficiency choices will show up. Label all derived figures as estimates. Visual:  Horizontal range bar chart: FY2026 guidance band with a marker for Q2 profit and a dated line for Dahl completion. Panel: “ CFO will read the chart; the framing is clean and factual. ” # 2 contrarian take panel CFO  6  · COO  7  · CEO  8  (simulated)
+		91 button 👍 0
+			92 text 👍 
+			93 text 0
+		94 button 👎 0
+			95 text 👎 
+			96 text 0
+		97 heading Buying a Nordic business is the easy part. The spreadsheet is the hard part., Value: 2
+			98 text Buying a Nordic business is the easy part. The spreadsheet is the hard part.
+		99 text Most deal narratives focus on price and synergies. The unglamorous work is who maps order codes, who reconciles ledgers and who answers when two systems disagree. Kesko's Dahl acquisition, approved by the Commission (kesko.fi, 2026-09-24), makes that question concrete. We would rather ask how that work is staffed than assume it is. Visual:  A single spreadsheet cell highlighted in red, cropped tight, with no logos. Panel: “ Provocative enough to get a reply; keep the tone measured. ” # 3 LinkedIn post panel CFO  7  · COO  8  · CEO  6  (simulated)
+		100 button 👍 0
+			101 text 👍 
+			102 text 0
+		103 button 👎 0
+			104 text 👎 
+			105 text 0
+		106 heading Kesko's Dahl deal is closing. What breaks first is rarely the strategy., Value: 2
+			107 text Kesko's Dahl deal is closing. What breaks first is rarely the strategy.
+		108 text Two brands, separate units, and order data living in different places. When acquired operations come in, a lot of the work becomes reconciling numbers by hand. We noticed the Dahl integration and the Q3 results call land close together. Worth asking: which order and finance flows does the integration team trust on day one? Happy to compare notes with anyone running this right now. Visual:  A plain text-led post image: 'Dahl. Two units. Which order data is the source of truth?' Panel: “ Specific and operational; CEO may find it too narrow. ” # 4 data visual panel CFO  8  · COO  6  · CEO  6  (simulated)
+		109 button 👍 0
+			110 text 👍 
+			111 text 0
+		112 button 👎 0
+			113 text 👎 
+			114 text 0
+		115 heading Kesko's guidance narrowed to €670-730m. Where does efficiency come from?, Value: 2
+			116 text Kesko's guidance narrowed to €670-730m. Where does efficiency come from?
+		117 text Q2 2026 comparable operating profit rose to €194m, and full-year guidance was narrowed to €670-730m. Management has stated that margin discipline matters. A simple bar chart of guidance range against the €654.9m 2025 result makes the scale of the target visible. Estimate: even small cuts in manual processing could matter at this scale, but the numbers are illustrative only. Visual:  Range bar chart showing the 2025 result against the 2026 guidance band, with a footnote marking the estimate as illustrative. Panel: “ Strong for finance, but the efficiency claim needs careful framing. ” # 5 contrarian take panel CFO  7  · COO  7  · CEO  6  (simulated)
+		118 button 👍 0
+			119 text 👍 
+			120 text 0
+		121 button 👎 0
+			122 text 👎 
+			123 text 0
+		124 heading Most integrations don't fail on strategy. They fail in the spreadsheet., Value: 2
+			125 text Most integrations don't fail on strategy. They fail in the spreadsheet.
+		126 text Big acquisitions get all the boardroom attention. The unglamorous part, matching orders and invoices across units that still run separately, often decides how fast the value arrives. Kesko's Dahl deal makes this live right now. Worth asking which handoffs they're watching most closely, before it becomes a quarterly surprise. Visual:  A single spreadsheet cell zoomed in on a mismatched number, with the rest of the frame blurred. Panel: “ Provocative enough to get shared, though the claim is generic. ” # 6 LinkedIn post panel CFO  7  · COO  8  · CEO  5  (simulated)
+		127 button 👍 0
+			128 text 👍 
+			129 text 0
+		130 button 👎 0
+			131 text 👎 
+			132 text 0
+		133 heading Integrating a Nordic acquisition is mostly about the data nobody owns yet., Value: 2
+			134 text Integrating a Nordic acquisition is mostly about the data nobody owns yet.
+		135 text We noticed Kesko has agreed to acquire Dahl's technical trade operations in Sweden, Norway and Denmark, with completion targeted by end-2026 (https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/). Separate brands and units often mean order and financial data gets reconciled by hand for a while. Is that something your team is already planning for, or still on the list? Visual:  Clean Nordic map with three highlighted countries and a simple line linking two separate data streams. Panel: “ Specific, honest question. Good for an operations reader. ” # 7 data visual panel CFO  9  · COO  5  · CEO  6  (simulated)
+		136 button 👍 0
+			137 text 👍 
+			138 text 0
+		139 button 👎 0
+			140 text 👎 
+			141 text 0
+		142 heading Kesko's Q2 profit rose to €194m, but integration costs will test it., Value: 2
+			143 text Kesko's Q2 profit rose to €194m, but integration costs will test it.
+		144 text Chart: Kesko comparable operating profit guidance for 2026 is €670-730m, narrowed from the earlier range (https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/). Overlay the Dahl completion timeline and the Q3 report on 29 October (https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/). Question for the CFO: which efficiency lines are already measured, and which are still assumptions? Visual:  Simple bar chart of the guidance range with a timeline marker for the Dahl close and Q3 results. Panel: “ Finance leaders will read this closely; avoids claiming any cost figures. ” # 8 LinkedIn post panel CFO  7  · COO  8  · CEO  5  (simulated)
+		145 button 👍 0
+			146 text 👍 
+			147 text 0
+		148 button 👎 0
+			149 text 👎 
+			150 text 0
+		151 heading Our read: the Dahl deal will be won or lost in order data, not the press release., Value: 2
+			152 text Our read: the Dahl deal will be won or lost in order data, not the press release.
+		153 text Kesko's Dahl technical trade deal is unconditionally approved by the European Commission, with completion still pending other conditions (source: kesko.fi stock exchange releases, 2026-09-24). When two units keep separate brands and order flows, reconciliation tends to land on people, not systems. We noticed the integration plan is still taking shape. Worth asking: which order and financial data must match on day one, and who owns it today? Visual:  Clean two-column diagram: Dahl order flow on the left, Kesko order flow on the right, a single question mark where they meet. Panel: “ Specific and grounded; CEO may find it too operational. ” # 9 data visual panel CFO  8  · COO  6  · CEO  6  (simulated)
+		154 button 👍 0
+			155 text 👍 
+			156 text 0
+		157 button 👎 0
+			158 text 👎 
+			159 text 0
+		160 heading Kesko targets ~€20bn group sales in the early 2030s. Growth means more units to run., Value: 2
+			161 text Kesko targets ~€20bn group sales in the early 2030s. Growth means more units to run.
+		162 text Source: Kesko CEO statement, 15 June 2026. Kesko's own guidance points to comparable operating profit of €670-730m for 2026 (Q2 2026 release). Chart idea: group sales ambition against the number of operating units to integrate. Question for leaders: at what unit count does manual reconciliation start to cap margin? Visual:  Bar chart of the €20bn target next to a simple line showing unit count growth, with a question mark on the gap. Panel: “ Good financial framing; the unit-count line is an assumption. ” # 10 carousel panel CFO  6  · COO  8  · CEO  5  (simulated)
+		163 button 👍 0
+			164 text 👍 
+			165 text 0
+		166 button 👎 0
+			167 text 👎 
+			168 text 0
+		169 heading Integration day one: what actually needs to work?, Value: 2
+			170 text Integration day one: what actually needs to work?
+		171 text Slide 1: Dahl's units keep separate brands and systems. Slide 2: Order and financial data often needs reconciling across units. Slide 3: Ask first, build second. We're asking where the manual handoffs sit at Kesko's integration. Swipe for a short checklist we'd use to find them, shared without any claim about Kesko's internal workflows. Visual:  Five-slide card deck with a navy and green palette, one icon per slide, and a plain checklist on the final card. Panel: “ Useful checklist format; the CEO may skim past it. ” # 11 carousel panel CFO  6  · COO  8  · CEO  5  (simulated)
+		172 button 👍 0
+			173 text 👍 
+			174 text 0
+		175 button 👎 0
+			176 text 👎 
+			177 text 0
+		178 heading Six questions to ask before any acquisition's systems go live., Value: 2
+			179 text Six questions to ask before any acquisition's systems go live.
+		180 text Slide 1: Which order data must match on day one? Slide 2: Who owns reconciliation between units? Slide 3: Where do finance and sales numbers diverge? Slide 4: Which manual steps repeat every month? Slide 5: What breaks first if volume doubles? Slide 6: Which of these would you fix first? Context: Kesko's Dahl deal (https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/). Visual:  Six bold question cards in Kesko-neutral colours, one question per slide. Panel: “ Practical checklist format operators would save and share. ” # 12 contrarian take panel CFO  5  · COO  8  · CEO  6  (simulated)
+		181 button 👍 0
+			182 text 👍 
+			183 text 0
+		184 button 👎 0
+			185 text 👎 
+			186 text 0
+		187 heading Buying a business is easy. Running two of them as one is where margin goes., Value: 2
+			188 text Buying a business is easy. Running two of them as one is where margin goes.
+		189 text Big acquisitions get judged on the price and the strategy. Less attention goes to the workflows that decide whether the combined business runs cleanly. Kesko's Dahl deal is a reminder: the next 12 months are about order flow, finance reporting and the handoffs between units. Are those being planned with the same care as the purchase itself? Visual:  A single handshake photo cropped tight so only the hands and a spreadsheet printout are visible. Panel: “ Provocative but fair; invites a reply from operations heads. ” # 13 LinkedIn post panel CFO  6  · COO  7  · CEO  5  (simulated)
+		190 button 👍 0
+			191 text 👍 
+			192 text 0
+		193 button 👎 0
+			194 text 👎 
+			195 text 0
+		196 heading Value: 2, We noticed Kesko is integrating Dahl's Nordic technical trade operations. Worth asking what changes first?
+			197 text We noticed Kesko is integrating Dahl's Nordic technical trade operations. Worth asking what changes first?
+		198 text Kesko announced the Dahl acquisition in Sweden, Norway and Denmark, with completion targeted by end-2026. Acquired units often keep their own brands, order flows and reporting, so the first months can be full of reconciliation. We don't know how Kesko is approaching this. Would it help to compare notes on where order and financial data currently get moved by hand across units? Visual:  Clean photo of a Nordic distribution yard with a simple line-drawn map overlay of Sweden, Norway and Denmark. Panel: “ Specific and polite, but a CEO may find it too sales-adjacent. ” # 14 carousel panel CFO  6  · COO  8  · CEO  4  (simulated)
+		199 button 👍 0
+			200 text 👍 
+			201 text 0
+		202 button 👎 0
+			203 text 👎 
+			204 text 0
+		205 heading Six questions to answer before any Nordic integration goes live., Value: 2
+			206 text Six questions to answer before any Nordic integration goes live.
+		207 text Slide 1: Which order data must reconcile on day one? Slide 2: Which financial reports must consolidate first? Slide 3: Who owns each shared data field today? Slide 4: Which brands keep separate order systems? Slide 5: What is the manual step nobody has documented? Slide 6: What breaks first if it's late? Frame as a checklist for the integration team, not a diagnosis. Visual:  Six-slide deck, one question per slide, large numerals and a single accent colour. Panel: “ Useful checklist; CEO may see it as generic. ” # 15 15s vertical video script panel CFO  5  · COO  8  · CEO  5  (simulated)
+		208 button 👍 0
+			209 text 👍 
+			210 text 0
+		211 button 👎 0
+			212 text 👎 
+			213 text 0
+		214 heading Acquired business, separate brands, same deadline., Value: 2
+			215 text Acquired business, separate brands, same deadline.
+		216 text [0-3s] Text on screen: Dahl closes soon. [3-8s] Voiceover: Integration usually means matching order and finance data across units that were never built to talk. [8-13s] Voiceover: Ask one question before go-live: which flow still needs a person to copy it? [13-15s] End card: Velho. Find the manual work first. Visual:  Clean, high-contrast cutaways of a warehouse aisle and a dashboard, cut fast. Panel: “ Strong for ops; generic for C-suite on a cold feed. ” # 16 carousel panel CFO  6  · COO  7  · CEO  5  (simulated)
+		217 button 👍 0
+			218 text 👍 
+			219 text 0
+		220 button 👎 0
+			221 text 👎 
+			222 text 0
+		223 heading Six questions before any Nordic integration goes live., Value: 2
+			224 text Six questions before any Nordic integration goes live.
+		225 text 1. Who owns each order record after close? 2. Which reports are rebuilt by hand each month? 3. Where do Swedish, Norwegian and Danish figures get reconciled? 4. What breaks if one unit's system changes? 5. Which step still depends on one person? 6. What would we fix first if we had one quarter? Estimate: a short diagnostic can surface the answers in weeks, not a full programme. Visual:  Six numbered slides, one question per slide, navy and white with a single accent colour. Panel: “ Useful checklist, but the 'estimate' timeline needs proof. ” # 17 contrarian take panel CFO  7  · COO  6  · CEO  5  (simulated)
+		226 button 👍 0
+			227 text 👍 
+			228 text 0
+		229 button 👎 0
+			230 text 👎 
+			231 text 0
+		232 heading Buying a Nordic business is the easy part. Running two as one is where margin leaks., Value: 2
+			233 text Buying a Nordic business is the easy part. Running two as one is where margin leaks.
+		234 text Everyone will talk about the €1.2bn price and the European Commission clearance. Less attention goes to order data, invoicing and reporting that still rely on copy-paste. Integration costs show up after the press release. Our view: start with the spreadsheets, not the synergy slide. Visual:  A single bold line on a plain background: 'The synergy slide is not the integration plan.' Panel: “ Provocative, but may read as criticism of Kesko's deal. ” # 18 15s vertical video script panel CFO  5  · COO  8  · CEO  4  (simulated)
+		235 button 👍 0
+			236 text 👍 
+			237 text 0
+		238 button 👎 0
+			239 text 👎 
+			240 text 0
+		241 heading Two units. Two order systems. One integration deadline., Value: 2
+			242 text Two units. Two order systems. One integration deadline.
+		243 text Kesko is bringing Dahl's Nordic operations in-house by end-2026. In past integrations, teams like these often find the handoffs are the slow part, not the strategy. We're curious how Kesko is handling it, and happy to share what we'd look at first. Visual:  Split-screen of two spreadsheets converging into one dashboard, cut to a logistics yard at dawn. Panel: “ Punchy, but reads as a pitch and might feel presumptuous. ” # 19 15s vertical video script panel CFO  6  · COO  7  · CEO  4  (simulated)
+		244 button 👍 0
+			245 text 👍 
+			246 text 0
+		247 button 👎 0
+			248 text 👎 
+			249 text 0
+		250 heading Two brands, one deadline, and a lot of copy-paste., Value: 2
+			251 text Two brands, one deadline, and a lot of copy-paste.
+		252 text [0-3s] Text on screen: Dahl joins Kesko's technical trade. [3-8s] Voiceover: Separate units often mean order data gets rebuilt by hand during integration. [8-12s] Voiceover: We noticed this could be a question worth asking early. [12-15s] End card: What would you automate first? Visual:  Quick cuts of spreadsheets and order screens, then a single clean dashboard frame. Panel: “ Punchy, but feels a little generic for a CEO audience. ” # 20 15s vertical video script panel CFO  5  · COO  7  · CEO  4  (simulated)
+		253 button 👍 0
+			254 text 👍 
+			255 text 0
+		256 button 👎 0
+			257 text 👎 
+			258 text 0
+		259 heading Day one of an acquisition, someone is always reconciling orders by hand., Value: 2
+			260 text Day one of an acquisition, someone is always reconciling orders by hand.
+		261 text Shot 1 (0-4s): Hands on a keyboard, two screens, two order formats. Shot 2 (4-10s): Text overlay: 'Two units. Two brands. One integration date.' Shot 3 (10-15s): Caption: 'What must match on day one? Ask us.' Keep it to questions, no claims about Kesko's internal workload. Visual:  Handheld shots of two monitors showing different order screens, cut tight on the hands. Panel: “ Visually strong but hard to tie to a Kesko decision. ” # 21 meme-ish panel CFO  4  · COO  7  · CEO  3  (simulated)
+		262 button 👍 0
+			263 text 👍 
+			264 text 0
+		265 button 👎 0
+			266 text 👎 
+			267 text 0
+		268 heading Dahl integration plan: step 1, export to Excel. Step 2, ask why it's Friday., Value: 2
+			269 text Dahl integration plan: step 1, export to Excel. Step 2, ask why it's Friday.
+		270 text Not a claim about how Kesko is doing this, just the joke every operations team has lived through. Mergers multiply reports, and reports multiply reconciliations. If your integration plan still has a 'copy the numbers across' step, it might be worth a conversation before the deal closes rather than after. Visual:  Two-panel meme with a tired office worker beside a towering stack of printed spreadsheets. Panel: “ Funny for ops, but a CEO may find it too flip. ” # 22 meme-ish panel CFO  3  · COO  6  · CEO  5  (simulated)
+		271 button 👍 0
+			272 text 👍 
+			273 text 0
+		274 button 👎 0
+			275 text 👎 
+			276 text 0
+		277 heading Dahl integration plan, step 1: export to Excel. Step 2: wait until Friday., Value: 2
+			278 text Dahl integration plan, step 1: export to Excel. Step 2: wait until Friday.
+		279 text Light joke aimed at the universal integration reality, not at Kesko. Close with a question: which step on your integration plan still depends on someone exporting a file by hand? Keep it self-deprecating and avoid any claim about how Kesko actually works. Visual:  Simple two-panel meme: a spreadsheet icon, then a calendar with Friday circled. Panel: “ Shareable but risks reading as flippant to executives. ” # 23 meme-ish panel CFO  4  · COO  7  · CEO  3  (simulated)
+		280 button 👍 0
+			281 text 👍 
+			282 text 0
+		283 button 👎 0
+			284 text 👎 
+			285 text 0
+		286 heading Integration plan, step 1: export to Excel. Step 2: wait until Friday., Value: 2
+			287 text Integration plan, step 1: export to Excel. Step 2: wait until Friday.
+		288 text Anyone who has run a multi-unit merger has lived this. Nobody in the room says it out loud, but the reconciliation happens by hand, every month, until someone asks for a fix. If that's your Monday too, we can talk. No judgement, just a quick look at where the copy-paste lives. Visual:  A familiar office-humour image with a spreadsheet grid and a 'Friday' calendar overlay, captioned lightly. Panel: “ Funny for ops, risky for a CEO audience; tone may land poorly. ” # 24 meme-ish panel CFO  4  · COO  6  · CEO  3  (simulated)
+		289 button 👍 0
+			290 text 👍 
+			291 text 0
+		292 button 👎 0
+			293 text 👎 
+			294 text 0
+		295 heading Nobody on the Dahl integration team: 'Let's just export it to Excel.', Value: 2
+			296 text Nobody on the Dahl integration team: 'Let's just export it to Excel.'
+		297 text Every integration has a moment where someone says the quick fix is a spreadsheet. Usually it works until it doesn't. We're not saying that's happening at Kesko. We're curious how they're preventing it, and whether the unit-level reporting is already tidy before the deal closes. Visual:  Stock-style photo of a person at a desk looking tired next to an overflowing spreadsheet, with a caption overlay. Panel: “ Funny for ops folks, risky for a CEO audience. ”
+		298 heading Campaign engine — 24 angles tuned for companies like Kesko Oyj, Value: 1
+			299 text Campaign engine — 24 angles tuned for companies like Kesko Oyj
+		300 text Panel scores are a SIMULATED pre-test by AI buyer personas. Real ranking comes from thumbs below and, once Velho approves posting, from real engagement.
+		301 button (collapsed) Sources (17), Secondary Actions: Expand
+			302 text Sources (
+			303 text 17
+			304 text )
+		305 button (collapsed) Check the source before using a draft, Secondary Actions: Expand
+			306 text Check the source before using a draft
+		307 text Additional audit AI spend : $ 0.62
+
+The focused UI element is 70 button Reload results

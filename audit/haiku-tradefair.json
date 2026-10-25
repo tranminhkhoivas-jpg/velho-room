@@ -1,0 +1,140 @@
+{
+  "title": "Kesko Oyj: trade fair booth companion",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "30-second brief"
+    },
+    {
+      "t": "p",
+      "text": "Kesko is a Finnish trading group (grocery, building and technical trade, car trade) with about €12.5bn in 2025 net sales and roughly 18,991 employees. It is absorbing a large acquisition (Dahl's Nordic technical trade business) while pushing margins and a growth target of around €20bn group net sales in the early 2030s. Right now the company is busy with integration, a rights issue and a warehouse tech rollout, which makes post-deal efficiency a live topic. Goal at the booth: learn where the integration pain sits and whether a monthly, hands-on automation partner is worth a follow-up call."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "What they do: grocery trade, building and technical trade, and car trade across the Nordics and Baltics, operated with K-Group retailers.",
+          "url": "https://www.kesko.fi/en/",
+          "tag": "profile"
+        },
+        {
+          "text": "Size: €12,474.1m net sales and €654.9m comparable operating profit in 2025; about 18,991 employees.",
+          "url": "https://www.kesko.fi/en/",
+          "tag": "size"
+        },
+        {
+          "text": "Freshest news: Dahl's technical trade operations in Sweden, Norway and Denmark are being acquired for €1.2bn (debt-free), completion targeted by end-2026. EU Commission approval came on 2026-09-24. A €500-700m rights issue is proposed, with an EGM on 2026-10-30.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+          "tag": "news"
+        },
+        {
+          "text": "Who leads: Jorma Rauhala (President and CEO), Anu Hämäläinen (CFO), Sami Kiiski (Building and Technical Trade), Ari Akseli (Grocery Trade), Johanna Ali (Car Trade), Minttu Sinisalo (HR).",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/",
+          "tag": "leadership"
+        },
+        {
+          "text": "Manual-work clue (inferred, not confirmed): integrating Dahl, which keeps separate brands and units, may require manual reconciliation of order and financial data across units. Ask about it rather than assume it.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+          "tag": "clue"
+        }
+      ]
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Now that the Dahl deal is cleared and nearing close, which integration workflows (orders, invoicing, reporting) are taking the most coordination time?"
+        },
+        {
+          "text": "How are you thinking about the post-deal efficiency programme alongside the rights issue and the €670-730m profit guidance?"
+        },
+        {
+          "text": "Where has the Manhattan warehouse rollout surfaced adjacent manual steps, such as data handoffs between warehouse, ERP and division systems?"
+        }
+      ],
+      "tag": "ask"
+    },
+    {
+      "t": "draft",
+      "label": "Follow-up (send tonight)",
+      "text": "Hi [Name],\n\nGood to meet you at the booth today. You mentioned [the Dahl integration keeping separate units and systems for now]. That's a problem we've seen pop up in similar integrations, so it's worth a proper look.\n\nOne idea: a two-week scan of the order-to-invoice handoffs between the Dahl units and the core division, to show where the manual reconciliation actually sits and what's worth automating first. No commitment, just a clearer map.\n\nWould a 20-minute call next week work?\n\n[Your name], Velho"
+    },
+    {
+      "t": "note",
+      "text": "Before sending: replace [Name] with the contact's name, and replace the bracketed phrase with something they actually said at the booth. Remove 'we've seen pop up in similar integrations' unless you can back it with a real Velho case; otherwise rephrase as a question, e.g. 'is that something you're seeing too?'. Verify the Dahl integration detail is what they discussed. Do not send before reviewing."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ]
+}

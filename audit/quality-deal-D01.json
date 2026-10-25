@@ -1,0 +1,137 @@
+{
+  "title": "Dead deal resurrector: Kesko / Heikki Nurmilaakso (synthetic demo record)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Synthetic demo history. The CONVERSATION RECORD is a constructed example, not a real conversation with Kesko or Heikki Nurmilaakso. Treat every statement about it as demo data."
+    },
+    {
+      "t": "h",
+      "text": "1. Relevant new triggers since 2026-02-12"
+    },
+    {
+      "t": "p",
+      "text": "The dossier's signals are all dated after the last recorded contact, so they are candidates. None is directly about customer service, K-Rauta, B2B email handling or vendor assessment, which is what the conversation covered."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Dahl technical trade acquisition agreed (2026-06-15). Integration may bring new workflow needs across units, but nothing in the dossier mentions customer service.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+          "tag": "possible relevance, indirect"
+        },
+        {
+          "text": "European Commission unconditional approval of the Dahl deal (2026-09-24). Confirms the deal is nearing close; no link to customer service tooling.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/",
+          "tag": "context only"
+        },
+        {
+          "text": "Rights issue of €500-700m planned, EGM on 2026-10-30, terms not yet set (2026-10-08). Could affect spending timing, but the dossier gives no detail on budget or procurement.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/",
+          "tag": "context only, proposed"
+        },
+        {
+          "text": "Manhattan Associates selected as warehouse cloud provider (2026-10-06). Shows Kesko investing in logistics tooling, not customer service.",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html",
+          "tag": "context only"
+        },
+        {
+          "text": "Q2 2026 results with narrowed guidance (2026-07-22). Points to cost discipline, which may favour efficiency work, but does not address the vendor-assessment blocker.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/",
+          "tag": "context only"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "2. Does a trigger address the recorded objection?"
+    },
+    {
+      "t": "p",
+      "text": "No, not on the evidence supplied. The objection is that group procurement must assess new vendors first and the timeline is unknown. None of the dated triggers mentions procurement, vendor assessment, a customer service budget or a slot in the assessment queue. The dossier also has no evidence that the security and GDPR materials were sent or that the assessment started. The objection is therefore unresolved, and nothing here shows budget or permission has appeared."
+    },
+    {
+      "t": "h",
+      "text": "3. Reconnection decision"
+    },
+    {
+      "t": "p",
+      "text": "No reconnection draft is generated. The only candidate triggers are indirect or context-only and do not touch the blocker, so a reconnection now would rest on the M&A news alone, which is not a real reason to revisit this proposal."
+    },
+    {
+      "t": "h",
+      "text": "Evidence that would justify reconnecting"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Confirmation that group procurement's vendor assessment has started, is complete or has a date."
+        },
+        {
+          "text": "A dated signal that the K-Rauta or wider customer service team is planning email or support tooling work."
+        },
+        {
+          "text": "A reply from Heikki or procurement confirming the security and GDPR materials were received or requested."
+        },
+        {
+          "text": "Any change in the customer service leadership or budget owner, sourced from a dated public record."
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Suggested next step for the Velho team: check internally whether the GDPR and security pack was ever sent to procurement (the record leaves this open), and mark the deal as waiting on procurement rather than actively reconnecting."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        }
+      ]
+    }
+  ]
+}

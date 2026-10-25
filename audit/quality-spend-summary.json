@@ -1,0 +1,14 @@
+{
+  "audit": "velho-employee-20261024",
+  "openrouter": {
+    "calls": 168,
+    "reported_usd": 1.0001995,
+    "unconfirmed": 0
+  },
+  "fastino": {
+    "calls": 90,
+    "rate_estimate_usd": 0.01612781,
+    "provider_reported_usd": null,
+    "unconfirmed": 0
+  }
+}

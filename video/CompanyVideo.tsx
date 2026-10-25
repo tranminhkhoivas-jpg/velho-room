@@ -12,7 +12,7 @@ export type VideoProps = {
   accent: string; // brand colour picked from the screenshot
   sources: number;
   signals: { date: string; type: string; text: string; source: string }[];
-  quote: { text: string; speaker: string };
+  quote: { text: string; speaker: string; paraphrase?:boolean };
   findings: { title: string; fact: string }[];
   question: string;
 };
@@ -80,7 +80,7 @@ function Hook(p: VideoProps) {
           {`Before we ever call ${p.company}`}
         </Kicker>
         <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 300, color: "white", lineHeight: 1, letterSpacing: -12, marginTop: 20, fontVariantNumeric: "tabular-nums" }}>{n}</div>
-        <Words text="public sources, read." start={30} style={{ fontFamily: SANS, fontWeight: 600, fontSize: 64, color: p.accent, justifyContent: "center" }} />
+        <Words text="public sources, linked." start={12} style={{ fontFamily: SANS, fontWeight: 600, fontSize: 64, color: p.accent, justifyContent: "center" }} />
       </AbsoluteFill>
     </AbsoluteFill>
   );
@@ -89,8 +89,8 @@ function Hook(p: VideoProps) {
 // 2. Their own homepage, flying in on a 3D tilt while an accent scan line reads it.
 function Site(p: VideoProps) {
   const f = useCurrentFrame();
-  const settle = ramp(f, 0, 55);
-  const scan = ramp(f, 30, 120, -5, 105, SMOOTH);
+  const settle = ramp(f, 0, 18);
+  const scan = ramp(f, 12, 75, -5, 105, SMOOTH);
   return (
     <AbsoluteFill style={{ background: `radial-gradient(circle at 70% 40%, ${p.accent}33, ${BG} 60%)`, overflow: "hidden" }}>
       <AbsoluteFill style={{ perspective: 2200 }}>
@@ -126,11 +126,11 @@ function Site(p: VideoProps) {
         </div>
       </AbsoluteFill>
       <div style={{ position: "absolute", left: 110, top: 290, width: 560 }}>
-        <Kicker color={p.accent} f={f} at={20}>
+        <Kicker color={p.accent} f={f} at={0}>
           Step 1 · their own words
         </Kicker>
-        <Words text={p.company} start={26} style={{ fontFamily: SANS, fontWeight: 800, fontSize: 110, color: "white", marginTop: 24, letterSpacing: -3 }} />
-        <div style={{ fontFamily: SANS, fontSize: 32, lineHeight: 1.4, color: "#b8c0cc", marginTop: 24, opacity: ramp(f, 50, 70), translate: `0 ${ramp(f, 50, 70, 20, 0)}px` }}>{p.oneLiner}</div>
+        <Words text={p.company} start={5} style={{ fontFamily: SANS, fontWeight: 800, fontSize: 110, color: "white", marginTop: 24, letterSpacing: -3 }} />
+        <div style={{ fontFamily: SANS, fontSize: 32, lineHeight: 1.4, color: "#b8c0cc", marginTop: 24, opacity: ramp(f, 8, 18), translate: `0 ${ramp(f, 8, 18, 20, 0)}px` }}>{p.oneLiner}</div>
       </div>
     </AbsoluteFill>
   );
@@ -139,54 +139,30 @@ function Site(p: VideoProps) {
 // 3. What changed: their dated news on a timeline the camera travels along.
 function Timeline(p: VideoProps) {
   const f = useCurrentFrame();
-  const gap = 760;
-  const width = 400 + gap * Math.max(1, p.signals.length);
-  const cam = ramp(f, 10, 200, 0, Math.max(0, width - 1700), SMOOTH);
-  return (
-    <AbsoluteFill style={{ background: BG, overflow: "hidden" }}>
-      <div style={{ position: "absolute", left: 110, top: 70, zIndex: 2 }}>
-        <Kicker color={p.accent} f={f}>
-          Step 2 · what changed
-        </Kicker>
-      </div>
-      <div style={{ position: "absolute", left: 0, top: 0, width, height: 1080, translate: `${-cam}px 0` }}>
-        <div style={{ position: "absolute", left: 120, top: 540, height: 3, width: width - 120, background: `linear-gradient(90deg, ${p.accent}, ${p.accent}55)`, transformOrigin: "left", scale: `${ramp(f, 0, 60, 0, 1, SMOOTH)} 1` }} />
-        {p.signals.map((s, i) => {
-          const at = 25 + i * 42;
-          const pop = spring({ frame: f - at, fps: 30, config: { damping: 14, stiffness: 160 } });
-          const up = i % 2 === 0;
-          const x = 300 + i * gap;
-          return (
-            <div key={i}>
-              <div style={{ position: "absolute", left: x - 14, top: 527, width: 28, height: 28, borderRadius: 14, background: p.accent, scale: String(pop), boxShadow: `0 0 30px ${p.accent}` }} />
-              <div style={{ position: "absolute", left: x - 1, top: up ? 380 : 556, width: 2, height: 144 * pop, background: "#ffffff33", transformOrigin: up ? "bottom" : "top" }} />
-              <div style={{ position: "absolute", left: x - 40, top: up ? 170 : 760, width: 660, opacity: pop, translate: `0 ${(1 - pop) * (up ? 40 : -40)}px` }}>
-                <div style={{ fontFamily: MONO, fontSize: 30, color: p.accent }}>
-                  {s.date} <span style={{ color: "#7d8794" }}>· {s.type}</span>
-                </div>
-                <div style={{ fontFamily: SANS, fontSize: 38, lineHeight: 1.25, color: "white", marginTop: 12 }}>{s.text}</div>
-                <div style={{ fontFamily: MONO, fontSize: 20, color: "#7d8794", marginTop: 10 }}>{s.source}</div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </AbsoluteFill>
-  );
+  return <AbsoluteFill style={{background:BG,padding:"65px 110px"}}>
+    <Kicker color={p.accent} f={f}>Step 2 · what changed</Kicker>
+    <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:36,marginTop:48}}>
+      {p.signals.map((s,i)=><div key={i} style={{padding:30,border:"1px solid #ffffff30",borderRadius:18,opacity:ramp(f,i*3,i*3+10)}}>
+        <div style={{fontFamily:MONO,fontSize:26,color:p.accent}}>{s.date} · {s.type}</div>
+        <div style={{fontFamily:SANS,fontSize:36,lineHeight:1.2,color:"white",marginTop:18}}>{s.text}</div>
+        <div style={{fontFamily:MONO,fontSize:20,color:"#aab4c3",marginTop:16}}>{s.source}</div>
+      </div>)}
+    </div>
+  </AbsoluteFill>;
 }
 
 // 4. Their leader's own priority, almost still.
 function Quote(p: VideoProps) {
   const f = useCurrentFrame();
   const words = p.quote.text.split(/\s+/).length;
-  const done = 10 + words * 3;
+  const done = 8 + words;
   return (
     <AbsoluteFill style={{ background: `radial-gradient(circle at 20% 20%, ${p.accent}22, ${BG} 55%)`, padding: "0 180px", justifyContent: "center", scale: String(ramp(f, 0, 150, 1, 1.05, SMOOTH)) }}>
-      <div style={{ position: "absolute", left: 120, top: 40, fontFamily: SERIF, fontSize: 420, color: p.accent, opacity: 0.25 * ramp(f, 0, 20) }}>“</div>
+      {!p.quote.paraphrase && <div style={{ position: "absolute", left: 120, top: 40, fontFamily: SERIF, fontSize: 420, color: p.accent, opacity: 0.25 * ramp(f, 0, 20) }}>“</div>}
       <Kicker color={p.accent} f={f}>
-        Step 3 · what they said
+        {p.quote.paraphrase ? "Step 3 · stated priority (paraphrase)" : "Step 3 · what they said"}
       </Kicker>
-      <Words text={p.quote.text} start={10} stagger={3} blur style={{ fontFamily: SERIF, fontSize: 86, lineHeight: 1.12, color: "white", marginTop: 40 }} />
+      <Words text={p.quote.text} start={4} stagger={1} blur style={{ fontFamily: SERIF, fontSize: 86, lineHeight: 1.12, color: "white", marginTop: 40 }} />
       <div style={{ display: "flex", alignItems: "center", gap: 20, marginTop: 50, opacity: ramp(f, done, done + 15) }}>
         <span style={{ width: ramp(f, done, done + 25, 0, 90), height: 3, background: p.accent }} />
         <span style={{ fontFamily: SANS, fontSize: 34, color: "#c9d0da" }}>{p.quote.speaker}</span>
@@ -204,11 +180,11 @@ function Finding({ n, text, fact, accent }: { n: number; text: string; fact: str
     <AbsoluteFill style={{ background: loud ? accent : n === 1 ? BG : "#0d1117", justifyContent: "center", padding: "0 150px", overflow: "hidden" }}>
       <div style={{ position: "absolute", right: -40 + f * 2.5, top: 60, fontFamily: SANS, fontWeight: 800, fontSize: 720, lineHeight: 1, color: "transparent", WebkitTextStroke: `3px ${loud ? "#0006" : accent + "66"}`, letterSpacing: -30 }}>0{n}</div>
       <Kicker color={loud ? BG : accent} f={f}>
-        {`Finding ${n} of 3`}
+        {`Conversation hypothesis ${n} of 3`}
       </Kicker>
-      <Words text={text} start={4} stagger={2} style={{ fontFamily: SANS, fontWeight: 800, fontSize: 104, lineHeight: 1.05, color: ink, marginTop: 30, maxWidth: 1450, letterSpacing: -3 }} />
+      <Words text={text} start={0} stagger={0} style={{ fontFamily: SANS, fontWeight: 800, fontSize: 104, lineHeight: 1.05, color: ink, marginTop: 30, maxWidth: 1450, letterSpacing: -3 }} />
       {fact && (
-        <div style={{ display: "flex", gap: 18, alignItems: "flex-start", marginTop: 44, maxWidth: 1250, opacity: ramp(f, 22, 34), translate: `${ramp(f, 22, 40, -30, 0)}px 0` }}>
+        <div style={{ display: "flex", gap: 18, alignItems: "flex-start", marginTop: 44, maxWidth: 1250, opacity: ramp(f, 0, 8), translate: `${ramp(f, 0, 8, -10, 0)}px 0` }}>
           <span style={{ fontFamily: MONO, fontSize: 22, padding: "6px 12px", borderRadius: 6, background: loud ? BG : accent, color: loud ? accent : BG, whiteSpace: "nowrap" }}>EVIDENCE</span>
           <span style={{ fontFamily: SANS, fontSize: 34, lineHeight: 1.35, color: loud ? "#000c" : "#c9d0da" }}>{fact}</span>
         </div>
@@ -234,18 +210,6 @@ function Close(p: VideoProps) {
         <div style={{ fontFamily: MONO, fontSize: 20, color: "#7d8794", marginTop: 12 }}>Made from public sources · hackathon prototype · draft, not sent</div>
       </div>
     </AbsoluteFill>
-  );
-}
-
-// Short accent flash on every hard cut.
-function Flash({ accent }: { accent: string }) {
-  const f = useCurrentFrame();
-  return (
-    <>
-      {[CUTS.site, CUTS.timeline, CUTS.quote, CUTS.f1, CUTS.f2, CUTS.f3, CUTS.close].map((c) => (
-        <AbsoluteFill key={c} style={{ background: c === CUTS.quote ? "white" : accent, opacity: interpolate(f, [c, c + 5], [0.55, 0], clamp) * (f >= c ? 1 : 0), pointerEvents: "none" }} />
-      ))}
-    </>
   );
 }
 
@@ -279,12 +243,11 @@ export function CompanyVideo(p: VideoProps) {
       {seq(CUTS.timeline, CUTS.quote, <Timeline {...p} />)}
       {seq(CUTS.quote, CUTS.f1, <Quote {...p} />)}
       {[CUTS.f1, CUTS.f2, CUTS.f3].map((c, i) => (
-        <Sequence key={c} from={c} durationInFrames={60}>
+        <Sequence key={c} from={c} durationInFrames={90}>
           <Finding n={i + 1} text={p.findings[i]?.title || ""} fact={p.findings[i]?.fact || ""} accent={p.accent} />
         </Sequence>
       ))}
       {seq(CUTS.close, CUTS.end, <Close {...p} />)}
-      <Flash accent={p.accent} />
       <Grain />
       <Audio src={staticFile("velho-score.wav")} volume={0.8} />
     </AbsoluteFill>

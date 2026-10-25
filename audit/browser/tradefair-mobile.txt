@@ -1,0 +1,61 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/tradefair?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/tradefair?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Trade fair companion, Value: 1
+			6 text Trade fair companion
+		7 text Snap a booth, get a 30-second brief and a follow-up draft before you walk away. Snap a booth, badge or business card
+		8 button Snap a booth, badge or business card
+		9 text field (settable) Description: Confirm company name, Value: Kesko
+		10 button Confirm company and brief me
+		13 heading Kesko Oyj: trade fair companion brief, Value: 1
+			14 text Kesko Oyj: trade fair companion brief
+		15 heading 30-second brief: Kesko Oyj, Value: 2
+			16 text 30-second brief: Kesko Oyj
+		17 text Kesko is a Helsinki-listed trading group running grocery, building and technical trade and car trade across the Nordics and Baltics. It is in the middle of a large deal: it is buying Dahl's technical trade businesses in Sweden, Norway and Denmark, funded partly by a rights issue, with EU approval already in hand and completion expected by end of 2026. Integration work, growing sales and visible hiring in finance and AI make this a timely conversation.
+		18 content list
+			19 container
+				20 AXListMarker • 
+				21 text What they do: grocery (K-Group chains such as K-Market and K-Citymarket), building and technical trade, and car trade, across the Nordics and Baltics.
+				22 link Description: source, Value: kesko.fi/
+			23 container
+				24 AXListMarker • 
+				25 text Size: headcount figures vary by source (about 15,900 to 18,900 in the dossier sources; Forbes shows 39,000). Treat the exact number as unverified and confirm at the booth.
+				26 link Description: source, Value: stockanalysis.com/quote/hel/KESKOB/company/
+			27 container
+				28 AXListMarker • 
+				29 text Freshest news: Kesko plans a rights issue of about €500-700 million to finance the Dahl acquisition (2026-10-08), and the European Commission has unconditionally approved the deal, with completion expected by end of 2026 (2026-09-24).
+				30 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			31 container
+				32 AXListMarker • 
+				33 text Who leads: Jorma Rauhala (President and CEO), Anu Hämäläinen (EVP, CFO), Ari Akseli (President, Grocery Trade).
+				34 link Description: source, Value: stockanalysis.com/quote/hel/KESKOB/company/
+			35 container
+				36 AXListMarker • 
+				37 text Manual-work clue (inferred, not confirmed): a Business Controller opening in Kesko-IT may point to reporting and reconciliation workload.
+				38 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+		39 content list
+			40 container
+				41 AXListMarker • 
+				42 text ask With the Dahl integration coming, which back-office or data processes are you most keen to consolidate first, and where do they run today?
+			43 container
+				44 AXListMarker • 
+				45 text ask You have an open AI Solutions trainee role: where does the in-house AI team want outside help most, build capacity or a specific workflow?
+			46 container
+				47 AXListMarker • 
+				48 text ask Who on the finance side owns integration reporting once Dahl closes, and what does that monthly close look like right now?
+		49 text Follow-up (send tonight)
+		50 text draft — not sent
+		51 button Copy
+		52 text Hi [Name], great meeting you at the Kesko booth today. You mentioned [the Dahl integration / one specific thing they said]; that is exactly the kind of work we like to get into early. Velho finds the manual work that slows a team down, builds the fix and makes sure people actually use it. For a business taking on Dahl, I'd suggest a short two-week scan of the integration reporting and reconciliation flow to find the first automation worth shipping. Would a 30-minute call next week work? Best, [Your name], Velho
+		53 text Before sending: replace [Name], [Your name] and the bracketed topic with what the person actually said at the booth. Check the Dahl and rights issue facts are still current. Review and send manually; this draft has not been sent.
+		54 button (collapsed) Sources (19), Secondary Actions: Expand
+			55 text Sources (
+			56 text 19
+			57 text )
+		58 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/tradefair?c=Kesko

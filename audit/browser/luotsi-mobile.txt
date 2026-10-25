@@ -1,0 +1,60 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/luotsi?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/luotsi?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Luotsi Chart, Value: 1
+			6 text Luotsi Chart
+		7 text The company’s growth waters as a nautical chart: goals ahead, rocks to avoid, lighthouses to steer by.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Luotsi Chart: Kesko Oyj, Value: 1
+			15 text Luotsi Chart: Kesko Oyj
+		16 container Nautical growth chart
+		17 content list
+			18 container
+				19 AXListMarker • 
+				20 text rock Rock: Dahl integration back-office load — Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (combined 2025 net sales about €2.07bn); completion expected by end of 2026. We noticed integration work will be heavy, though the internal workload is for Kesko to judge.
+				21 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			22 container
+				23 AXListMarker • 
+				24 text rock Rock: Cost-to-serve pressure on thin margins — Q1 2026 net sales rose 7.1% to €3,029.0m with comparable operating profit of €102.0m, a margin of about 3.4% (estimate based on reported figures). Growth at stable margins can make routine cost harder to hold.
+				25 link Description: source, Value: investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746
+			26 container
+				27 AXListMarker • 
+				28 text rock Rock: Finance reporting workload in growth — Kesko-IT posted a Business Controller opening; an accountant role at Kesko Senukai Digital was also posted. These may point to reporting and reconciliation load (inferred from postings, not confirmed).
+				29 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			30 container
+				31 AXListMarker • 
+				32 text rock Rock: Many new trade names to reconcile — Six new trade names were registered in late 2025 (K-Market, Valintatalo, Suomen Lähikauppa and others), which may add setup and data work across systems.
+				33 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			34 container
+				35 AXListMarker • 
+				36 text rock Rock: Capital raise tied to a large deal — Kesko plans a rights issue of about €500-700 million to finance the Dahl acquisition, so integration spend will be closely watched.
+				37 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+		38 content list
+			39 container
+				40 AXListMarker • 
+				41 text quick win Lighthouse: Automated Dahl integration reporting pack — Kesko's stated goal is growth in technical trade via Dahl. A reporting pipeline that consolidates the acquired entities' numbers could ease the close-out work during integration.
+			42 container
+				43 AXListMarker • 
+				44 text quick win Lighthouse: Automated invoice and reconciliation triage — Finance hiring signals reporting and reconciliation load. A narrow automation pilot in one finance workflow can be shipped in weeks and measured.
+			45 container
+				46 AXListMarker • 
+				47 text quick win Lighthouse: Sales-admin task automation in stores — Store and K-Auto sales roles are open, and sales-admin is likely in scope. Automating repetitive admin supports Kesko's stated aim to reduce errors and improve efficiency.
+		48 text Captain's note (to the CEO)
+		49 text draft — not sent
+		50 button Copy
+		51 text Captain here, Oskar from Velho. Kesko is charting a big course: Dahl, a rights issue, and sales still rising. I can see the wind is strong, but the crew carries the load. Let's chart a short route together, and I'll bring a few small lanterns for the rocks we noticed. Shall we plan it this month?
+		52 text Rocks are read from public evidence, not from inside the company. Chart is a conversation starter.
+		53 button (collapsed) Sources (19), Secondary Actions: Expand
+			54 text Sources (
+			55 text 19
+			56 text )
+		57 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/luotsi?c=Kesko

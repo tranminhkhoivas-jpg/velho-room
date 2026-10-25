@@ -1,0 +1,53 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/ghost?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/ghost?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Ghost Employee, Value: 1
+			6 text Ghost Employee
+		7 text “Meet your invisible hire”: the manual work a company pays for, as a trading card a CEO forwards.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading Meet Täydennys-Tapio Kauppinen, Kesko Oyj's invisible hire, Value: 1
+			14 text Meet Täydennys-Tapio Kauppinen, Kesko Oyj's invisible hire
+		15 container Ghost employee card
+		16 content list
+			17 container
+				18 AXListMarker • 
+				19 text evidence Steering grocery replenishment plans by hand: checking forecasts, adjusting order quantities and chasing exceptions — Kesko is advertising a replenishment planner role to steer K-grocery supply chain planning (inferred from the vacancy). (~10 h/week, estimate)
+				20 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			21 container
+				22 AXListMarker • 
+				23 text evidence Dispatch coordination: matching loads, routes and delivery slots, and phoning around when plans change — A dispatch coordinator (ajojärjestelijä) role for K-group in Vantaa has been open for 30+ days (inferred). (~8 h/week, estimate)
+				24 link Description: source, Value: glassdoor.com/Jobs/Kesko-Finland-Jobs-EI_IE10397.0,5_IL.6,13_IN79.htm
+			25 container
+				26 AXListMarker • 
+				27 text evidence Spare-parts stock checks, part look-ups and reorders for car dealerships — K-Auto in Espoo is listing a spare-parts supervisor (työnjohtaja / varaosavastaava), which suggests manual parts and stock handling (inferred). (~6 h/week, estimate)
+				28 link Description: source, Value: glassdoor.com/Jobs/Kesko-Espoo-Jobs-EI_IE10397.0,5_IL.6,11_IC2503014.htm
+			29 container
+				30 AXListMarker • 
+				31 text evidence Month-end consolidation: collecting numbers from units, reconciling them and building the management reports — Open Group Finance and Business Controller roles and Kesko-IT vacancies suggest a recurring finance and reporting workload (inferred). (~9 h/week, estimate)
+				32 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			33 container
+				34 AXListMarker • 
+				35 text evidence Lining up Dahl's order, product and logistics data from Sweden, Norway and Denmark with Kesko's own formats — Kesko is acquiring Dahl's technical trade companies, with about €2.1B in combined 2025 net sales, and the EU approved the deal. Completion is expected by end-2026. (~8 h/week, estimate)
+				36 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			37 container
+				38 AXListMarker • 
+				39 text evidence Public tender paperwork: reading notices, assembling bids and tracking awards across several countries — Kesko is listed as winner on public tenders in Sweden, Latvia and Finland, including municipal building-material and food supply contracts. (~4 h/week, estimate)
+				40 link Description: source, Value: ted.europa.eu/en/notice/-/detail/20334-2025
+		41 text Estimate: All hours are our estimate: we guessed the weekly share of one role's repetitive work that each public clue points to, divided the total by a 37.5-hour week, and multiplied by an estimated €55,000 loaded Finnish salary. Public evidence only; the real numbers come from a conversation.
+		42 text Note to the COO (with the card)
+		43 text draft — not sent
+		44 button Copy
+		45 text Hi [Name], we noticed the Dahl deal and the new agentic warehouse system, and sketched a playful 'ghost employee' from Kesko's public job ads. By our estimate he's about 1.2 FTE of repeat work. The details are surely off. Is Tapio real, or just a ghost? Happy to be corrected in 15 minutes. – [Velho name]
+		46 button (collapsed) Sources (21), Secondary Actions: Expand
+			47 text Sources (
+			48 text 21
+			49 text )
+		50 text OpenRouter spend so far: $ 4.59
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/ghost?c=Kesko

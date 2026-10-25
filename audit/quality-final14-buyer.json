@@ -1,0 +1,164 @@
+{
+  "title": "Buyer simulator setup card: Kesko CFO (Anu Hämäläinen)",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Group net sales €12,474.7m in 2025 (reported +4.7%, comparable +2.3%); comparable operating profit €654.9m, operating margin 5.3%. Source: Annual Report 2025, Year in figures (p. 7).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "figures"
+        },
+        {
+          "text": "Cash flow from operating activities fell to €879.7m (€1,008.2m); capex €735.7m. Source: Annual Report 2025, Year in figures (p. 7).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "figures"
+        },
+        {
+          "text": "Priority: securing profitability and improving cash flow in building and technical trade; strengthening cash flow and working-capital forecasting and monitoring. Source: Annual Report 2025, Strategy and risks (pp. 19, 23, 24).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "priority"
+        },
+        {
+          "text": "Risk named explicitly: growing financing costs combined with weaker operating cash flow could limit profitability and investment ability; plan to improve cost-efficiency monitoring. Source: Annual Report 2025, Risks (p. 24).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "risk"
+        },
+        {
+          "text": "Management says it has improved efficiency through digital services and AI; the stated goal is sales growth, profitability and efficiency in all businesses. Source: Annual Report 2025, CEO review (p. 11).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "priority"
+        },
+        {
+          "text": "Acquisition integration (Davidsen, Denmark; Dahl proposed) and an estimated €200-250m annual store-network investment compete for capital. Source: Annual Report 2025, Key events (p. 8).",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf",
+          "tag": "priority"
+        }
+      ]
+    },
+    {
+      "t": "list",
+      "title": "Likely objections",
+      "items": [
+        {
+          "text": "Show me the payback in cash, not in efficiency. Operating cash flow already dropped by about €130m in 2025, so I need a measurable effect on working capital or cost within two quarters.",
+          "tag": "objection"
+        },
+        {
+          "text": "We already run ERP, warehouse and digital tools, including the Manhattan warehouse rollout. What exactly does your work add that those projects don't already cover?",
+          "tag": "objection"
+        },
+        {
+          "text": "With a rights issue and capex pressure ahead, why should I fund a new automation project now rather than after integration is complete?",
+          "tag": "objection"
+        },
+        {
+          "text": "Who owns the outcome and the data? I don't want another vendor dependency or a project that stalls when the key people move on.",
+          "tag": "objection"
+        },
+        {
+          "text": "Your claims are generic. Name a comparable case and the cost of a pilot, and tell me how you'd prevent scope creep in a group this size.",
+          "tag": "objection"
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Coaching: open with the cash number, not the technology. The 2025 operating cash flow of €879.7m versus €1,008.2m is a number a CFO already tracks and worries about. Ask a question first: where in the next two quarters is working capital or manual reconciliation slowing cash conversion? Frame any idea as a hypothesis to test, not a diagnosis, because public documents show only the figures, not Kesko's internal processes."
+    },
+    {
+      "t": "note",
+      "text": "The CFO in the chat below is an AI simulation built from public documents, not the real person. Its views, objections and reactions are invented for rehearsal and do not reflect Anu Hämäläinen's actual opinions, priorities or commitments. Nothing here is a Kesko statement or a confirmed need."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Readable annual-report PDF excerpt; limited selection, not the entire document. Check period, units and original pages."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Actual annual-report PDF excerpt used by the simulation",
+          "url": "https://www.kesko.fi/492fca/globalassets/03-sijoittaja/raporttikeskus/2026/q1/vuosiraportti-2025/kesko-annual-report-2025.pdf"
+        }
+      ]
+    }
+  ]
+}

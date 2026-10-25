@@ -1,0 +1,299 @@
+{
+  "title": "Case study draft: shared-inbox triage for a Helsinki property manager (P2, synthetic notes, Nov 2024)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTHETIC / SAMPLE NOTICE (from the source notes, preserved): this case is built from synthetic project notes. Not verified by client or independent party. Staff-supplied notes, not independently verified. Do not publish without client approval and fact-check. Client name and figures must not go public until approved."
+    },
+    {
+      "t": "h",
+      "text": "Headline"
+    },
+    {
+      "t": "p",
+      "text": "Headline (measured outcome only): median first response time fell from 26 h to 7.5 h in a two-week pilot with two assistants. Note: the pilot covered 2 of 3 assistants and two weeks; the 'halved triage time' is a self-report and is excluded from the headline."
+    },
+    {
+      "t": "h",
+      "text": "Measured outcomes"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Median first response time (shared inbox)",
+          "26 h (ticket export, 2 months, measured)",
+          "7.5 h (pilot weeks 3-4, 2 weeks, measured)"
+        ],
+        [
+          "Triage time per mail",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Category accuracy vs. assistant labels",
+          "n/a",
+          "88% on 400 historic mails (test, measured against Laura's labels)"
+        ],
+        [
+          "Urgent-mail recall",
+          "n/a",
+          "94% on test set (31 of 33 caught; 2 missed, both vague wording)"
+        ],
+        [
+          "Urgent cases sitting over one working day",
+          "3 cases last quarter (per Laura, not verified)",
+          "not measured"
+        ],
+        [
+          "Drafts edited by assistants",
+          "n/a",
+          "About half (observed in pilot, not precisely counted)"
+        ],
+        [
+          "Draft spot-check: wrong apartment number",
+          "n/a",
+          "2 of 20 checked (measured in spot check)"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Story"
+    },
+    {
+      "t": "p",
+      "text": "The client manages around 4,800 apartments with nine property managers and three assistants. A shared mailbox was receiving about 140 mails a day, mixing fault reports, water damage, sauna bookings and payment questions. Assistants triaged by hand."
+    },
+    {
+      "t": "p",
+      "text": "The team built the smallest useful version: a classifier that labels incoming mails into six categories with an urgency flag, and generates a suggested reply draft in the shared Outlook mailbox. Nothing is sent automatically. Urgent items trigger an SMS to the on-call person and are highlighted. A keyword fallback runs if the language model is unavailable."
+    },
+    {
+      "t": "p",
+      "text": "In a two-week pilot with two of three assistants, median first response time moved from 26 hours to 7.5 hours (measured). Assistants said triage time was roughly halved, but this was not timed. The third assistant preferred their existing method, and a pairing session was planned. A spot check found drafts with wrong apartment numbers in 2 of 20 cases, so a 'check fields' banner was added."
+    },
+    {
+      "t": "p",
+      "text": "Data handling: no tenant data is stored outside the EU tenant, logs are kept 30 days, and a data processing agreement was signed. Results are early, come from a small pilot, and the test accuracy figures apply to historic mails rather than live traffic."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn draft (for Velho review, not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn, max 120 words",
+      "text": "A property manager with ~4,800 apartments was getting about 140 shared-inbox mails a day. Faults, water damage, sauna bookings and payments were all mixed together.\n\nWe built a small classifier that labels each mail and drafts a reply for an assistant to check. Nothing sends automatically. Urgent mails trigger an SMS to on-call.\n\nIn a two-week pilot with two assistants, median first response fell from 26 h to 7.5 h (measured). Early days, small pilot. The team is still checking drafts closely: one spot check caught wrong apartment numbers in 2 of 20.\n\nIf your shared inbox is the bottleneck, we are happy to talk through what it would take to look at it."
+    },
+    {
+      "t": "h",
+      "text": "One-pager (six lines)"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Client: property management, ~4,800 apartments, 9 property managers + 3 assistants (client name withheld pending approval)."
+        },
+        {
+          "text": "Problem: shared inbox ~140 mails/day, mixed categories, urgent faults sometimes waiting over a working day (anecdotal)."
+        },
+        {
+          "text": "Build: 6-category classifier + urgency flag, drafts only, SMS to on-call, keyword fallback."
+        },
+        {
+          "text": "Measured: median first response 26 h to 7.5 h over 2 weeks; test accuracy 88% category, 94% urgent recall on 400 historic mails."
+        },
+        {
+          "text": "Not measured: triage time (self-report 'halved'), urgent backlog, live accuracy."
+        },
+        {
+          "text": "Governance: EU data residency, 30-day logs, DPA signed; drafts reviewed by staff before use."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Missing facts and approvals required"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Written client approval to publish name, figures and quotes (not yet obtained)."
+        },
+        {
+          "text": "Verification of the 3 urgent cases from Laura (currently unverified)."
+        },
+        {
+          "text": "Measured triage time per mail, if the client wants it reported (currently not timed)."
+        },
+        {
+          "text": "Post-pilot figures beyond the two-week window and whether the third assistant adopted the tool."
+        },
+        {
+          "text": "Clarification of 'urgent' SMS volume and any incidents where the classifier missed a real emergency in live use."
+        },
+        {
+          "text": "Confirmation that the 2-of-20 apartment-number error rate is acceptable to the client, and whether it was re-measured after the banner."
+        },
+        {
+          "text": "Legal/comms sign-off on GDPR wording and the Velho-side review of the LinkedIn copy."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 33 statement groups; 0 unsupported sections withheld, 12 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Kallio & Lehtonen Kiinteistöt Oy\nProject owner: Mikko Heikkilä\nclient: isännöinti, ~4 800 apts, 9 isännöitsijää + 3 assistants\n- pain: shared inbox isannointi@ gets ~140 mails/day, vikailmoitukset (faults), vesivahingot, saunavuorot, maksukysymykset all mixed\n- baseline: assistants triage by hand, first response time median 26 h (pulled from ticket export, 2 months)\n- urgent ones (vesivuoto!) sometimes sit >1 working day. 3 cases last quarter per Laura (not verified)\n- smallest build: classifier (6 categories + urgency flag) via LLM on incoming mails -> label + suggested reply draft in Outlook shared mailbox. NO auto-send\n- urgent = SMS to on-call + highlighted. Kept rules simple, keyword fallback if LLM down\n- wk2 test on 400 historic mails: category acc 88% vs Laura's labels, urgency recall 94% (missed 2 of 33, both vague wording)\n- drafts: assistants edit ~half, 'sävy liian jäykkä' -> prompt tuned, tone examples from their own sent mails\n- pilot wk3-4 w/ 2 assistants. median first response 26 h -> 7.5 h (measured, 2 wks, summer-ish low season? no, Nov, ok)\n- time on triage ~ 'halved' per assistants, not timed\n- GDPR: no tenant data stored outside EU tenant, logs 30 d. DPA signed\n- adoption: 2/3 assistants use daily, 3rd 'prefers own way' -> pair session next mo\n- risk: drafts copy-pasted w/o reading? spot check 20 -> 2 had wrong apt number. added 'check fields' banner"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Case study draft: shared-inbox triage for a Helsinki property manager (P2, synthetic notes, Nov 2024)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline (measured outcome only): median first response time fell from 26 h to 7.5 h in a two-week pilot with two assistants. Note: the pilot covered 2 of 3 assistants and two weeks; the 'halved triage time' is a self-report and is excluded from the headline.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Measured outcomes",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Median first response time (shared inbox); Before: 26 h (ticket export, 2 months, measured); After: 7.5 h (pilot weeks 3-4, 2 weeks, measured)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Triage time per mail; Before: not measured; After: not measured",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Category accuracy vs. assistant labels; Before: n/a; After: 88% on 400 historic mails (test, measured against Laura's labels)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Urgent-mail recall; Before: n/a; After: 94% on test set (31 of 33 caught; 2 missed, both vague wording)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Urgent cases sitting over one working day; Before: 3 cases last quarter (per Laura, not verified); After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Drafts edited by assistants; Before: n/a; After: About half (observed in pilot, not precisely counted)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Draft spot-check: wrong apartment number; Before: n/a; After: 2 of 20 checked (measured in spot check)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "The client manages around 4,800 apartments with nine property managers and three assistants. A shared mailbox was receiving about 140 mails a day, mixing fault reports, water damage, sauna bookings and payment questions. Assistants triaged by hand.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "The team built the smallest useful version: a classifier that labels incoming mails into six categories with an urgency flag, and generates a suggested reply draft in the shared Outlook mailbox. Nothing is sent automatically. Urgent items trigger an SMS to the on-call person and are highlighted. A keyword fallback runs if the language model is unavailable.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "In a two-week pilot with two of three assistants, median first response time moved from 26 hours to 7.5 hours (measured). Assistants said triage time was roughly halved, but this was not timed. The third assistant preferred their existing method, and a pairing session was planned. A spot check found drafts with wrong apartment numbers in 2 of 20 cases, so a 'check fields' banner was added.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Data handling: no tenant data is stored outside the EU tenant, logs are kept 30 days, and a data processing agreement was signed. Results are early, come from a small pilot, and the test accuracy figures apply to historic mails rather than live traffic.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "LinkedIn draft (for Velho review, not sent)",
+      "verdict": "review"
+    },
+    {
+      "claim": "A property manager with ~4,800 apartments was getting about 140 shared-inbox mails a day. Faults, water damage, sauna bookings and payments were all mixed together.\n\nWe built a small classifier that labels each mail and drafts a reply for an assistant to check. Nothing sends automatically. Urgent mails trigger an SMS to on-call.\n\nIn a two-week pilot with two assistants, median first response fell from 26 h to 7.5 h (measured). Early days, small pilot. The team is still checking drafts closely: one spot check caught wrong apartment numbers in 2 of 20.\n\nIf your shared inbox is the bottleneck, we are happy to talk through what it would take to look at it.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "One-pager (six lines)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client: property management, ~4,800 apartments, 9 property managers + 3 assistants (client name withheld pending approval).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Problem: shared inbox ~140 mails/day, mixed categories, urgent faults sometimes waiting over a working day (anecdotal).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Build: 6-category classifier + urgency flag, drafts only, SMS to on-call, keyword fallback.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Measured: median first response 26 h to 7.5 h over 2 weeks; test accuracy 88% category, 94% urgent recall on 400 historic mails.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Not measured: triage time (self-report 'halved'), urgent backlog, live accuracy.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Governance: EU data residency, 30-day logs, DPA signed; drafts reviewed by staff before use.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Missing facts and approvals required",
+      "verdict": "review"
+    },
+    {
+      "claim": "Written client approval to publish name, figures and quotes (not yet obtained).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Verification of the 3 urgent cases from Laura (currently unverified).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Measured triage time per mail, if the client wants it reported (currently not timed).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Post-pilot figures beyond the two-week window and whether the third assistant adopted the tool.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Clarification of 'urgent' SMS volume and any incidents where the classifier missed a real emergency in live use.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirmation that the 2-of-20 apartment-number error rate is acceptable to the client, and whether it was re-measured after the banner.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Legal/comms sign-off on GDPR wording and the Velho-side review of the LinkedIn copy.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 33 statement groups; 0 unsupported sections withheld, 12 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

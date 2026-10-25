@@ -1,0 +1,8 @@
+import assert from "node:assert/strict";
+process.env.VELHO_DB="audit/quality-proof-run.db";process.env.VELHO_AUDIT_ID="quality-proof-run-"+Date.now();process.env.OPENROUTER_API_KEY="offline-not-a-key";process.env.MODEL_FAST=process.env.MODEL_WRITE="anthropic/claude-haiku-5.5";
+const {runSeed}=await import("../lib/seeds"),{cacheSet}=await import("../lib/db");
+for(const [name,website] of [["ProofRunner","https://example.test"],["EmptyProof","https://empty.test"]])cacheSet("dossier:"+name.toLowerCase(),{query:name,name,website,oneLiner:"Fictional",leadership:[],signals:[],goals:[],manualWorkClues:[],tenders:[],siteText:"",builtAt:new Date().toISOString(),tenderMatchVersion:2});
+let writingCalls=0;globalThis.fetch=async input=>{const u=String(input);if(u.includes("openrouter")){writingCalls++;throw new Error("Writing provider unavailable");}return u.includes("empty.test")?new Response("Unavailable",{status:404}):new Response("Our balcony glazing uses retractable panels. A person can open or close the panels to suit the weather.\n\n[Products](https://example.test/products/)");};
+const a=await runSeed("proof",{company:"ProofRunner",fresh:"1"});assert(a.proof!.records.length>0);assert(a.blocks.some(b=>b.t==="draft"));assert.equal(writingCalls,0,"The working demonstration must not depend on generated wrapper JSON");
+const empty=await runSeed("proof",{company:"EmptyProof",fresh:"1"});assert.equal(empty.proof!.records.length,0);assert(!empty.blocks.some(b=>b.t==="draft"));assert(empty.blocks.some(b=>b.t==="note"||b.t==="p"&&b.text.includes("unavailable")));assert.equal(writingCalls,0);
+console.log("PASS complete proof generator works with writing provider unavailable; empty evidence abstains without an invitation");

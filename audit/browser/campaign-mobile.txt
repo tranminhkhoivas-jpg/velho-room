@@ -1,0 +1,241 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/campaign?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/campaign?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Viral campaign engine, Value: 1
+			6 text Viral campaign engine
+		7 text 24 B2B content angles, pre-tested on a simulated CFO/COO/CEO panel, re-ranked by real thumbs.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 text # 1 data visual panel CFO  9  · COO  7  · CEO  6  (simulated)
+		15 button 👍 0
+			16 text 👍 
+			17 text 0
+		18 button 👎 0
+			19 text 👎 
+			20 text 0
+		21 heading Kesko's Q1 2026 sales rose 7.1% to €3,029m. Margin held near 3.4%., Value: 2
+			22 text Kesko's Q1 2026 sales rose 7.1% to €3,029m. Margin held near 3.4%.
+		23 text Q1 2026: net sales €3,029.0m, up 7.1%; comparable operating profit €102.0m (source: Investing.com summary of Kesko's Q1 release). Growth with stable margin usually means cost-to-serve is under pressure as volume rises. Simple question for ops leaders: which processes scale with volume, and which need headcount? That gap is where automation pays back. Visual:  Bar chart with two bars for Q1 2026 net sales and comparable operating profit, labelled with source line beneath. Panel: “ Factual anchor from public numbers; the CFO will read it first. ” # 2 data visual panel CFO  9  · COO  6  · CEO  6  (simulated)
+		24 button 👍 0
+			25 text 👍 
+			26 text 0
+		27 button 👎 0
+			28 text 👎 
+			29 text 0
+		30 heading Kesko's Q1 sales grew 7.1% while margin held near 3.4%., Value: 2
+			31 text Kesko's Q1 sales grew 7.1% while margin held near 3.4%.
+		32 text Net sales rose to €3,029.0m in Q1 2026, up 7.1%, with comparable operating profit at €102.0m (source: https://www.investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746). When sales grow and margin stays flat, cost-to-serve becomes the lever to watch. Our rough estimate is that a one-point cut in back-office cost per transaction would be worth tens of millions a year, though the real number depends on Kesko's internal data we have not seen. Visual:  Simple bar chart comparing Q1 sales growth against flat margin, with an annotated 'estimate' label on the savings line. Panel: “ Strong numbers; the savings estimate needs its label kept visible. ” # 3 contrarian take panel CFO  7  · COO  8  · CEO  6  (simulated)
+		33 button 👍 0
+			34 text 👍 
+			35 text 0
+		36 button 👎 0
+			37 text 👎 
+			38 text 0
+		39 heading Buying a company is the easy part. Integrating the back office is where value leaks., Value: 2
+			40 text Buying a company is the easy part. Integrating the back office is where value leaks.
+		41 text Everyone celebrates the close. Few talk about the six months after, when invoices, reporting and store admin still run on three different systems. Kesko is about to find out with Dahl (source: https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/). The companies that win are the ones that automate the repetitive work early, before it becomes a habit. That is the argument worth having. Visual:  Stark black-and-white image of a single cracked pipe over a Nordic skyline. Panel: “ Provocative and quotable, a little dramatic for a listed company. ” # 4 LinkedIn post panel CFO  8  · COO  7  · CEO  6  (simulated)
+		42 button 👍 0
+			43 text 👍 
+			44 text 0
+		45 button 👎 0
+			46 text 👎 
+			47 text 0
+		48 heading Kesko's Q1 growth is strong. Closing Dahl by year-end is the next test., Value: 2
+			49 text Kesko's Q1 growth is strong. Closing Dahl by year-end is the next test.
+		50 text We noticed Kesko's Q1 2026 net sales rose 7.1% to €3,029m, with comparable operating profit at €102m (source: investing.com). The Dahl technical trade companies in Sweden, Norway and Denmark are expected to close by end of 2026 after EU approval (source: kesko.fi). Integrating acquired operations usually means a lot of reconciliation and reporting work landing at once. We'd love to hear where your finance and ops teams would look first. Visual:  Clean split graphic: Q1 sales bar rising beside a simple Nordic map with three highlighted countries. Panel: “ Good question to ask, but needs a sharper proof point. ” # 5 contrarian take panel CFO  6  · COO  8  · CEO  7  (simulated)
+		51 button 👍 0
+			52 text 👍 
+			53 text 0
+		54 button 👎 0
+			55 text 👎 
+			56 text 0
+		57 heading Buying a Nordic chain is the easy part. Nobody budgets for the spreadsheets., Value: 2
+			58 text Buying a Nordic chain is the easy part. Nobody budgets for the spreadsheets.
+		59 text Everyone celebrates the close. Few talk about the first 90 days: matching product codes, reconciling sales admin, rebuilding reports in one format. Kesko runs a voluntary data balance sheet and describes automation in its own digital teams (source: kesko.fi), so the appetite is visible. The question is whether integration work gets automated or quietly absorbed by people. Which would you choose? Visual:  Split image: a glossy deal-signing photo on the left, a messy spreadsheet on the right. Panel: “ Provocative enough to share; keep it respectful of the deal. ” # 6 contrarian take panel CFO  7  · COO  8  · CEO  6  (simulated)
+		60 button 👍 0
+			61 text 👍 
+			62 text 0
+		63 button 👎 0
+			64 text 👎 
+			65 text 0
+		66 heading Buying the company is not the expensive part. Fixing the spreadsheets is., Value: 2
+			67 text Buying the company is not the expensive part. Fixing the spreadsheets is.
+		68 text Most acquisition plans spend months on price and synergies, then assume the back office will sort itself out. It rarely does. Integration work piles up in reconciliations, duplicate data and reports nobody owns. We'd argue that the first 90 days decide how much value survives. Does your integration plan put a number on that work? Visual:  A balance scale with a deal price on one side and a stack of spreadsheet tabs on the other. Panel: “ Strong opinion that invites a reply from operators. ” # 7 LinkedIn post panel CFO  8  · COO  7  · CEO  6  (simulated)
+		69 button 👍 0
+			70 text 👍 
+			71 text 0
+		72 button 👎 0
+			73 text 👎 
+			74 text 0
+		75 heading Kesko's Dahl deal closes by year-end. The back office is the real test., Value: 2
+			76 text Kesko's Dahl deal closes by year-end. The back office is the real test.
+		77 text We noticed Kesko's Dahl technical trade companies in Sweden, Norway and Denmark (about €2.07bn combined 2025 sales, per Kesko's release) are heading toward completion by end of 2026. Acquisitions like this tend to leave a long tail of manual consolidation work. Worth asking early: which reconciliations and reporting steps will run on spreadsheets for months? Velho maps that work first, then builds the fix. Visual:  Clean photo-style graphic of three Nordic flags above a single closing-date calendar tile reading 31 Dec 2026. Panel: “ Specific and tied to a real deal; a bit safe for a CEO scroll. ” # 8 carousel panel CFO  8  · COO  8  · CEO  5  (simulated)
+		78 button 👍 0
+			79 text 👍 
+			80 text 0
+		81 button 👎 0
+			82 text 👎 
+			83 text 0
+		84 heading Five places manual work tends to hide after a cross-border deal., Value: 2
+			85 text Five places manual work tends to hide after a cross-border deal.
+		86 text Slide 1: Intercompany reconciliation across currencies. Slide 2: Duplicate supplier and product master data. Slide 3: Store and branch reporting that gets rebuilt by hand. Slide 4: Sales admin in new systems. Slide 5: Month-end close running longer than before. These are patterns we see in integrations generally, not a diagnosis of any company. Want a checklist for yours? Visual:  Five-slide carousel in deep green with one icon per slide, numbered 1 to 5. Panel: “ Useful checklist format; CEOs may find it generic. ” # 9 contrarian take panel CFO  7  · COO  8  · CEO  6  (simulated)
+		87 button 👍 0
+			88 text 👍 
+			89 text 0
+		90 button 👎 0
+			91 text 👎 
+			92 text 0
+		93 heading Buying the company is not the expensive part. Fixing the spreadsheets is., Value: 2
+			94 text Buying the company is not the expensive part. Fixing the spreadsheets is.
+		95 text Everyone celebrates the deal announcement. Few budget for the months after close, when finance rebuilds reporting by hand and ops chases the same data from three systems. That is the unglamorous part of growth, and it is often where the value leaks. We think acquirers should map manual work before close, not after. Happy to be argued with. Visual:  Split frame: a signing pen on one side, a cluttered spreadsheet grid on the other. Panel: “ Provocative enough to share; avoid implying anything went wrong at Kesko. ” # 10 LinkedIn post panel CFO  7  · COO  8  · CEO  5  (simulated)
+		96 button 👍 0
+			97 text 👍 
+			98 text 0
+		99 button 👎 0
+			100 text 👎 
+			101 text 0
+		102 heading Dahl adds a lot of integration work. Here is where we'd look first., Value: 2
+			103 text Dahl adds a lot of integration work. Here is where we'd look first.
+		104 text We noticed Kesko is bringing Dahl's technical trade companies in Sweden, Norway and Denmark into the group, with the deal expected to close by end of 2026 (source: https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/). Acquisitions this size usually mean a lot of manual reconciliation, duplicate reporting and data mapping in the first months. Before anyone builds anything, we'd ask a simple question: which of those tasks eats the most hours each week? Happy to compare notes. Visual:  Clean photo-style graphic of a Nordic map with three highlighted countries and a single question mark over the integration timeline. Panel: “ Specific and grounded, but asks for a meeting too early. ” # 11 carousel panel CFO  8  · COO  7  · CEO  5  (simulated)
+		105 button 👍 0
+			106 text 👍 
+			107 text 0
+		108 button 👎 0
+			109 text 👎 
+			110 text 0
+		111 heading Five manual tasks that tend to pile up after a Nordic acquisition., Value: 2
+			112 text Five manual tasks that tend to pile up after a Nordic acquisition.
+		113 text Slide 1: The deal context (Dahl, close expected end 2026, source linked). Slide 2: Duplicate invoice and supplier matching. Slide 3: Consolidated reporting across currencies. Slide 4: Store and branch admin mapped to new systems. Slide 5: Where automation usually starts, and how to test it in weeks. Each claim is framed as a general pattern, not a finding about Kesko. Visual:  Five-slide carousel with one icon per slide and a consistent Nordic colour palette. Panel: “ Useful checklist, though CEOs may skim past it. ” # 12 carousel panel CFO  8  · COO  7  · CEO  5  (simulated)
+		114 button 👍 0
+			115 text 👍 
+			116 text 0
+		117 button 👎 0
+			118 text 👎 
+			119 text 0
+		120 heading Dahl joins Kesko's Nordic network. Here is what integration tends to involve., Value: 2
+			121 text Dahl joins Kesko's Nordic network. Here is what integration tends to involve.
+		122 text Slide 1: Dahl's combined 2025 net sales were about €2.07bn (source: kesko.fi). Slide 2: Integration often means matching ledgers, sales admin and reporting across systems (estimate, typical for acquisitions). Slide 3: Kesko's Business Controller opening points to finance reporting workload (source: kesko.fi careers). Slide 4: Ask: where would your team automate first? Visual:  Four-slide carousel with a bold number on slide one and simple icons for ledgers, sales admin and reporting. Panel: “ Useful framing; the typical-workload claim needs a source. ” # 13 data visual panel CFO  9  · COO  6  · CEO  5  (simulated)
+		123 button 👍 0
+			124 text 👍 
+			125 text 0
+		126 button 👎 0
+			127 text 👎 
+			128 text 0
+		129 heading Kesko's 2026 capital raise is €500-700m. The integration bill arrives after., Value: 2
+			130 text Kesko's 2026 capital raise is €500-700m. The integration bill arrives after.
+		131 text We noticed Kesko plans a rights issue of about €500-700m to finance Dahl (source: kesko.fi). Chart idea: deal value versus the share of acquisition budgets typically spent on integration and systems (estimate, industry rule of thumb). Caption: budget is set aside for the deal, but the work after closing is where efficiency is won or lost. Question for finance leaders: how is integration budget being ring-fenced? Visual:  Simple bar chart comparing the €500-700m raise range against an estimated integration share, labelled as estimate. Panel: “ CFOs will read it; the estimate must be clearly labelled. ” # 14 carousel panel CFO  8  · COO  7  · CEO  5  (simulated)
+		132 button 👍 0
+			133 text 👍 
+			134 text 0
+		135 button 👎 0
+			136 text 👎 
+			137 text 0
+		138 heading Five places manual work hides after a Nordic acquisition., Value: 2
+			139 text Five places manual work hides after a Nordic acquisition.
+		140 text Slide one: ledger matching across entities. Slide two: duplicate supplier and customer records. Slide three: monthly consolidation reports built by hand. Slide four: store-level sales admin. Slide five: a 30-minute call to see which of these your team recognises. These are common patterns, not a diagnosis of any company. Visual:  Five numbered slides with simple icons, each showing one common manual task and a small estimate label where relevant. Panel: “ Useful checklist; CEOs may find it less urgent. ” # 15 data visual panel CFO  8  · COO  6  · CEO  6  (simulated)
+		141 button 👍 0
+			142 text 👍 
+			143 text 0
+		144 button 👎 0
+			145 text 👎 
+			146 text 0
+		147 heading Kesko's Dahl deal is about €2.07bn in combined sales., Value: 2
+			148 text Kesko's Dahl deal is about €2.07bn in combined sales.
+		149 text Dahl's technical trade companies in Sweden, Norway and Denmark had combined 2025 net sales of about €2.07bn (source: Kesko release). Kesko's planned rights issue is €500-700m (source: Kesko release). Every euro of acquired revenue brings more entries to reconcile. We'd like to show how much of that load can be automated before year-end. Visual:  A simple bar comparing €2.07bn acquired sales with the €500-700m rights issue range, plus an estimate note. Panel: “ CFO will like the numbers; keep the claim modest. ” # 16 15s vertical video script panel CFO  7  · COO  8  · CEO  5  (simulated)
+		150 button 👍 0
+			151 text 👍 
+			152 text 0
+		153 button 👎 0
+			154 text 👎 
+			155 text 0
+		156 heading Buying three companies is one signature. Merging their books is months., Value: 2
+			157 text Buying three companies is one signature. Merging their books is months.
+		158 text [0-3s] Text on screen: Kesko, Dahl, Sweden, Norway, Denmark. [3-8s] Founder at a desk, spreadsheet tabs flicking past. [8-13s] Voiceover: We noticed the integration work tends to start after the deal closes. [13-15s] End card: Find the manual work first. Velho. Visual:  Handheld shot of a laptop screen cycling through a multi-tab spreadsheet with tabs labelled per country. Panel: “ Punchy, but the tone may feel too cheeky for an acquisition story. ” # 17 15s vertical video script panel CFO  6  · COO  7  · CEO  6  (simulated)
+		159 button 👍 0
+			160 text 👍 
+			161 text 0
+		162 button 👎 0
+			163 text 👎 
+			164 text 0
+		165 heading Integrating three countries' books in one quarter? Let's talk., Value: 2
+			166 text Integrating three countries' books in one quarter? Let's talk.
+		167 text [0-3s] Text on screen: Dahl deal, close by end of 2026. [3-8s] Founder to camera: acquisitions bring a pile of manual finance and data work. [8-13s] Show a simple checklist of the three tasks we'd audit first. [13-15s] Call to action: comment 'audit' and we'll send the list. Visual:  Founder speaking to camera in a plain office with bold on-screen text cues. Panel: “ Punchy, but the CFO-style hook may feel presumptuous. ” # 18 15s vertical video script panel CFO  6  · COO  7  · CEO  6  (simulated)
+		168 button 👍 0
+			169 text 👍 
+			170 text 0
+		171 button 👎 0
+			172 text 👎 
+			173 text 0
+		174 heading Nine months, two countries, one close date. What breaks first?, Value: 2
+			175 text Nine months, two countries, one close date. What breaks first?
+		176 text Dahl's Nordic technical trade businesses are heading into Kesko's network. Integration usually means matching ledgers, merging reports and reconciling data from different systems. We spot that manual work early, build the fix and help teams adopt it. Quick question: where does your integration team start? Visual:  Fast cuts of a map of Sweden, Norway and Denmark with a countdown timer to year-end. Panel: “ Punchy, though the Dahl close date needs care in wording. ” # 19 LinkedIn post panel CFO  7  · COO  6  · CEO  5  (simulated)
+		177 button 👍 0
+			178 text 👍 
+			179 text 0
+		180 button 👎 0
+			181 text 👎 
+			182 text 0
+		183 heading Kesko's Q1 sales rose 7.1%. The back office has to keep up., Value: 2
+			184 text Kesko's Q1 sales rose 7.1%. The back office has to keep up.
+		185 text Net sales hit €3,029.0m in Q1 2026, up 7.1%, with comparable operating profit at €102.0m (source: investing.com). Growth like that tends to add reporting and reconciliation work faster than headcount. We noticed a Business Controller opening at Kesko-IT. We'd be curious how your finance team handles that load. Would you compare notes? Visual:  A clean line chart of Q1 sales growth beside a simple stack of monthly reconciliation tasks, labelled with the source. Panel: “ Good hook, but the ask feels generic for a listed company. ” # 20 15s vertical video script panel CFO  5  · COO  6  · CEO  4  (simulated)
+		186 button 👍 0
+			187 text 👍 
+			188 text 0
+		189 button 👎 0
+			190 text 👎 
+			191 text 0
+		192 heading Three countries, one close date, and a back office to merge., Value: 2
+			193 text Three countries, one close date, and a back office to merge.
+		194 text Shot 1: Founder at a desk. VO: 'Kesko's Dahl deal is expected to close by end of 2026.' Shot 2: Stack of reconciliation folders. VO: 'Integration usually means the same data gets rebuilt three times.' Shot 3: Founder points to a blank screen. VO: 'We'd like to ask where your team would start.' End card: Velho. Visual:  Handheld shots of a desk, folder stack and a blank screen with a Velho logo lower-third. Panel: “ Fun, but a CEO may find it too casual. ” # 21 meme-ish panel CFO  5  · COO  6  · CEO  4  (simulated)
+		195 button 👍 0
+			196 text 👍 
+			197 text 0
+		198 button 👎 0
+			199 text 👎 
+			200 text 0
+		201 heading When finance asks why the acquired file has 14 tabs., Value: 2
+			202 text When finance asks why the acquired file has 14 tabs.
+		203 text Nobody plans for the tab count. A deal closes, the file arrives, and suddenly the Monday reporting meeting has three versions of the same number. If that sounds familiar after a Nordic acquisition, it is usually a sign that integration work has started, not that someone made a mistake. Want to see how we would untangle it? Visual:  Meme-style image of a spreadsheet with 14 tabs in the title bar, captioned with a tired office worker. Panel: “ Funny but hypothetical; may read as mocking finance, so soften. ” # 22 meme-ish panel CFO  4  · COO  6  · CEO  4  (simulated)
+		204 button 👍 0
+			205 text 👍 
+			206 text 0
+		207 button 👎 0
+			208 text 👎 
+			209 text 0
+		210 heading When finance asks why the Dahl file has 14 tabs., Value: 2
+			211 text When finance asks why the Dahl file has 14 tabs.
+		212 text Nobody planned the 14 tabs. They grew one request at a time, the way integration files always do. If your team is living in a spreadsheet like that, you're not alone, and it's solvable. Tell us the worst tab in your file and we'll tell you how we'd automate it. Visual:  A stock-style image of a person staring at a wall of spreadsheet tabs, captioned with the question. Panel: “ Funny, but risks implying a real scene at Kesko. ” # 23 meme-ish panel CFO  4  · COO  5  · CEO  3  (simulated)
+		213 button 👍 0
+			214 text 👍 
+			215 text 0
+		216 button 👎 0
+			217 text 👎 
+			218 text 0
+		219 heading Me explaining to finance why the Dahl spreadsheet has 14 tabs., Value: 2
+			220 text Me explaining to finance why the Dahl spreadsheet has 14 tabs.
+		221 text Post a relatable scene: a tired analyst surrounded by printouts, captioned with the integration reality. Caption line: 'When the deal closes by end of 2026 and the reconciliation starts in January.' Light, self-aware, no claims about any real Kesko team. Closing line invites readers to share their own worst spreadsheet. Visual:  Stock-style photo of a stressed office worker beside a stack of printouts, with a bold meme caption. Panel: “ Funny for peers, unlikely to reach an executive buyer. ” # 24 meme-ish panel CFO  4  · COO  5  · CEO  3  (simulated)
+		222 button 👍 0
+			223 text 👍 
+			224 text 0
+		225 button 👎 0
+			226 text 👎 
+			227 text 0
+		228 heading When finance asks why the Dahl file has 14 tabs., Value: 2
+			229 text When finance asks why the Dahl file has 14 tabs.
+		230 text Post a meme of a tired analyst surrounded by tabs labelled Sweden, Norway, Denmark, Sweden (final), Sweden (FINAL v2). Caption: integration is a team sport, and the team is spreadsheets. Kesko's Business Controller job ad shows reporting work is real (source: kesko.fi careers). Tag your finance lead and ask what their 14th tab is. Visual:  Relatable office meme with a stressed analyst and a wall of labelled spreadsheet tabs. Panel: “ Funny, but it risks reading as mocking a finance team. ”
+		231 heading Campaign engine — 24 angles tuned for companies like Kesko Oyj, Value: 1
+			232 text Campaign engine — 24 angles tuned for companies like Kesko Oyj
+		233 text Panel scores are a SIMULATED pre-test by AI buyer personas. Real ranking comes from thumbs below and, once Velho approves posting, from real engagement.
+		234 button (collapsed) Sources (19), Secondary Actions: Expand
+			235 text Sources (
+			236 text 19
+			237 text )
+		238 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/campaign?c=Kesko

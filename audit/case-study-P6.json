@@ -1,0 +1,102 @@
+{
+  "title": "Meriklinikka Oy: case study draft (synthetic notes)",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "No-show and late-cancel rate fell from 11.8% to 8.1% in four weeks at one Espoo clinic"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "No-show + late cancel rate (<24h)",
+          "11.8% (6-month average from booking export)",
+          "8.1% (4 weeks, ~1,150 appointments)"
+        ],
+        [
+          "Cancelled slots refilled from waitlist",
+          "not measured",
+          "41 of 96 cancellations (43%)"
+        ],
+        [
+          "Reception calls about reminders",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Reminder type",
+          "Single SMS 48h before, no reply possible",
+          "Two-way SMS (48h, plus 4h for first-time patients), reply KYLLÄ/PERU"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "The problem, in the clinic's words: about 300 appointments a week, and roughly 11.8% of them ended as no-shows or late cancellations. Each empty slot is time nobody else could use. Patients had one SMS reminder two days ahead, no way to answer it, so they phoned reception instead."
+    },
+    {
+      "t": "p",
+      "text": "What Velho shipped: the smallest change that could work. A two-way SMS reminder that lets patients reply KYLLÄ or PERU. A cancellation frees the slot, notifies reception and sends a waitlist offer to the next person, with manual approval in v1. A language model only parses free-text replies (for example, asking to move a visit) and routes them to reception. It does not touch clinical content or patient records, and no medical content goes into prompts. A light data processing agreement and DPIA were completed with the clinic's data protection officer before go-live."
+    },
+    {
+      "t": "p",
+      "text": "Adoption: go-live at one location in week three. All three reception staff use the dashboard daily. Therapists did not need to change anything. One patient complained the messages were Finnish only, so English and Swedish are next on the list."
+    },
+    {
+      "t": "p",
+      "text": "Result, with caveats: the rate dropped from 11.8% to 8.1% over four weeks. The comparison is against a six-month average, so seasonality could explain part of the change, and this has not been verified against the same period last year. 41 of 96 cancelled slots (43%) were refilled from the waitlist. Next step: an automatic waitlist offer after two weeks if no problems appear."
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "A clinic lost roughly 1 in 9 appointments to no-shows. Nobody could reply to a reminder, so patients phoned reception instead.\n\nWe added a two-way SMS reminder and a waitlist that fills cancelled slots. Four weeks in at one Espoo clinic, the no-show and late-cancel rate fell from 11.8% to 8.1%. 43% of cancelled slots were refilled from the waitlist.\n\nThe short version: we changed one manual step and measured it. The longer version, including what we can't yet prove (seasonality, reception call volume), is in the write-up.\n\nIf your front desk is doing this by hand, we'd like to hear about it.\n\n#healthcare #operations #automation"
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Meriklinikka Oy, private physio and occupational health clinic, Espoo (18 clinicians, 3 reception staff).\nProblem: ~11.8% of ~300 weekly appointments were no-shows or late cancellations; reminders were one-way SMS.\nBuilt: two-way SMS reminders with KYLLÄ/PERU replies, automatic slot release, waitlist offers (manual approval), LLM used only to route free-text replies to reception.\nCompliance: no clinical content or patient records in AI; DPA and light DPIA completed with client's DPO; EU-based SMS provider.\nResult (4 weeks, one location, unverified against seasonality): 11.8% to 8.1% no-show and late-cancel rate; 41 of 96 cancelled slots refilled (43%).\nNext: English and Swedish messages; automatic waitlist offer after two weeks; measure reception call volume."
+    },
+    {
+      "t": "list",
+      "tag": "missing",
+      "items": [
+        {
+          "text": "Written permission from Meriklinikka Oy to name the clinic and publish the numbers"
+        },
+        {
+          "text": "Confirm the 11.8% baseline definition and period (6-month export) matches what the client will stand behind"
+        },
+        {
+          "text": "Verify 8.1% over ~1,150 appointments, and check against the same 4 weeks in the prior year for seasonality"
+        },
+        {
+          "text": "Verify the 41 of 96 waitlist refill figure from the booking export"
+        },
+        {
+          "text": "Get an actual count of reception calls for one week (currently only 'clearly down' per Sari, not measured)"
+        },
+        {
+          "text": "Confirm patient-facing wording and consent for the SMS messages"
+        },
+        {
+          "text": "Confirm the patient complaint about Finnish-only messages is accurate to publish, or leave it out"
+        },
+        {
+          "text": "Confirm the DPIA and DPA sign-off status with the client's data protection officer"
+        },
+        {
+          "text": "Agree the quote from the client contact and Velho expert Helena Ojala"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    }
+  ]
+}

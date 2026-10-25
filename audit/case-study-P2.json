@@ -1,0 +1,114 @@
+{
+  "title": "Case study: Kallio & Lehtonen Kiinteistöt, shared mailbox triage",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "First response time in a 4,800-apartment property manager's shared inbox fell from a measured median of 26 h to 7.5 h in a two-week pilot"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Median first response time (shared inbox)",
+          "26 h (measured, ticket export, 2 months)",
+          "7.5 h (measured, 2-week pilot, 2 assistants)"
+        ],
+        [
+          "Triage time per mail",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Category accuracy of classifier vs. staff labels",
+          "n/a",
+          "88% (test on 400 historic mails)"
+        ],
+        [
+          "Urgent-mail recall",
+          "n/a",
+          "94% (33 urgent mails, 2 missed)"
+        ],
+        [
+          "Urgent mails sitting >1 working day",
+          "3 cases last quarter (per Laura, not verified)",
+          "not measured"
+        ],
+        [
+          "Drafts edited by assistants",
+          "n/a",
+          "about half (self-reported, not logged)"
+        ],
+        [
+          "Assistants using the tool daily",
+          "n/a",
+          "2 of 3 (3rd prefers own way, pair session planned)"
+        ]
+      ]
+    },
+    {
+      "t": "p",
+      "text": "The shared inbox isannointi@ receives around 140 mails a day, and faults, water damage, sauna bookings and payment questions all land in the same place. The assistants triage every mail by hand. The problem as the team described it: urgent items can wait more than a working day, and the team is busy with the sorting itself."
+    },
+    {
+      "t": "p",
+      "text": "Velho built the smallest useful version: a classifier that labels each incoming mail into one of six categories with an urgency flag, and drafts a suggested reply inside the Outlook shared mailbox. Nothing is sent automatically. Urgent mails trigger an SMS to the on-call person, with a keyword fallback if the model is unavailable. Tone was tuned after the first feedback round, using examples from the team's own sent mails."
+    },
+    {
+      "t": "p",
+      "text": "Two assistants piloted the tool in weeks 3 and 4. Two of the three assistants use it daily; the third works their own way, and a pair session is planned. The team also added a banner asking reviewers to check apartment numbers and other fields, after a spot check of 20 drafts found 2 with the wrong apartment number."
+    },
+    {
+      "t": "p",
+      "text": "In the two-week pilot, median first response time dropped from 26 h to 7.5 h. The assistants believe triage time roughly halved, but this was not timed. The result is promising but early: a two-week pilot with two users, and the triage-time claim still needs measurement."
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn post",
+      "text": "A mailbox that got 140 mails a day, and a median first response of 26 hours.\n\nFor a property manager with 4,800 apartments, the shared inbox was where faults, water damage and payment questions all waited in one queue.\n\nWe built a small classifier for them: six categories, an urgency flag that texts the on-call person, and a suggested reply in Outlook. Nothing sends itself. The assistants still read every draft.\n\nIn a two-week pilot with two assistants, median first response went from 26 h to 7.5 h. It's early, and the sample is small, but it's a start.\n\nIf your team lives in a shared inbox, we'd like to hear how you triage it."
+    },
+    {
+      "t": "draft",
+      "label": "One-pager summary",
+      "text": "Client: Kallio & Lehtonen Kiinteistöt Oy (property management, ~4,800 apartments)\nProblem: shared inbox of ~140 mails/day mixing faults, water damage, sauna and payment queries; manual triage; median first response 26 h\nBuilt: LLM classifier (6 categories + urgency flag), suggested reply drafts in Outlook shared mailbox, SMS alert for urgent mails, no auto-send\nValidation: 88% category accuracy and 94% urgent recall on 400 historic mails\nPilot result: median first response 26 h to 7.5 h over two weeks with two assistants\nStatus: two of three assistants using daily; GDPR: DPA signed, EU-only tenant data, 30-day logs"
+    },
+    {
+      "t": "list",
+      "tag": "missing",
+      "items": [
+        {
+          "text": "Written permission from Kallio & Lehtonen to name the client and publish the case"
+        },
+        {
+          "text": "Confirm the 26 h baseline and 7.5 h after-figure with the ticket export and pilot logs (the after-figure covers only two weeks and two assistants)"
+        },
+        {
+          "text": "Verify the '3 urgent cases last quarter' claim (currently unverified, per Laura)"
+        },
+        {
+          "text": "Measure triage time before publishing any 'halved' claim (currently self-reported only)"
+        },
+        {
+          "text": "Confirm the 88% and 94% figures are from the stated sample and labels, and whether the 2 missed urgent mails were the only misses"
+        },
+        {
+          "text": "Confirm the 'about half edited' figure with a logged count rather than recollection"
+        },
+        {
+          "text": "Confirm the wrong-apartment-number finding (2 of 20) is fine to share, given it is a quality risk for the client"
+        },
+        {
+          "text": "Confirm the 3rd assistant's status and whether the pair session has happened before any adoption claim is made"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes. Publishing a real case needs client and Velho approval."
+    }
+  ]
+}

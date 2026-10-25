@@ -26,6 +26,12 @@ One shared research core (`lib/dossier.ts`: web search via OpenRouter, Finnish t
 
 Node 24+. Put `OPENROUTER_API_KEY` in `../../.env` (or the environment). Optional: `MODEL_FAST`, `MODEL_WRITE`, `VELHO_DB`.
 
+Staff access requires `VELHO_STAFF_PASSWORD` in ignored `.env.local`; never commit passwords. The audience questionnaire is public; company tools and lead reads require staff sign-in. Set `FASTINO_API_KEY` in the root `.env` for extraction/source/constraint checks. Missing or uncertain source checks are labelled; they never approve outreach. Keep fictional fixtures clearly labelled. Velho's representative endorsed the supplied fictional sales-history and project-note data for the demo.
+
+Optional annual-report fallback: Python with `pypdf` (`pip install pypdf`), and `VELHO_PDF_PYTHON` set to that Python executable if it is not `python` on PATH. The app first tries its existing web reader, then locally extracts the first 60 pages of an observed publisher-hosted PDF (25 MB maximum). If neither reader works, the buyer simulation explicitly uses dossier-only context. No OCR or scanned-PDF guarantee is claimed.
+
+Current improvement evaluation covers 14 methods; personalised media/video is deferred by the user. Nothing is published or sent. For the isolated Haiku test instance use `npm run audit:serve`; do not expose it publicly without authorization. Tests and current limits are recorded in `audit/IMPROVEMENT_PLAN.md` and the project master doc.
+
 ```bash
 npm install
 npm run build && npm start

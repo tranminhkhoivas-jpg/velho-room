@@ -1,0 +1,287 @@
+{
+  "title": "Pohjanmaan Metalli case study (P3) - DRAFT, not for publication",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "SYNTHETIC/SAMPLE NOTES. Treat everything below as sample material. Publication is blocked until the client confirms accuracy and approves naming and figures."
+    },
+    {
+      "t": "note",
+      "text": "Quality check: the notes report extraction accuracy of 78% on 50 RFQs, plus 15 with one wrong field and 5 total fails. That totals 70 documents from a sample of 50, so the accuracy figure is withheld from all prose, headings, tables and drafts until the sample is clarified."
+    },
+    {
+      "t": "h",
+      "text": "Headline"
+    },
+    {
+      "t": "p",
+      "text": "Quote turnaround and per-quote effort both measured down in a 2-week pilot at a Seinäjoki sheet-metal subcontractor (figures pending client verification)."
+    },
+    {
+      "t": "h",
+      "text": "Measured outcomes"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Metric",
+        "Before",
+        "After"
+      ],
+      "rows": [
+        [
+          "Average time per quote (pilot, 29 quotes)",
+          "52 min (self-log, 41 quotes)",
+          "31 min (pilot, weeks 3-4)"
+        ],
+        [
+          "Median RFQ-to-sent turnaround",
+          "4.5 working days",
+          "2.5 working days"
+        ],
+        [
+          "Quotes with at least one field error caught before sending",
+          "not measured",
+          "4 wrong quantities across 29 quotes (about 14% of quotes had at least one error, caught by the estimator before sending)"
+        ],
+        [
+          "Repeat-business win rate / win-loss",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Evening work ('iltatyö')",
+          "not measured",
+          "not measured"
+        ],
+        [
+          "Extraction accuracy on historical RFQs",
+          "Withheld pending sample clarification",
+          "Withheld pending sample clarification"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Story"
+    },
+    {
+      "t": "p",
+      "text": "Pohjanmaan Metalli Oy is a Seinäjoki sheet-metal and subcontract manufacturer of about 65 people. Its RFQs arrive by email as PDFs and CAD files, roughly 35 a week, and the sales engineer Kaisa wrote each quote by hand in Excel. Her own two-week log put the average at 52 minutes per quote."
+    },
+    {
+      "t": "p",
+      "text": "The first real obstacle was data, not AI. Material names were written inconsistently (S355, S355J2, 'rakenneteräs'), so the team built a 60-row mapping table with Kaisa before anything else worked."
+    },
+    {
+      "t": "p",
+      "text": "The shipped tool is deliberately narrow. It extracts the quantity, material, finish and delivery date from the RFQ and pre-fills the existing Excel template, with the last similar price pulled from history. It does not estimate cost from CAD geometry, and Kaisa still sets every price. In a two-week pilot covering 29 quotes, the average fell to about 31 minutes and median turnaround fell from 4.5 to 2.5 working days."
+    },
+    {
+      "t": "p",
+      "text": "Kaisa checks every pre-filled field, which caught four wrong quantities during the pilot. The team has not yet measured win rates or whether evening work decreased; both are open questions, and the next step is adding a win/loss column to measure them."
+    },
+    {
+      "t": "h",
+      "text": "LinkedIn draft (reviewer to edit; not sent)"
+    },
+    {
+      "t": "draft",
+      "label": "LinkedIn (max 120 words)",
+      "text": "We spent two weeks with a sheet-metal subcontractor in Seinäjoki where quoting was the bottleneck. Their sales engineer was writing each quote by hand, averaging about 52 minutes. The first problem was messy material names, so we mapped them before building anything. The tool we shipped is deliberately small: it reads the RFQ and pre-fills their existing Excel template and last similar price, and the engineer still sets every price. In the pilot, average time per quote dropped to about 31 minutes and turnaround went from 4.5 to 2.5 working days. Win rates are not measured yet, and we are adding that tracking next. Client approval pending."
+    },
+    {
+      "t": "h",
+      "text": "One-pager (six lines, draft)"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Client: Pohjanmaan Metalli Oy, sheet-metal subcontractor, Seinäjoki, about 65 staff."
+        },
+        {
+          "text": "Problem: hand-written RFQ quotes in Excel, about 52 min each (self-log, 41 quotes)."
+        },
+        {
+          "text": "Shipped: RFQ field extraction pre-filling the existing template and last similar price; price still set by the engineer."
+        },
+        {
+          "text": "Pilot result: about 31 min per quote and median turnaround 4.5 to 2.5 working days (29 quotes, weeks 3-4)."
+        },
+        {
+          "text": "Not yet measured: win rate, evening work, extraction accuracy (pending sample check)."
+        },
+        {
+          "text": "Next: win/loss tracking; approval and naming required before publication."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Missing facts and approvals needed"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Outcome statement withheld: source sample counts conflict. Confirm the measurement before publishing."
+        },
+        {
+          "text": "Verify the 52-minute baseline and the pilot figures with the client; these come from staff notes and have not been independently verified."
+        },
+        {
+          "text": "Written client approval to name the company, the people (Kaisa, Risto) and all figures."
+        },
+        {
+          "text": "Confirm the 14% error rate calculation and the basis for it."
+        },
+        {
+          "text": "Confirm the pilot period dates and quote count, and whether the Veikko handover is part of the story."
+        },
+        {
+          "text": "Velho internal review of tone and claims before any publication; nothing here has been sent or published."
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Source inconsistency: 78% of 50, plus 15 partial errors and 5 failures, exceeds the sample size. Do not publish this extraction-accuracy result until clarified."
+    },
+    {
+      "t": "note",
+      "text": "Synthetic notes — not a real client result. Publishing a real case needs client and Velho approval."
+    },
+    {
+      "t": "note",
+      "text": "Machine source review checked 30 statement groups; 0 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "Client: Pohjanmaan Metalli Oy\nProject owner: Jussi Kärkkäinen\nSME ~65 hlö, Seinäjoki. Owner-ish: Risto. Sales eng: Kaisa (bottleneck)\n- RFQs come as PDF + DXF/STEP via email, ~35/wk. Kaisa makes tarjous in Excel by hand\n- time per quote: avg 52 min (Kaisa self-log 2 wks, 41 quotes), simple repeat parts ~30 min, complex 90+\n- quote turnaround (RFQ->sent): median 4.5 working days. Risto: 'we lose jobs for being slow' - plausible but no win/loss data yet\n- smallest build: extract RFQ fields from email/PDF (qty, material, finish, delivery date) -> prefill existing Excel quote template + pull last similar price from history\n- NOT doing geometry/cost estimation from CAD (too big for 1 mo). Kaisa still sets price\n- wk1 mess: material names inconsistent (S355 / S355J2 / 'rakenneteräs'). built mapping table 60 rows w/ Kaisa\n- wk2: extraction correct on all key fields 78% of 50 old RFQs; 15 more had 1 field wrong; 5 total fails (scanned fax-looking PDFs lol)\n- pilot wk3-4, 29 quotes: avg 31 min (-40%). turnaround median 4.5 -> 2.5 d\n- Kaisa checks every prefilled field, found 4 wrong qty in 29 (14% quotes had >=1 error, caught before sending)\n- adoption: Kaisa yes. second estimator (Veikko) retires in Mar, wants to learn it anyway, ok\n- unmeasured: Kaisa says less 'iltatyö'. nice but anecdotal\n- next: win/loss column in Excel so we can actually measure"
+  },
+  "sourceChecks": [
+    {
+      "claim": "Pohjanmaan Metalli case study (P3) - DRAFT, not for publication",
+      "verdict": "review"
+    },
+    {
+      "claim": "Headline",
+      "verdict": "review"
+    },
+    {
+      "claim": "Quote turnaround and per-quote effort both measured down in a 2-week pilot at a Seinäjoki sheet-metal subcontractor (figures pending client verification).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Measured outcomes",
+      "verdict": "review"
+    },
+    {
+      "claim": "Metric: Average time per quote (pilot, 29 quotes); Before: 52 min (self-log, 41 quotes); After: 31 min (pilot, weeks 3-4)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Median RFQ-to-sent turnaround; Before: 4.5 working days; After: 2.5 working days",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Quotes with at least one field error caught before sending; Before: not measured; After: 4 wrong quantities across 29 quotes (about 14% of quotes had at least one error, caught by the estimator before sending)",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Repeat-business win rate / win-loss; Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Evening work ('iltatyö'); Before: not measured; After: not measured",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Metric: Extraction accuracy on historical RFQs; Before: Withheld pending sample clarification; After: Withheld pending sample clarification",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Story",
+      "verdict": "review"
+    },
+    {
+      "claim": "Pohjanmaan Metalli Oy is a Seinäjoki sheet-metal and subcontract manufacturer of about 65 people. Its RFQs arrive by email as PDFs and CAD files, roughly 35 a week, and the sales engineer Kaisa wrote each quote by hand in Excel. Her own two-week log put the average at 52 minutes per quote.",
+      "verdict": "review"
+    },
+    {
+      "claim": "The first real obstacle was data, not AI. Material names were written inconsistently (S355, S355J2, 'rakenneteräs'), so the team built a 60-row mapping table with Kaisa before anything else worked.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "The shipped tool is deliberately narrow. It extracts the quantity, material, finish and delivery date from the RFQ and pre-fills the existing Excel template, with the last similar price pulled from history. It does not estimate cost from CAD geometry, and Kaisa still sets every price. In a two-week pilot covering 29 quotes, the average fell to about 31 minutes and median turnaround fell from 4.5 to 2.5 working days.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Kaisa checks every pre-filled field, which caught four wrong quantities during the pilot. The team has not yet measured win rates or whether evening work decreased; both are open questions, and the next step is adding a win/loss column to measure them.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "LinkedIn draft (reviewer to edit; not sent)",
+      "verdict": "review"
+    },
+    {
+      "claim": "We spent two weeks with a sheet-metal subcontractor in Seinäjoki where quoting was the bottleneck. Their sales engineer was writing each quote by hand, averaging about 52 minutes. The first problem was messy material names, so we mapped them before building anything. The tool we shipped is deliberately small: it reads the RFQ and pre-fills their existing Excel template and last similar price, and the engineer still sets every price. In the pilot, average time per quote dropped to about 31 minutes and turnaround went from 4.5 to 2.5 working days. Win rates are not measured yet, and we are adding that tracking next. Client approval pending.",
+      "verdict": "review"
+    },
+    {
+      "claim": "One-pager (six lines, draft)",
+      "verdict": "review"
+    },
+    {
+      "claim": "Client: Pohjanmaan Metalli Oy, sheet-metal subcontractor, Seinäjoki, about 65 staff.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Problem: hand-written RFQ quotes in Excel, about 52 min each (self-log, 41 quotes).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Shipped: RFQ field extraction pre-filling the existing template and last similar price; price still set by the engineer.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Pilot result: about 31 min per quote and median turnaround 4.5 to 2.5 working days (29 quotes, weeks 3-4).",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Not yet measured: win rate, evening work, extraction accuracy (pending sample check).",
+      "verdict": "review"
+    },
+    {
+      "claim": "Next: win/loss tracking; approval and naming required before publication.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Missing facts and approvals needed",
+      "verdict": "review"
+    },
+    {
+      "claim": "Verify the 52-minute baseline and the pilot figures with the client; these come from staff notes and have not been independently verified.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Written client approval to name the company, the people (Kaisa, Risto) and all figures.",
+      "verdict": "review"
+    },
+    {
+      "claim": "Confirm the 14% error rate calculation and the basis for it.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Confirm the pilot period dates and quote count, and whether the Veikko handover is part of the story.",
+      "verdict": "supported"
+    },
+    {
+      "claim": "Velho internal review of tone and claims before any publication; nothing here has been sent or published.",
+      "verdict": "review"
+    }
+  ],
+  "reviewNotice": "Machine source review checked 30 statement groups; 0 unsupported sections withheld, 16 uncertain groups require staff review. It does not verify the underlying project, measure outcomes or grant publication permission."
+}

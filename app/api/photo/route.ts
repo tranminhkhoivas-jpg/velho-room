@@ -5,8 +5,9 @@ export const maxDuration = 120;
 export async function POST(req: Request) {
   try {
     const { image } = (await req.json()) as { image: string };
-    if (!image?.startsWith("data:image/")) return Response.json({ error: "Send a photo" }, { status: 400 });
+    if (typeof image !== "string" || !/^data:image\/(jpeg|png|webp);base64,/.test(image) || image.length > 4000000) return Response.json({ error: "Send a JPEG, PNG or WebP photo under 3 MB." }, { status: 400 });
     const r = await llmJson<{ company: string | null; confidence: number; seen: string }>({
+      purpose: "photo:identify",
       model: "write",
       maxTokens: 800,
       messages: [
@@ -19,6 +20,7 @@ export async function POST(req: Request) {
         },
       ],
     });
+    if ((r.company !== null && typeof r.company !== "string") || !Number.isFinite(r.confidence) || r.confidence < 0 || r.confidence > 1 || typeof r.seen !== "string") throw new Error("Photo identification was incomplete. Type the company name instead.");
     return Response.json(r);
   } catch (e) {
     return Response.json({ error: String((e as Error).message) }, { status: 500 });

@@ -1,0 +1,146 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/caseStudy".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/caseStudy
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/
+		5 heading Case-study machine, Value: 1
+			6 text Case-study machine
+		7 text Project notes into a before/after story, a LinkedIn post and a one-pager. (Synthetic notes.)
+		8 pop up button (collapsed, settable) Description: Choose a synthetic record, Value: Nordtrans Oy (Logistics / freight forwarding), 2024-09, Secondary Actions: Expand
+			9 menu
+				10 (selected) Nordtrans Oy (Logistics / freight forwarding), 2024-09
+				11 Kallio & Lehtonen Kiinteistöt Oy (Property management), 2024-11
+				12 Pohjanmaan Metalli Oy (Manufacturing (sheet metal / subcontract)), 2025-01
+				13 Lumo Verkkokauppa Oy (E-commerce (home textiles & decor)), 2025-02
+				14 Aaltonen Tilitoimisto Oy (Accounting / bookkeeping firm), 2025-03
+				15 Meriklinikka Oy (Private healthcare clinic (physio & occupational health)), 2025-04
+		16 button Run
+		19 heading Case study draft: Nordtrans Oy, POD/CMR document matching, Value: 1
+			20 text Case study draft: Nordtrans Oy, POD/CMR document matching
+		21 heading Document handling cut from 4.1 to 1.4 minutes per document in a freight forwarder's first pilot, Value: 2
+			22 text Document handling cut from 4.1 to 1.4 minutes per document in a freight forwarder's first pilot
+		23 table
+			24 row
+				25 cell
+					26 text Metric
+				27 cell
+					28 text Before
+				29 cell
+					30 text After
+			31 row
+				32 cell
+					33 text Handling time per document
+				34 cell
+					35 text 4.1 min (timed over 3 days, 2 dispatchers)
+				36 cell
+					37 text 1.4 min, including the human queue (pilot: 1 dispatcher, 5 days)
+			38 row
+				39 cell
+					40 text Document volume
+				41 cell
+					42 text ~220 docs/day
+				43 cell
+					44 text not measured
+			45 row
+				46 cell
+					47 text Total handling time per day
+				48 cell
+					49 text ~15 h (4.1 min × 220 docs; ops manager doubted it)
+				50 cell
+					51 text not measured
+			52 row
+				53 cell
+					54 text Wrong attachments
+				55 cell
+					56 text 7.3% of invoices (22 of 300 sampled)
+				57 cell
+					58 text 0.6% of auto-matched docs wrong (2 of 310 checked). Different measure, not like-for-like
+			59 row
+				60 cell
+					61 text Documents matched automatically
+				62 cell
+					63 text 0% (all manual)
+				64 cell
+					65 text 71%
+			66 row
+				67 cell
+					68 text Delivery to invoice sent
+				69 cell
+					70 text 5.2 days (140 invoices)
+				71 cell
+					72 text 3.1 days (140 invoices, pilot week only)
+			73 row
+				74 cell
+					75 text Dispatchers using the tool
+				76 cell
+					77 text n/a
+				78 cell
+					79 text 3 of 3 by week 4
+			80 row
+				81 cell
+					82 text Customer satisfaction
+				83 cell
+					84 text not measured
+				85 cell
+					86 text not measured
+		87 text Proof of delivery and CMR scans arrive by email. Dispatchers match each one to an order in the TMS by hand, then attach it to the invoice. That is about 220 documents a day. Timed over three days, each took 4.1 minutes. In a sample of 300 invoices, 7.3% had the wrong attachment. Complaints about late invoicing were common.
+		88 text Velho built the smallest version that could work. An inbox rule sends each scan to OCR, which looks for the order number and falls back to fuzzy matching on reference and plate. Above 90% confidence the document is attached automatically. Anything else goes into a queue sheet for a person. Version 1 does not write back to the TMS. It produces a draft attachment list and a CSV import, because the vendor API was a six-week wait. In week two, OCR on handwritten PODs turned out to be poor for about 12% of documents, so we added a 'needs human' queue.
+		89 text The pilot started in week three with one dispatcher, Tiina. A second dispatcher, Joonas, was skeptical at first. After the pilot he asked for the same thing on export documents. By week four all three dispatchers were using it. A 15-minute weekly review of the queue's misses keeps it improving.
+		90 text In the five-day pilot, 71% of documents were matched automatically, and 2 of 310 checked were wrong. Average handling time fell to 1.4 minutes per document, queue included. Delivery-to-invoice time went from 5.2 to 3.1 days on a small sample of 140 invoices. The ops manager's verdict: 'tää on kyllä hyvä'. He believes customers are happier, but that has not been measured.
+		91 text LinkedIn post
+		92 text draft — not sent
+		93 button Copy
+		94 text 220 delivery documents a day. Each one matched to an order by hand. 4.1 minutes apiece.
+
+That was a Finnish freight forwarder's reality before we timed it with their dispatchers.
+
+We built the smallest thing that could work: OCR reads the scan, finds the order number and attaches it when it's confident. Anything unclear goes to a short queue for a human. No TMS changes in v1.
+
+Pilot, one dispatcher, one week: 71% of documents matched automatically, 1.4 minutes per document including the queue, invoices out in 3.1 days instead of 5.2.
+
+The skeptic on the team asked for the same on export documents.
+
+Small sample, so we're still tuning.
+		95 text One-pager summary
+		96 text draft — not sent
+		97 button Copy
+		98 text Client: Finnish freight forwarder (name only with permission), logistics.
+Problem: POD/CMR scans arrive by email and are matched to TMS orders by hand, ~220 docs/day at 4.1 min each.
+What we built: OCR + order-number match + fuzzy fallback, auto-attach above 0.9 confidence, human queue for the rest, CSV import (no TMS write-back in v1).
+Result (pilot, 1 dispatcher, 5 days): 71% auto-matched, 0.6% of those wrong, 1.4 min per doc, invoicing 5.2 → 3.1 days.
+Adoption: 3 of 3 dispatchers by week 4, weekly 15-min review of misses, export docs requested.
+Caveats: small pilot sample; customer satisfaction not measured; next steps are threshold tuning and a Finnish handover doc.
+		99 content list
+			100 container
+				101 AXListMarker • 
+				102 text missing Written permission to name Nordtrans Oy, and to quote Pekka or the dispatchers
+			103 container
+				104 AXListMarker • 
+				105 text missing Do 1.4 min/doc and 3.1 days still hold beyond the 5-day, one-dispatcher pilot? The lead-time sample was only 140 invoices
+			106 container
+				107 AXListMarker • 
+				108 text missing The ~15 h/day total: Pekka doubted it. Confirm the 220 docs/day volume and 4.1 min with him before using it
+			109 container
+				110 AXListMarker • 
+				111 text missing The 7.3% before figure (wrong attachments per invoice) and the 0.6% after figure (wrong auto-matches per document) measure different things. Remeasure the same way, or don't present them as like-for-like
+			112 container
+				113 AXListMarker • 
+				114 text missing Is the lead-time improvement due to the tool alone? Check for other factors such as volume or staffing in the pilot week
+			115 container
+				116 AXListMarker • 
+				117 text missing Customer 'happier' claim: not measured, no CSAT data. Don't publish it without evidence
+			118 container
+				119 AXListMarker • 
+				120 text missing Final confidence threshold (0.9 may change after tuning) and the 29% of documents still handled by humans, incl. ~12% handwritten
+			121 container
+				122 AXListMarker • 
+				123 text missing Whether the client is comfortable with us mentioning the TMS vendor's six-week API wait
+			124 container
+				125 AXListMarker • 
+				126 text missing Export documents (EUR.1) are only a 'maybe'. Don't promise them as a next phase publicly
+		127 text Synthetic notes. Publishing a real case needs client and Velho approval.
+		128 text OpenRouter spend so far: $ 4.65
+	17 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		18 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/caseStudy

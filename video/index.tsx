@@ -1,6 +1,7 @@
 // Remotion entry for server-side MP4 renders (`npx remotion render video/index.tsx CompanyVideo`).
 import { Composition, registerRoot } from "remotion";
 import { CompanyVideo, DURATION, type VideoProps } from "./CompanyVideo";
+import { LyricVideo, lyricMetadata, type LyricProps } from "./LyricVideo";
 
 const sample: VideoProps = {
   company: "Example",
@@ -15,4 +16,11 @@ const sample: VideoProps = {
   question: "What would you automate first?",
 };
 
-registerRoot(() => <Composition id="CompanyVideo" component={CompanyVideo} width={1920} height={1080} fps={30} durationInFrames={DURATION} defaultProps={sample} />);
+const song: LyricProps = { company: "Example", title: "Example song", genre: "Synth pop", accent: "#f2b544", shot: "", audio: "", duration: 10, lines: [{ text: "Hello example", section: "Chorus", start: 2, end: 5 }] };
+
+registerRoot(() => (
+  <>
+    <Composition id="CompanyVideo" component={CompanyVideo} width={1920} height={1080} fps={30} durationInFrames={DURATION} defaultProps={sample} />
+    <Composition id="LyricVideo" component={LyricVideo} width={1920} height={1080} fps={30} durationInFrames={300} defaultProps={song} calculateMetadata={lyricMetadata} />
+  </>
+));

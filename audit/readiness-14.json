@@ -1,0 +1,167 @@
+{
+  "assessor": "gpt-6.1-sol via Codex",
+  "date": "2026-10-25",
+  "scope": 14,
+  "excluded": [
+    "media/video"
+  ],
+  "total": 126,
+  "average": 9,
+  "at_least_8": 14,
+  "scores": [
+    {
+      "method": "Quiz + industry index",
+      "dimensions": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 8
+    },
+    {
+      "method": "Campaign",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Proof before pitch",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10
+    },
+    {
+      "method": "Signals",
+      "dimensions": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Trade fair",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Pipeline",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 10
+    },
+    {
+      "method": "Buyer simulator",
+      "dimensions": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Dead deal",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Case study",
+      "dimensions": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Ghost Employee",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Hackathon",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Own Words",
+      "dimensions": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 9
+    },
+    {
+      "method": "Room Radar",
+      "dimensions": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "score": 8
+    },
+    {
+      "method": "Luotsi Chart",
+      "dimensions": [
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "score": 9
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/luotsi?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/luotsi?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Luotsi Chart, Value: 1
+			6 text Luotsi Chart
+		7 text The company’s growth waters as a nautical chart: goals ahead, rocks to avoid, lighthouses to steer by.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading Luotsi Chart: Kesko Oyj, Value: 1
+			14 text Luotsi Chart: Kesko Oyj
+		15 container Nautical growth chart
+		16 content list
+			17 container
+				18 AXListMarker • 
+				19 text rock Rock: Integrating Dahl Nordic operations — Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (2025 combined net sales about €2.1B). Completion is expected by end-2026, and the deal adds many order and logistics flows.
+				20 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/
+			21 container
+				22 AXListMarker • 
+				23 text rock Rock: Finance capacity during large deal — Kesko plans a €500–700M rights issue of B shares to help finance the Dahl acquisition.
+				24 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			25 container
+				26 AXListMarker • 
+				27 text rock Rock: Manual dispatch and planning roles — We noticed a dispatch coordinator role in Vantaa open 30+ days and a part-time replenishment planner vacancy. These are inferred signals, not confirmed process issues.
+				28 link Description: source, Value: glassdoor.com/Jobs/Kesko-Finland-Jobs-EI_IE10397.0,5_IL.6,13_IN79.htm
+			29 container
+				30 AXListMarker • 
+				31 text rock Rock: AI warehouse rollout still forming — Kesko selected Manhattan's cloud-native, agentic-AI WMS to replace its grocery WMS, and Pekka Tala says the aim is agentic AI for operational efficiency in grocery warehouses and terminal hubs. The go-live timing is not public.
+				32 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+		33 content list
+			34 container
+				35 AXListMarker • 
+				36 text quick win Lighthouse: Dispatch and replenishment planning pilot — Dispatch and replenishment roles are open publicly, so a small pilot at one site could test where planning load sits. We would ask before assuming a need.
+			37 container
+				38 AXListMarker • 
+				39 text quick win Lighthouse: Agent-ready WMS integration sprint — The new agentic-AI WMS needs integrations and process automation. A short sprint could map the handoffs alongside the existing rollout, without touching the core system.
+			40 container
+				41 AXListMarker • 
+				42 text quick win Lighthouse: Finance reporting workload review — Group Finance and Business Controller roles are open, which may point to recurring reporting work (inferred). A review could help the integration of Dahl's numbers before the deal closes.
+		43 text Captain's note (to the CEO)
+		44 text draft — not sent
+		45 button Copy
+		46 text Jorma, the chart shows a busy crossing ahead: Dahl's Nordic waters, a warehouse AI rollout, and dispatch roles we noticed still open. Your course is bold. We'd rather sail alongside CGI than around them, with the lighthouses lit where your crew needs them. Shall we plan the route together?
+		47 text Rocks are read from public evidence, not from inside the company. Chart is a conversation starter.
+		48 button (collapsed) Sources (24), Secondary Actions: Expand
+			49 text Sources (
+			50 text 24
+			51 text )
+		52 text OpenRouter spend so far: $ 4.59
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/luotsi?c=Kesko

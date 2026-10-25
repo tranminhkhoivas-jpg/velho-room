@@ -1,0 +1,7 @@
+import assert from "node:assert/strict";
+process.env.VELHO_DB="audit/quality-case-conflict.db";process.env.VELHO_AUDIT_ID="quality-case-conflict-"+Date.now();process.env.OPENROUTER_API_KEY=process.env.FASTINO_API_KEY="offline-not-a-key";process.env.MODEL_FAST=process.env.MODEL_WRITE="anthropic/claude-haiku-5.5";
+const {runSeed}=await import("../lib/seeds");
+globalThis.fetch=async(input,init)=>{const body=JSON.parse(String(init?.body||"{}"));if(String(input).includes("fastino.ai"))return Response.json({usage:{input_tokens:10},answers:Object.fromEntries(Object.keys(body.questions).map(k=>[k,{noul:0.99}]))});return Response.json({usage:{cost:0},choices:[{message:{content:JSON.stringify({title:"78% extraction accuracy",blocks:[{t:"h",text:"78% accuracy"},{t:"p",text:"78% extraction"},{t:"draft",label:"Post",text:"Our result was 78% accuracy"},{t:"list",items:[{text:"78% accuracy improved",url:"https://example.test"}]},{t:"table",cols:["Metric","Before","After"],rows:[["Accuracy","78%","99%"]]},{t:"score",label:"Accuracy",value:78,max:100}]})}}]});};
+const a=await runSeed("caseStudy",{noteId:"P3",fresh:"1"});
+assert(!a.title.includes("78%"));assert(!JSON.stringify(a.blocks.filter(b=>b.t!=="note"&&b.t!=="sources")).includes("78%"));assert(!a.blocks.some(b=>b.t==="score"));assert(a.sourceRecord!.text.includes("78% of 50"));assert(a.blocks.some(b=>b.t==="note"&&b.text.includes("Source inconsistency")));
+console.log("PASS conflicting metric withheld from title, heading, prose, draft, list and both table result columns; original source preserved");

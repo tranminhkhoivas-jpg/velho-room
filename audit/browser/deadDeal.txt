@@ -1,0 +1,101 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/deadDeal".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/deadDeal
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/
+		5 heading Dead deal resurrector, Value: 1
+			6 text Dead deal resurrector
+		7 text Finds deals that went quiet and a real, current reason to reconnect. (Synthetic CRM.)
+		8 pop up button (collapsed, settable) Description: Choose a synthetic record, Value: Kesko — proposal sent, last contact 2026-02-12, Secondary Actions: Expand
+			9 menu
+				10 (selected) Kesko — proposal sent, last contact 2026-02-12
+				11 Lassila & Tikanoja — discovery, last contact 2025-12-04
+				12 Ponsse — pilot discussed, last contact 2026-03-05
+				13 Posti — proposal sent, last contact 2026-01-22
+				14 Fiskars — intro call, last contact 2026-04-02
+				15 Musti — discovery, last contact 2026-02-26
+				16 Puuilo — proposal sent, last contact 2026-03-18
+				17 Caverion — pilot discussed, last contact 2026-04-14
+				18 Lemonsoft — discovery, last contact 2026-03-24
+				19 Terveystalo — proposal sent, last contact 2026-05-06
+				20 Mehiläinen — intro call, last contact 2026-05-19
+				21 Pihlajalinna — discovery, last contact 2026-01-15
+				22 Atria — pilot discussed, last contact 2026-02-09
+				23 Valio — proposal sent, last contact 2026-03-02
+				24 Paulig — intro call, last contact 2026-06-03
+				25 Fazer — discovery, last contact 2026-04-21
+				26 Onninen — pilot discussed, last contact 2026-01-30
+				27 Ahlsell — proposal sent, last contact 2026-02-20
+				28 YIT — discovery, last contact 2026-05-27
+				29 Consti — intro call, last contact 2026-03-12
+				30 Helen — proposal sent, last contact 2026-06-10
+				31 Lahti Energia — discovery, last contact 2026-04-09
+				32 Tokmanni — pilot discussed, last contact 2025-12-18
+				33 Verkkokauppa.com — proposal sent, last contact 2026-03-31
+				34 Konecranes — discovery, last contact 2026-06-17
+				35 Valmet — intro call, last contact 2026-05-08
+				36 Matkahuolto — proposal sent, last contact 2026-04-28
+				37 Barona — pilot discussed, last contact 2026-02-17
+				38 Apetit — discovery, last contact 2026-07-14
+				39 Attendo — intro call, last contact 2026-07-28
+		40 button Run
+		43 heading Dead deal resurrector: Kesko (K-Rauta B2B email triage assistant), Value: 1
+			44 text Dead deal resurrector: Kesko (K-Rauta B2B email triage assistant)
+		45 text Reconnect strength
+		46 container
+			47 text 62 / 100
+		48 text Several fresh, credible triggers since the last contact on 2026-02-12: the Dahl deal, an agentic-AI WMS and a visible AI/data agenda. Kesko is clearly bringing in new AI vendors, which speaks directly to the procurement objection. Points are held back because nothing public touches Heikki's customer service area, we can't see whether the group vendor assessment has moved, and the last message in the thread (2026-02-12) was ours and went unanswered.
+		49 heading New triggers since last contact (2026-02-12), Value: 2
+			50 text New triggers since last contact (2026-02-12)
+		51 content list
+			52 container
+				53 AXListMarker • 
+				54 text news (2026-10) Kesko selected Manhattan's cloud-native, agentic-AI warehouse management system to replace its grocery WMS. Kesko is now buying and rolling out agentic AI at group level. Date is approximate.
+				55 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+			56 container
+				57 AXListMarker • 
+				58 text investment (2026-10-08) Kesko plans a €500–700M rights issue of B shares to help finance the Dahl acquisition.
+				59 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			60 container
+				61 AXListMarker • 
+				62 text acquisition (2026-09-24) European Commission unconditionally approved Kesko's purchase of Dahl's operations in Sweden, Norway and Denmark. Completion is expected by end-2026.
+				63 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			64 container
+				65 AXListMarker • 
+				66 text results (2026-07-22) Half-year 2026 profit improved, and 2026 profit guidance was narrowed to €670–730M.
+				67 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+			68 container
+				69 AXListMarker • 
+				70 text acquisition (2026-06-15) Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark, with 2025 combined net sales of about €2.1B. This is the largest deal in Kesko's history.
+				71 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/
+			72 container
+				73 AXListMarker • 
+				74 text news (2026-04-08) Kesko published a voluntary Data balance sheet report for 2025, focused on data and digitalisation.
+				75 link Description: source, Value: kesko.fi/en/media/news-and-releases/investor-news/
+			76 container
+				77 AXListMarker • 
+				78 text strategy (2026-03) The spring 2026 strategy update states the aim to "enhance technology and AI capabilities across the organization".
+				79 link Description: source, Value: kesko.fi/en/company/strategy-vision-and-values/
+			80 container
+				81 AXListMarker • 
+				82 text hiring (2026-03) Revelio Labs counts 329 active Kesko job postings in 2026, up 20.1% year on year.
+				83 link Description: source, Value: reveliolabs.com/companies/kesko/employees
+		84 heading The real reason to reconnect now, Value: 2
+			85 text The real reason to reconnect now
+		86 text Heikki's blocker in February was that group procurement had to assess new vendors first, and he didn't know when a slot would open. Since then Kesko has picked an agentic-AI warehouse system, put AI and data in its spring 2026 strategy, and taken on its biggest acquisition. Together these suggest that AI vendor assessment is becoming routine at group level, and that the Dahl integration will add pressure on B2B order and customer flows. We can't see inside procurement, so this is a reason to ask, not a claim that the slot has opened. The practical offer is to make the assessment easy: send the security and GDPR pack in a form Heikki can forward himself, and keep the pilot at one chain with a fixed price. Position Velho as complementing the CGI partnership and the warehouse work, not competing with them.
+		87 text Reconnect message to Heikki Nurmilaakso
+		88 text draft — not sent
+		89 button Copy
+		90 text Hi Heikki,
+
+in February I offered to send our security and GDPR materials to procurement, and we left it there. A lot has moved at Kesko since: the Dahl deal cleared the EU and Kesko picked an agentic-AI warehouse system. Is the K-Rauta email triage pilot still on your list, and has the vendor assessment found a slot? Happy to send a one-page summary you can forward internally.
+		91 text CRM history is synthetic demo data; company signals are live public data.
+		92 button (collapsed) Sources (21), Secondary Actions: Expand
+			93 text Sources (
+			94 text 21
+			95 text )
+		96 text OpenRouter spend so far: $ 4.65
+	41 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		42 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/deadDeal

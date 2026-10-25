@@ -1,0 +1,251 @@
+{
+  "title": "Proposed 48-hour challenge brief: invoice re-entry pilot (scoping draft, not ready to run)",
+  "blocks": [
+    {
+      "t": "note",
+      "text": "Scope fields supplied by staff; review feasibility, data permission and acceptance before committing."
+    },
+    {
+      "t": "note",
+      "text": "This brief is for scoping only. It is not ready to run. The synthetic sample is a fictional test and not an actual Kesko project. Owner, production access and acceptance criteria are not yet confirmed. No buyer has agreed to anything."
+    },
+    {
+      "t": "h",
+      "text": "1. Short challenge"
+    },
+    {
+      "t": "p",
+      "text": "Could a small, bounded tool reduce duplicate invoice data entry for a fictional process owner, using only the approved 20-invoice CSV, without touching production systems? The goal is to test whether the problem is worth a larger look, not to ship a solution."
+    },
+    {
+      "t": "p",
+      "text": "Context from the dossier: Kesko's public materials mention an upcoming Q3 2026 interim report (29 Oct 2026) and the Dahl integration, which may create reconciliation work across units. These are reasons to ask, not diagnoses of internal processes."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Kesko's Q3 2026 interim report is due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/",
+          "tag": "signal"
+        },
+        {
+          "text": "Integrating Dahl's Nordic technical trade operations, which keep separate brands and units, may require manual reconciliation of order and financial data. Inferred, not confirmed.",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+          "tag": "inferred"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "2. Three directions with proposed acceptance tests (all unconfirmed)"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Direction",
+        "What it tests",
+        "Proposed acceptance test"
+      ],
+      "rows": [
+        [
+          "A. Copy-accuracy checker",
+          "Whether a tool can reproduce all 20 approved invoice records",
+          "All 20 records copied, zero omissions, every row reviewed by the employee"
+        ],
+        [
+          "B. Assisted entry with review",
+          "Whether a guided entry flow reduces staff effort",
+          "Time per invoice measured on the sample, compared with a manual baseline. Target to be agreed with the owner. Note: the existing one-week measurement (12h to 8h per week) is self-reported and not a financial result."
+        ],
+        [
+          "C. Exception flagging",
+          "Whether mismatches can be surfaced before manual review",
+          "Flags raised on a labelled subset of the 20 invoices; precision and recall measured against employee-marked errors"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "3. Six idea prompts"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "What is the smallest version a single employee could check in two hours?"
+        },
+        {
+          "text": "Which fields cause most re-keying, and can they be pre-filled from the CSV?"
+        },
+        {
+          "text": "Where do duplicates originate: spreadsheets, email attachments or both?"
+        },
+        {
+          "text": "What would a reviewer need to trust an automated copy?"
+        },
+        {
+          "text": "Which errors are costly enough to flag, and which are noise?"
+        },
+        {
+          "text": "What must remain manual for audit or approval reasons? (Open question for the owner.)"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "4. Bounded deliverable"
+    },
+    {
+      "t": "p",
+      "text": "A short demo on the approved 20-invoice CSV only, plus a one-page note listing what was tested, what failed and what remains unknown. No production code."
+    },
+    {
+      "t": "h",
+      "text": "5. Exclusions"
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "No production system or live ERP access."
+        },
+        {
+          "text": "No outbound messages to Kesko staff or third parties."
+        },
+        {
+          "text": "No use of data beyond the approved fictional CSV."
+        },
+        {
+          "text": "No financial savings claims. None were measured."
+        },
+        {
+          "text": "No commitments on Monday delivery or follow-on work."
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "text": "6. Two-day tentative plan (not booked)"
+    },
+    {
+      "t": "table",
+      "cols": [
+        "Block",
+        "Activity"
+      ],
+      "rows": [
+        [
+          "Day 1 morning",
+          "Confirm owner, data scope and acceptance test with the process owner"
+        ],
+        [
+          "Day 1 afternoon",
+          "Build the chosen direction against the 20-row CSV"
+        ],
+        [
+          "Day 2 morning",
+          "Employee reviews every row; record failures"
+        ],
+        [
+          "Day 2 afternoon",
+          "Demo and one-page note"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "7. Proposed staffing (roles only, no names assigned)"
+    },
+    {
+      "t": "p",
+      "text": "One Velho builder, one Velho process analyst, and the named Kesko owner for review. Names and calendar slots are not yet assigned."
+    },
+    {
+      "t": "h",
+      "text": "Cover note (for Velho employee to review and send manually)"
+    },
+    {
+      "t": "draft",
+      "label": "Cover note",
+      "text": "We noticed Kesko's Dahl integration and the Q3 report ahead. Could a small, two-day test of invoice re-entry, run only on approved sample data, be worth exploring? Would you be open to a 20-minute scoping call to define the owner, data scope and success test?"
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ],
+  "sourceRecord": {
+    "kind": "synthetic",
+    "text": "SYNTHETIC SAMPLE (self-reported, approved for processing; preserve unknowns):\n{\"kind\":\"synthetic\",\"company\":\"Kesko\",\"notes\":\"Fictional employee test, not an actual Kesko project or meeting. A small invoice sample took 12 staff hours per week before a pilot and 8 afterwards, measured for one week only. No financial savings or production deployment were measured. Staff want to explore removing duplicate spreadsheet entry. No buyer has agreed to a purchase.\",\"contact\":\"Fictional buyer\",\"lastContact\":\"2026-10-25\",\"objection\":\"No approved data access\",\"owner\":\"Fictional process owner\",\"dataAccess\":\"Approved fictional CSV of 20 invoices only\",\"constraints\":\"No production system access, no outbound messages, two-hour exploration\",\"success\":\"Correctly copy all 20 fictional records with no omissions; employee reviews every row\",\"approved\":true}"
+  }
+}

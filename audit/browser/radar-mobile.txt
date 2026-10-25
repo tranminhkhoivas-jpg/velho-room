@@ -1,0 +1,82 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/radar?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/radar?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Room Radar, Value: 1
+			6 text Room Radar
+		7 text Where the target’s execs will physically be in the next months, and how Velho gets in that room.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Room Radar: Kesko, next 6 months, Value: 1
+			15 text Room Radar: Kesko, next 6 months
+		16 heading Room Radar: where Kesko's people will be, Oct 2026 to Apr 2027, Value: 2
+			17 text Room Radar: where Kesko's people will be, Oct 2026 to Apr 2027
+		18 text Kesko's most concrete public room is its own Q3 results briefing, which is confirmed for 29 October 2026 at K-Kampus. It is a Finnish-language session for media, analysts and investors, with CEO Jorma Rauhala and the three division presidents taking questions afterwards. The Dahl integration and the rights issue make the next few months busy, and that briefing is the one room where the executives are already scheduled to be standing in public.
+		19 table
+			20 row
+				21 cell
+					22 text Date
+				23 cell
+					24 text Event
+				25 cell
+					26 text Who from them / why relevant
+				27 cell
+					28 text Link
+			29 row
+				30 cell
+					31 text 29 Oct 2026, 10:30 EET
+				32 cell
+					33 text Q3 interim report results conference (Finnish, K-Kampus, Helsinki)
+				34 cell
+					35 text Jorma Rauhala (CEO) plus the three division presidents, including Ari Akseli (Grocery). Dahl integration and the EUR 500-700m rights issue are the likely questions.
+				36 cell
+					37 link Description: Open source, Value: kesko.fi/Investors
+			38 row
+				39 cell
+					40 text 29 Oct 2026, 9:00 EET
+				41 cell
+					42 text Q3 English-language teleconference (registration required)
+				43 cell
+					44 text CEO presentation and Q&A with the division presidents. Useful for the English-speaking investor audience.
+				45 cell
+					46 link Description: Open source, Value: marketscreener.com/news/kesko-oyj-invitation-to-keskoa-s-q3-interim-report-briefing-on-thursday-29-october-2026-ce785ddadc8cf425
+			47 row
+				48 cell
+					49 text 18-19 Nov 2026
+				50 cell
+					51 text Slush, Messukeskus Helsinki (industry event; Kesko not confirmed as attending or speaking)
+				52 cell
+					53 text Relevant only as a general Helsinki gathering of operators and tech buyers. No Kesko speaker is confirmed in the sources.
+				54 cell
+					55 link Description: Open source, Value: slush.org/
+			56 row
+				57 cell
+					58 text Nov 2026 (exact date not confirmed)
+				59 cell
+					60 text Kesko DNB Carnegie Consumer Conference 2026 (listed as a past 2026 presentation, not an upcoming one)
+				61 cell
+					62 text Shows Kesko's management does investor-conference appearances. No upcoming date was found.
+				63 cell
+					64 link Description: Open source, Value: quartr.com/companies/kesko_4407
+		65 text The best room for Velho is the 29 October results briefing at K-Kampus, in person if we can get a seat, or the English teleconference if not. Attending as a listener costs nothing and puts Velho in front of the CFO and division heads in the same room where Kesko explains its integration plans. Don't ask for a slot in the Q&A. Instead, approach after the session and ask for 15 minutes in the following week. Do not sponsor or host anything at Slush for this account; the match is weak and the Kesko presence there is unconfirmed.
+		66 text Pre-event note
+		67 text draft — not sent
+		68 button Copy
+		69 text Hi [Name], Kesko's Q3 briefing is on 29 October at K-Kampus. Will you be attending in person, or joining by teleconference? If you're there, could we find 15 minutes afterwards to talk about the back-office work that usually follows an acquisition like Dahl? No pitch, just a question or two. Velho
+		70 text Walk-up line
+		71 text draft — not sent
+		72 button Copy
+		73 text We noticed the Dahl integration is moving fast, and I wanted to ask how your team is handling the back-office side. Do you have 15 minutes this week?
+		74 text Unconfirmed items to verify before sending anything: (1) The Slush and Nordic Business Forum listings are industry events only; Kesko attendance is not confirmed. (2) The Kesko DNB Carnegie Consumer Conference 2026 appears only as a past presentation summary on Quartr, so its 2026 date is unknown. (3) The Q3 results date of 29 October 2026 is confirmed by Kesko's own investor page and the MarketScreener invitation, but check the room and registration details on kesko.fi before the day. (4) Velho must not assume the CEO or CFO will attend in person; the briefing is open to media, analysts and investors, so confirm whether a non-investor can get in. (5) Employee counts vary widely across sources, so avoid quoting a size figure in any note.
+		75 button (collapsed) Sources (19), Secondary Actions: Expand
+			76 text Sources (
+			77 text 19
+			78 text )
+		79 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/radar?c=Kesko

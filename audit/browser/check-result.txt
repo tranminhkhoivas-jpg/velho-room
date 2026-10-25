@@ -1,0 +1,15 @@
+Browser tab: 3, Title: "Velho Room", URL: "http://127.0.0.1:3015/check?talk=employee-browser-audit".
+0 AXWebArea Velho Room, URL: 127.0.0.1:3015/check?talk=employee-browser-audit
+	1 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	2 container
+		3 heading What could your team stop doing by hand?, Value: 1
+			4 text What could your team stop doing by hand?
+		5 text Six taps, two minutes, a personal result. Built at a hackathon for Velho. Your automation readiness (rule-of-thumb estimate)
+		49 heading 58/100 — Copying data is your biggest drain; adoption is your real risk., Value: 2
+			50 text 58 /100 —  Copying data is your biggest drain; adoption is your real risk.
+		51 text Automate the recurring system-to-system copy Estimate: roughly 3–6 hours per person per week, if most of the copying is removed. Hypothesis, not measured.  (estimate) Map the fields your team re-keys between systems each week, then connect those systems with an integration tool or scheduled sync so the data moves without manual entry. Pilot with the people who do the copying first Estimate: the time saved depends on the pilot's scope, so roughly 1–2 hours per person per week in the pilot team. Hypothesis, not measured.  (estimate) Pick one team that loses the most hours, have its members define the fix and test it for two weeks, and track whether they keep using it. This addresses why the last idea went unused. Send freed time to sales, not just admin Estimate: about 1–3 hours per week for sales-facing staff, depending on how much data entry they do today. Hypothesis, not measured.  (estimate) Where order, invoice or delivery data currently gets copied into the CRM by hand, have it populate automatically so sellers spend that time on customer contact rather than data entry. Try this week: Ask two or three people who do the copying to log, for one week, which systems they move data between and how long each transfer takes.
+		52 button Change my answers
+	47 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		48 image
+
+The focused UI element is 0 AXWebArea Velho Room, URL: 127.0.0.1:3015/check?talk=employee-browser-audit

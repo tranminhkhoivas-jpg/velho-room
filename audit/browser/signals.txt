@@ -1,0 +1,100 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/signals?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/signals?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Signals in public data, Value: 1
+			6 text Signals in public data
+		7 text Register changes, EU tenders, hiring and leadership news that say “now”, scored with a cited reason.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		12 button Regenerate
+		13 heading Kesko Oyj: signals board (as of 2026-10-24), Value: 1
+			14 text Kesko Oyj: signals board (as of 2026-10-24)
+		15 text Why-now score
+		16 container
+			17 text 78 / 100
+		18 text Active AI warehouse rollout, the Dahl integration and narrowed profit guidance all point to timing; CGI already covers AI, so a new partner has to complement it, which lowers the score.
+		19 heading Signals, strongest first, Value: 2
+			20 text Signals, strongest first
+		21 content list
+			22 container
+				23 AXListMarker • 
+				24 text news Kesko selected Manhattan's cloud-native, agentic-AI warehouse management system to replace its grocery WMS. Why it matters to Velho: a live AI-driven operations rollout means the people-and-process layer (exceptions, hand-offs, integrations) is where help is usually needed. Date is approximate.
+				25 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+			26 container
+				27 AXListMarker • 
+				28 text acquisition European Commission unconditionally approved the Dahl purchase in Sweden, Norway and Denmark; completion expected by end-2026. Why it matters: new Nordic units will need systems and process integration soon.
+				29 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			30 container
+				31 AXListMarker • 
+				32 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark; 2025 combined net sales about €2.1B. Why it matters: the largest deal in Kesko's history adds many order and logistics flows.
+				33 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/
+			34 container
+				35 AXListMarker • 
+				36 text investment Kesko plans a €500–700M rights issue of B shares to help finance the Dahl acquisition. Why it matters: a large deal puts pressure on finance, back-office and reporting processes.
+				37 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			38 container
+				39 AXListMarker • 
+				40 text results Half-year 2026 profit improved and 2026 profit guidance was narrowed to €670–730M. Why it matters: strong earnings give budget room for AI and automation, though we don't know whether that budget is already allocated.
+				41 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+			42 container
+				43 AXListMarker • 
+				44 text partnership Kesko signed CGI as strategic digital partner; the CIO said AI and automation will play a significant role in renewing the business. Why it matters: CGI already covers AI/automation scope, so Velho has to complement it, not replace it.
+				45 link Description: source, Value: cgi.com/en/cgi-and-kesko-enter-strategic-partnership-to-accelerate-digital-transformation
+			46 container
+				47 AXListMarker • 
+				48 text news Kesko published a voluntary Data balance sheet report for 2025 focused on data and digitalisation. Why it matters: an active data agenda is a natural opening for AI use-case talks.
+				49 link Description: source, Value: kesko.fi/en/media/news-and-releases/investor-news/
+			50 container
+				51 AXListMarker • 
+				52 text hiring Revelio Labs counts 329 active Kesko job postings in 2026, up 20.1% year on year. Why it matters: rising hiring can mean growing demand for processes that automation could ease.
+				53 link Description: source, Value: reveliolabs.com/companies/kesko/employees
+			54 container
+				55 AXListMarker • 
+				56 text inferred manual-work clue Replenishment planner (part-time) vacancy to steer K-grocery supply chain planning (posted 2026-10-06). Why it matters: a planning role being hired suggests recurring manual planning work. Inferred from the posting, not confirmed.
+				57 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			58 container
+				59 AXListMarker • 
+				60 text inferred manual-work clue Finance and business controller roles and Kesko-IT vacancies (posted 2026-09-22). Why it matters: suggests recurring finance and reporting workload, which the rights issue and Dahl integration would add to. Inferred.
+				61 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			62 container
+				63 AXListMarker • 
+				64 text inferred manual-work clue Dispatch coordinator (ajojärjestelijä) role advertised for K-group in Vantaa, open 30+ days (2026-09). Why it matters: a long-open dispatch role may point to manual scheduling. Inferred.
+				65 link Description: source, Value: glassdoor.com/Jobs/Kesko-Finland-Jobs-EI_IE10397.0,5_IL.6,13_IN79.htm
+			66 container
+				67 AXListMarker • 
+				68 text inferred manual-work clue Spare-parts supervisor (työnjohtaja / varaosavastaava) listed for K-Auto in Espoo (2026-07). Why it matters: suggests manual parts and stock handling. Inferred.
+				69 link Description: source, Value: glassdoor.com/Jobs/Kesko-Espoo-Jobs-EI_IE10397.0,5_IL.6,11_IC2503014.htm
+			70 container
+				71 AXListMarker • 
+				72 text inferred manual-work clue Production worker vacancy at Kalatukku E. Eriksson, fish wholesale (2026-02-13). Why it matters: suggests manual handling in wholesale operations. Inferred and weak on its own.
+				73 link Description: source, Value: kesko.fi/en/Careers/k-group-for-students-and-recent-graduates/summer-job-at-k-group/
+			74 container
+				75 AXListMarker • 
+				76 text register change Trade names registered on 2025-10-31: Siwa Plus, Jounin Kauppa, Suomen Lähikauppa, Valintatalo, K-Market. Why it matters: a brand or store-format restructuring can mean new systems and processes, but the register alone doesn't show that. Low weight.
+				77 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			78 container
+				79 AXListMarker • 
+				80 text register change Name registered on 2025-11-30: Espoon Sinikalliontie 1. Why it matters: looks like a site or entity name, purpose unclear. Low weight.
+				81 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			82 container
+				83 AXListMarker • 
+				84 text tender Kesko listed as winner in several public tenders in early 2025 (Ale kommun, Dienvidkurzemes novada pašvaldība, Etelä-Pohjanmaan hyvinvointialue, Espoon kaupunki, Västerås stad). Why it matters: shows public-sector supply work, but there is no clear link to AI or ops pain. Lowest weight.
+				85 link Description: source, Value: ted.europa.eu/en/notice/-/detail/21121-2025
+		86 text Who to approach first: Arto Hiltunen, CIO. He owns the public AI and automation message ("automation and AI-based solutions are significant for renewing the business") and sits closest to the CGI relationship, so he can judge complement versus overlap. Second, Anu Hämäläinen, EVP and CFO (since 2024-06-01), for the finance and reporting side of the Dahl integration and the rights issue. Pekka Tala, Director Strategic Programs, Grocery Trade Logistics, is named in the WMS signal and could be the operational sponsor, but he is not on the leadership list, so treat him as a second-line contact. Jorma Rauhala (CEO) is not the first door for a Velho intro.
+		87 text Best timing: the window before Dahl completion (expected by end-2026) and before integration plans and the WMS rollout lock in their scope, roughly November to December 2026 (estimate). Kesko's next interim results date is not in the dossier; check the investor calendar and avoid the week of the results release. The rights issue timing is also not in the dossier.
+		88 text Opener (LinkedIn/email)
+		89 text draft — not sent
+		90 button Copy
+		91 text Hi Arto, we noticed Kesko picked an agentic-AI warehouse system for grocery, and with Dahl coming in, a lot of the real work will sit in the hand-offs around it: exceptions, replenishment, dispatch. Velho finds those manual loops and builds the fix people actually use, alongside existing partners like CGI. Would a 20-minute look at where the rollout is sticking make sense?
+		92 text What we do NOT know and must ask: (1) Whether CGI's scope already covers the WMS rollout or the Dahl integration, and whether Velho would be complementary or competing. (2) Who owns the WMS and Dahl integration budgets, and whether any of it is already allocated. (3) Kesko's next results date and the rights issue timing. (4) Whether the manual-work roles are new, backfills or routine; all the job-based clues are inferred. (5) Headcount: sources disagree (about 19,000 per Revelio vs about 39,000 per Wikipedia), so do not quote a number. (6) What the 2025 trade-name registrations and the Espoon site registration are for. (7) Whether the TED tender wins are active contracts. (8) Whether Kesko's procurement accepts external AI partners and how long a pilot would take to approve. None of these are diagnoses; they are questions to ask.
+		93 button (collapsed) Sources (24), Secondary Actions: Expand
+			94 text Sources (
+			95 text 24
+			96 text )
+		97 text OpenRouter spend so far: $ 4.55
+	10 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		11 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/signals?c=Kesko

@@ -1,0 +1,77 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/buyer?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/buyer?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Buyer simulator, Value: 1
+			6 text Buyer simulator
+		7 text Rehearse the pitch on an AI CFO built from the company’s real annual report. Text or voice.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Buyer simulator setup card: Kesko CFO, Value: 1
+			15 text Buyer simulator setup card: Kesko CFO
+		16 heading Anu Hämäläinen, EVP, CFO, Kesko Oyj, Value: 2
+			17 text Anu Hämäläinen, EVP, CFO, Kesko Oyj
+		18 content list
+			19 container
+				20 AXListMarker • 
+				21 text figure Comparable operating profit for 2025 was €654.9m (+€4.8m, +0.7%) on net sales of €12,474.7m (+4.7%; +2.3% comparable). Report by the Board of Directors, Financial performance, p.4.
+				22 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			23 container
+				24 AXListMarker • 
+				25 text figure Cash flow from operating activities fell to €879.7m (2024: €1,008.2m), weakened by higher working capital. A Finnish Food Market Act change from 1 July 2025 shortened payment periods, estimated at roughly €100m of lost operating cash flow. Report, Cash flow and financial position, p.5.
+				26 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			27 container
+				28 AXListMarker • 
+				29 text figure Interest-bearing net debt excl. leases rose to €1,308.9m (2024: €857.2m); net debt/EBITDA excl. IFRS 16 at 1.6x (1.1x); gearing 120.5%. Report, Cash flow and financial position, p.5.
+				30 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			31 container
+				32 AXListMarker • 
+				33 text figure Capital expenditure €735.7m, of which store sites €334.4m, acquisitions €185.8m, IT only €22.8m. Report, Capital expenditure, p.5.
+				34 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			35 container
+				36 AXListMarker • 
+				37 text priority Grocery trade comparable operating profit fell €19.9m to €418.1m (margin 6.5%) due to the K Group price programme and weak foodservice; 2026 guidance says the grocery margin stays clearly above 6% despite price investment. Report, Segments, p.6 and Outlook 2026, p.3.
+				38 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			39 container
+				40 AXListMarker • 
+				41 text priority 2026 guidance: comparable operating profit of €650–750m, with improvement expected in all divisions and countries. Report, Guidance 2026, p.3.
+				42 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+			43 container
+				44 AXListMarker • 
+				45 text priority Report names digitalisation and AI as operating-environment trends, and data-driven management as a key opportunity and risk. Report, Operating environment, p.3.
+				46 link Description: source, Value: kesko.fi/49309c/globalassets/03-sijoittaja/hallinnointi/2026/2025-kesko-report-by-board-of-directors-and-financial-statements-pdf-eng-id-56346.pdf
+		47 content list
+			48 container
+				49 AXListMarker • 
+				50 text objection Your savings case is unproven: where does a 2026 profit lift of this size show up in the cost line, and who signs off the number? (Guidance is €650–750m against €654.9m in 2025, so the bar is not high in absolute terms but it is visible.)
+			51 container
+				52 AXListMarker • 
+				53 text objection With net debt up to €1,308.9m and gearing at 120.5%, why should I fund a new programme now rather than protect the balance sheet during the rights issue period?
+			54 container
+				55 AXListMarker • 
+				56 text objection IT capex was only €22.8m last year. Your team already runs automation; what does an external partner add that our in-house AI and digital teams cannot deliver?
+			57 container
+				58 AXListMarker • 
+				59 text objection Working capital already cost us about €100m after the Food Market Act change. Will your work improve cash conversion or only add cost and vendor risk?
+			60 container
+				61 AXListMarker • 
+				62 text objection Dahl and other acquisitions mean integration risk. Why add a new vendor to a consolidation that already needs careful control?
+		63 text Coaching: open with the working-capital number, not the AI. Lead with "Operating cash flow fell from €1,008m to €880m, and the Food Market Act change cost roughly €100m of it (estimate from the report). Where could a faster order-to-cash and invoice cycle win back cash before the rights issue?" That matches her reported priorities (cash, leverage, guidance) and avoids pitching technology first.
+		64 text The CFO in the chat below is an AI simulation built from public documents, not the real person. Her objections are inferred from the annual report and do not reflect her actual views or statements.
+		65 button (collapsed) Sources (19), Secondary Actions: Expand
+			66 text Sources (
+			67 text 19
+			68 text )
+		69 text AI simulation of the CFO, grounded in the annual report. Pitch Velho; it will push back. Voice works in Chrome/Edge.
+		70 text field (settable)
+		71 button Send
+		72 button 🎤 Speak
+		73 button (disabled) Score my pitch
+		74 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/buyer?c=Kesko

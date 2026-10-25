@@ -1,0 +1,191 @@
+{
+  "query": "Kesko",
+  "name": "Kesko Oyj",
+  "website": "https://www.kesko.fi/en/",
+  "businessId": "0109862-8",
+  "oneLiner": "Kesko is a Finnish trading sector forerunner operating grocery trade, building and technical trade, and car trade across the Nordics and Baltics, with its K-Group retailers.",
+  "industry": "Food retail and wholesale distribution (grocery, building/technical trade, car trade)",
+  "sizeHint": "Net sales €12,474.1m and comparable operating profit €654.9m in 2025; about 18,991 employees (2025 Annual Report, 2026-02-27)",
+  "hq": "Helsinki",
+  "leadership": [
+    {
+      "name": "Jorma Rauhala",
+      "role": "President and CEO; chairs Group Management Board",
+      "url": "https://www.kesko.fi/group-management-board"
+    },
+    {
+      "name": "Anu Hämäläinen",
+      "role": "Executive Vice President, CFO (since 2024-06-01)",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+    },
+    {
+      "name": "Sami Kiiski",
+      "role": "President, Building and Technical Trade division",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+    },
+    {
+      "name": "Ari Akseli",
+      "role": "President, Grocery Trade division",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+    },
+    {
+      "name": "Johanna Ali",
+      "role": "President, Car Trade division",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+    },
+    {
+      "name": "Minttu Sinisalo",
+      "role": "Executive Vice President, Human Resources (since 2026-03-01)",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+    }
+  ],
+  "signals": [
+    {
+      "type": "acquisition",
+      "text": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and Denmark from Saint-Gobain; debt-free price €1.2bn, completion targeted by end-2026.",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+      "date": "2026-06-15",
+      "why": "Integrating a large acquired Nordic business creates demand for process automation and shared data/ERP workflows."
+    },
+    {
+      "type": "investment",
+      "text": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing for the Dahl acquisition; EGM on 2026-10-30 to authorise it. Terms not yet set (proposed).",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/",
+      "date": "2026-10-08",
+      "why": "Capital raise and the upcoming EGM make the timing of post-deal spending and efficiency programmes live now."
+    },
+    {
+      "type": "news",
+      "text": "European Commission unconditionally approved the Dahl acquisition; completion still depends on other conditions.",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/",
+      "date": "2026-09-24",
+      "why": "Deal nearing close means integration planning, where Kesko may seek automation partners."
+    },
+    {
+      "type": "news",
+      "text": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehouse solution; initial rollout covers five distribution centres, with a new site in 2029-30.",
+      "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html",
+      "date": "2026-10-06",
+      "why": "Kesko is already investing in AI-driven warehouse tooling; partners can target adjacent workflow and integration gaps."
+    },
+    {
+      "type": "results",
+      "text": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narrowed to €670-730m.",
+      "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/",
+      "date": "2026-07-22",
+      "why": "Margin focus and cost discipline increase appetite for efficiency gains."
+    },
+    {
+      "type": "results",
+      "text": "Q3 2026 interim report due 29 October 2026.",
+      "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/",
+      "date": "2026-10-29",
+      "why": "Upcoming results call is a natural moment for management to discuss priorities."
+    }
+  ],
+  "goals": [
+    {
+      "text": "Kesko targets Group net sales of some €20 billion and division net sales of some €10 billion in the early 2030s.",
+      "speaker": "Jorma Rauhala, President and CEO",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+      "date": "2026-06-15"
+    },
+    {
+      "text": "Kesko's objective in car trade is to outperform the market in all business areas.",
+      "speaker": "Jorma Rauhala, President and CEO",
+      "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/",
+      "date": "2026-02-05"
+    },
+    {
+      "text": "Kesko estimates that both its operating environment and results will improve in 2026 in all divisions and operating countries.",
+      "speaker": "Jorma Rauhala, President and CEO",
+      "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/",
+      "date": "2026-02-05"
+    }
+  ],
+  "manualWorkClues": [
+    {
+      "text": "No Kesko-specific job ads for manual order entry, invoicing or data-entry roles were found in search results; generic postings only.",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/",
+      "date": "2026-10-24",
+      "inferred": true
+    },
+    {
+      "text": "Integrating the Dahl businesses (which keep separate brands and units) may require manual reconciliation of order and financial data across units.",
+      "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/",
+      "date": "2026-06-15",
+      "inferred": true
+    }
+  ],
+  "annualReportUrl": "https://www.kesko.fi/annual-reports",
+  "registry": {
+    "businessId": "0109862-8",
+    "name": "Kesko Oyj",
+    "industry": "Non-specialised wholesale trade",
+    "registered": "1978-03-15",
+    "form": "Public limited company",
+    "changes": [
+      {
+        "text": "Name registered: Siwa Plus",
+        "date": "2025-10-31",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      },
+      {
+        "text": "Name registered: Jounin Kauppa",
+        "date": "2025-10-31",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      },
+      {
+        "text": "Name registered: Suomen Lähikauppa",
+        "date": "2025-10-31",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      },
+      {
+        "text": "Name registered: Valintatalo",
+        "date": "2025-10-31",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      },
+      {
+        "text": "Name registered: K-Market",
+        "date": "2025-10-31",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      },
+      {
+        "text": "Name registered: Espoon Sinikalliontie 1",
+        "date": "2025-11-30",
+        "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+      }
+    ]
+  },
+  "tenders": [
+    {
+      "text": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankinta — named buyer: Etelä-Pohjanmaan hyvinvointialue; Kokkaamo Ateriapalvelut Oy; matched winner: Kesko Oyj Kespro. Name match only; verify legal identity and awarded lot in the notice.",
+      "date": "2025-01-29",
+      "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+    },
+    {
+      "text": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buyer: Espoon kaupunki; matched winner: Kesko Oyj, RT-kauppa - Rakentamisen Yrityspalvelu - K-ryhmä. Name match only; verify legal identity and awarded lot in the notice.",
+      "date": "2025-01-31",
+      "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+    },
+    {
+      "text": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikkeet ja leivontatuotteet ns. pienet kohteet — named buyer: Lappeenrannan kaupunki; Etelä-Karjalan koulutuskuntayhtymä; Taipalsaari; Saimaan Tukipalvelut Oy; Lappeenrannan seurakuntayhtymä; Savitaipale; matched winner: Kesko Oyj Kespro. Name match only; verify legal identity and awarded lot in the notice.",
+      "date": "2025-02-18",
+      "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+    },
+    {
+      "text": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta — named buyer: Espoon kaupunki; matched winner: Kesko Oyj; Kesko Oyj; Kesko Oyj; Kesko Oyj; Kesko Oyj. Name match only; verify legal identity and awarded lot in the notice.",
+      "date": "2025-03-04",
+      "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+    },
+    {
+      "text": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikkeet, mehukeitot ja pakasteet — named buyer: HUS-yhtymä; Hyvinkään Ravitsemispalvelut Oy; matched winner: Kesko Oyj Kespro. Name match only; verify legal identity and awarded lot in the notice.",
+      "date": "2025-03-07",
+      "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+    }
+  ],
+  "tenderMatchVersion": 2,
+  "sourceLimits": [],
+  "siteText": "Contacts| Suomeksi\nCOMPANY SUSTAINABILITY INVESTORS MEDIA CAREERS\nNEWS\nSummer tour inspires more than 150,000 children and young people to get moving\nMEDIA\n01.09.2026\nKesko assesses the biodiversity footprint of private label products\nMEDIA\n19.10.2026\nKesko wins recognition for its work in developing its range of MSC-certified fish products\nMEDIA\n12.10.2026\nPoor plastic recycling costs Finland EUR 90 million every year – K Group has collected more than 1,100 tonnes of plastic packaging from stores for recycling\nSUSTAINABILITY, MEDIA, TOWARDS CIRCULAR ECONOMY\n28.08.2026\nCurrent themes\nReducing emissions\nSustainable selections\nTowards circular economy\n \nCompany\nTOWARDS BETTER TRADE EVERY DAY\n\nKesko provides trading sector services in eight countries. We operate in the grocery trade, building and technical trade, and car trade.\n\nRead more\n\nKesko in brief\n\n\n\n\nSustainability\n\n\n\n\nAnnual Report 2025\n\nK Code of Conduct\n\nTracing Our Products\n\n \nInvestors\nSTRONG MARKET POSITION IN FINLAND AND OTHER COUNTRIES IN NORTHERN EUROPE\n\nKesko's strengths also include a good dividend-paying capacity and a strong financial position. Our objective is a profitable growth rate exeeding that of the market in all product lines.\n\nShare development\n\nShare monitor\n\nReleases\nKesko Corporation: Disclosure in compliance with Chapter 9, Section 10 of the Finnish Securities Markets Act (21.10.2026)\nSTOCK EXCHANGE RELEASE\n22.10.2026 17:15\nKesko Corporation: Disclosure in compliance with Chapter 9, Section 10 of the Finnish Securities Markets Act (16.10.2026)\nSTOCK EXCHANGE RELEASE\n19.10.2026 15:00\nKesko Corporation: Disclosure in compliance with Chapter 9, Section 10 of the Finnish Securities Markets Act (15.10.2026)\nSTOCK EXCHANGE RELEASE\n17.10.2026 11:30\n\nAll releases\n\nInvestor calendar\n\nReports and presentations\n\nExtraordinary General Meeting 2026\n\nInterim report Q3/2026 will be published on 29 October 2026\n\n \nCareers\nDEVELOP YOUR SKILLS AT K GROUP\n\nAll of us at K Group share an enthusiasm for commerce and retailing, which is reflected in our positive attitude of getting things done, taking responsibility, and having an impact on  how work is done. We have a wide range of job options available. Come and develop your skills at K Group!\n\nOpen: 62 vacancies\n\nOpen jobs\n\nK Group as a workplace\n\nBecome a K-retailer\n\n \nBLOGS\nRecap of Kesko’s key events in Q3/2026\nIR BLOG | 01.10.2026\nTechnical trade in the Nordic countries offers strong potential for growth\nIR BLOG | 02.09.2026\nPresident and CEO Rauhala: Profit improved significantly in Q2, with technical trade as a driver\nIR BLOG | 23.07.2026\nRecap of Kesko’s key events in Q2/2026\nIR BLOG | 01.07.2026\n \nSOME\nLauralta löytyy rempseää asennetta, rohkeaa heittäytymistä ja vahvaa tekemisen meininkiä🧡   Tutustu K-Duuni-kilpailun Vuoden kaupan työntekijä -finalistiimme, joka auttaa, tsemppaa ja tuo hyvää fiilistä ympärilleen.   Tutustu molempien sarjojen finalisteihin: k-ryhma.fi/k-duuni.   #kduuni #kkauppias #paremmankaupantekijät #letsk\n \nKesko - K-Group\n 23.10.2026\n\t\nLauralta löytyy rempseää asennetta, rohkeaa heittäytymistä ja vahvaa tekemisen meininkiä 🧡\n\nTutustu K-Duuni-kilpailun Vuoden kaupan työntekijä -finalistiimme, joka auttaa, tsemppaa ja tuo hyvää fiilistä ympärilleen.\n\nTutustu molempien sarjojen finalisteihin: k-ryhma.fi/k-duuni.\n\n#kduuni #kkauppias #paremmankaupantekijät #letsk\nNäytä lisää…\n \nK-ryhmä\n 23.10.2026\n\t\nHuhuu! 👻 Halloween vaanii aivan nurkan takana, mutta onneksi kaiken tarpeellisen karmaiseviin kekkereihin saa K-kaupoista 🎃🦇\n\n#halloween\n \nK-ryhmä\n 23.10.2026\n\t\nAi että, nyt on kätevää! 🤝 Ootko jo ehtinyt testaamaan täysin uutta tapaa tehdä ostoksia? 🧡\n\n#skannaajaosta\n \nK-ryhmä\n 22.10.2026\n\t\nJoensuun Uimaharjussa sijaitseva K-Market Kotiharju saa uuden kauppiaan, kun 32-vuotias Otto Hoffren aloittaa kauppiasuransa 16.11.2026. Pitkäaikainen haave omasta kaupasta toteutuu, ja tavoite on selvä: kyläkauppa, jossa tuotteet ovat tuoreita, palvelu pelaa ja paikallisten toiveita kuunnellaan. – Fiilis on innostunut ja odottavainen. Oma kauppa on ollut minulle pitkäaikainen tavoite, ja nyt pääsen vihdoin rakentamaan nykyaikaista oman kylän kauppaa, joka on tehty paikallisia asiakkaita varten, Otto Hoffren kertoo. Pesäpallo on Hoffrenille tuttua sekä pelaajana että valmentajana. Joukkuepelitaitoa tarvitaan myös kaupan työssä: onnistuminen on mahdollista, kun jokainen tietää oman roolinsa ja kaikki tekevät töitä saman tavoitteen eteen. Siksi Hoffren odottaa innolla, että pääsee tutustumaan henkilökuntaan ja asiakkaisiin ja rakentamaan kaupan arkea yhdessä heidän kanssaan. Hyvä asiakaspalvelu syntyy Hoffrenin mielestä aidosta välittämisestä ja kuuntelemisesta. Siksi hän haluaa olla kauppias, jolle on helppo tulla juttelemaan – oli asiana sitten toive tai kehitysidea. – Kotiharjun pitää olla asiakkaidensa näköinen kyläkauppa. Asiakkaiden toiveet näyttävät suunnan, kun kehitämme valikoimaa ja palveluita, Hoffren sanoo. Lue lisää uudesta K-kauppiaasta: https://lnkd.in/dFkR-G2b Kiinnostaako sinua K-kauppiasura? Lue lisää valmennuksesta ja hae mukaan: https://lnkd.in/dqcTGht #kkauppias #kauppiasura #kauppiasvalmennus #kryhmä #yrittäjä #kesko #työelämä\nNäytä lisää…\n \nKesko - K-Group\n 22.10.2026\n\t\nHenriikalla riittää ideoita, rohkeutta ja tekemisen meininkiä🧡   Tutustu K-Duuni-kilpailun Vuoden kaupan työntekijä -finalistiimme, joka tunnistaa trendit ja vie rohkeatkin ideansa käytäntöön.   Tutustu molempien sarjojen finalisteihin: k-ryhma.fi/k-duuni.   #kduuni #kkauppias #paremmankaupantekijät #letsk\n \nKesko - K-Group\n 21.10.2026\n\t\nHenriikalla riittää ideoita, rohkeutta ja tekemisen meininkiä🧡\n\nTutustu K-Duuni-kilpailun Vuoden kaupan työntekijä -finalistiimme, joka tunnistaa trendit ja vie rohkeatkin ideansa käytäntöön.\n\nTutustu molempien sarjojen finalisteihin: k-ryhma.fi/k-duuni.\n\n#kduuni #kkauppias #paremmankaupantekijät #letsk\nNäytä lisää…\n \nK-ryhmä\n 21.10.2026\n\t\nTällä viikolla vietetään Saamen kielten viikkoa 🧡 Saamen kielet ovat tärkeä osa Suomea. Siksi tuomme niitä tällä viikolla näkyviin useissa Pohjois-Suomen K-kaupoissa alueilla, joilla ne ovat merkittävä osa paikallista kulttuuria ja arkea. Mukana on kauppoja muun muassa Kolarista, Sodankylästä, Saariselältä, Ivalosta, Vuotsosta, Karigasniemeltä, Rovaniemeltä ja Saarenkylästä. Kaikki Suomessa puhutut saamen kielet, pohjoissaame, inarinsaame ja koltansaame, ovat uhanalaisia. Kun oma kieli näkyy arjessa, kaupassa asioidessa tai tervehdyksissä, se vahvistaa kielen elinvoimaa. Hyvää Saamen kielten viikkoa! Šiõǥǥ Ǩiõllneäʹttel! Pyeri Kielâokko! Buori Giellavahku!\nNäytä lisää…\n \nKesko - K-Group\n 20.10.2026\n\t\nHienoja uutisia! 🧡   K-ryhmä sijoittui jälleen kymmenen parhaan joukkoon Reputation and Trust Analyticsin Luottamus & Maine -tutkimuksessa nousten sijalle 7. Olemme myös päivittäistavarakaupan toimialan paras, ja maineemme on kehittynyt positiivisesti kaikilla mitatuilla osa-alueilla.   Tällaisista tuloksista tulee hyvä mieli. Ei vain sijoituksen vuoksi, vaan siksi, mitä sen takana on. Maine ja luottamus syntyvät siellä, missä K kohdataan: teoissa, palvelussa, valinnoissa ja ennen kaikkea ihmisten välisissä kohtaamisissa.    Kiitos asiakkaillemme luottamuksesta ja kaikille koolaisille, jotka rakennatte sitä joka päivä. LET’S K! 🧡 Lue lisää: https://lnkd.in/dNRViRys   #Kryhmä #LuottamusMaine #Maine\nNäytä lisää…\n \nKesko - K-Group\n 20.10.2026\n\t\nJokainen tietää, miltä tuntuu aloittaa uudessa työpaikassa. Mutta entä, jos samalla vastassa olisivat uusi maa, kieli ja kulttuuri? 🤔 Meillä K-Kampuksella uuden kansainvälisen kollegan alkua tuetaan Buddy-ohjelmalla. Ohjelmassa englanniksi työskentelevä koolainen saa rinnalleen buddyn, joka auttaa tutustumaan Kampuksen arkeen, suomalaiseen työkulttuuriin ja käytäntöihin, joita perehdytysmateriaaleista ei aina löydy. K-Raudan digitaalisten palveluiden kehityspäällikkö Emmi ja Keskon rakentamisen ja talotekniikan kaupan IT-yksikössä työskentelevä ohjelmistotestauksen asiantuntija Remya ovat olleet buddy-pari reilun vuoden ajan",
+  "builtAt": "2026-10-24T19:19:00.554Z"
+}

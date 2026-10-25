@@ -1,0 +1,79 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/signals?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/signals?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Signals in public data, Value: 1
+			6 text Signals in public data
+		7 text Register changes, EU tenders, hiring and leadership news that say “now”, scored with a cited reason.
+		8 text field (settable) Description: Company, Value: Kesko
+		9 button Run
+		10 button Refresh research
+		13 button Regenerate
+		14 heading Kesko Oyj — Signals board (researched 2026-10-24), Value: 1
+			15 text Kesko Oyj — Signals board (researched 2026-10-24)
+		16 text Why-now score
+		17 container
+			18 text 82 / 100
+		19 text Active Dahl integration, a fresh rights issue for budget, and public talk of automation and AI hiring make an efficiency conversation timely now.
+		20 content list
+			21 container
+				22 AXListMarker • 
+				23 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (combined 2025 net sales about €2.07bn). Large integration means back-office and data-consolidation work, which is where Velho starts.
+				24 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			25 container
+				26 AXListMarker • 
+				27 text investment Planned rights issue of about €500-700 million to finance Dahl. Signals capital and a focus on integration efficiency.
+				28 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			29 container
+				30 AXListMarker • 
+				31 text tender European Commission unconditionally approved the Dahl deal; completion expected by end of 2026. Integration planning is timely now.
+				32 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			33 container
+				34 AXListMarker • 
+				35 text results Q2 2026 comparable operating profit rose to €194.0m for the half year, with building and technical trade leading. Profit momentum suggests open budgets for efficiency projects.
+				36 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+			37 container
+				38 AXListMarker • 
+				39 text results Q1 2026 net sales up 7.1% to €3,029.0m with a stable 3.4% margin. Growing volume with flat margins puts cost-to-serve pressure on the business.
+				40 link Description: source, Value: investing.com/news/company-news/kesko-q1-2026-slides-growth-across-all-divisions-grocery-gains-share-93CH-4643746
+			41 container
+				42 AXListMarker • 
+				43 text hiring Open K Trainee, AI role in the AI Solutions team (deadline 2026-10-31). Active in-house AI hiring means a partner could complement or accelerate the team.
+				44 link Description: source, Value: glassdoor.com/Job/tuusula-kesko-jobs-SRCH_IL.0,7_IC2442868_KO8,13.htm
+			45 container
+				46 AXListMarker • 
+				47 text news Voluntary Data balance sheet report for 2025 on data use and digitalisation. Public focus on data signals appetite for AI and data partners.
+				48 link Description: source, Value: kesko.fi/en/investor/reports-and-presentations/
+			49 container
+				50 AXListMarker • 
+				51 text hiring Business Controller opening at Kesko-IT. Finance and control roles can point to reporting and reconciliation workload (inferred).
+				52 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+			53 container
+				54 AXListMarker • 
+				55 text hiring Accountant opening at Kesko Senukai Digital (Vilnius). Suggests transactional finance work (inferred).
+				56 link Description: source, Value: builtin.com/job/accountant/11592654
+			57 container
+				58 AXListMarker • 
+				59 text register Name registrations on 2025-10-31: Siwa Plus, Jounin Kauppa, Suomen Lähikauppa, Valintatalo, K-Market; and Espoon Sinikalliontie 1 on 2025-11-30. Entity and brand restructuring may bring back-office consolidation.
+				60 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			61 container
+				62 AXListMarker • 
+				63 text tender EU tender wins in 2025 across Sweden, Latvia and Finland (piping/VA material, building materials, frozen berries, event services). Shows broad public-sector bid and delivery activity.
+				64 link Description: source, Value: ted.europa.eu/en/notice/-/detail/20334-2025
+		65 text First approach: Anu Hämäläinen, EVP and CFO. The rights issue, the Dahl integration numbers and the finance hiring all sit with her, and a Velho finance-ops angle (reconciliation, consolidation, reporting) fits her remit. Second contact if she is unreachable: Jorma Rauhala, CEO, once a Dahl integration sponsor is confirmed.
+		66 text Timing: reach out now, before the Dahl completion by end of 2026 and before the rights issue closes, when integration planning is still open. Avoid the days right around the next quarterly results release, when IR and finance teams are stretched.
+		67 text Opener (LinkedIn/email)
+		68 text draft — not sent
+		69 button Copy
+		70 text Hi Anu, we noticed the Dahl deal is heading to completion by year-end, and that Kesko is hiring a Business Controller and an AI role at the same time. Integrating three Nordic technical trade businesses usually means a lot of manual consolidation and reporting work landing on finance. We've helped Finnish operators find and automate exactly that kind of work. Would it be useful to compare notes for 20 minutes on where the Dahl integration load sits today?
+		71 text Unknown and to ask: the real headcount (sources disagree: 15,926 to 39,000); whether Dahl integration is already staffed internally or with external partners; which finance processes are in scope (group consolidation, Nordic reporting, store-level sales admin); whether AI Solutions already has a vendor shortlist; the actual size of any cost-to-serve target; and whether a Velho opener should go to Anu or to a Dahl integration lead. The manual-work and register inferences are unconfirmed and must be checked before the opener is sent. Draft is for manual review by a Velho employee; nothing has been sent.
+		72 button (collapsed) Sources (19), Secondary Actions: Expand
+			73 text Sources (
+			74 text 19
+			75 text )
+		76 text OpenRouter spend so far: $ 4.88
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/signals?c=Kesko

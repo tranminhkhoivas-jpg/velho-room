@@ -1,0 +1,189 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/ghost?c=Kesko".
+1 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/ghost?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	3 container Staff session
+		4 button Sign out
+	5 container
+		6 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Kesko
+		7 heading Ghost Employee, Value: 1
+			8 text Ghost Employee
+		9 text “Meet your invisible hire”: the manual work a company pays for, as a trading card a CEO forwards. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		10 text field (settable) Description: Company, Value: Kesko
+		11 button Run
+		12 button Refresh research
+		13 button Regenerate
+		14 heading Meet Hintta-Hannu, Kesko Oyj's invisible hire, Value: 1
+			15 text Meet Hintta-Hannu, Kesko Oyj's invisible hire
+		16 container Ghost employee card
+		17 content list
+			18 container
+				19 AXListMarker • 
+				20 text hypothesis Hypothesis: Manually reconciling order and financial data between the acquired Dahl technical trade units and Kesko's existing systems during integration — Public clue: Inferred from the Dahl deal: separate brands and units may require manual reconciliation of order and financial data; this is an inference, not a confirmed process (~12 h/week, estimate)
+				21 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/
+			22 container
+				23 AXListMarker • 
+				24 text hypothesis Hypothesis: Re-keying tender and supplier award details from public procurement notices into internal records — Public clue: Several Kesko entities appear as winners in Finnish public tenders on TED; matching awards across units may involve manual checks (estimate of workload, unconfirmed) (~4 h/week, estimate)
+				25 link Description: source, Value: ted.europa.eu/en/notice/-/detail/140149-2025
+			26 container
+				27 AXListMarker • 
+				28 text hypothesis Hypothesis: Handling multi-brand register and naming changes across units (for example the 2025 name registrations) in downstream systems — Public clue: Six name registrations appear in the company register in late 2025; whether these trigger manual updates is unknown (~3 h/week, estimate)
+				29 link Description: source, Value: tietopalvelu.ytj.fi/yritys/0109862-8
+			30 container
+				31 AXListMarker • 
+				32 text hypothesis Hypothesis: Manual checking of warehouse order flows during a new cloud warehouse rollout across five distribution centres — Public clue: Kesko selected Manhattan Associates' ActiveWarehouse for five distribution centres; parallel-running and data checks during rollout are a common but unconfirmed workload (~6 h/week, estimate)
+				33 link Description: source, Value: stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html
+			34 container
+				35 AXListMarker • 
+				36 text hypothesis Hypothesis: Collating quarterly and rights-issue reporting data from multiple divisions for investor materials — Public clue: Q3 interim report due 29 October 2026 and a proposed rights issue of €500-700m with an EGM on 30 October 2026; data collation across divisions is an assumption (~5 h/week, estimate)
+				37 link Description: source, Value: kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/
+		38 text Estimate: Hours are scenario estimates built from the timing of public events and general integration patterns, not measurements of any internal process; the whole card is hypothetical and should be validated with the client. Public evidence only; the real numbers come from a conversation.
+		39 text Note to the COO (with the card)
+		40 text draft — not sent
+		41 button Copy
+		42 text Hi [Name], we noticed Kesko's Dahl integration and the Q3 reporting timetable land close together. We wondered if teams are reconciling order and financial data across the acquired units by hand. If there is a ghost doing that, we would love to hear how it works. If not, we are happy to be wrong. Worth a 20-minute chat?
+		43 button (collapsed) Sources (17), Secondary Actions: Expand
+			44 text Sources (
+			45 text 17
+			46 text )
+		47 container Workload scenario calculator
+			48 heading Replace the guesses with your own workload, Value: 2
+				49 text Replace the guesses with your own workload
+			50 text The playful card above is a hypothesis. This separate calculator lets a process owner enter a baseline and test a recovery scenario. Every starting number is a hypothesis; changing the label does not independently verify it.
+			51 container
+				52 container Manually reconciling order and financial data between the acquired Dahl technical trade units and Kesko's existing systems during integration
+					53 text Manually reconciling order and financial data between the acquired Dahl technical trade units and Kesko's existing systems during integration
+					54 container
+						55 text Task name 
+						56 text field (settable) Task name, Value: Manually reconciling order and financial data between the acquired Dahl technical trade units and Kesko's existing systems during integration
+					57 container
+						58 text Hours per week 
+						59 stepper (settable, integer) Hours per week, Value: 11
+					60 container
+						61 text Recoverable time (%) 
+						62 stepper (settable, integer) Recoverable time (%), Value: 0
+					63 container
+						64 text Basis 
+						65 pop up button (collapsed, settable) Basis, Value: Employee estimate, Secondary Actions: Expand
+							66 menu
+								67 Hypothesis
+								68 (selected) Employee estimate
+								69 Measured sample
+					70 container
+						71 text Source or measurement notes 
+						72 text field (settable) Source or measurement notes, Value: Synthetic audit scenario; not actual Kesko measurements.
+					73 button Remove task
+				74 container Re-keying tender and supplier award details from public procurement notices into internal records
+					75 text Re-keying tender and supplier award details from public procurement notices into internal records
+					76 container
+						77 text Task name 
+						78 text field (settable) Task name, Value: Re-keying tender and supplier award details from public procurement notices into internal records
+					79 container
+						80 text Hours per week 
+						81 stepper (settable, integer) Hours per week, Value: 0
+					82 container
+						83 text Recoverable time (%) 
+						84 stepper (settable, integer) Recoverable time (%), Value: 25
+					85 container
+						86 text Basis 
+						87 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							88 menu
+								89 (selected) Hypothesis
+								90 Employee estimate
+								91 Measured sample
+					92 container
+						93 text Source or measurement notes 
+						94 text field (settable) Source or measurement notes, Value: Several Kesko entities appear as winners in Finnish public tenders on TED; matching awards across units may involve manual checks (estimate of workload, unconfirmed)
+					95 button Remove task
+				96 container Handling multi-brand register and naming changes across units (for example the 2025 name registrations) in downstream systems
+					97 text Handling multi-brand register and naming changes across units (for example the 2025 name registrations) in downstream systems
+					98 container
+						99 text Task name 
+						100 text field (settable) Task name, Value: Handling multi-brand register and naming changes across units (for example the 2025 name registrations) in downstream systems
+					101 container
+						102 text Hours per week 
+						103 stepper (settable, integer) Hours per week, Value: 0
+					104 container
+						105 text Recoverable time (%) 
+						106 stepper (settable, integer) Recoverable time (%), Value: 25
+					107 container
+						108 text Basis 
+						109 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							110 menu
+								111 (selected) Hypothesis
+								112 Employee estimate
+								113 Measured sample
+					114 container
+						115 text Source or measurement notes 
+						116 text field (settable) Source or measurement notes, Value: Six name registrations appear in the company register in late 2025; whether these trigger manual updates is unknown
+					117 button Remove task
+				118 container Manual checking of warehouse order flows during a new cloud warehouse rollout across five distribution centres
+					119 text Manual checking of warehouse order flows during a new cloud warehouse rollout across five distribution centres
+					120 container
+						121 text Task name 
+						122 text field (settable) Task name, Value: Manual checking of warehouse order flows during a new cloud warehouse rollout across five distribution centres
+					123 container
+						124 text Hours per week 
+						125 stepper (settable, integer) Hours per week, Value: 0
+					126 container
+						127 text Recoverable time (%) 
+						128 stepper (settable, integer) Recoverable time (%), Value: 25
+					129 container
+						130 text Basis 
+						131 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							132 menu
+								133 (selected) Hypothesis
+								134 Employee estimate
+								135 Measured sample
+					136 container
+						137 text Source or measurement notes 
+						138 text field (settable) Source or measurement notes, Value: Kesko selected Manhattan Associates' ActiveWarehouse for five distribution centres; parallel-running and data checks during rollout are a common but unconfirmed workload
+					139 button Remove task
+				140 container Collating quarterly and rights-issue reporting data from multiple divisions for investor materials
+					141 text Collating quarterly and rights-issue reporting data from multiple divisions for investor materials
+					142 container
+						143 text Task name 
+						144 text field (settable) Task name, Value: Collating quarterly and rights-issue reporting data from multiple divisions for investor materials
+					145 container
+						146 text Hours per week 
+						147 stepper (settable, integer) Hours per week, Value: 0
+					148 container
+						149 text Recoverable time (%) 
+						150 stepper (settable, integer) Recoverable time (%), Value: 25
+					151 container
+						152 text Basis 
+						153 pop up button (collapsed, settable) Basis, Value: Hypothesis, Secondary Actions: Expand
+							154 menu
+								155 (selected) Hypothesis
+								156 Employee estimate
+								157 Measured sample
+					158 container
+						159 text Source or measurement notes 
+						160 text field (settable) Source or measurement notes, Value: Q3 interim report due 29 October 2026 and a proposed rights issue of €500-700m with an EGM on 30 October 2026; data collation across divisions is an assumption
+					161 button Remove task
+				162 button Add your own task
+				163 text Loaded labour cost (EUR/hour) 
+				164 stepper (settable, integer) Loaded labour cost (EUR/hour), Value: 30
+				165 text Annual running cost (EUR) 
+				166 stepper (settable, integer) Annual running cost (EUR), Value: 1000
+				167 button Calculate scenario
+			169 container
+				170 text Workload scenario — review with the process owner draft — not sent
+				171 button Copy
+				172 text Baseline: 11.0 hours/week.
+Potential time recovered: 0.0 hours/week (0.00 FTE equivalent at 37.5h/week).
+Annual capacity value: EUR 0.
+Annual running cost: EUR 1000.
+Net annual capacity value: EUR -1000.
+
+Formula: weekly hours × recoverable fraction × 52 weeks × EUR/hour, minus running cost.
+Assumptions: stable weekly workload, no overlap between tasks, 52 active weeks; setup cost is excluded. Capacity value is not guaranteed cash savings or a staffing reduction.
+
+Inputs:
+Manually reconciling order and financial data between the acquired Dahl technical trade units and Kesko's existing systems during integration: 11 h/week, 0% recoverable, basis: employee estimate. Notes: Synthetic audit scenario; not actual Kesko measurements.
+Re-keying tender and supplier award details from public procurement notices into internal records: 0 h/week, 25% recoverable, basis: hypothesis. Notes: Several Kesko entities appear as winners in Finnish public tenders on TED; matching awards across units may involve manual checks (estimate of workload, unconfirmed)
+Handling multi-brand register and naming changes across units (for example the 2025 name registrations) in downstream systems: 0 h/week, 25% recoverable, basis: hypothesis. Notes: Six name registrations appear in the company register in late 2025; whether these trigger manual updates is unknown
+Manual checking of warehouse order flows during a new cloud warehouse rollout across five distribution centres: 0 h/week, 25% recoverable, basis: hypothesis. Notes: Kesko selected Manhattan Associates' ActiveWarehouse for five distribution centres; parallel-running and data checks during rollout are a common but unconfirmed workload
+Collating quarterly and rights-issue reporting data from multiple divisions for investor materials: 0 h/week, 25% recoverable, basis: hypothesis. Notes: Q3 interim report due 29 October 2026 and a proposed rights issue of €500-700m with an EGM on 30 October 2026; data collation across divisions is an assumption
+		168 text Additional audit AI spend : $ 0.62
+
+The focused UI element is 167 button Calculate scenario

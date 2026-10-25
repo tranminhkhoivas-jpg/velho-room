@@ -1,0 +1,96 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/deadDeal?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/deadDeal?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Dead deal resurrector, Value: 1
+			6 text Dead deal resurrector
+		7 text Finds deals that went quiet and a real, current reason to reconnect. (Synthetic CRM.)
+		8 pop up button (collapsed, settable) Description: Choose a synthetic record, Value: Kesko — proposal sent, last contact 2026-02-12, Secondary Actions: Expand
+			9 menu
+				10 (selected) Kesko — proposal sent, last contact 2026-02-12
+				11 Lassila & Tikanoja — discovery, last contact 2025-12-04
+				12 Ponsse — pilot discussed, last contact 2026-03-05
+				13 Posti — proposal sent, last contact 2026-01-22
+				14 Fiskars — intro call, last contact 2026-04-02
+				15 Musti — discovery, last contact 2026-02-26
+				16 Puuilo — proposal sent, last contact 2026-03-18
+				17 Caverion — pilot discussed, last contact 2026-04-14
+				18 Lemonsoft — discovery, last contact 2026-03-24
+				19 Terveystalo — proposal sent, last contact 2026-05-06
+				20 Mehiläinen — intro call, last contact 2026-05-19
+				21 Pihlajalinna — discovery, last contact 2026-01-15
+				22 Atria — pilot discussed, last contact 2026-02-09
+				23 Valio — proposal sent, last contact 2026-03-02
+				24 Paulig — intro call, last contact 2026-06-03
+				25 Fazer — discovery, last contact 2026-04-21
+				26 Onninen — pilot discussed, last contact 2026-01-30
+				27 Ahlsell — proposal sent, last contact 2026-02-20
+				28 YIT — discovery, last contact 2026-05-27
+				29 Consti — intro call, last contact 2026-03-12
+				30 Helen — proposal sent, last contact 2026-06-10
+				31 Lahti Energia — discovery, last contact 2026-04-09
+				32 Tokmanni — pilot discussed, last contact 2025-12-18
+				33 Verkkokauppa.com — proposal sent, last contact 2026-03-31
+				34 Konecranes — discovery, last contact 2026-06-17
+				35 Valmet — intro call, last contact 2026-05-08
+				36 Matkahuolto — proposal sent, last contact 2026-04-28
+				37 Barona — pilot discussed, last contact 2026-02-17
+				38 Apetit — discovery, last contact 2026-07-14
+				39 Attendo — intro call, last contact 2026-07-28
+		40 button Run
+		43 heading Dead deal resurrector: Kesko (D01, Heikki Nurmilaakso), Value: 1
+			44 text Dead deal resurrector: Kesko (D01, Heikki Nurmilaakso)
+		45 heading Kesko: reconnect with Heikki Nurmilaakso, Value: 2
+			46 text Kesko: reconnect with Heikki Nurmilaakso
+		47 text Reconnect strength
+		48 container
+			49 text 72 / 100
+		50 text Since the last contact on 2026-02-12 there are several public triggers that make a reconnect timely: a large integration (Dahl), a capital raise tied to it, a confirmed EU clearance with completion expected by end of 2026, and public focus on digitalisation. Strength is held back because the original objection (group procurement vendor assessment with an unclear timeline) is not addressed by any public signal, and the dossier does not show whether that assessment has moved since February.
+		51 content list
+			52 container
+				53 AXListMarker • 
+				54 text acquisition Kesko agreed to acquire Dahl's technical trade companies in Sweden, Norway and Denmark (combined 2025 net sales about €2.07bn), announced 2026-06-15.
+				55 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			56 container
+				57 AXListMarker • 
+				58 text investment Kesko plans a rights issue of about €500-700 million to finance the Dahl acquisition (2026-10-08).
+				59 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/
+			60 container
+				61 AXListMarker • 
+				62 text tender European Commission unconditionally approved the Dahl transaction; completion expected by end of 2026 (2026-09-24).
+				63 link Description: source, Value: kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/notice-of-kesko-corporations-extraordinary-general-meeting/
+			64 container
+				65 AXListMarker • 
+				66 text results Half-year 2026 comparable operating profit rose to €194.0m in Q2, with building and technical trade leading (2026-07-22).
+				67 link Description: source, Value: investing.com/news/company-news/kesko-q2-2026-slides-technical-trade-lifts-profit-dahl-deal-expands-reach-93CH-4804749
+			68 container
+				69 AXListMarker • 
+				70 text news Kesko published a voluntary Data balance sheet report for 2025 covering its use of data and digitalisation (2026-04-08).
+				71 link Description: source, Value: kesko.fi/en/investor/reports-and-presentations/
+			72 container
+				73 AXListMarker • 
+				74 text hiring Kesko posted an open K Trainee, AI role in the AI Solutions team, deadline 2026-10-31 (2026-10).
+				75 link Description: source, Value: glassdoor.com/Job/tuusula-kesko-jobs-SRCH_IL.0,7_IC2442868_KO8,13.htm
+		76 text The original objection was that group procurement has to assess new vendors before any pilot can start, and the timeline was unknown. The Dahl deal changes the context: three Nordic technical trade businesses are being integrated with completion expected by end of 2026, and the company is raising capital to fund it. Integration brings customer service volume, shared mailboxes and B2B customer communication across newly combined brands, which is the workload the triage assistant was designed for. The vendor assessment is still the gating step, so the useful move is to offer the security and GDPR materials now, as the February thread already proposed, and to ask whether the Dahl integration changes the procurement timeline. We do not know whether any of this has been raised internally.
+		77 text Reconnect message to Heikki Nurmilaakso
+		78 text draft — not sent
+		79 button Copy
+		80 text Hi Heikki,
+
+We last spoke in February about the email triage assistant for K-Rauta B2B customer service, and that the group vendor assessment was the open step. Since then Kesko has announced the Dahl acquisition and expects completion by year end, which means more customer email across newly combined businesses.
+
+Would it help to send the security and GDPR materials to procurement now, so the assessment can start? And is the Dahl integration changing when a pilot slot might open?
+
+Best,
+[Velho sender name]
+		81 text CRM history is synthetic demo data; company signals are live public data. Draft is for manual review and sending by a Velho employee. Any reference to Dahl integration as a source of email volume is an inference, not a disclosed plan.
+		82 button (collapsed) Sources (19), Secondary Actions: Expand
+			83 text Sources (
+			84 text 19
+			85 text )
+		86 text OpenRouter spend so far: $ 4.88
+	41 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		42 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/deadDeal?c=Kesko

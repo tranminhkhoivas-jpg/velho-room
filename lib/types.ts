@@ -11,12 +11,13 @@ export type Block =
   | { t: "postcard"; front: string; back: string }
   | { t: "sources"; items: { title: string; url: string }[] };
 
-export type Artifact = { title: string; blocks: Block[] };
+export type Artifact = { title: string; blocks: Block[]; proof?: import("./proof").ProofData; workload?: {task:string;hoursPerWeek:number;evidence:string}[];sourceRecord?:{kind:"staff"|"synthetic";text:string};reviewNotice?:string;sourceChecks?:{claim:string;verdict:"supported"|"unsupported"|"review"|"unavailable"}[];publicEvidence?:import("./public-evidence").PublicEvidence[];song?:{id:string;plan:import("./song").SongPlan;prompt:string} };
 
 export type Fact = { text: string; url?: string; date?: string; inferred?: boolean };
 export type Signal = Fact & { type: string; why?: string };
 
 export type Dossier = {
+  tenderMatchVersion?: number;
   query: string;
   name: string;
   website?: string;
@@ -34,6 +35,7 @@ export type Dossier = {
   tenders: Fact[];
   siteText: string;
   builtAt: string;
+  sourceLimits?: string[];
 };
 
 export const esc = (s: unknown) =>

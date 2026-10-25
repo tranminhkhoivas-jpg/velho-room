@@ -1,0 +1,111 @@
+Browser tab: 4, Title: "Velho Room", URL: "https://dpi-left-procedures-coordination.trycloudflare.com/s/proof?c=Lumon".
+0 AXWebArea Velho Room, URL: dpi-left-procedures-coordination.trycloudflare.com/s/proof?c=Lumon
+	1 text Hackathon prototype — not published by Velho. Outreach messages are drafts; no outreach is sent.
+	2 container Staff session
+		3 button Sign out
+	4 container
+		5 link Description: ← all tools, Value: dpi-left-procedures-coordination.trycloudflare.com/?c=Lumon
+		6 heading Proof before pitch, Value: 1
+			7 text Proof before pitch
+		8 text A small working demo on the prospect’s own public data, before the first meeting. Public clues support a conversation, not a diagnosis. Suggested process problems, savings and builds are hypotheses until the company confirms them.
+		9 text field (settable) Description: Company, Value: Lumon
+		10 button Run
+		11 button Refresh research
+		12 button Regenerate
+		13 heading Lumon Oy: public enquiry evidence demonstrator, Value: 1
+			14 text Lumon Oy: public enquiry evidence demonstrator
+		15 text This working keyword demo searches 51 exact passages across 5 readable public pages. Enter a topic, inspect source-linked excerpts, prepare a cited reply for staff review and export records as CSV.
+		16 text Public information only. No internal inbox, CRM, routing, enquiry volumes, savings or production integration have been observed. The demo retrieves literal passages; a staff member decides whether they answer the question.
+		17 heading Questions before an internal build, Value: 2
+			18 text Questions before an internal build
+		19 content list
+			20 container
+				21 AXListMarker • 
+				22 text Which recurring enquiry would your team choose to test first, and who currently answers it?
+			23 container
+				24 AXListMarker • 
+				25 text Can the process owner supply an approved, anonymised sample and identify the source of a correct answer?
+			26 container
+				27 AXListMarker • 
+				28 text How would staff measure answer quality, handling time and exceptions before and after a small trial?
+		29 heading Requirements to agree, Value: 2
+			30 text Requirements to agree
+		31 content list
+			32 container
+				33 AXListMarker • 
+				34 text A named routing owner and explicit review/approval rules.
+			35 container
+				36 AXListMarker • 
+				37 text An approved request sample, permitted knowledge sources and a clear data-handling boundary.
+			38 container
+				39 AXListMarker • 
+				40 text A small acceptance test, a baseline and a person who reviews every proposed answer before sending.
+		41 text Pre-meeting invitation for review
+		42 text draft — not sent
+		43 button Edit draft
+		44 button Copy
+		45 text Hi [Name],
+
+We built a small public-data enquiry demonstrator for Lumon Oy. It searches 51 exact passages from 5 public pages, links the originals and prepares excerpts for staff review.
+
+It has no access to your inbox or internal systems. Could we explore whether finding published answers is a recurring task for your team, and which approved sample would be worth testing?
+
+[Your name]
+		46 content list
+			47 container
+				48 AXListMarker • 
+				49 text site Page read for this demo
+				50 link Description: source, Value: lumon.com/
+			51 container
+				52 AXListMarker • 
+				53 text site Page read for this demo
+				54 link Description: source, Value: lumon.com/int/
+			55 container
+				56 AXListMarker • 
+				57 text site Page read for this demo
+				58 link Description: source, Value: lumon.com/int/lumon-products/
+			59 container
+				60 AXListMarker • 
+				61 text site Page read for this demo
+				62 link Description: source, Value: lumon.com/int/balcony-glazing/
+			63 container
+				64 AXListMarker • 
+				65 text site Page read for this demo
+				66 link Description: source, Value: lumon.com/int/terrace-glazing/
+		67 container Working public-data demonstration
+			68 heading Try the working demo: enquiry evidence finder, Value: 2
+				69 text Try the working demo: enquiry evidence finder
+			70 container
+				71 text Before:  19,463  characters across  5  public pages. After:  51  traceable records that can be searched and exported.
+			72 text Try words from an actual customer enquiry. This example finds literal public passages; it does not infer an answer or access internal systems. Queries stay in this browser and use no AI calls.
+			73 container
+				74 text Customer enquiry or topic
+				75 text field (settable) Customer enquiry or topic, Value: terrace glazing, not balcony glazing, ID: proof-enquiry
+				76 button Find evidence
+			93 container
+				94 text 3  matching passage(s),  0.6  ms in this browser. This is search latency, not a measured business saving. Source-backed reply for review draft — not sent
+				95 button Edit draft
+				96 button Copy
+				97 text Public information relevant to your enquiry (exact excerpts; staff review required):
+
+[P5-R36] “Lumon terrace glazing is a stylish way to bring more space and comfort to living! It not only looks stylish, but also extends the terrace season and brings more ways to enjoy everyday life: convert that unused space into a home office, a children’s playground, a small garden, a reading corner – you name it. At best, terrace glazing extends the use of the terrace by many months every year. Glazing your terrace turns it into a real multipurpose room for the whole family.”
+Source: https://lumon.com/int/terrace-glazing/
+
+[P2-R1] “Lumon creates frameless balcony and terrace glazing solutions that transform outdoor spaces into comfortable, usable living areas. Our retractable glazing systems improve comfort, reduce weather exposure, support energy efficiency, and help protect building facades. With over one million satisfied customers worldwide, Lumon combines Scandinavian design, durability, and customized glazing solutions for homes and residential buildings.”
+Source: https://lumon.com/int/
+
+[P3-R9] “Lumon Glazing is a frameless balcony and terrace glazing system designed for flexible indoor-outdoor living. The fully retractable or sliding glass panels allow homeowners to open or close their outdoor space depending on weather and lifestyle needs. Engineered for durability, weather resistance, energy efficiency, and panoramic views, Lumon glazing systems are custom-made for each project worldwide.”
+Source: https://lumon.com/int/lumon-products/
+			82 button Download all evidence records (CSV)
+			83 button (collapsed) Inspect the actual input and extracted records, Secondary Actions: Expand
+				84 text Inspect the actual input and extracted records
+			85 container
+				86 text Built on  Lumon Oy 's public information. A production enquiry workflow would also need the company's routing rules, private knowledge, owner and approval process. No enquiry is sent.
+		87 button (collapsed) Check the source before using a draft, Secondary Actions: Expand
+			88 text Check the source before using a draft
+		89 text Live assistant built only from Lumon's public website. Ask it what a customer would ask.
+		90 text field (settable)
+		91 button Send
+		92 text OpenRouter audit spend (Fastino checks logged separately) : $ 1.00
+
+The focused UI element is 76 button Find evidence

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { SeedMeta } from "@/lib/seeds";
 import type { Dossier } from "@/lib/types";
 import { post } from "./api";
@@ -10,8 +10,9 @@ export function DossierCard({ d }: { d: Dossier }) {
       <b>{d.name}</b> {d.businessId && <span className="tag">Y-tunnus {d.businessId}</span>} {d.industry && <span className="tag">{d.industry}</span>}
       <p>{d.oneLiner}</p>
       <p className="muted">
-        {[d.hq, d.sizeHint, d.website].filter(Boolean).join(" · ")} · {d.signals.length} signals · {d.tenders.length} EU tenders · built {d.builtAt.slice(0, 16).replace("T", " ")}
+        {[d.hq, d.sizeHint, d.website].filter(Boolean).join(" · ")} · {d.signals.length} signals · {d.sourceLimits?.some((s)=>s.startsWith("TED")) ? "EU tenders unknown" : `${d.tenders.length} matching EU notices returned`} · built {d.builtAt.slice(0, 16).replace("T", " ")}
       </p>
+      {d.sourceLimits?.map((s)=><p className="note" key={s}>{s}</p>)}
       {d.signals.length > 0 && (
         <ul>
           {d.signals.slice(0, 4).map((s, i) => (
@@ -27,6 +28,7 @@ export function DossierCard({ d }: { d: Dossier }) {
 
 export function Home({ seeds }: { seeds: SeedMeta[] }) {
   const [company, setCompany] = useState("");
+  const version = useRef(0);
   const [d, setD] = useState<Dossier | null>(null);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
@@ -38,22 +40,26 @@ export function Home({ seeds }: { seeds: SeedMeta[] }) {
 
   async function research(fresh = false) {
     if (!company.trim()) return;
+    const request = ++version.current;
+    setD(null);
     setBusy(true);
     setErr("");
     try {
-      setD((await post<{ dossier: Dossier }>("/api/dossier", { company, fresh })).dossier);
+      const result = await post<{ dossier: Dossier }>("/api/dossier", { company, fresh });
+      if (request !== version.current) return;
+      setD(result.dossier);
       history.replaceState(null, "", "?c=" + encodeURIComponent(company));
     } catch (e) {
-      setErr((e as Error).message);
+      if (request === version.current) setErr((e as Error).message);
     }
-    setBusy(false);
+    if (request === version.current) setBusy(false);
   }
 
   const q = company.trim() ? "?c=" + encodeURIComponent(company.trim()) : "";
   return (
     <main>
       <h1>Velho Room</h1>
-      <p className="muted">Type any company. Every tool below runs live on public data about it and shows its sources.</p>
+      <p className="muted">Research a company, then choose a tool. Results use public sources and may be cached for 24 hours; review facts before using a draft.</p>
       <form
         className="row"
         onSubmit={(e) => {
@@ -61,7 +67,7 @@ export function Home({ seeds }: { seeds: SeedMeta[] }) {
           research();
         }}
       >
-        <input value={company} onChange={(e) => setCompany(e.target.value)} placeholder="Company name, e.g. Kesko" aria-label="Company" />
+        <input value={company} onChange={(e) => { version.current++; setCompany(e.target.value); setD(null); setErr(""); setBusy(false); }} placeholder="Company name, e.g. Kesko" aria-label="Company" />
         <button disabled={busy}>{busy ? "Researching… (~40 s)" : "Research"}</button>
         {d && (
           <button type="button" className="ghost" disabled={busy} onClick={() => research(true)}>
@@ -69,7 +75,7 @@ export function Home({ seeds }: { seeds: SeedMeta[] }) {
           </button>
         )}
       </form>
-      {err && <p className="err">{err}</p>}
+      {err && <p role="alert" className="err">{err}</p>}
       {d && <DossierCard d={d} />}
       <div className="grid">
         {[...seeds]

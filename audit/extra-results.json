@@ -1,0 +1,61 @@
+[
+  {
+    "task": "case-study varied notes P2",
+    "ok": true,
+    "ms": 9213,
+    "detail": {
+      "title": "Case study: Kallio & Lehtonen Kiinteistöt, shared mailbox triage"
+    }
+  },
+  {
+    "task": "case-study varied notes P3",
+    "ok": true,
+    "ms": 9207,
+    "detail": {
+      "title": "Pohjanmaan Metalli: quote prep time down 40%, turnaround cut from 4.5 to 2.5 days"
+    }
+  },
+  {
+    "task": "case-study varied notes P4",
+    "ok": true,
+    "ms": 9787,
+    "detail": {
+      "title": "Case study: Lumo Verkkokauppa — WISMO handled by a draft tool"
+    }
+  },
+  {
+    "task": "case-study varied notes P5",
+    "ok": true,
+    "ms": 8948,
+    "detail": {
+      "title": "Case study P5: Aaltonen Tilitoimisto Oy (synthetic notes)"
+    }
+  },
+  {
+    "task": "case-study varied notes P6",
+    "ok": true,
+    "ms": 9007,
+    "detail": {
+      "title": "Meriklinikka Oy: case study draft (synthetic notes)"
+    }
+  },
+  {
+    "task": "empty industry evidence is unknown, not zero",
+    "ok": true,
+    "ms": 51,
+    "detail": {
+      "industry": "rakentaminen (construction)",
+      "score": null,
+      "summary": "Insufficient public examples to estimate AI adoption. This is unknown, not zero adoption.",
+      "examples": [],
+      "laggingSignals": [],
+      "tol": "41",
+      "asOf": "2026-10-24",
+      "registry": {
+        "companies": 68716,
+        "newLast12m": 1366,
+        "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?mainBusinessLine=41"
+      }
+    }
+  }
+]

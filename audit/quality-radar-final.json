@@ -1,0 +1,163 @@
+{
+  "title": "Room Radar: Kesko Oyj, Extraordinary General Meeting 2026",
+  "blocks": [
+    {
+      "t": "table",
+      "cols": [
+        "Date",
+        "Event",
+        "Attendance evidence",
+        "Format / location",
+        "Access to verify",
+        "Original source"
+      ],
+      "rows": [
+        [
+          "2026-10-30",
+          "Kesko Extraordinary General Meeting 2026",
+          "Company event — individual target attendance NOT confirmed",
+          "K-Kampus, Työpajankatu 12, Helsinki",
+          "Shareholders registered on the record date of 20 October 2026 may attend; registration and advance voting ran from 8 October 2026 and close 26 October 2026 at 16.00 EET. Questions must be submitted in advance by the stated deadline.",
+          "https://www.kesko.fi/en/investor/corporate-governance/general-meeting/extraordinary-general-meeting-2026/"
+        ]
+      ]
+    },
+    {
+      "t": "h",
+      "text": "Upcoming event candidate"
+    },
+    {
+      "t": "p",
+      "text": "The only source-checked upcoming event we have for Kesko Oyj is the Extraordinary General Meeting 2026, scheduled for 30 October 2026 at K-Kampus, Työpajankatu 12, Helsinki."
+    },
+    {
+      "t": "list",
+      "items": [
+        {
+          "text": "Date: 30 October 2026. Format: physical meeting at K-Kampus, Helsinki.",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/general-meeting/extraordinary-general-meeting-2026/",
+          "tag": "event"
+        },
+        {
+          "text": "Attendance: shareholders registered on the record date of 20 October 2026 may attend. Registration and advance voting ran from 8 October 2026 and close 26 October 2026 at 16.00 EET. Questions must be submitted in advance by the stated deadline.",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/general-meeting/extraordinary-general-meeting-2026/",
+          "tag": "access"
+        }
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Target attendance is not confirmed. Access is limited to registered shareholders under the stated rules. We have no evidence of any open public or walk-up access, and nothing here implies access to private management time."
+    },
+    {
+      "t": "h",
+      "text": "Recommended next step"
+    },
+    {
+      "t": "p",
+      "text": "Check the registration and attendance rules on the Kesko page before doing anything else. Since this is a physical, shareholder-only meeting, the realistic route is not attending it at all. If Velho wants to engage around this event, the practical option is a separate, voluntary follow-up through Kesko's normal investor or corporate contact channels, not a walk-up at the venue. Nothing should be booked or assumed on this basis."
+    },
+    {
+      "t": "draft",
+      "label": "Conditional pre-event email (for Velho review, not sent)",
+      "text": "Hi [Name], Kesko's Extraordinary General Meeting is on 30 October. We don't know whether your team will be involved, so we're only asking: would a short conversation afterwards about how AI could help with [specific operational topic, to confirm] be useful? If not, no problem at all. Best, [Velho sender]"
+    },
+    {
+      "t": "note",
+      "text": "Checked 2 research candidates; 1 passed date and original-source checks. Rejected/uncertain candidates are in the inspection log. Registration, current agenda and attendance must be rechecked before spending or contacting anyone. Nothing booked or sent."
+    },
+    {
+      "t": "sources",
+      "items": [
+        {
+          "title": "Website",
+          "url": "https://www.kesko.fi/en/"
+        },
+        {
+          "title": "Annual report",
+          "url": "https://www.kesko.fi/annual-reports"
+        },
+        {
+          "title": "Jorma Rauhala, President and CEO; chairs Group Management Board",
+          "url": "https://www.kesko.fi/group-management-board"
+        },
+        {
+          "title": "Anu Hämäläinen, Executive Vice President, CFO (since 2024-06-01)",
+          "url": "https://www.kesko.fi/en/investor/corporate-governance/company-management/"
+        },
+        {
+          "title": "Finnish Trade Register (PRH/YTJ)",
+          "url": "https://tietopalvelu.ytj.fi/yritys/0109862-8"
+        },
+        {
+          "title": "Kesko agreed to acquire Dahl's technical trade operations in Sweden, Norway and ",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/inside-information-kesko-to-strengthen-its-technical-trade-by-acquiring-dahls-operations-in-sweden-norway-and-denmark/"
+        },
+        {
+          "title": "Kesko plans a €500-700m rights issue to refinance part of the bridge financing f",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/2026/kesko-is-planning-an-approximately-500-700-million-rights-issue-of-b-shares-in-connection-with-the-acquisition-of-dahl-/"
+        },
+        {
+          "title": "European Commission unconditionally approved the Dahl acquisition; completion st",
+          "url": "https://www.kesko.fi/en/media/news-and-releases/stock-exchange-releases/"
+        },
+        {
+          "title": "Manhattan Associates announced Kesko selected its ActiveWarehouse cloud warehous",
+          "url": "https://www.stocktitan.net/news/MANH/manhattan-wins-kesko-mandate-as-nordic-retail-giant-bets-on-cloud-z7nvj691dbxm.html"
+        },
+        {
+          "title": "Q2 2026 comparable operating profit rose to €194m; full-year 2026 guidance narro",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo/"
+        },
+        {
+          "title": "Q3 2026 interim report due 29 October 2026.",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/q3-recap/"
+        },
+        {
+          "title": "Kesko's objective in car trade is to outperform the market in all business areas",
+          "url": "https://www.kesko.fi/en/media/blogs/investor-blogs-and-podcasts/2026/president-and-ceo-rauhala-20252/"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Pakastemarjojen hankin",
+          "url": "https://ted.europa.eu/en/notice/-/detail/60370-2025"
+        },
+        {
+          "title": "Finland – Event services – Tapahtumatuotannon ja -tekniikan hankinta — named buy",
+          "url": "https://ted.europa.eu/en/notice/-/detail/67091-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/108831-2025"
+        },
+        {
+          "title": "Finland – Construction materials – Puutavaran ja rakennustarvikkeiden hankinta —",
+          "url": "https://ted.europa.eu/en/notice/-/detail/140149-2025"
+        },
+        {
+          "title": "Finland – Food, beverages, tobacco and related products – Teolliset elintarvikke",
+          "url": "https://ted.europa.eu/en/notice/-/detail/150604-2025"
+        }
+      ]
+    }
+  ],
+  "publicEvidence": [
+    {
+      "subject": "Kesko Oyj",
+      "claim": "Kesko Q3 2026 interim report briefing (Finnish-language webcast, event page kesko.events.inderes.com/q3-2026) takes place on 2026-10-29. Kesko's invitation names President and CEO Jorma Rauhala as presenting, with the Presidents of the three business divisions available for questions after the presentation; the English teleconference is scheduled for 9.00 am (EET). Attendance by the named target is publicly confirmed only as a scheduled presentation. Format/location: Online Access: Registration is required for the English teleconference, with access via a link on www.kesko.fi/report-centre. The Finnish-language briefing is a webcast where questions can be submitted via chat, and a recording will be made available afterwards.",
+      "url": "https://www.kesko.fi/en/investor/reports-and-presentations/",
+      "date": "2026-10-29",
+      "status": "unsupported",
+      "excerpt": "Contacts| Suomeksi\nCOMPANY SUSTAINABILITY INVESTORS MEDIA CAREERS\n  Investors  Reports and presentations\nREPORTS AND PRESENTATIONS\nEvents\nFiles\nSelect year\n29.10.2026\nInterim report 1.1.-30.9.2026\n25.8.2026\nDNB Carnegie Consumer Conference, Oslo\n18.8.2026\nSEB Nordic Large Cap Seminar\n22.7.2026\nHalf-year financial report 1.1.-30.6.2026\n15.6.2026\nKesko to strengthen its technical trade by acquiring Dahl’s operations in Sweden, Norway and Denmark\n8.6.2026\nSEB Retail trip, Denmark\n12.5.2026\nGoldman Sachs, European Consumer Staples and Retail Conference, London\n7.5.2026\nOP Non-deal Bond Event, Helsinki\n29.4.2026\nInterim report 1.1.-31.3.2026\n8.4.2026\nKesko's data balance sheet 2025 and Kesko as a taxpayer report\n26.3.2026\nKesko 2026 Annual General Meeting\n11.3.2026\nRoadshow Daiwa, Tokyo, Japan\n27.2.2026\nAnnual Report 2025\n24.2.2026\nSEB roadshow, Frankfurt and Oslo\n5.2.2026\nFinancial Statements Release 2025\n10.12.2025\nNordea roadshow, London\n18.11.2025\nBNP Paribas MidCap CEO Conference, Paris\n12.11.2025\nDNB Carnegie roadshow, Carnegie, Amsterdam\n30.10.2025\nInterim report 1.1.-30.9.2025\n© K GROUP 2026\nSite terms\nData protection notice\nUse of cookies in K Group\nCookie settings\nKesko Corporation, PO Box 1, FI-00016 Kesko, tel. +358 105 311. Call charge: mobile call charge/ local network charge\nFollow us\n\nTO TOP\nCookies enable better service\nK Group and its partners use cookies in their services to ensure that our services function as desired. In addition, cookies are used to measure the effectiveness of the services, enable a personalized shopping experience, and offer personalized advertising. You can give your consent by pressing \"Accept all.\" You can change your choices later through the \"Cookie settings\" link. More on K Group use of cookies\nMore choices\nOnly necessary cookies Accept all",
+      "note": "Machine check of entity, claim, date; review the original source. It does not verify source truth."
+    },
+    {
+      "subject": "Kesko Oyj",
+      "claim": "Kesko Extraordinary General Meeting 2026 takes place on 2026-10-30. Target attendance not confirmed Format/location: K-Kampus, Työpajankatu 12, Helsinki Access: Shareholders registered on the record date of 20 October 2026 may attend; registration and advance voting ran from 8 October 2026 and close 26 October 2026 at 16.00 EET. Questions must be submitted in advance by the stated deadline.",
+      "url": "https://www.kesko.fi/en/investor/corporate-governance/general-meeting/extraordinary-general-meeting-2026/",
+      "date": "2026-10-30",
+      "status": "supported",
+      "excerpt": "General Meeting\nExtraordinary General Meeting 2026\nPrevious General Meetings\nContacts| Suomeksi\nCOMPANY SUSTAINABILITY INVESTORS MEDIA CAREERS\n  Investors  Corporate Governance  General Meeting  Extraordinary General Meeting 2026\nEXTRAORDINARY GENERAL MEETING 2026\n 14.10.2026 \nKesko Corporation's shareholders are invited to the company’s Extraordinary General Meeting, to be held at K-Kampus in Helsinki, address Työpajankatu 12, on Friday, 30 October 2026, starting at 9.00 EET. Reception desks for those registered for the meeting will open and voting tickets will be provided starting at 8.00 EET.\n\nImportant dates\n\n8 October 2026 Notice of EGM published\n8 October 2026 Registration for the meeting and advance voting commence\n20 October 2026 Record date of the EGM\n26 October 2026 at 16.00 EET Registration for the meeting and advance voting close. Last day for shareholders to present questions in advance\n30 October 2026 EGM at K-Kampus Helsinki\n\nRegistration instructions and deadlines of the nominee-registered shareholders can be found at the EGM notice.\n\nRegistration and advance voting\n\nRegistration for the General Meeting and advance voting begin on 8 October 2026 and close 26 October 2026 by 16.00 EET.\n\nShareholders whose shares are registered on their personal Finnish book-entry account may register for the General Meeting and vote in advance on certain agenda items as follows:\n\na) online at kesko.fi/egm\n\nTo register and vote in advance\n\nRegistration requires strong electronic identification (online banking codes or Mobile ID) for natural persons. Shareholders may at the same time vote in advance and authorise a proxy representative.\n\nStrong electronic identification is not required for legal persons. In such cases, however, legal persons must provide the number of their book-entry account, as well as other required information. If a legal person utilises the Suomi.fi electronic authorisation, registration requires strong electronic identification from the authorised person, which works with online banking codes or Mobile ID. More information on proxy representatives and powers of attorney is below.\n\nb) by sending an email to keskoagm@kesko.fi (only registration, not possible to vote in advance) or\n\nc) by calling +358 105 323 211 (from Monday to Friday between 9 and 16) (only registration, not possible to vote in advance).\n\nThe registration information must include the requested information.\n\nThe shareholder, their representative or their proxy representative must be able to provide proof of identity and/or their right to represent the shareholder at the meeting venue if necessary.\n\nMaterials\n\nNotice of the Extraordinary General Meeting including the Board of Directors’ proposal\n\nAgenda\n\nAnnual report 2025 including the Financial Statements, Report by the Board of Directors and the Auditor’s report\n\nAnnual General Meeting 2026 minutes including resolution on dividend distribution\n\nInterim report 1.1.-31.3.2026\n\nHalf-year financial report 1.1.-30.6.2026\n\nThe Board of Directors’ account on events having essential effect on the state of the company\n\nData protection notice\n\nQuestions and answers\n\nThe resolution proposal and the abovementioned documents will also be made available at the General Meeting, but for environmental reasons, only the agenda will be available to meeting participants as a paper copy.\n\nArrival and parking\n\nThe meeting venue is easily accessible with public transportation. Shareholders are kindly asked to note that parking in the facilities in the vicinity of the meeting venue is subject to a charge.\n\nRight to participate\n\nShareholders have the right to attend the General Meeting if they are registered in the company's register of shareholders kept by Euroclear Nordics Ldt on the record date of the General Meeting 20 October 2026. Shareholders whose shares are registered on their personal Finnish book-entry account are registered in Kesko’s register of shareholders.\n\nProxy representative and powers of attorney\n\nProxy document template\n\nShareholders can participate in the General Meeting and exercise their rights thereat by way of proxy representation. A proxy representative of a shareholder may also choose to vote in advance in the manner described above. A proxy representative shall produce a dated proxy document or otherwise in a reliable manner demonstrate their right to represent the shareholder at the General Meeting.\n\nShould a shareholder participate in the General Meeting by means of several proxy representatives representing the shareholder with shares on different book-entry accounts, the shares by which each representative represents the shareholder shall be identified in connection with the registration.\n\nPossible proxy documents are to be delivered by email to or by mail to Kesko Corporation/Group Legal Affairs, PO Box 1, FI-00016 Kesko, before the end of the registration period. In addition to providing proxy documents, the shareholder or the proxy representative must register for the General Meeting as detailed in the Notice.\n\nShareholders can also use the electronic Suomi.fi authorisation service instead of a traditional proxy document. In such cases, the shareholder authorises a proxy that they nominate in the Suomi.fi authorisation service at www.suomi.fi/e-authorizations using the mandate theme “Representation at the General Meeting”. More information is available on the website www.suomi.fi/e-authorizations. Natural persons can also authorise a proxy representative in connection with their electronic registration on the company’s website.\n\nSubmitting questions\n\nPursuant to Chapter 5, Section 25 of the Finnish Limited Liability Companies Act, a shareholder who is present at the General Meeting has the right to request information pertaining to matters to be discussed at the General Meeting.\n\nShareholders who have the right to participate in the General Meeting, as set out in sections C.1 and C.2 of General Meeting notice, and who have registered for the General Meeting, may submit questions pursuant to Chapter 5, Section 25 of the Limited Liability Companies Act, pertaining to the matters to be dealt with at the General Meeting, until 26 October 2026 by 16.00 EET also by sending the questions by e-mail to keskoagm@kesko.fi. The company’s management shall respond to such questions submitted in advance in writing either at the General Meeting or prior to the meeting on the company’s website at www.kesko.fi/egm. When submitting a question, the shareholder must provide sufficient proof of their shareholding, if requested.\n\nHolders of nominee-registered shares\n\nInstructions of the nominee-registered shareholders can be found at the EGM notice.\n\nPrint\nCreate PDF\nShare\n© K GROUP 2026\nSite terms\nData protection notice\nUse of cookies in K Group\nCookie settings\nKesko Corporation, PO Box 1, FI-00016 Kesko, tel. +358 105 311. Call charge: mobile call charge/ local network charge\nFollow us\n\nTO TOP\nCookies enable better service\nK Group and its partners use cookies in their services to ensure that our services function as desired. In addition, cookies are used to measure the effectiveness of the services, enable a personalized shopping experience, and offer personalized advertising. You can give your consent by pressing \"Accept all.\" You can change your choices later through the \"Cookie settings\" link. More on K Group use of cookies\nMore choices\nOnly necessary cookies Accept all",
+      "note": "Machine check of entity, claim, date; review the original source. It does not verify source truth."
+    }
+  ]
+}

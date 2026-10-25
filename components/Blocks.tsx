@@ -1,26 +1,41 @@
 "use client";
-import { useState } from "react";
+import { useEffect,useState } from "react";
 import type { Artifact, Block } from "@/lib/types";
+import { webUrl } from "@/lib/validation";
 
-function Draft({ label, text }: { label: string; text: string }) {
+export function Draft({ label, text, notice }: { label: string; text: string; notice?:string }) {
   const [copied, setCopied] = useState(false);
+  const [error, setError] = useState("");
+  const [editing,setEditing]=useState(false),[value,setValue]=useState(text);
+  useEffect(()=>{setValue(text);setEditing(false);setCopied(false);},[text]);
+  const edited=value!==text;
+  const copyNotice=[notice,edited?"Edited locally after generation; earlier source checks do not validate these edits.":""].filter(Boolean).join("\n");
   return (
     <div className="draft">
       <div className="row" style={{ justifyContent: "space-between" }}>
         <b>{label}</b>
         <span className="row">
           <span className="tag">draft — not sent</span>
-          <button className="ghost" onClick={() => navigator.clipboard.writeText(text).then(() => setCopied(true))}>
+          <button className="ghost" onClick={()=>setEditing(!editing)}>{editing?"Done editing":"Edit draft"}</button>
+          <button className="ghost" onClick={async () => {
+            try {
+              if (!navigator.clipboard?.writeText) throw new Error("Clipboard unavailable");
+              await navigator.clipboard.writeText(copyNotice ? copyNotice + "\n\n" + value : value); setCopied(true); setError("");
+            } catch { setError("Copy was blocked. Select the draft text below and copy it manually."); }
+          }}>
             {copied ? "Copied" : "Copy"}
           </button>
         </span>
       </div>
-      <pre>{text}</pre>
+      {notice && <p className="note">{notice}</p>}
+      {edited&&<p className="note">Edited locally; previous source checks apply to the original. Recheck changes before use. <button className="ghost" onClick={()=>{setValue(text);setCopied(false);}}>Restore generated draft</button></p>}
+      {editing?<label>Draft text for {label}<textarea maxLength={12000} rows={8} value={value} onChange={e=>{setValue(e.target.value);setCopied(false);}} style={{width:"100%"}}/></label>:<pre>{value}</pre>}
+      {error && <p role="alert" className="err">{error}</p>}
     </div>
   );
 }
 
-function One({ b }: { b: Block }) {
+function One({ b, notice }: { b: Block; notice?:string }) {
   switch (b.t) {
     case "h":
       return <h2>{b.text}</h2>;
@@ -34,7 +49,7 @@ function One({ b }: { b: Block }) {
           {b.items.map((it, i) => (
             <li key={i}>
               {it.tag && <span className="tag">{it.tag}</span>} {it.text}{" "}
-              {it.url && (
+              {webUrl(it.url) && (
                 <a href={it.url} target="_blank" rel="noreferrer">
                   source
                 </a>
@@ -52,14 +67,14 @@ function One({ b }: { b: Block }) {
             </thead>
             <tbody>
               {b.rows.map((r, i) => (
-                <tr key={i}>{r.map((c, j) => <td key={j}>{c}</td>)}</tr>
+                <tr key={i}>{r.map((c, j) => <td key={j}>{webUrl(c) ? <a href={c} target="_blank" rel="noreferrer">Open source</a> : c}</td>)}</tr>
               ))}
             </tbody>
           </table>
         </div>
       );
     case "draft":
-      return <Draft label={b.label} text={b.text} />;
+      return <Draft label={b.label} text={b.text} notice={notice} />;
     case "score":
       return (
         <div className="card">
@@ -109,12 +124,16 @@ function One({ b }: { b: Block }) {
 }
 
 export function Blocks({ artifact }: { artifact: Artifact }) {
+  const notice = [artifact.blocks.some((b)=>b.t === "note" && /synthetic/i.test(b.text)) ? "Synthetic example — not a real client result or conversation." : "",artifact.reviewNotice||""].filter(Boolean).join("\n")||undefined;
   return (
     <section>
       <h1 style={{ fontSize: 24 }}>{artifact.title}</h1>
       {artifact.blocks.map((b, i) => (
-        <One key={i} b={b} />
+        <One key={i} b={b} notice={notice} />
       ))}
+      {artifact.sourceRecord&&<details className="card"><summary>Inspect original {artifact.sourceRecord.kind==="staff"?"staff-supplied":"synthetic sample"} record</summary><pre style={{whiteSpace:"pre-wrap"}}>{artifact.sourceRecord.text}</pre></details>}
+      {artifact.sourceChecks&&<details className="card"><summary>Inspect machine source checks ({artifact.sourceChecks.length})</summary><p>These are machine judgments about the supplied record, not independent proof of project outcomes. Unsupported claims below are shown for review, not for reuse.</p><ol>{artifact.sourceChecks.map((c,i)=><li key={i}><b>{c.verdict}</b><pre style={{whiteSpace:"pre-wrap"}}>{c.claim}</pre></li>)}</ol></details>}
+      {artifact.publicEvidence&&<details className="card"><summary>Inspect original passages and claim checks ({artifact.publicEvidence.length})</summary><p>Research candidates below include rejected and uncertain claims. Only supported candidates are used in the draft. A machine check is not independent confirmation.</p>{artifact.publicEvidence.map((e,i)=><div className="card" key={i}><b>{e.status}</b>: {e.claim}<p>{e.date||"Date not confirmed"} · {e.attribution||e.subject} · <a href={e.url} target="_blank" rel="noreferrer">Original source</a></p><p>{e.note}</p><pre style={{whiteSpace:"pre-wrap"}}>{e.excerpt||"No readable passage"}</pre></div>)}</details>}
     </section>
   );
 }

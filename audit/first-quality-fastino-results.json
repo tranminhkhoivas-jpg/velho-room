@@ -1,0 +1,113 @@
+[
+  {
+    "task": "extract",
+    "ms": 952,
+    "text": "Fictional test: Aino Virtanen from Example Oy reported on 24 October 2026 that staff manually copy invoice data between spreadsheets for 12 hours per week. No purchase has been approved.",
+    "entities": [
+      {
+        "label": "person",
+        "text": "Aino Virtanen",
+        "start": 16,
+        "end": 29,
+        "confidence": 0.99609375
+      },
+      {
+        "label": "organization",
+        "text": "Example Oy",
+        "start": 35,
+        "end": 45,
+        "confidence": 0.98828125
+      },
+      {
+        "label": "date",
+        "text": "24 October 2026",
+        "start": 58,
+        "end": 73,
+        "confidence": 1
+      },
+      {
+        "label": "metric",
+        "text": "12 hours",
+        "start": 137,
+        "end": 145,
+        "confidence": 0.75
+      },
+      {
+        "label": "manual_task",
+        "text": "copy invoice data",
+        "start": 94,
+        "end": 111,
+        "confidence": 0.83203125
+      },
+      {
+        "label": "objection",
+        "text": "No purchase has been approved",
+        "start": 156,
+        "end": 185,
+        "confidence": 0.96484375
+      }
+    ]
+  },
+  {
+    "task": "extract",
+    "ms": 645,
+    "text": "Kuvitteellinen testi: Aino Virtanen kertoi 24. lokakuuta 2026, että Esimerkki Oy:n työntekijät kopioivat laskutietoja taulukoihin 12 tuntia viikossa. Hankintaa ei ole hyväksytty.",
+    "entities": [
+      {
+        "label": "person",
+        "text": "Aino Virtanen",
+        "start": 22,
+        "end": 35,
+        "confidence": 1
+      },
+      {
+        "label": "organization",
+        "text": "Oy",
+        "start": 78,
+        "end": 80,
+        "confidence": 0.85546875
+      },
+      {
+        "label": "date",
+        "text": "24. lokakuuta 2026",
+        "start": 43,
+        "end": 61,
+        "confidence": 0.984375
+      },
+      {
+        "label": "metric",
+        "text": "12 tuntia viikossa",
+        "start": 130,
+        "end": 148,
+        "confidence": 0.96875
+      },
+      {
+        "label": "objection",
+        "text": "Hankintaa ei ole hyväksytty",
+        "start": 150,
+        "end": 177,
+        "confidence": 0.984375
+      }
+    ]
+  },
+  {
+    "task": "support",
+    "claim": "Staff manually copy invoice data for 12 hours per week.",
+    "expected": "supported",
+    "decision": {
+      "probability": 0.9677044041607189,
+      "verdict": "supported"
+    },
+    "ms": 295
+  },
+  {
+    "task": "support",
+    "claim": "Example Oy has approved a purchase and saved 48 hours per week.",
+    "expected": "unsupported",
+    "decision": {
+      "probability": 0.0002689086135180576,
+      "verdict": "unsupported"
+    },
+    "ms": 272
+  }
+]

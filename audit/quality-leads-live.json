@@ -1,0 +1,88 @@
+{
+  "talk": "quality-new-34535490-50ca-4a20-9a85-be2ab986d12a",
+  "quiz": {
+    "score": 61,
+    "headline": "Your team loses hours to copy-paste; a small test could recover some.",
+    "ideas": [
+      {
+        "title": "Automate the invoice CSV to spreadsheet transfer",
+        "how": "You said the team loses most hours copying data between systems, and the sample task is copying a fictional invoice CSV into a second spreadsheet. Test a scripted or spreadsheet-native import (for example, a query or import formula) on the fictional sample only, and compare the time taken against the manual copy.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      },
+      {
+        "title": "Add a simple validation check after each transfer",
+        "how": "Copying errors are a common side effect of manual transfers. Build a small check on the fictional sample that flags row-count mismatches or totals that don't reconcile between the source CSV and the target sheet, so the team spends less time re-checking by hand.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      },
+      {
+        "title": "Free up capacity for customer work with a one-day pilot",
+        "how": "You said a recovered day would go to serving customers better. Pick one repetitive transfer, run the fictional-sample test for a week, and log the minutes spent before and after. If the numbers hold, use the logged time to decide whether a wider rollout is worth exploring.",
+        "hoursBack": "Not measured — test recoverable time on a small sample"
+      }
+    ],
+    "firstStep": "Using only the fictional invoice CSV sample, time one manual copy into the second spreadsheet, then time an import-based attempt on the same file, and record row accuracy for both without touching production data or sending any outbound messages.",
+    "explanation": "Rule of thumb: reported hours contribute 50%, company-size band 20%, previous automation experience 30%. It does not establish feasibility, budget or buying intent. Reported task: Copy a fictional invoice CSV into a second spreadsheet. Constraints: Only the fictional sample; no production access or outbound messages.",
+    "context": {
+      "task": "Copy a fictional invoice CSV into a second spreadsheet",
+      "constraints": "Only the fictional sample; no production access or outbound messages",
+      "people": 2,
+      "weeklyHours": 5,
+      "intent": "explore",
+      "contactPermission": true
+    }
+  },
+  "leads": {
+    "total": 1,
+    "limit": 200,
+    "leads": [
+      {
+        "id": 7,
+        "talk": "quality-new-34535490-50ca-4a20-9a85-be2ab986d12a",
+        "name": "Fictional employee test",
+        "company": "Fictional Example",
+        "role": "CEO / founder",
+        "email": "fictional@example.test",
+        "result": {
+          "score": 61,
+          "headline": "Your team loses hours to copy-paste; a small test could recover some.",
+          "ideas": [
+            {
+              "title": "Automate the invoice CSV to spreadsheet transfer",
+              "how": "You said the team loses most hours copying data between systems, and the sample task is copying a fictional invoice CSV into a second spreadsheet. Test a scripted or spreadsheet-native import (for example, a query or import formula) on the fictional sample only, and compare the time taken against the manual copy.",
+              "hoursBack": "Not measured — test recoverable time on a small sample"
+            },
+            {
+              "title": "Add a simple validation check after each transfer",
+              "how": "Copying errors are a common side effect of manual transfers. Build a small check on the fictional sample that flags row-count mismatches or totals that don't reconcile between the source CSV and the target sheet, so the team spends less time re-checking by hand.",
+              "hoursBack": "Not measured — test recoverable time on a small sample"
+            },
+            {
+              "title": "Free up capacity for customer work with a one-day pilot",
+              "how": "You said a recovered day would go to serving customers better. Pick one repetitive transfer, run the fictional-sample test for a week, and log the minutes spent before and after. If the numbers hold, use the logged time to decide whether a wider rollout is worth exploring.",
+              "hoursBack": "Not measured — test recoverable time on a small sample"
+            }
+          ],
+          "firstStep": "Using only the fictional invoice CSV sample, time one manual copy into the second spreadsheet, then time an import-based attempt on the same file, and record row accuracy for both without touching production data or sending any outbound messages.",
+          "meetingDraft": "Thanks for taking the automation check. Based on your answers, we could look at one repetitive transfer using a fictional sample, with no production access and no outbound messages. Would a short call next week to walk through the results and decide whether a further test is worthwhile suit you?",
+          "explanation": "Rule of thumb: reported hours contribute 50%, company-size band 20%, previous automation experience 30%. It does not establish feasibility, budget or buying intent. Reported task: Copy a fictional invoice CSV into a second spreadsheet. Constraints: Only the fictional sample; no production access or outbound messages.",
+          "context": {
+            "task": "Copy a fictional invoice CSV into a second spreadsheet",
+            "constraints": "Only the fictional sample; no production access or outbound messages",
+            "people": 2,
+            "weeklyHours": 5,
+            "intent": "explore",
+            "contactPermission": true
+          }
+        },
+        "created": 1792887948515,
+        "work": {
+          "owner": "Fictional staff tester",
+          "status": "reviewing",
+          "nextAction": "Review only the approved fictional CSV; no message sent",
+          "due": "2026-10-26",
+          "updated": 1792887948541
+        }
+      }
+    ]
+  }
+}

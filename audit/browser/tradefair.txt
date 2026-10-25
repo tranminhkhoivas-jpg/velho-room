@@ -1,0 +1,60 @@
+Browser tab: 2, Title: "Velho Room", URL: "http://127.0.0.1:3015/s/tradefair?c=Kesko".
+1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/tradefair?c=Kesko
+	2 text Hackathon prototype — not published by Velho. Every message here is a draft; nothing is sent.
+	3 container
+		4 link Description: ← all tools, Value: 127.0.0.1:3015/?c=Kesko
+		5 heading Trade fair companion, Value: 1
+			6 text Trade fair companion
+		7 text Snap a booth, get a 30-second brief and a follow-up draft before you walk away. Snap a booth, badge or business card
+		8 button Snap a booth, badge or business card
+		9 text field (settable) Kesko
+		10 button Confirm company and brief me
+		13 heading Kesko booth brief, Value: 1
+			14 text Kesko booth brief
+		15 heading 30-second brief: Kesko is in a big integration year, Value: 2
+			16 text 30-second brief: Kesko is in a big integration year
+		17 content list
+			18 container
+				19 AXListMarker • 
+				20 text what Kesko runs grocery, building and technical trade, and car trade chains across Finland, other Nordic and Baltic markets, and Poland.
+				21 link Description: source, Value: kesko.fi/
+			22 container
+				23 AXListMarker • 
+				24 text size Net sales of €12,474.7M in 2025. Headcount estimates vary: about 19,000 (Revelio, March 2026) to about 39,000 (Wikipedia, 2025).
+				25 link Description: source, Value: reveliolabs.com/companies/kesko/employees
+			26 container
+				27 AXListMarker • 
+				28 text news Kesko selected Manhattan's cloud-native, agentic-AI warehouse management system to replace its grocery WMS. Kesko's Pekka Tala says the aim is agentic AI for operational efficiency in grocery warehouses and terminal hubs. Date approximate, October 2026.
+				29 link Description: source, Value: logisticsbusiness.com/it-in-logistics/wms-scm-software/kesko-bets-on-cloud-native-ai-driven-wms/
+			30 container
+				31 AXListMarker • 
+				32 text leaders Jorma Rauhala (President and CEO), Anu Hämäläinen (EVP and CFO, since June 2024), Arto Hiltunen (CIO).
+				33 link Description: source, Value: kesko.fi/en/investor/corporate-governance/company-management/president-and-ceo-and-the-group-management-board/
+			34 container
+				35 AXListMarker • 
+				36 text manual We noticed a replenishment planner vacancy for K-grocery supply chain planning, plus a dispatch coordinator role in Vantaa open 30+ days. Both are our inference, not confirmed internal process problems.
+				37 link Description: source, Value: kesko.fi/en/Careers/vacancies/
+		38 content list
+			39 container
+				40 AXListMarker • 
+				41 text ask With the Dahl operations coming in, which order and logistics flows are hardest to bring onto one system?
+			42 container
+				43 AXListMarker • 
+				44 text ask CGI already covers AI and automation. Where do you see room for a partner to complement that work, rather than overlap it?
+			45 container
+				46 AXListMarker • 
+				47 text ask Where do your planners and dispatchers still spend the most hours each week on work that could be automated?
+		48 text Follow-up (send tonight)
+		49 text draft — not sent
+		50 button Copy
+		51 text Hi [Name], great meeting you at the Kesko booth today. You mentioned [one thing they said], and it stuck with me. Here is one idea: a two-week look at one replenishment planning flow, mapping where the hours go and which steps an AI agent could take on, ending with a working prototype. Happy to share an example from a past build. Would 20 minutes next week work? Best, [Your name], Velho
+		52 text Before sending: replace [Name], [one thing they said] and [Your name]. Use only what they actually said. The draft is for a Velho employee to review and send manually. Headcount differs across sources (about 19,000 vs about 39,000), so avoid quoting a single figure. The manual-work clues are inferred from job postings, so phrase them as questions, not diagnoses.
+		53 button (collapsed) Sources (24), Secondary Actions: Expand
+			54 text Sources (
+			55 text 24
+			56 text )
+		57 text OpenRouter spend so far: $ 4.64
+	11 pop up button (collapsed) Description: Open Next.js Dev Tools, ID: next-logo, Secondary Actions: Expand
+		12 image
+
+The focused UI element is 1 AXWebArea Velho Room, URL: 127.0.0.1:3015/s/tradefair?c=Kesko
